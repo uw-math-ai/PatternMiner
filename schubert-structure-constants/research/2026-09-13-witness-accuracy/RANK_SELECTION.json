@@ -1,0 +1,5 @@
+{
+  "selected": "rank_matrices",
+  "mean_validation_accuracy": 0.9713573915175289,
+  "rule": "mean S7/S8 validation first/last accuracy; ties prefer earlier arm"
+}

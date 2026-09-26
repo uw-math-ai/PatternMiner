@@ -1,0 +1,2 @@
+{"status": "completed", "source_sha256": "c0357e0881d02127c0e20dca0a5f4af880a5f6b057f751020f1314496710aad1", "rows": 5502579, "disconnected": 0, "not_root_multiple": 3677446, "nonunimodal": 505001, "exact_product_queries": 0, "role": "Finite exact check of a proposed consequence of the frozen primitive-leading-form theorem; not a proof by enumeration"}
+{"name": "root_support_interval_scan", "status": "completed", "wall_seconds": 6.843891496071592, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

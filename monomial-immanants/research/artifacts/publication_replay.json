@@ -1,0 +1,266 @@
+{
+  "status": "PASS",
+  "checks": {
+    "width-two": {
+      "result": {
+        "verdict": "PASS",
+        "counts": {
+          "content_series_checks": 6005,
+          "all_ones_contents": 34,
+          "multiple_tail_twos_contents": 2263,
+          "exact_path_polynomial_identities": 28,
+          "skew_shapes": 1587,
+          "permutation_fiber_checks": 17767,
+          "exact_loss_set_cube_vertices": 66345,
+          "spare_big_entry_checks": 14424,
+          "legal_cubes": 16017,
+          "full_poset_coefficients": 776891,
+          "zero_based_descent_checks": 526,
+          "multiple_tail_twos_coefficients": 224196
+        },
+        "scope": "Symbolic audit is separately recorded in review; finite controls are not proof."
+      },
+      "elapsed_seconds": 11.038
+    },
+    "rectangles": {
+      "result": {
+        "status": "PASS",
+        "hessenberg_functions": 132,
+        "witnesses": [
+          {
+            "shape": [
+              8,
+              2,
+              2
+            ],
+            "positive_terms": 38,
+            "total_multiplicity": 50,
+            "permutations_checked": 720
+          },
+          {
+            "shape": [
+              7,
+              2,
+              2,
+              1
+            ],
+            "positive_terms": 51,
+            "total_multiplicity": 75,
+            "permutations_checked": 720
+          },
+          {
+            "shape": [
+              6,
+              2,
+              2,
+              2
+            ],
+            "positive_terms": 42,
+            "total_multiplicity": 50,
+            "permutations_checked": 720
+          },
+          {
+            "shape": [
+              5,
+              2,
+              2,
+              2,
+              1
+            ],
+            "positive_terms": 33,
+            "total_multiplicity": 40,
+            "permutations_checked": 720
+          },
+          {
+            "shape": [
+              4,
+              2,
+              2,
+              2,
+              2
+            ],
+            "positive_terms": 15,
+            "total_multiplicity": 15,
+            "permutations_checked": 720
+          }
+        ],
+        "introductory_example": {
+          "skew_shape": [
+            2,
+            1
+          ],
+          "immanant_index": [
+            2
+          ],
+          "schur_coefficients": [
+            {
+              "shape": [
+                3
+              ],
+              "coefficient": 2
+            },
+            {
+              "shape": [
+                2,
+                1
+              ],
+              "coefficient": 0
+            },
+            {
+              "shape": [
+                1,
+                1,
+                1
+              ],
+              "coefficient": 0
+            }
+          ]
+        },
+        "scope": "Fresh full-poset inversion and all-permutation equality checks of the five frozen witnesses."
+      },
+      "elapsed_seconds": 0.107
+    },
+    "origin": {
+      "result": {
+        "status": "PASS",
+        "stump": {
+          "feature": 0,
+          "threshold": 37.0,
+          "left_label": 0
+        },
+        "tree": {
+          "feature": 0,
+          "threshold": 60.5,
+          "left": {
+            "feature": 1,
+            "threshold": 2.5,
+            "left": {
+              "label": 1,
+              "counts": [
+                0,
+                9
+              ]
+            },
+            "right": {
+              "label": 0,
+              "counts": [
+                32,
+                0
+              ]
+            }
+          },
+          "right": {
+            "label": 1,
+            "counts": [
+              0,
+              521
+            ]
+          }
+        },
+        "initial": {
+          "train": {
+            "n": 550,
+            "confusion": [
+              [
+                20,
+                0
+              ],
+              [
+                0,
+                530
+              ]
+            ],
+            "correct": 550,
+            "accuracy": 1.0
+          },
+          "test": {
+            "n": 279,
+            "confusion": [
+              [
+                11,
+                0
+              ],
+              [
+                0,
+                268
+              ]
+            ],
+            "correct": 279,
+            "accuracy": 1.0
+          },
+          "hard": {
+            "n": 15,
+            "confusion": [
+              [
+                0,
+                15
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "correct": 0,
+            "accuracy": 0.0
+          }
+        },
+        "revised": {
+          "train": {
+            "n": 562,
+            "confusion": [
+              [
+                32,
+                0
+              ],
+              [
+                0,
+                530
+              ]
+            ],
+            "correct": 562,
+            "accuracy": 1.0
+          },
+          "test": {
+            "n": 279,
+            "confusion": [
+              [
+                10,
+                1
+              ],
+              [
+                0,
+                268
+              ]
+            ],
+            "correct": 278,
+            "accuracy": 0.996415770609319
+          },
+          "hard": {
+            "n": 15,
+            "confusion": [
+              [
+                14,
+                1
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "correct": 14,
+            "accuracy": 0.9333333333333333
+          }
+        },
+        "added_training_rows": 12,
+        "stump_interventions": 15,
+        "tree_root_interventions": 15,
+        "tree_child_interventions": 14,
+        "reliability_gate_passed": false,
+        "scope": "Fresh deterministic refitting and branch replay on frozen labels; original universal shape census and obstruction search are not regenerated. Hard assessment was reused after inspection; no new generalization claim."
+      },
+      "elapsed_seconds": 0.087
+    }
+  },
+  "python": "3.14.4",
+  "scope": "Finite exact mathematical replays and deterministic model refitting on frozen labels; universal proofs and external novelty require separate review."
+}

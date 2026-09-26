@@ -1,0 +1,16 @@
+{
+  "status": "fixed_before_interventions",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "263055a5d065b86302d939297bf8911d693b103ac2bbf0f6266cfe690c7f0d44",
+  "inputs": 498,
+  "pairs": 249,
+  "factor_orbits": 22,
+  "populations": [
+    "S9_confirmation",
+    "S10_confirmation"
+  ],
+  "selection": "The fixed round-robin sample of at most 512 pairs from the preassigned confirmation populations; no correctness filter.",
+  "units": "The earlier fixed ranking of pairs at offsets k and k+384, inherited from widening; no reselection",
+  "random_controls": "All twenty fixed earlier magnitude-matched 16-pair subsets; no rematching",
+  "role": "Confirmation of the fixed development-selected MLP path on the preassigned confirmation cohort"
+}

@@ -1,0 +1,251 @@
+{
+  "role": "Exploratory neuron analysis with reserved development factor groups",
+  "checkpoint_sha256": "38ae7a1d8c5c3fdb3aafbd4dc2b8d8cdbf1e8e863fe15099a18d2bd06bf84f2e",
+  "source_sha256": "f6a59d00bd4f494d9f1e141361a17c2c7be8a69976f98a231cb959166935333b",
+  "membership_sha256": "f2fc1a99bef0cb5321ae2013635d0bbeab8b6b9ca02267858ea5163e6404ea20",
+  "discovery_inputs": 98,
+  "reserved_inputs": 44,
+  "discovery_groups": 35,
+  "reserved_groups": 18,
+  "path": "First-block non-candidate MLP hidden units, through the second-block keys and values only; upstream destination states are restored in the receiver replay",
+  "integration": "Gauss-Legendre quadrature along the straight hidden-activation segment; 16, 32, then 64 points if needed",
+  "completeness": [
+    {
+      "inputs": 32,
+      "quadrature_points": 32,
+      "relative_absolute_completeness_error": 0.002199001843109727,
+      "maximum_absolute_completeness_error": 1.0394515991210938
+    },
+    {
+      "inputs": 32,
+      "quadrature_points": 16,
+      "relative_absolute_completeness_error": 0.000944983446970582,
+      "maximum_absolute_completeness_error": 0.12495040893554688
+    },
+    {
+      "inputs": 32,
+      "quadrature_points": 16,
+      "relative_absolute_completeness_error": 0.0029897436033934355,
+      "maximum_absolute_completeness_error": 0.6782760620117188
+    },
+    {
+      "inputs": 2,
+      "quadrature_points": 16,
+      "relative_absolute_completeness_error": 9.346388833364472e-05,
+      "maximum_absolute_completeness_error": 0.001155853271484375
+    }
+  ],
+  "selection": "Rank sums for duplicated neuron pairs by their signed mean attribution, with equal weight per discovery factor group",
+  "control": "Twenty random subsets of the same size, matching 16 bins of activation-change magnitude; both duplicated neuron indices are selected together",
+  "top_16_neuron_pairs": [
+    [
+      64,
+      448
+    ],
+    [
+      240,
+      624
+    ],
+    [
+      128,
+      512
+    ],
+    [
+      70,
+      454
+    ],
+    [
+      149,
+      533
+    ],
+    [
+      320,
+      704
+    ],
+    [
+      272,
+      656
+    ],
+    [
+      256,
+      640
+    ],
+    [
+      221,
+      605
+    ],
+    [
+      29,
+      413
+    ],
+    [
+      379,
+      763
+    ],
+    [
+      249,
+      633
+    ],
+    [
+      279,
+      663
+    ],
+    [
+      262,
+      646
+    ],
+    [
+      164,
+      548
+    ],
+    [
+      127,
+      511
+    ]
+  ],
+  "reserved_results": {
+    "1": {
+      "inputs": 44,
+      "groups": 18,
+      "input_mean": 1.1442465782165527,
+      "factor_group_mean": 1.2694352865219116,
+      "group_bootstrap_95_percent": [
+        0.08460247293114662,
+        2.754032719135282
+      ],
+      "aggregate_full_path_fraction": 0.08166220784187317
+    },
+    "2": {
+      "inputs": 44,
+      "groups": 18,
+      "input_mean": 1.6275877952575684,
+      "factor_group_mean": 1.708127498626709,
+      "group_bootstrap_95_percent": [
+        0.35288876891136167,
+        3.165831381082531
+      ],
+      "aggregate_full_path_fraction": 0.11615714430809021
+    },
+    "4": {
+      "inputs": 44,
+      "groups": 18,
+      "input_mean": 2.5939207077026367,
+      "factor_group_mean": 2.5844526290893555,
+      "group_bootstrap_95_percent": [
+        0.9269056171178818,
+        4.393390405178069
+      ],
+      "aggregate_full_path_fraction": 0.1851220726966858
+    },
+    "8": {
+      "inputs": 44,
+      "groups": 18,
+      "input_mean": 7.02937650680542,
+      "factor_group_mean": 6.616832256317139,
+      "group_bootstrap_95_percent": [
+        3.144776481389999,
+        10.41889333724975
+      ],
+      "aggregate_full_path_fraction": 0.5016701817512512
+    },
+    "16": {
+      "inputs": 44,
+      "groups": 18,
+      "input_mean": 9.451751708984375,
+      "factor_group_mean": 9.166112899780273,
+      "group_bootstrap_95_percent": [
+        5.73810224533081,
+        13.00899395942688
+      ],
+      "aggregate_full_path_fraction": 0.6745494604110718,
+      "random_control_mean": 2.821540355682373,
+      "selected_minus_random": {
+        "inputs": 44,
+        "groups": 18,
+        "input_mean": 6.630211353302002,
+        "factor_group_mean": 6.475996017456055,
+        "group_bootstrap_95_percent": [
+          3.3783796668052672,
+          9.96458806991577
+        ]
+      },
+      "removal_effect": {
+        "inputs": 44,
+        "groups": 18,
+        "input_mean": 5.300535678863525,
+        "factor_group_mean": 4.750042915344238,
+        "group_bootstrap_95_percent": [
+          -0.08590456787496804,
+          9.528839135169981
+        ]
+      }
+    },
+    "32": {
+      "inputs": 44,
+      "groups": 18,
+      "input_mean": 13.054443359375,
+      "factor_group_mean": 13.1644868850708,
+      "group_bootstrap_95_percent": [
+        8.776925134658814,
+        17.974755382537833
+      ],
+      "aggregate_full_path_fraction": 0.9316651821136475
+    },
+    "64": {
+      "inputs": 44,
+      "groups": 18,
+      "input_mean": 15.368634223937988,
+      "factor_group_mean": 15.454647064208984,
+      "group_bootstrap_95_percent": [
+        10.997929668426513,
+        20.26929574012756
+      ],
+      "aggregate_full_path_fraction": 1.0968235731124878,
+      "random_control_mean": 6.019615650177002,
+      "selected_minus_random": {
+        "inputs": 44,
+        "groups": 18,
+        "input_mean": 9.349017143249512,
+        "factor_group_mean": 9.626850128173828,
+        "group_bootstrap_95_percent": [
+          6.143352568149567,
+          13.74188811779022
+        ]
+      },
+      "removal_effect": {
+        "inputs": 44,
+        "groups": 18,
+        "input_mean": 8.089767456054688,
+        "factor_group_mean": 7.798422813415527,
+        "group_bootstrap_95_percent": [
+          3.025168800354004,
+          12.865207076072693
+        ]
+      }
+    },
+    "128": {
+      "inputs": 44,
+      "groups": 18,
+      "input_mean": 17.212305068969727,
+      "factor_group_mean": 17.435632705688477,
+      "group_bootstrap_95_percent": [
+        13.083367252349854,
+        22.298806142807006
+      ],
+      "aggregate_full_path_fraction": 1.228402018547058
+    },
+    "384": {
+      "inputs": 44,
+      "groups": 18,
+      "input_mean": 14.011947631835938,
+      "factor_group_mean": 13.651897430419922,
+      "group_bootstrap_95_percent": [
+        9.5383615732193,
+        17.645584487915038
+      ],
+      "aggregate_full_path_fraction": 1.0
+    }
+  },
+  "artifact_sha256": "c77e266da62462bd779f212b96245dba94e7bba0495e1b28dc23e64c44d8a08b",
+  "limitation": "The interpolation and replacements are interventions in the network. They need not be realizable by Schubert triples. A concentrated path does not identify the statistic computed by its neurons."
+}

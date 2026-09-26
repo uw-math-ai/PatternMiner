@@ -1,0 +1,18 @@
+{"population": "S7_assessment", "groups": 50, "rows": 1250, "queries": 243, "elapsed": 0.24965260503813624}
+{"population": "S7_assessment", "groups": 100, "rows": 2541, "queries": 481, "elapsed": 0.41229820903390646}
+{"population": "S8_assessment", "groups": 50, "rows": 4343, "queries": 774, "elapsed": 1.2248855710495263}
+{"population": "S8_assessment", "groups": 100, "rows": 11388, "queries": 1052, "elapsed": 2.229461579117924}
+{"population": "S9_assessment", "groups": 50, "rows": 30307, "queries": 1405, "elapsed": 7.888075307011604}
+{"population": "S9_assessment", "groups": 100, "rows": 59094, "queries": 1732, "elapsed": 15.22050824505277}
+{"population": "S9_assessment", "groups": 150, "rows": 84934, "queries": 2056, "elapsed": 20.547026080079377}
+{"population": "S9_assessment", "groups": 200, "rows": 101941, "queries": 2368, "elapsed": 24.54772075312212}
+{"population": "S9_assessment", "groups": 250, "rows": 131692, "queries": 2693, "elapsed": 30.73221345501952}
+{"population": "S9_assessment", "groups": 300, "rows": 148825, "queries": 3020, "elapsed": 35.971341324038804}
+{"population": "S10_assessment", "groups": 50, "rows": 98783, "queries": 3508, "elapsed": 93.82396837812848}
+{"population": "S10_assessment", "groups": 100, "rows": 239853, "queries": 3876, "elapsed": 138.39483192795888}
+{"population": "S10_assessment", "groups": 150, "rows": 310105, "queries": 4239, "elapsed": 162.90559605602175}
+{"population": "S10_assessment", "groups": 200, "rows": 427722, "queries": 4591, "elapsed": 201.13970917114057}
+{"population": "S9_validation", "groups": 50, "rows": 22583, "queries": 5203, "elapsed": 235.0072969030589}
+{"population": "S9_validation", "groups": 100, "rows": 46600, "queries": 5501, "elapsed": 239.62389427609742}
+{"population": "S10_validation", "groups": 50, "rows": 136156, "queries": 5868, "elapsed": 287.45403292402625}
+{"name": "fresh_exact_populations", "status": "completed", "wall_seconds": 330.89081664104015, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 6075}

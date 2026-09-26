@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "verification_only": true,
+  "files": {
+    "S7_assessment.bin": {
+      "bytes": 312543,
+      "sha256": "d4d79b17f1ed9c1021a173e943db2a1905d1c89bf868ed6d4d8dc19369e92651",
+      "cache_present": true
+    },
+    "S8_assessment.bin": {
+      "bytes": 1400724,
+      "sha256": "8aa15d222dc5209a1bec0efa8975ede2757274766336967e7d26397bb013d184",
+      "cache_present": true
+    },
+    "S9_assessment.bin": {
+      "bytes": 19363152,
+      "sha256": "8f333d122d10bc659c01293ce77cb7dfd9df88a178472ec6abf7f9a10304fe93",
+      "cache_present": true
+    },
+    "S10_assessment.bin": {
+      "bytes": 59631630,
+      "sha256": "7f45317607843ed073d844365d0a2ac26fd8e3b854300ac434fc599a64f4d010",
+      "cache_present": true
+    },
+    "S9_validation.bin": {
+      "bytes": 5731800,
+      "sha256": "f96b2897616f71c395b33fe6662af1ea6e37f6ed3ff4b0d5298de6b8d4374b69",
+      "cache_present": true
+    },
+    "S10_validation.bin": {
+      "bytes": 27160737,
+      "sha256": "cbaba254fbeedc5adbc7d23d16203b8e12c105a415efeb55a55999c19be572bf",
+      "cache_present": true
+    },
+    "neighbors_train.bin": {
+      "bytes": 576081693,
+      "sha256": "954a74dd19b0dcf03c35212724aa9aa19eb206d07a20c21cd6a09a1599ec3af1",
+      "cache_present": true
+    },
+    "neighbors_Q.npy": {
+      "bytes": 149875040,
+      "sha256": "7bddc3bdd7fc0aa4a31ca06c85e58f91fbfe2a2e3925b6675a932f48a6c84222",
+      "cache_present": true
+    }
+  },
+  "source_sha256": "e85840f80b50af554783ad3d72f00e11412e645b95406e32460bcd65fd8b5f23"
+}

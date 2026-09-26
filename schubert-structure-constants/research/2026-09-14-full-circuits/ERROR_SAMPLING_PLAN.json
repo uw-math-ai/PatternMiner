@@ -1,0 +1,22 @@
+{
+  "status": "fixed_before_training",
+  "initial_checkpoint_sha256": "78d0b541c105e1a20f6e1944298b266d7ea5e435453ddd27caa79d68b74239aa",
+  "arms": [
+    "pinned_error_control",
+    "refreshed_errors"
+  ],
+  "steps": 6000,
+  "evaluate_every": 1000,
+  "error_refresh_every": 1000,
+  "mining_samples": 250000,
+  "base_lr": 2e-05,
+  "extra_lr": 6e-05,
+  "root_action_lr": 0.0005,
+  "wall_limit_each": 1500,
+  "training_seed": 2026091421,
+  "training_rows": 12054685,
+  "training_pairs": 47972,
+  "development_criteria": 15,
+  "comparison": "Same data, initial parameters, seed, schedule and random draw shapes. Control reserves 51 of 102 error examples for the historical 71 cases. Treatment draws all 102 from the refreshed, source-and-factor-balanced pool.",
+  "role": "Development comparison; protected circuit populations and new independent assessment remain unopened"
+}

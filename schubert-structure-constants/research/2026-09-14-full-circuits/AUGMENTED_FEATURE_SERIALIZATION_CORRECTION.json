@@ -1,0 +1,5 @@
+{
+  "status": "corrected_for_retry",
+  "reason": "All feature and relation equality checks completed, but writing the report failed because inversion lengths were NumPy integers. Convert these lengths to Python integers; preserve the failed source, log, archive and partial report.",
+  "exact_product_queries": 0
+}

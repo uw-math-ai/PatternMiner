@@ -1,0 +1,41 @@
+name: small_product_query_transformer
+model:
+  d_model: 192
+  n_encoder_layers: 4
+  n_cross_layers: 2
+  n_heads: 6
+  d_mlp: 768
+  dropout: 0.05
+  n_ctx: 14
+  n_slots: 32
+  views:
+    one_line: true
+    rothe: true
+    inversions: true
+    rank_matrix: true
+    reduced_word: true
+  product_query:
+    symmetric_uv: true
+    cross_attention_layers: 2
+  counting_slots:
+    enabled: true
+    n_slots: 32
+    nonnegative: softplus
+    sparsity_l1: 0.01
+    diversity: 0.01
+heads:
+  positivity: true
+  coeff_log_regression: true
+  coeff_bins: true
+  exact_small_coeff: true
+  mod_primes:
+  - 2
+  - 3
+  - 5
+  - 7
+  listwise_support: true
+  auxiliary:
+    lengths: true
+    descents: true
+    family_tags: true
+    rothe_summaries: true

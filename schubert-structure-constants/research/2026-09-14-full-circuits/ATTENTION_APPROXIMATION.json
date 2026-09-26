@@ -1,0 +1,662 @@
+{
+  "status": "completed",
+  "plan_sha256": "885719c2459926bd5060840208eb20acf72a9a1541d9f809acc033bcc8d8d80a",
+  "checks": {
+    "identity": 0.0
+  },
+  "fits": [
+    {
+      "ridge": 1e-06,
+      "size": 4,
+      "selection_mse": 3.714228535240796
+    },
+    {
+      "ridge": 1e-06,
+      "size": 8,
+      "selection_mse": 3.369161142678327
+    },
+    {
+      "ridge": 1e-06,
+      "size": 16,
+      "selection_mse": 3.1231850556007403
+    },
+    {
+      "ridge": 1e-06,
+      "size": 32,
+      "selection_mse": 2.952939207134576
+    },
+    {
+      "ridge": 1e-06,
+      "size": 64,
+      "selection_mse": 2.5576916552782714
+    },
+    {
+      "ridge": 1e-06,
+      "size": 163,
+      "selection_mse": 2.488721721637022
+    },
+    {
+      "ridge": 0.0001,
+      "size": 4,
+      "selection_mse": 3.713903592361099
+    },
+    {
+      "ridge": 0.0001,
+      "size": 8,
+      "selection_mse": 3.368730052445452
+    },
+    {
+      "ridge": 0.0001,
+      "size": 16,
+      "selection_mse": 3.12286122741099
+    },
+    {
+      "ridge": 0.0001,
+      "size": 32,
+      "selection_mse": 2.9526189714605136
+    },
+    {
+      "ridge": 0.0001,
+      "size": 64,
+      "selection_mse": 2.557767163900505
+    },
+    {
+      "ridge": 0.0001,
+      "size": 163,
+      "selection_mse": 2.488902193590485
+    },
+    {
+      "ridge": 0.01,
+      "size": 4,
+      "selection_mse": 3.704980688677379
+    },
+    {
+      "ridge": 0.01,
+      "size": 8,
+      "selection_mse": 3.3800734276371416
+    },
+    {
+      "ridge": 0.01,
+      "size": 16,
+      "selection_mse": 3.1768174615500335
+    },
+    {
+      "ridge": 0.01,
+      "size": 32,
+      "selection_mse": 3.0038368181504636
+    },
+    {
+      "ridge": 0.01,
+      "size": 64,
+      "selection_mse": 2.666187100896248
+    },
+    {
+      "ridge": 0.01,
+      "size": 163,
+      "selection_mse": 2.592212576209979
+    },
+    {
+      "ridge": 1.0,
+      "size": 4,
+      "selection_mse": 5.375879746046371
+    },
+    {
+      "ridge": 1.0,
+      "size": 8,
+      "selection_mse": 4.57854850058604
+    },
+    {
+      "ridge": 1.0,
+      "size": 16,
+      "selection_mse": 4.058119746777927
+    },
+    {
+      "ridge": 1.0,
+      "size": 32,
+      "selection_mse": 3.7355639121777493
+    },
+    {
+      "ridge": 1.0,
+      "size": 64,
+      "selection_mse": 3.6520202685495957
+    },
+    {
+      "ridge": 1.0,
+      "size": 163,
+      "selection_mse": 3.6536738469994647
+    }
+  ],
+  "selected_ridge": 1e-06,
+  "selected_features": [
+    {
+      "name": "negative absolute query-key index difference/n",
+      "coefficients": [
+        21.77539383998177,
+        21.778323409416323
+      ]
+    },
+    {
+      "name": "key w^-1(j+1)",
+      "coefficients": [
+        -9.816312847771401,
+        -9.816582312213017
+      ]
+    },
+    {
+      "name": "squared key w^-1(j+1)",
+      "coefficients": [
+        7.187214325249216,
+        7.187698363155005
+      ]
+    },
+    {
+      "name": "key index/n",
+      "coefficients": [
+        7.751362722404519,
+        7.752953944154585
+      ]
+    },
+    {
+      "name": "negative squared query-key index difference/n",
+      "coefficients": [
+        -15.818913743595424,
+        -15.822301451335587
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query v^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        4.941192872500201,
+        4.941026708097352
+      ]
+    },
+    {
+      "name": "squared key w^-1(j)",
+      "coefficients": [
+        2.1831985875461792,
+        2.183471410020859
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query v^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        -3.5313327280191977,
+        -3.5308983208636797
+      ]
+    },
+    {
+      "name": "key u^-1(j)",
+      "coefficients": [
+        -2.037658264625997,
+        -2.037447923944331
+      ]
+    },
+    {
+      "name": "key w^-1(j)",
+      "coefficients": [
+        -2.0097791268263987,
+        -2.0099684490462737
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query v^-1(j+1), key v^-1(j+1)",
+      "coefficients": [
+        4.109905214317003,
+        4.1091404218040335
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query v^-1(j+1), key v^-1(j+1)",
+      "coefficients": [
+        -3.016186222180963,
+        -3.015597078462842
+      ]
+    },
+    {
+      "name": "squared key u^-1(j)",
+      "coefficients": [
+        1.2104445572467086,
+        1.210179987088232
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query v^-1(j), key w^-1(j+1)",
+      "coefficients": [
+        1.8022609439844353,
+        1.8024663166389534
+      ]
+    },
+    {
+      "name": "key v^-1(j+1)",
+      "coefficients": [
+        -0.5115523644274509,
+        -0.5117542646691431
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query u^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        -1.2399652837390884,
+        -1.240086464298541
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query u^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        1.5102839459606787,
+        1.5102596670438817
+      ]
+    },
+    {
+      "name": "squared key index/n",
+      "coefficients": [
+        -0.8751891455453166,
+        -0.8765604737730055
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query w^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        -1.1944320726839697,
+        -1.1943912883306642
+      ]
+    },
+    {
+      "name": "key u^-1(j+1)",
+      "coefficients": [
+        -0.13678373617852135,
+        -0.13581543833780185
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query u^-1(j+1), key u^-1(j)",
+      "coefficients": [
+        0.9891841357389558,
+        0.989284461363918
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query v^-1(j+1), key u^-1(j)",
+      "coefficients": [
+        1.0003553428448286,
+        1.0006826392202968
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query v^-1(j+1), key u^-1(j+1)",
+      "coefficients": [
+        -1.0094262836764107,
+        -1.008767657007501
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query v^-1(j+1), key u^-1(j+1)",
+      "coefficients": [
+        1.47215103013535,
+        1.471218684987144
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query v^-1(j+1), key u^-1(j)",
+      "coefficients": [
+        -1.1293312273426583,
+        -1.129684669853055
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query v^-1(j+1), key v^-1(j)",
+      "coefficients": [
+        -1.1580955138921731,
+        -1.1577897719094654
+      ]
+    },
+    {
+      "name": "comparison_sign: query v^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        0.3247263290553574,
+        0.32470452767679636
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query w^-1(j+1), key u^-1(j+1)",
+      "coefficients": [
+        0.6823954189711878,
+        0.6823438338215169
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query u^-1(j+1), key w^-1(j)",
+      "coefficients": [
+        1.2270553420789119,
+        1.2267712361421432
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query u^-1(j), key w^-1(j+1)",
+      "coefficients": [
+        0.7776971913708808,
+        0.7775849289119674
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query u^-1(j), key w^-1(j+1)",
+      "coefficients": [
+        -0.6014097858259986,
+        -0.6013116506875138
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query u^-1(j), key v^-1(j+1)",
+      "coefficients": [
+        -0.4231446806784491,
+        -0.42306895754070717
+      ]
+    },
+    {
+      "name": "comparison_sign: query v^-1(j), key w^-1(j+1)",
+      "coefficients": [
+        0.24795771916879095,
+        0.24791172055443078
+      ]
+    },
+    {
+      "name": "position_equality: query v^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        0.6808855068221622,
+        0.6808595070339539
+      ]
+    },
+    {
+      "name": "squared key v^-1(j)",
+      "coefficients": [
+        -0.05621067294791375,
+        -0.05643212816177105
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query u^-1(j+1), key u^-1(j)",
+      "coefficients": [
+        -0.3498532327000575,
+        -0.35002202530449944
+      ]
+    },
+    {
+      "name": "position_equality: query u^-1(j), key u^-1(j+1)",
+      "coefficients": [
+        -0.6593932385381334,
+        -0.659390301132385
+      ]
+    },
+    {
+      "name": "position_equality: query v^-1(j), key v^-1(j+1)",
+      "coefficients": [
+        -0.6593932385671112,
+        -0.6593903009758626
+      ]
+    },
+    {
+      "name": "position_equality: query w^-1(j), key w^-1(j+1)",
+      "coefficients": [
+        -0.659393238567112,
+        -0.6593903009758623
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query v^-1(j+1), key v^-1(j)",
+      "coefficients": [
+        1.0857465494613914,
+        1.0862191451488439
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query v^-1(j+1), key w^-1(j)",
+      "coefficients": [
+        0.5835755892976812,
+        0.5836344766915259
+      ]
+    },
+    {
+      "name": "left descent of v at key",
+      "coefficients": [
+        0.31651274397167267,
+        0.3164785921441071
+      ]
+    },
+    {
+      "name": "comparison_sign: query w^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        -0.23988250511914008,
+        -0.23988266558724347
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query w^-1(j+1), key v^-1(j)",
+      "coefficients": [
+        0.49804807463454037,
+        0.4980207479790619
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query w^-1(j+1), key w^-1(j)",
+      "coefficients": [
+        -0.20059791732586715,
+        -0.2008580621586197
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query w^-1(j+1), key w^-1(j)",
+      "coefficients": [
+        0.4077463743342572,
+        0.4080690201226916
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query u^-1(j+1), key w^-1(j)",
+      "coefficients": [
+        -0.7313623568596531,
+        -0.7310841624318992
+      ]
+    },
+    {
+      "name": "squared key u^-1(j+1)",
+      "coefficients": [
+        -0.6863968693478495,
+        -0.6873526970992827
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query u^-1(j+1), key v^-1(j+1)",
+      "coefficients": [
+        -0.5294941897553002,
+        -0.5294490025980712
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query u^-1(j), key v^-1(j)",
+      "coefficients": [
+        -0.4183735838273027,
+        -0.41837284336192637
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query v^-1(j), key v^-1(j+1)",
+      "coefficients": [
+        1.2317875496756239,
+        1.2317784849683475
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query v^-1(j), key u^-1(j+1)",
+      "coefficients": [
+        0.4841785816164873,
+        0.4839603049772402
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query w^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        0.7070572345572795,
+        0.7070883997537832
+      ]
+    },
+    {
+      "name": "negative_squared_difference: query w^-1(j), key w^-1(j)",
+      "coefficients": [
+        1.3251872409288512,
+        1.3251699599895626
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query w^-1(j), key w^-1(j)",
+      "coefficients": [
+        -0.8747844688924147,
+        -0.8747380712523393
+      ]
+    },
+    {
+      "name": "left descent of w at key",
+      "coefficients": [
+        -0.2613330894800185,
+        -0.26135172650060573
+      ]
+    },
+    {
+      "name": "comparison_sign: query w^-1(j), key w^-1(j+1)",
+      "coefficients": [
+        -0.15116003275839704,
+        -0.15114558732926817
+      ]
+    },
+    {
+      "name": "position_equality: query u^-1(j+1), key u^-1(j+1)",
+      "coefficients": [
+        -0.36885243168595144,
+        -0.36889477231055434
+      ]
+    },
+    {
+      "name": "position_equality: query u^-1(j), key u^-1(j)",
+      "coefficients": [
+        -0.36885243153218306,
+        -0.3688947721567614
+      ]
+    },
+    {
+      "name": "position_equality: query v^-1(j), key v^-1(j)",
+      "coefficients": [
+        -0.36885243153218306,
+        -0.3688947721567616
+      ]
+    },
+    {
+      "name": "position_equality: query v^-1(j+1), key v^-1(j+1)",
+      "coefficients": [
+        -0.3688524315321833,
+        -0.36889477215676175
+      ]
+    },
+    {
+      "name": "position_equality: query w^-1(j), key w^-1(j)",
+      "coefficients": [
+        -0.36885243153218333,
+        -0.3688947721567618
+      ]
+    },
+    {
+      "name": "position_equality: query w^-1(j+1), key w^-1(j+1)",
+      "coefficients": [
+        -0.36885243160001785,
+        -0.36889477222460265
+      ]
+    },
+    {
+      "name": "negative_absolute_difference: query w^-1(j+1), key u^-1(j)",
+      "coefficients": [
+        0.4080049738542979,
+        0.40800825349861614
+      ]
+    }
+  ],
+  "fit_metrics": {
+    "fit": {
+      "mse": 2.341312314444198,
+      "centered_logit_r_squared": 0.7584265485071975
+    },
+    "selection": {
+      "mse": 2.5576916552782714,
+      "centered_logit_r_squared": 0.7509481342369086
+    },
+    "reserved": {
+      "mse": 2.587915604653681,
+      "centered_logit_r_squared": 0.732226089086067
+    }
+  },
+  "behavior": {
+    "all": {
+      "inputs": 7606,
+      "native_pair_accuracy": 0.9921114909282146,
+      "fitted": {
+        "pair_accuracy": 0.9476728898238233,
+        "choice_agreement": 0.9538522219300553,
+        "lost": 175,
+        "fixed": 6
+      },
+      "uniform": {
+        "pair_accuracy": 0.7833289508282935,
+        "choice_agreement": 0.8580068367078623,
+        "lost": 816,
+        "fixed": 11
+      }
+    },
+    "fit": {
+      "inputs": 5218,
+      "native_pair_accuracy": 0.9915676504407819,
+      "fitted": {
+        "pair_accuracy": 0.9497891912610196,
+        "choice_agreement": 0.9528555001916443,
+        "lost": 115,
+        "fixed": 6
+      },
+      "uniform": {
+        "pair_accuracy": 0.7922575699501725,
+        "choice_agreement": 0.8599080107320812,
+        "lost": 536,
+        "fixed": 10
+      }
+    },
+    "selection": {
+      "inputs": 802,
+      "native_pair_accuracy": 0.9900249376558603,
+      "fitted": {
+        "pair_accuracy": 0.942643391521197,
+        "choice_agreement": 0.9588528678304239,
+        "lost": 19,
+        "fixed": 0
+      },
+      "uniform": {
+        "pair_accuracy": 0.7905236907730673,
+        "choice_agreement": 0.8491271820448878,
+        "lost": 84,
+        "fixed": 1
+      }
+    },
+    "reserved": {
+      "inputs": 746,
+      "native_pair_accuracy": 0.9892761394101877,
+      "fitted": {
+        "pair_accuracy": 0.9410187667560321,
+        "choice_agreement": 0.9571045576407506,
+        "lost": 18,
+        "fixed": 0
+      },
+      "uniform": {
+        "pair_accuracy": 0.7908847184986595,
+        "choice_agreement": 0.8780160857908847,
+        "lost": 76,
+        "fixed": 0
+      }
+    }
+  },
+  "artifact_sha256": "8b58f1a1c1e083807f43783412e3f410dff0a83093eda9e83134f529aa265514",
+  "limitation": "A fitted approximation is not by itself a circuit explanation. Its replacement behavior and reserved-factor errors are part of the result. Neither a general multiplication rule nor independent confirmation is claimed."
+}

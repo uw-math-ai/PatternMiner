@@ -1,0 +1,9 @@
+{
+  "rank_entries_checked": 104448,
+  "examples": 64,
+  "direct_integer_counting_bitwise_equal": true,
+  "initial_model_max_errors": {
+    "False": 0.0,
+    "True": 0.0
+  }
+}

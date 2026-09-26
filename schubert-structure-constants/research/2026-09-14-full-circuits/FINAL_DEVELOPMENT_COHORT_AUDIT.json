@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "inputs": 10890,
+  "pairs": 5445,
+  "factor_orbits": 500,
+  "populations": [
+    "hard_validation",
+    "historical_pairs",
+    "S9_exposed_pairs",
+    "S10_exposed_pairs",
+    "fresh_S9_validation_pairs",
+    "fresh_S10_validation_pairs",
+    "new_S9_validation_pairs",
+    "new_S10_validation_pairs",
+    "first_exposed_S7_pairs",
+    "first_exposed_S8_pairs",
+    "first_exposed_S9_pairs",
+    "first_exposed_S10_pairs",
+    "exposed_fresh_S8_pairs",
+    "exposed_fresh_S9_pairs",
+    "exposed_fresh_S10_pairs"
+  ],
+  "neurons_ranked": 384,
+  "random_controls": 20,
+  "role": "Cohort and source audit only; no predictions or protected data read"
+}

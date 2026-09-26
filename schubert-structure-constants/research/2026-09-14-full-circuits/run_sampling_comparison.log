@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/run_sampling_comparison.py", line 34, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/run_sampling_comparison.py", line 25, in main
+    assert report['status']=='completed' and report['completed_updates']==6000
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

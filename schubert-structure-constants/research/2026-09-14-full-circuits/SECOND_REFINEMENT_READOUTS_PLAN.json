@@ -1,0 +1,75 @@
+{
+  "status": "fixed_before_predictions",
+  "checkpoint_sha256": "be425202d39c91963a96cc84a598cdaf5c88fe80a14f852ace30d7a295025678",
+  "source_sha256": "a90bcfe9acc93e03017483aa7076aa7e8ca32dfe66c1bb53ea1e2289c686f9fe",
+  "grid": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      2.0
+    ],
+    [
+      0.0,
+      4.0
+    ],
+    [
+      2.0,
+      0.0
+    ],
+    [
+      2.0,
+      1.0
+    ],
+    [
+      2.0,
+      2.0
+    ],
+    [
+      2.0,
+      4.0
+    ],
+    [
+      4.0,
+      0.0
+    ],
+    [
+      4.0,
+      1.0
+    ],
+    [
+      4.0,
+      2.0
+    ],
+    [
+      4.0,
+      4.0
+    ],
+    [
+      8.0,
+      0.0
+    ],
+    [
+      8.0,
+      1.0
+    ],
+    [
+      8.0,
+      2.0
+    ],
+    [
+      8.0,
+      4.0
+    ]
+  ],
+  "readout": "Selector score + b times predicted log(1+B_j) + q times predicted log(1+Q_j)",
+  "selection": "Minimum of twenty-seven development accuracies, then their mean; initialization is included at lambda=0",
+  "role": "Development readout comparison; no exact labels are inputs and no assessment is opened",
+  "all_supplied": "The model structurally discards the supplied index; each oriented triple has the same prediction for every positive supplied coefficient."
+}

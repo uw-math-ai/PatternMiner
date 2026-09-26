@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "source_sha256": "44a23b35f32307155085af8d724ce7a00953e79b292aaf764fbc2614acbac243",
+  "feature_source_sha256": "7ad02b73722b8812bfa1e7700714bc1c8515c3249e2d285133a34382b58783d1",
+  "direct_enumeration_comparisons": 1260,
+  "downward_demazure_commutations": 2424,
+  "development_inputs": 7606,
+  "positive_target_entries": 9844,
+  "excluded_candidate_entries": 1061,
+  "false_exclusions": 0,
+  "populations": [
+    "hard_validation",
+    "historical_pairs",
+    "S9_exposed_pairs",
+    "S10_exposed_pairs",
+    "fresh_S9_validation_pairs",
+    "fresh_S10_validation_pairs",
+    "exposed_fresh_S8_pairs",
+    "exposed_fresh_S9_pairs",
+    "exposed_fresh_S10_pairs",
+    "new_S9_validation_pairs",
+    "new_S10_validation_pairs"
+  ],
+  "artifact_sha256": "84507af1882e0d924c0248a94570fe9d8f5ec529dc6ce7eae974804eb2ba409d",
+  "exact_product_queries": 0,
+  "role": "Implementation checks of consequences of the frozen parabolic-order theorem; not a learned nonvanishing rule"
+}

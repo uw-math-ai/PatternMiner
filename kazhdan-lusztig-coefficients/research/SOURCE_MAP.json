@@ -1,0 +1,830 @@
+{
+  "source_checkpoint": "[withheld for anonymous review]",
+  "source_path_convention": "Paths relative to the original problem research-notes directory; no private checkout is required.",
+  "files": [
+    {
+      "destination": "research/src/kl_type_a.py",
+      "source": "code/kl_type_a.py",
+      "source_sha256": "4a6f1251b30a2c8398cbfc8b831c555511f9d6fa69cb5d780bbf49a59c48d11f",
+      "published_sha256": "aaa1a37b78cd9552b9c7e15329b5c81f5277557d05f364ecfbd35b9df2043382",
+      "mode": "definition-extraction",
+      "details": {
+        "definitions": {
+          "inv": "5957494d8d3d505744b792ff5a375ee4cdb741cb46b44cbb6c6d5a34029dda3e",
+          "rs": "7d233545ead1b9301f7881dd1f85dbfcf3ea8fbb042ed02be23c2f3b000149c6",
+          "leq": "e7c30e520301b67b04fd6f9d38028697782e66c147942a2d699081fa051b057e",
+          "padd": "a8f1021ddd4055e5c1c072b2afc17324096be7fe2d78b02cbe2e79555d81651c",
+          "qshift": "0007760d378328e119f22c99c3736e25d3af541b879b4248ff4149c7fc66e31e"
+        }
+      }
+    },
+    {
+      "destination": "research/src/rank_defect.py",
+      "source": "code/normalize_naked_support.py",
+      "source_sha256": "408eba58444bec9cfd36d2ddb1c58d580ef3afa37750e7e1f38f201c9952bbb3",
+      "published_sha256": "2caa58954e735fbbbbd306702938a917b46d729cdd0b5ff68548f5f35e5fac0a",
+      "mode": "definition-extraction",
+      "details": {
+        "definitions": {
+          "rank_defect": "30e493c95907ddae4d4f3b97d723a219d4cffbb31e92bf050c84f31c71a596dc"
+        }
+      }
+    },
+    {
+      "destination": "research/src/cover_features.py",
+      "source": "code/q009_atom_eligibility.py",
+      "source_sha256": "4868e9f175f6eed23baf5bde9da59fdb392608817267906438baffdddb0256e0",
+      "published_sha256": "1f8a7b2f345ee13629a47ee917e2212aec8a8cb02821ba125c2778076bb184b9",
+      "mode": "definition-extraction",
+      "details": {
+        "definitions": {
+          "descents": "366825df9f237bec180846d99c6d505de926f6ffb894c5590bcd2557c91295ca",
+          "up_cover_data": "caa226fbd9b65226ee6b91173753ad6c52ef59ab0c6f061a05df24e3642f2b87"
+        }
+      }
+    },
+    {
+      "destination": "research/src/exact_kl.py",
+      "source": "code/scan_crosshatch_mu5.py",
+      "source_sha256": "6ab5dc2262cf7e0ff1bcbfc3f31a8e15d1d10fa94f294916ef0f4bab997befb4",
+      "published_sha256": "dffe9ba258431f5e2fd1269b14577a5bd5c404adca0201c74829e48af17cf5ed",
+      "mode": "definition-extraction",
+      "details": {
+        "definitions": {
+          "down_covers": "70d39ad156cf33eb7ceb81095a459baeadf4d396c1feed41d97af75af0d12836",
+          "interval": "6bde40a28d4b8bf8dcf184f674785bf26130734752e772d21f06a8618580a37d",
+          "P": "f724ed728772305686548cdc6f9f02a86f66a9fcfe9a4ff0b5984742d71d1544"
+        }
+      }
+    },
+    {
+      "destination": "research/src/placement_dataset.py",
+      "source": "code/q009_placement_dataset.py",
+      "source_sha256": "2bd55671ffa276903c382659f4997a103376f16d2b3dca12a3f1a79a65438d9c",
+      "published_sha256": "e06a41a8a7f490d4e747f096e8bd868bb8a28e2156d17218f17b51994056c280",
+      "mode": "scoped-adaptation",
+      "details": {
+        "replacements": [
+          [
+            "from normalize_naked_support import rank_defect",
+            "from rank_defect import rank_defect"
+          ],
+          [
+            "from q009_atom_eligibility import descents, up_cover_data",
+            "from cover_features import descents, up_cover_data"
+          ],
+          [
+            "from scan_crosshatch_mu5 import P, interval",
+            "from exact_kl import P, interval"
+          ]
+        ]
+      }
+    },
+    {
+      "destination": "research/src/independent_kl.py",
+      "source": "audits/A-T038-20260922_verify.py",
+      "source_sha256": "5a8e24db52701238aace773baf5ce41f10e8351264cde77c53a0b443492f2c03",
+      "published_sha256": "b34ca86198e52581802dbce3261d84c1cdd4641dde0f4ba308a04a861b17a26d",
+      "mode": "definition-extraction",
+      "details": {
+        "definitions": {
+          "length": "f360edbf34330036c1839453745f5821e26e513ff39bde1b3d0b9b78d7b4b74d",
+          "swap": "22ef88722c44b6e3f2c5bfdb19f2ae119bd615098b6099f220ece467e32c0d1b",
+          "desc": "b2d2fd9cf90360ecdac584c3c8ffa0014a3084d574789f0b997ed7966a6117ff",
+          "below": "f6406ddb0b0a338f49d87726f958af68170eca6f81692f0b43642751c78a6237",
+          "covers": "53c42c668b3ffce55977c34612c571bc2e2bfcca0697407f841895384cee6773",
+          "interval": "239bf374abd1f808e1cd9fa92feb5de331aa9d10f47f6a00fda95e8bf081915a",
+          "addto": "37050bbf8fd3630a11c6d8f7af1cf0c341b5d7209f318b6ffa34a996b777df2d",
+          "polynomial": "e9d452c3ac2406a4c701071caf02e513abe17a756fc1fc84f6fb62b64792a4bf"
+        }
+      }
+    },
+    {
+      "destination": "research/src/support_controls.py",
+      "source": "audits/A-T039-20260922_verify.py",
+      "source_sha256": "99a433bf5b050e68be5ea1458cf54c7ef525dac0dc8d13875a582485e6ed6b52",
+      "published_sha256": "eec3dfb5386d14408feb9c1be4dfb2bdf0548820a920cc1f9a589ded0ab6a171",
+      "mode": "scoped-adaptation",
+      "details": {
+        "replacements": [
+          [
+            "b=runpy.run_path(str(Path(__file__).with_name('A-T038-20260922_verify.py')))\nlength,below,covers,polynomial,swap,desc=[b[n] for n in ('length','below','covers','polynomial','swap','desc')]",
+            "from independent_kl import length, below, covers, polynomial, swap, desc"
+          ]
+        ]
+      }
+    },
+    {
+      "destination": "research/src/heredity_controls.py",
+      "source": "audits/A-T044-20260922-independent.py",
+      "source_sha256": "eca8e398100dbf30dd48a5f3559f41419314bff1adbe3a0361c1f7966683d75a",
+      "published_sha256": "61914af03d5188f4e02dad9754734edb20941cd6f3840993d0a0a72c16a81076",
+      "mode": "scoped-adaptation",
+      "details": {
+        "replacements": [
+          [
+            "Independent standard-library audit. Run from the P16 worktree.",
+            "Independent standard-library finite controls; writes JSON to stdout only."
+          ],
+          [
+            "out=run(); dest=Path(__file__).with_name('A-T044-20260922-independent.json'); dest.write_text(json.dumps(out,indent=2)+'\\n'); print(json.dumps(out,indent=2))",
+            "out=run(); print(json.dumps(out,indent=2))"
+          ]
+        ]
+      }
+    },
+    {
+      "destination": "research/src/descent_controls.py",
+      "source": "audits/A-T045-20260922-independent.py",
+      "source_sha256": "7deb7d433d3f9eec0e76d15b2ac63e764db548c649129758e9cb2160195ed129",
+      "published_sha256": "7deb7d433d3f9eec0e76d15b2ac63e764db548c649129758e9cb2160195ed129",
+      "mode": "scoped-adaptation",
+      "details": {
+        "replacements": []
+      }
+    },
+    {
+      "destination": "research/artifacts/historical/heredity.json",
+      "source": "audits/A-T044-20260922-independent.json",
+      "source_sha256": "798e7dbf2936749bab32aed48b1f4e9cb93fc29a24fa4563a4f2ff41ee93aca5",
+      "published_sha256": "798e7dbf2936749bab32aed48b1f4e9cb93fc29a24fa4563a4f2ff41ee93aca5",
+      "mode": "verbatim",
+      "details": null
+    },
+    {
+      "destination": "research/artifacts/historical/descent.json",
+      "source": "audits/A-T045-20260922-results.json",
+      "source_sha256": "dc1ec0d6ba239a2f7cd31ec85b8129d00d75b2169bba49c69b758a926657f8a3",
+      "published_sha256": "dc1ec0d6ba239a2f7cd31ec85b8129d00d75b2169bba49c69b758a926657f8a3",
+      "mode": "verbatim",
+      "details": null
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/T039_support_factorization_and_uniform_horizon.md",
+      "source_sha256": "bd0e2dae7609faedacf640e4b69be4b862a81252ed7c3d6ec86861f9d6d15009",
+      "published_sha256": "457a604aa0d180719b5199e530256d98a48b83e8f9191ce70dedd5b8914860d5",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": null,
+        "replacements": [],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#support-factorization",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/T041_length13_defect_exact_S12_reduction.md",
+      "source_sha256": "8b7ac5fd423c2eb4f730f03c6af52710c2d055469181cc67276fef71afb91dff",
+      "published_sha256": "457a604aa0d180719b5199e530256d98a48b83e8f9191ce70dedd5b8914860d5",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": null,
+        "replacements": [],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#reduction-to-twelve-positions",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/T042_compression_commutes_with_common_descents.md",
+      "source_sha256": "5f02c9284e782baac03e8d9cd24940eeb77f08839dd8d930c76619932cddc59e",
+      "published_sha256": "457a604aa0d180719b5199e530256d98a48b83e8f9191ce70dedd5b8914860d5",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": "## Research consequence and limits",
+        "replacements": [],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#common-descents-and-cancellation",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/T044_genus_heredity_under_subintervals.md",
+      "source_sha256": "4112348535317dabe895ec86619c9f18613963f3c547471b3113618803fbf84a",
+      "published_sha256": "457a604aa0d180719b5199e530256d98a48b83e8f9191ce70dedd5b8914860d5",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": null,
+        "replacements": [],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#genus-heredity",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/T045_bounded_descent_gain_obstruction.md",
+      "source_sha256": "5165b993826982ad74f95644e514a4c84eb483ce12720c61411178086568f0df",
+      "published_sha256": "457a604aa0d180719b5199e530256d98a48b83e8f9191ce70dedd5b8914860d5",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": null,
+        "replacements": [],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#corrected-descent-gain",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    }
+  ],
+  "historical_review_sources": [
+    {
+      "source": "audits/A-T039-20260922.md",
+      "sha256": "47bacee356785904c6b5ae7b727a2ba8c02fabebdba0d1fd896e4e602a25b82f",
+      "scope": "Historical internal proof review; not external peer review. Full review retained in the source campaign, not exported."
+    },
+    {
+      "source": "audits/A-T044-20260922-review.md",
+      "sha256": "8672e4d345a9be4de66957b887caf7946d0f6b397176e317de38965d1ef6d29d",
+      "scope": "Historical internal proof review; not external peer review. Full review retained in the source campaign, not exported."
+    },
+    {
+      "source": "audits/A-T045-20260922-review.md",
+      "sha256": "07fae44e9f7795659674f9990bc79774ca343f1cb3a1da544903342da69c2eb3",
+      "scope": "Historical internal proof review; not external peer review. Full review retained in the source campaign, not exported."
+    }
+  ],
+  "campaign_index": {
+    "unit": "Distinct E-prefixed IDs with Markdown experiment reports; not sessions, executions, or model fits",
+    "experiment_ids": 62,
+    "report_files": 63,
+    "scope": "Inventory only; unexported reports are not reproduced or certified by this bundle",
+    "experiments": [
+      {
+        "id": "E001",
+        "reports": [
+          {
+            "source": "experiments/E001_exact_baseline.md",
+            "sha256": "6341bb405ba8d3bc9e7c63ab506e01708aa81e1d1f45fe6f89886f1828948577"
+          }
+        ]
+      },
+      {
+        "id": "E002",
+        "reports": [
+          {
+            "source": "experiments/E002_s7_profile_attack.md",
+            "sha256": "77838ed0cc7343418c868778f70061672d832bb77cadbffdd99fe2d1de075aa8"
+          }
+        ]
+      },
+      {
+        "id": "E003",
+        "reports": [
+          {
+            "source": "experiments/E003_profile_vs_B4.md",
+            "sha256": "1772b1a79dbda5435a0f117942db29e5c01f4618b01241d064c459437b5a5cdb"
+          }
+        ]
+      },
+      {
+        "id": "E004",
+        "reports": [
+          {
+            "source": "experiments/E004_boundary_signature.md",
+            "sha256": "24f3a8280f612deffa5b8aeb0fbf8036979609bc7ed9df646723377384edbc66"
+          }
+        ]
+      },
+      {
+        "id": "E005",
+        "reports": [
+          {
+            "source": "experiments/E005_defect_localization.md",
+            "sha256": "54d9d24b0a336cb1ace6df2208063e04d9027d2ac97a492a391a42f695bfdec6"
+          }
+        ]
+      },
+      {
+        "id": "E006",
+        "reports": [
+          {
+            "source": "experiments/E006_s7_boundary2.md",
+            "sha256": "d742409c03fdee37f30c05be80bb40b09f12e653068da5d6be9e56a7bc8eecb1"
+          }
+        ]
+      },
+      {
+        "id": "E007",
+        "reports": [
+          {
+            "source": "experiments/E007_irreducible_flipclasses.md",
+            "sha256": "4ab4ea3f310c874396a5ce9c125bbf921355f15a5a29bd9ef4f1df5343695aa4"
+          }
+        ]
+      },
+      {
+        "id": "E008",
+        "reports": [
+          {
+            "source": "experiments/E008_boundary_vs_flipmass.md",
+            "sha256": "31bca24d8e623a298f0974d0772f15a1af70b52e49d0fe83b563be0dbcc5cc8c"
+          }
+        ]
+      },
+      {
+        "id": "E009",
+        "reports": [
+          {
+            "source": "experiments/E009_product_attack.md",
+            "sha256": "396f9b00a571ebbddaeac00915ac78701b45e46bb1a62a6ff564b890c6e94737"
+          }
+        ]
+      },
+      {
+        "id": "E010",
+        "reports": [
+          {
+            "source": "experiments/E010_adjacency_switch.md",
+            "sha256": "88f8e1e769eff5dbbee1f10709698b5cd4e0fa259792da80ef778810c867a88b"
+          }
+        ]
+      },
+      {
+        "id": "E011",
+        "reports": [
+          {
+            "source": "experiments/E011_timesupport_switch.md",
+            "sha256": "6f73437fe46dc96eebf037d6f756afeaa0e863afbd0fb3d36a1bf1ba2451d389"
+          }
+        ]
+      },
+      {
+        "id": "E012",
+        "reports": [
+          {
+            "source": "experiments/E012_three_crown_switch.md",
+            "sha256": "141a8521cd70847fcb8979213d652d2d0fa205184c13e3242c17c82cc9d99b63"
+          }
+        ]
+      },
+      {
+        "id": "E013",
+        "reports": [
+          {
+            "source": "experiments/E013_four_tvector_switch.md",
+            "sha256": "9dc700b49af3e61e6504f30b6f839f39cc6c0b08680845417b2e29796b9f9092"
+          }
+        ]
+      },
+      {
+        "id": "E014",
+        "reports": [
+          {
+            "source": "experiments/E014_five_valence_recovery.md",
+            "sha256": "05bde306255ccccebe8a5aad0b96ef981db3954fc1787f44095a232a86c23c6f"
+          }
+        ]
+      },
+      {
+        "id": "E015",
+        "reports": [
+          {
+            "source": "experiments/E015_five_embedding_boundary_attack.md",
+            "sha256": "3a385e644a604347fefb73c3d8c973762096fdef4f97dee3348c20a5955bfd7b"
+          }
+        ]
+      },
+      {
+        "id": "E016",
+        "reports": [
+          {
+            "source": "experiments/E016_rank_equalization_obstruction.md",
+            "sha256": "ae53dc3bcbbdb4aff0579ce0ea4a4e97db7f2682f178ada45db08693939b039b"
+          }
+        ]
+      },
+      {
+        "id": "E017",
+        "reports": [
+          {
+            "source": "experiments/E017_low_flag_feasibility.md",
+            "sha256": "60204c13a58aab1c3bf9935487d659cb221b689f61a81cd451fb694b060cf0b2"
+          }
+        ]
+      },
+      {
+        "id": "E018",
+        "reports": [
+          {
+            "source": "experiments/E018_rank3_incidence_models.md",
+            "sha256": "293f05ca7d3bee06cb78e903833c03fb1232d733e6a9939451e743dfa11eabc4"
+          }
+        ]
+      },
+      {
+        "id": "E019",
+        "reports": [
+          {
+            "source": "experiments/E019_length12_matching_split.md",
+            "sha256": "3bc43d0a1dfe2208d7fa9271e0157568532cde6f86f8f318226452c6f1462fb6"
+          }
+        ]
+      },
+      {
+        "id": "E020",
+        "reports": [
+          {
+            "source": "experiments/E020_partial_matching_symbolic_obstruction.md",
+            "sha256": "a73cd80e2088416bad0ef67c6d562dae3d5517328ffc1735959c964f4967bfdb"
+          }
+        ]
+      },
+      {
+        "id": "E021",
+        "reports": [
+          {
+            "source": "experiments/E021_length13_coefficient_bounds.md",
+            "sha256": "bcb733c3ccc6019929c1ce34c0848ab29caab88bd4e3bd1bed186b7cec4940f5"
+          }
+        ]
+      },
+      {
+        "id": "E022",
+        "reports": [
+          {
+            "source": "experiments/E022_dual_extremality_dead_end.md",
+            "sha256": "3017bb731e34a71339a13889c32001eab6c52c115f216cc5f63cbf7db4474fb4"
+          }
+        ]
+      },
+      {
+        "id": "E023",
+        "reports": [
+          {
+            "source": "experiments/E023_length13_shape_wedge.md",
+            "sha256": "a8d2121d967dd308fb19397eeb47abc6768fefd568978c6c8b60343500543461"
+          }
+        ]
+      },
+      {
+        "id": "E024",
+        "reports": [
+          {
+            "source": "experiments/E024_published_mu_bound.md",
+            "sha256": "dee907d6683394a5289acc426f9bc064faed7a7d8902d677d81e1eba7a089f2e"
+          }
+        ]
+      },
+      {
+        "id": "E025",
+        "reports": [
+          {
+            "source": "experiments/E025_S8_shape_slack.md",
+            "sha256": "3a4788e7bb32b72f87099820f51511b41c740573fb69f4d4c7a865b3cf2e9c4d"
+          }
+        ]
+      },
+      {
+        "id": "E026",
+        "reports": [
+          {
+            "source": "experiments/E026_fixed_gap_bound_and_cell_audit.md",
+            "sha256": "a0c697438a84080b01744f45845d7c3d6096f19e7494a94edb82818489522984"
+          }
+        ]
+      },
+      {
+        "id": "E027",
+        "reports": [
+          {
+            "source": "experiments/E027_dual_facet_pairing_obstruction.md",
+            "sha256": "4a7ec75f86d0eaa9d33df0280e816f9f3e2fe456859c95ee7ed20efcf19a56a0"
+          }
+        ]
+      },
+      {
+        "id": "E028",
+        "reports": [
+          {
+            "source": "experiments/E028_gap12_source_feasibility.md",
+            "sha256": "38e04cdd5c1711e8f313f4230341ab36b73bf955a17a38a596795101aaf23de6"
+          }
+        ]
+      },
+      {
+        "id": "E029",
+        "reports": [
+          {
+            "source": "experiments/E029_odd_gap_zero_loss.md",
+            "sha256": "9dd88e06215479dbb5a79813035c8ea1022870b9f63c8cf376a3dd35af9ffb1c"
+          }
+        ]
+      },
+      {
+        "id": "E030",
+        "reports": [
+          {
+            "source": "experiments/E030_warrington_gap11_loss.md",
+            "sha256": "e3c25c018fa2a470403d728d60702e54a655be4e2ab60a32753ff9b41cb56fd7"
+          }
+        ]
+      },
+      {
+        "id": "E031",
+        "reports": [
+          {
+            "source": "experiments/E031_polo_fixed_gap_obstruction.md",
+            "sha256": "f0c87c8b427cd70e3abb591fa392e6aa48edd1a6c73c86e7c8f38b90db467eb0"
+          }
+        ]
+      },
+      {
+        "id": "E032",
+        "reports": [
+          {
+            "source": "experiments/E032_mu5_ls_decompression_obstruction.md",
+            "sha256": "280f1f12c9bf6655c4ab4ae71d03ac8d0e9564baf116be180ef59493d9b0b3ad"
+          }
+        ]
+      },
+      {
+        "id": "E033",
+        "reports": [
+          {
+            "source": "experiments/E033_c012_transport_depth.md",
+            "sha256": "814343ba030d0d2ddc3d67c7c9e3c175c2649866d750fa3950289a21905f7c59"
+          }
+        ]
+      },
+      {
+        "id": "E034",
+        "reports": [
+          {
+            "source": "experiments/E034_normalized_depth3_obstruction.md",
+            "sha256": "9a882b3286c3363a633262566683bc4e3fc5f507ddeca6b9bfa8f1f957d24b5b"
+          }
+        ]
+      },
+      {
+        "id": "E035",
+        "reports": [
+          {
+            "source": "experiments/E035_staged_depth2_closure.md",
+            "sha256": "56ad9bf9cc6636287a5d22b919503ce169201174e8b4b5683c4860d480057e5e"
+          }
+        ]
+      },
+      {
+        "id": "E036",
+        "reports": [
+          {
+            "source": "experiments/E036_double_tail_insertion_obstruction.md",
+            "sha256": "9e187d63027894d15a0cc731188085ab0b4ed88cb0b10b3938b52984753b5bd3"
+          }
+        ]
+      },
+      {
+        "id": "E037",
+        "reports": [
+          {
+            "source": "experiments/E037_published_mu5_rank11_spectrum.md",
+            "sha256": "c2a7d594d02dc8e3b021c6c1cd33642cbd208f3884ebbeb45da4426192a41830"
+          }
+        ]
+      },
+      {
+        "id": "E038",
+        "reports": [
+          {
+            "source": "experiments/E038_direct_rank12_pure_depth6.md",
+            "sha256": "41a3ccef10607b2dabf6fd7a211d5541c7777b63a1deb7ac38b028942953c930"
+          }
+        ]
+      },
+      {
+        "id": "E039",
+        "reports": [
+          {
+            "source": "experiments/E039_explicit_rank12_gap11_bridge.md",
+            "sha256": "5dc6e5c992745ee0b5b00dd53081b71fe3b12edc696a93357c372d4ed111917a"
+          }
+        ]
+      },
+      {
+        "id": "E040",
+        "reports": [
+          {
+            "source": "experiments/E040_extremal_crosshatch_gap11_census.md",
+            "sha256": "c89876bf52e46b996886d051a2119ba749495d25513dae07c47a1815d0abea99"
+          }
+        ]
+      },
+      {
+        "id": "E041",
+        "reports": [
+          {
+            "source": "experiments/E041_q008_matched_core_diagnostic.md",
+            "sha256": "a19940c87b04825554c18749b86c34f0a776b240bee1b8ab927057f8979d34f2"
+          }
+        ]
+      },
+      {
+        "id": "E042",
+        "reports": [
+          {
+            "source": "experiments/E042_terminal_atom_certificate.md",
+            "sha256": "4f9b9116e343a42fc32ad7aef29f533adac307a09edb36f93b69f164f70f8022"
+          }
+        ]
+      },
+      {
+        "id": "E043",
+        "reports": [
+          {
+            "source": "experiments/E043_atom_rectangle_diagnostic.md",
+            "sha256": "86ba09bd95842db2e6dff68befbf12ed4fcc83d807350aa6d979236d69eca2b6"
+          }
+        ]
+      },
+      {
+        "id": "E044",
+        "reports": [
+          {
+            "source": "experiments/E044_upper_label_filters.md",
+            "sha256": "8cde39c769d8746541a0179a76a0668cf014d9ee4b1dbcce0d48e49c89b72228"
+          }
+        ]
+      },
+      {
+        "id": "E045",
+        "reports": [
+          {
+            "source": "experiments/E045_local_upper_label_statistics.md",
+            "sha256": "4688f05de09ea9721d160660aea59860a45efa3124ff9874328011f7395fa133"
+          }
+        ]
+      },
+      {
+        "id": "E046",
+        "reports": [
+          {
+            "source": "experiments/E046_compact_upper_label_baseline.md",
+            "sha256": "7bcf44f521571e2ce1b6702609db9acb2919c2a6754763a55af0294aa5a60e63"
+          }
+        ]
+      },
+      {
+        "id": "E047",
+        "reports": [
+          {
+            "source": "experiments/E047_hecke_boundary_reformulation.md",
+            "sha256": "43109fbd73911273492c1bb3a4a2ce29759cee0387e857b9c2d3205c5c072dca"
+          }
+        ]
+      },
+      {
+        "id": "E048",
+        "reports": [
+          {
+            "source": "experiments/E048_down_up_boundary_operator.md",
+            "sha256": "992e7672bcf819cd62c6c9edceb7ef168d01f00cefe66d11455641eafccbaeb9"
+          }
+        ]
+      },
+      {
+        "id": "E049",
+        "reports": [
+          {
+            "source": "experiments/E049_one_descent_minimizers.md",
+            "sha256": "a4eb9647ed2cb47506ce382297002bee3e2f7e5714429f49c202c30cf51d2727"
+          }
+        ]
+      },
+      {
+        "id": "E050",
+        "reports": [
+          {
+            "source": "experiments/E050_star_transport_boundary.md",
+            "sha256": "b708db7807d74ebd9c6511fb1e6ab2a23db080498f474b5ded145024cd74d42c"
+          }
+        ]
+      },
+      {
+        "id": "E051",
+        "reports": [
+          {
+            "source": "experiments/E051_replacement_atom_bifurcation.md",
+            "sha256": "a4085a9aa89c0d17a927f3835212d9bcfd2924b95735a68be916c6b43153de0c"
+          }
+        ]
+      },
+      {
+        "id": "E052",
+        "reports": [
+          {
+            "source": "experiments/E052_geometric_tree_design.md",
+            "sha256": "52e2f85a9b9b0a949b28c66fd98838e7103ac300fc9aaf2d80b584bcd58e7da2"
+          },
+          {
+            "source": "experiments/E052_geometric_tree_results.md",
+            "sha256": "a71b0b9478191ad68d0fd31ca90ecd3f4aa8a859a0cebc6a5a076cb75b0029ee"
+          }
+        ]
+      },
+      {
+        "id": "E053",
+        "reports": [
+          {
+            "source": "experiments/E053_basin_star_certificates.md",
+            "sha256": "7806a9687b9e786e5947ae88a9c2a224fe2a60e42e3524eafea938672518a2c3"
+          }
+        ]
+      },
+      {
+        "id": "E054",
+        "reports": [
+          {
+            "source": "experiments/E054_uncovered_unit_probes.md",
+            "sha256": "981efe9458e3d2f8f526cf32e55f2e29888c949c8f982ff32a699b0618d65f2e"
+          }
+        ]
+      },
+      {
+        "id": "E055",
+        "reports": [
+          {
+            "source": "experiments/E055_cancellation_boundary_certificates.md",
+            "sha256": "a7879f513b690180bcbad96d2438ac7e17e226362e141cd11f9f57b27fda00ca"
+          }
+        ]
+      },
+      {
+        "id": "E056",
+        "reports": [
+          {
+            "source": "experiments/E056_support_factorization_controls.md",
+            "sha256": "ae0192a41e5ff1d5206626063c70d1251fa80a39d65090bccf762a0b9ea5208e"
+          }
+        ]
+      },
+      {
+        "id": "E057",
+        "reports": [
+          {
+            "source": "experiments/E057_crosshatch_genus_zero_obstruction.md",
+            "sha256": "7370578225fb5bccf7919d8dee30f80308c3885ecb9b09a3d0925534797479a1"
+          }
+        ]
+      },
+      {
+        "id": "E058",
+        "reports": [
+          {
+            "source": "experiments/E058_fresh_genus_zero_probes.md",
+            "sha256": "8e56ad30b5f27df6444d96e3be651d3c54997154debbb74d69e7ff790c24a567"
+          }
+        ]
+      },
+      {
+        "id": "E059",
+        "reports": [
+          {
+            "source": "experiments/E059_common_descent_compression_controls.md",
+            "sha256": "63b565f0e8feb8baf2a2e08c51129e3e202ee2bbc0531e540f31feb8b33e0851"
+          }
+        ]
+      },
+      {
+        "id": "E060",
+        "reports": [
+          {
+            "source": "experiments/E060_common_point_genus_deletion.md",
+            "sha256": "40bb8fdf98006896007bad675eb7ffc95cb1c2d7c98f3bb44d57a5793f3202bf"
+          }
+        ]
+      },
+      {
+        "id": "E061",
+        "reports": [
+          {
+            "source": "experiments/E061_fixed_point_free_probe.md",
+            "sha256": "592876f92e4fd5692c6fa24660dd3ef128831951504232ea6fcc5329919cf06a"
+          }
+        ]
+      },
+      {
+        "id": "E062",
+        "reports": [
+          {
+            "source": "experiments/E062_proof_attempt_and_descent_gain.md",
+            "sha256": "9eaa3e8229b0fb67e6b511ee1a20bd1a1b5b0898db533a347d1ce131bb37d31e"
+          }
+        ]
+      }
+    ]
+  },
+  "manuscript_snapshot": {
+    "archive": "patternmining.zip",
+    "sha256": "3ce3a1c757ce45bf263217da1048da200505c83a2e61a01f4e5463197aa1ff74",
+    "coverage": "paper/results.md#manuscript-coverage-and-accounting"
+  }
+}

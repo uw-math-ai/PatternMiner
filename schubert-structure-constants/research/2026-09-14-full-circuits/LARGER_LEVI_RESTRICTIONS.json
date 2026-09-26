@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "source_sha256": "c6b41c2e33b0c50d5c66c8c0e6e4b3ff164e3934ffe1f9048c0f29c5ca4ed1eb",
+  "projection_source_sha256": "94004e582644c9472c449afbce79f438e4369eedc1d859deba324a9f30a16def",
+  "inputs": 124,
+  "originally_failed_pairs": 30,
+  "correct_control_pairs": 32,
+  "initially_incorrect_inputs": 30,
+  "remaining_incorrect_inputs": 28,
+  "fixed": 2,
+  "lost": 0,
+  "candidate_exclusions_by_semisimple_rank": {
+    "4": 8,
+    "5": 10,
+    "6": 17,
+    "7": 16
+  },
+  "excluded_valid_targets": 0,
+  "exact_product_queries": 0,
+  "artifact_sha256": "d809f4cc43bbef54c16af548b973c9570c75707313d849647edd74ac93908d1a",
+  "scope": "All thirty newly exposed S10 pair failures and thirty-two deterministic correct control pairs. Test every consecutive block with five through eight values. Inference uses only permutations and the proven necessary length condition; exact targets are used for evaluation only. No prediction on the replacement assessment is read."
+}

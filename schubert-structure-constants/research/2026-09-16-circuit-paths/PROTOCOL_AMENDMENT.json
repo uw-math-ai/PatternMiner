@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-16",
+  "user_instruction": "It\u2019s fine you\u2019re being too rigid. Please do circuit analysis already",
+  "proceed_with_circuit_analysis": true,
+  "change": "Remove the 99% independent accuracy prerequisite for circuit experiments. Retain the checkpoint, split, exact labels, component selection rules, causal controls and full-cohort reporting.",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "assessment": "The S10 assessment contains 1874/1902 correct hard pairs (98.528%); no accuracy pass is claimed.",
+  "resources": "Continue the cumulative ledger without an allowance reset. No new exact-product queries.",
+  "frozen_evidence": "All earlier experiment files and the manuscript remain unchanged."
+}

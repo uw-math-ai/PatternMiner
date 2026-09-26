@@ -1,0 +1,308 @@
+{
+  "role": "Exploratory second-hop study motivated by completed path experiments",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "df69a5baf759a5bf5ca46c6925add5dd7038219a2d4410d070d023160192df07",
+  "cohorts": [
+    "confirmation",
+    "matched_development"
+  ],
+  "path": "L0 noncandidate hidden units -> L1 keys/values -> L1 attention outputs at noncandidate positions -> positionwise residual/MLP transformations -> Lk keys/values -> Lk attention outputs at candidate positions -> downstream decision, for k=2,3,4,5.",
+  "isolation": "Restore intervening attention outputs to native destination values. Candidate residual states must remain exactly unchanged before the receiving attention layer. Replay only the receiving keys/values, then only its candidate attention outputs. All other incoming states are restored at each replay.",
+  "meaning": "These are controlled path effects, not additive components of a mathematical algorithm.",
+  "uncertainty": "Descriptive group-bootstrap intervals; only four orbits in the matched development cohort.",
+  "status": "completed",
+  "results": {
+    "confirmation": {
+      "inputs": 498,
+      "factor_orbits": 22,
+      "checks": {
+        "candidate_state_before_receiver": 0.0,
+        "identity": 0.0
+      },
+      "effects": {
+        "effect_all_first_32": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 7.625770092010498,
+          "factor_group_mean": 8.47121810913086,
+          "group_bootstrap_95_percent": [
+            5.8471415638923645,
+            11.263536334037777
+          ]
+        },
+        "effect_other_first_32": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 1.4193135499954224,
+          "factor_group_mean": 1.622768521308899,
+          "group_bootstrap_95_percent": [
+            0.6657220974564553,
+            2.8040402114391325
+          ]
+        },
+        "effect_receiver_2_32": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 0.993733823299408,
+          "factor_group_mean": 1.034324288368225,
+          "group_bootstrap_95_percent": [
+            0.4912765666842461,
+            1.6868192672729483
+          ]
+        },
+        "effect_receiver_3_32": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 0.14653006196022034,
+          "factor_group_mean": 0.08836184442043304,
+          "group_bootstrap_95_percent": [
+            -0.1364858064800501,
+            0.26566988974809647
+          ]
+        },
+        "effect_receiver_4_32": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 0.05362851545214653,
+          "factor_group_mean": 0.044666942209005356,
+          "group_bootstrap_95_percent": [
+            -0.003988621151074767,
+            0.09274567328393456
+          ]
+        },
+        "effect_receiver_5_32": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 0.027428893372416496,
+          "factor_group_mean": -0.00202004611492157,
+          "group_bootstrap_95_percent": [
+            -0.06542030014097691,
+            0.05573402130976314
+          ]
+        },
+        "effect_all_first_384": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 11.120369911193848,
+          "factor_group_mean": 11.657873153686523,
+          "group_bootstrap_95_percent": [
+            8.793569254875184,
+            14.857273030281062
+          ]
+        },
+        "effect_other_first_384": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 2.7550623416900635,
+          "factor_group_mean": 2.7548506259918213,
+          "group_bootstrap_95_percent": [
+            1.6918260365724564,
+            3.939647221565245
+          ]
+        },
+        "effect_receiver_2_384": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 1.9114506244659424,
+          "factor_group_mean": 2.224879503250122,
+          "group_bootstrap_95_percent": [
+            1.2821777701377868,
+            3.3900450766086574
+          ]
+        },
+        "effect_receiver_3_384": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 0.38762637972831726,
+          "factor_group_mean": 0.22521252930164337,
+          "group_bootstrap_95_percent": [
+            -0.007987143099308014,
+            0.40549010485410686
+          ]
+        },
+        "effect_receiver_4_384": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 0.06575753539800644,
+          "factor_group_mean": 0.06555169075727463,
+          "group_bootstrap_95_percent": [
+            0.02700628093443811,
+            0.1038157334551215
+          ]
+        },
+        "effect_receiver_5_384": {
+          "inputs": 498,
+          "groups": 22,
+          "input_mean": 0.030352476984262466,
+          "factor_group_mean": 0.005200227722525597,
+          "group_bootstrap_95_percent": [
+            -0.04585361201316118,
+            0.04925248874351381
+          ]
+        }
+      },
+      "source_choice_counts": {
+        "source_good_all_first_32": 50,
+        "source_good_other_first_32": 2,
+        "source_good_receiver_2_32": 2,
+        "source_good_receiver_3_32": 0,
+        "source_good_receiver_4_32": 1,
+        "source_good_receiver_5_32": 1,
+        "source_good_all_first_384": 75,
+        "source_good_other_first_384": 6,
+        "source_good_receiver_2_384": 3,
+        "source_good_receiver_3_384": 1,
+        "source_good_receiver_4_384": 1,
+        "source_good_receiver_5_384": 1
+      },
+      "source_data_sha256": "088d17d2eb4098b4f76e62749e8dffbdf712f95f19c48c3a68865b3b2366935a",
+      "artifact_sha256": "23249f0ab24c6f8a7c46c5d3523a266497edef171b12066494da0f1aa4891517"
+    },
+    "matched_development": {
+      "inputs": 16,
+      "factor_orbits": 4,
+      "checks": {
+        "candidate_state_before_receiver": 0.0,
+        "identity": 0.0
+      },
+      "effects": {
+        "effect_all_first_32": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 16.264766693115234,
+          "factor_group_mean": 11.592124938964844,
+          "group_bootstrap_95_percent": [
+            2.2468438148498535,
+            20.937406539916992
+          ]
+        },
+        "effect_other_first_32": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 7.221604347229004,
+          "factor_group_mean": 5.585188388824463,
+          "group_bootstrap_95_percent": [
+            2.3123557567596436,
+            8.858020782470703
+          ]
+        },
+        "effect_receiver_2_32": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 4.460564613342285,
+          "factor_group_mean": 3.3721537590026855,
+          "group_bootstrap_95_percent": [
+            1.1953327655792236,
+            5.548975467681885
+          ]
+        },
+        "effect_receiver_3_32": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 1.5244460105895996,
+          "factor_group_mean": 1.1335816383361816,
+          "group_bootstrap_95_percent": [
+            0.23517854511737823,
+            2.414473533630371
+          ]
+        },
+        "effect_receiver_4_32": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": -0.11448729038238525,
+          "factor_group_mean": -0.12935233116149902,
+          "group_bootstrap_95_percent": [
+            -0.21503709256649017,
+            -0.013937476091086864
+          ]
+        },
+        "effect_receiver_5_32": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 0.055184245109558105,
+          "factor_group_mean": 0.06648866832256317,
+          "group_bootstrap_95_percent": [
+            0.03275235742330551,
+            0.10257697105407715
+          ]
+        },
+        "effect_all_first_384": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 25.82447052001953,
+          "factor_group_mean": 24.02518081665039,
+          "group_bootstrap_95_percent": [
+            18.513080596923828,
+            29.63736343383789
+          ]
+        },
+        "effect_other_first_384": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 10.809242248535156,
+          "factor_group_mean": 9.974349975585938,
+          "group_bootstrap_95_percent": [
+            7.753874778747559,
+            12.033282279968262
+          ]
+        },
+        "effect_receiver_2_384": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 5.708928108215332,
+          "factor_group_mean": 4.888214111328125,
+          "group_bootstrap_95_percent": [
+            3.2467851638793945,
+            6.529642581939697
+          ]
+        },
+        "effect_receiver_3_384": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 2.460803985595703,
+          "factor_group_mean": 2.3024048805236816,
+          "group_bootstrap_95_percent": [
+            1.9484649896621704,
+            2.9017033636569978
+          ]
+        },
+        "effect_receiver_4_384": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 0.04219776391983032,
+          "factor_group_mean": 0.026633061468601227,
+          "group_bootstrap_95_percent": [
+            -0.1957414150238037,
+            0.24900753796100616
+          ]
+        },
+        "effect_receiver_5_384": {
+          "inputs": 16,
+          "groups": 4,
+          "input_mean": 0.16439980268478394,
+          "factor_group_mean": 0.16675332188606262,
+          "group_bootstrap_95_percent": [
+            -0.06666342914104462,
+            0.4048771560192108
+          ]
+        }
+      },
+      "source_choice_counts": {
+        "source_good_all_first_32": 7,
+        "source_good_other_first_32": 0,
+        "source_good_receiver_2_32": 0,
+        "source_good_receiver_3_32": 0,
+        "source_good_receiver_4_32": 0,
+        "source_good_receiver_5_32": 0,
+        "source_good_all_first_384": 12,
+        "source_good_other_first_384": 1,
+        "source_good_receiver_2_384": 0,
+        "source_good_receiver_3_384": 0,
+        "source_good_receiver_4_384": 0,
+        "source_good_receiver_5_384": 0
+      },
+      "source_data_sha256": "5d5a9c20cc8a9c8ac9d7722bc275078c9d3420fa50333bc4269596eddc5c3624",
+      "artifact_sha256": "c16d7f054e29c575600d64846464e212bebfabae7bc079e181c7174f014c5dfd"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "counts": {
+    "odd_noncover_intervals": 1495,
+    "long_element_checks": 1495,
+    "leading_recurrences": 1571,
+    "off_order_recurrences": 682,
+    "canonical_positive_starts": 4,
+    "telescoping_paths": 8,
+    "path_steps": 8
+  },
+  "negative_gain_control": {
+    "x": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "w": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "s": 2,
+    "A": 1,
+    "C": 2
+  },
+  "full_polynomial_symmetry_counterexample": {
+    "x": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "w": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "P": [
+      1,
+      1
+    ],
+    "dual_P": [
+      1
+    ],
+    "mu": 0
+  },
+  "seconds": 0.511
+}

@@ -1,0 +1,2 @@
+{"rows": 4683591, "queries": 9000}
+{"name": "exact_current_failure_neighbors", "status": "completed", "wall_seconds": 2890.4752787670586, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 9000}

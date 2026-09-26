@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "cumulative_use": {
+    "wall_seconds": 45291.776283416315,
+    "gpu_seconds_charged": 39202.70300570375,
+    "exact_queries": 84959
+  },
+  "remaining": {
+    "wall_seconds": 5108.223716583685,
+    "gpu_seconds_charged": 397.2969942962518,
+    "exact_queries": 41
+  },
+  "storage": {
+    "scope": "The five autoresearch experiment directories, including symlinked caches and checkpoints; count each physical inode once",
+    "bytes_by_directory": {
+      "2026-09-13-autoresearch-circuits": 15994640,
+      "2026-09-13-witness-accuracy": 809148621,
+      "2026-09-13-circuit-readiness": 794271461,
+      "2026-09-14-reliable-circuits": 2666781938,
+      "2026-09-14-richardson-circuits": 2847364255
+    },
+    "total_bytes": 7133560915,
+    "root_free_bytes": 3068018688,
+    "data_volume_free_bytes": 125049757696
+  },
+  "source_sha256": "56ad34b26bd1722aaa295744562d1c1131b85393ecf8ab071c4e5618927b4b58"
+}

@@ -1,0 +1,92 @@
+{
+  "selected": "deeper_attention",
+  "checkpoint_sha256": "11de25b7ed3603ededdd9b605864210eb8b76e5a03abcbfb4eab1065a96e3272",
+  "threshold": 0.99,
+  "populations": {
+    "fresh_S9_assessment": {
+      "n": 81890,
+      "top1": 0.9754182439858347,
+      "mean_oracle_calls": 1.0294907803150568,
+      "random_expected_calls": 1.5681314364798307,
+      "correct": 79877,
+      "errors": 2013,
+      "product_groups": 40,
+      "mean_product_group_top1": 0.9754419988702061,
+      "multiple_candidates": {
+        "n": 81890,
+        "correct": 79877,
+        "top1": 0.9754182439858347
+      },
+      "contains_invalid_candidate": {
+        "n": 60449,
+        "correct": 58436,
+        "top1": 0.9666992009793379
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.9635597083816793,
+        0.9850347582382076
+      ],
+      "oriented_triples": 42998,
+      "triples_correct_for_every_valid_supplied_witness": 41178,
+      "all_witnesses_correct_rate": 0.9576724498813899
+    },
+    "fresh_S10_assessment": {
+      "n": 138521,
+      "top1": 0.9768988095667804,
+      "mean_oracle_calls": 1.0260032774813928,
+      "random_expected_calls": 1.5584834309117992,
+      "correct": 135321,
+      "errors": 3200,
+      "product_groups": 20,
+      "mean_product_group_top1": 0.9767483959791576,
+      "multiple_candidates": {
+        "n": 138521,
+        "correct": 135321,
+        "top1": 0.9768988095667804
+      },
+      "contains_invalid_candidate": {
+        "n": 102602,
+        "correct": 99402,
+        "top1": 0.9688115241418296
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.9703022092964803,
+        0.9817866908023551
+      ],
+      "oriented_triples": 71782,
+      "triples_correct_for_every_valid_supplied_witness": 68924,
+      "all_witnesses_correct_rate": 0.9601850045972528
+    },
+    "matched_pairs": {
+      "n": 1521,
+      "top1": 0.8823142669296515,
+      "mean_oracle_calls": 1.1354372123602894,
+      "random_expected_calls": 1.794104755643217,
+      "correct": 1342,
+      "errors": 179,
+      "product_groups": 71,
+      "mean_product_group_top1": 0.8665548698318772,
+      "multiple_candidates": {
+        "n": 1521,
+        "correct": 1342,
+        "top1": 0.8823142669296515
+      },
+      "contains_invalid_candidate": {
+        "n": 1521,
+        "correct": 1342,
+        "top1": 0.8823142669296515
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.8323126353356324,
+        0.9198402574605032
+      ],
+      "oriented_triples": 916,
+      "triples_correct_for_every_valid_supplied_witness": 763,
+      "all_witnesses_correct_rate": 0.8329694323144105
+    }
+  },
+  "historical_gate_met": false,
+  "behavior_ready": false,
+  "fresh_assessment_opened_after_selection": true,
+  "interpretation": "Finite sampled assessment, not a proof of mathematical correctness"
+}

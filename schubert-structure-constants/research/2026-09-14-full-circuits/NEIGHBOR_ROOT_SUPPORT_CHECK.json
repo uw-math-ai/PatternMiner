@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "source_sha256": "60c50616f61fe7247ae2ae2f866a46e06cf379a1f4513a98a17ea5342118a746",
+  "root_sha256": "7bddc3bdd7fc0aa4a31ca06c85e58f91fbfe2a2e3925b6675a932f48a6c84222",
+  "neighbor_data_sha256": "fe52e2090216c416c99e7ce1b68961eccb84cb0d2fdd135c30018e4d2daa0399",
+  "new_counts": {
+    "rows": 4683591,
+    "disconnected": 0,
+    "not_root_multiple": 3418457,
+    "nonunimodal": 394299
+  },
+  "examples": {
+    "not_root_multiple": {
+      "row": 636,
+      "Q": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "nonunimodal": {
+      "row": 1803,
+      "Q": [
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        10,
+        7,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "previous_census_sha256": "75ce51701c38ff08499e581ede3ebbb7daa4ce69a903c83dd9e91fa4dfbd0b24",
+  "combined_counts": {
+    "rows": 10186170,
+    "disconnected": 0,
+    "not_root_multiple": 7095903,
+    "nonunimodal": 899300
+  },
+  "exact_product_queries": 0,
+  "scope": "Entries in two retained exact corpora; counts need not be counts of distinct coefficient polynomials. No new exact-product queries and no assessment data are used."
+}

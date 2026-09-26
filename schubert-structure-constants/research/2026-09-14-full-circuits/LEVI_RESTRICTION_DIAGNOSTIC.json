@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "role": "Explicit theorem-based filtering of already exposed predictions; not a newly trained model or independent qualification",
+  "source_sha256": "ecfaf2e04e7d8fc2f3a6590a2f8b14096988efab9aaf296297d4d94b69c01dfc",
+  "checkpoint_sha256": "78d0b541c105e1a20f6e1944298b266d7ea5e435453ddd27caa79d68b74239aa",
+  "prediction_archive_sha256": "81e5fef29fa278474e52690aa42baac11b94d62d4f7995732dce28a3cf97dd9f",
+  "feature_report_sha256": "b53348776077feda3902e5e643b3d9ec39d4c2020840de11f0a26713db1e313f",
+  "inputs": 10138,
+  "errors_before": 51,
+  "errors_after": 51,
+  "corrected": 0,
+  "lost": 0,
+  "wrong_choices_excluded": 0,
+  "populations": {
+    "hard_validation": {
+      "pairs": 212,
+      "correct_before": 211,
+      "correct_after": 211,
+      "accuracy_before": 0.9952830188679245,
+      "accuracy_after": 0.9952830188679245
+    },
+    "historical_pairs": {
+      "pairs": 458,
+      "correct_before": 458,
+      "correct_after": 458,
+      "accuracy_before": 1.0,
+      "accuracy_after": 1.0
+    },
+    "S9_exposed_pairs": {
+      "pairs": 207,
+      "correct_before": 204,
+      "correct_after": 204,
+      "accuracy_before": 0.9855072463768116,
+      "accuracy_after": 0.9855072463768116
+    },
+    "S10_exposed_pairs": {
+      "pairs": 270,
+      "correct_before": 270,
+      "correct_after": 270,
+      "accuracy_before": 1.0,
+      "accuracy_after": 1.0
+    },
+    "fresh_S9_validation_pairs": {
+      "pairs": 86,
+      "correct_before": 86,
+      "correct_after": 86,
+      "accuracy_before": 1.0,
+      "accuracy_after": 1.0
+    },
+    "fresh_S10_validation_pairs": {
+      "pairs": 518,
+      "correct_before": 518,
+      "correct_after": 518,
+      "accuracy_before": 1.0,
+      "accuracy_after": 1.0
+    },
+    "exposed_fresh_S8_pairs": {
+      "pairs": 14,
+      "correct_before": 14,
+      "correct_after": 14,
+      "accuracy_before": 1.0,
+      "accuracy_after": 1.0
+    },
+    "exposed_fresh_S9_pairs": {
+      "pairs": 289,
+      "correct_before": 284,
+      "correct_after": 284,
+      "accuracy_before": 0.9826989619377162,
+      "accuracy_after": 0.9826989619377162
+    },
+    "exposed_fresh_S10_pairs": {
+      "pairs": 998,
+      "correct_before": 980,
+      "correct_after": 980,
+      "accuracy_before": 0.9819639278557114,
+      "accuracy_after": 0.9819639278557114
+    }
+  },
+  "artifact_sha256": "15d1b7b9208a98984ef2989d21a481270026e6dca295e6490cf94d86b01207db"
+}

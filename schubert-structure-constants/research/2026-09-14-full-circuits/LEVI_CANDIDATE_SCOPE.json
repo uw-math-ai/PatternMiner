@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "source_report_sha256": "85e41d655a7614b186bb77d6f0e0bac8150f33d12a47fb7a746461be048e74a4",
+  "incorrect_inputs": 51,
+  "outside_root_support": 7,
+  "rank_at_most_three_excluded_by_blindness": 51,
+  "convention": "Stored predicted_index is zero based; support indices are one based.",
+  "reason": "The interval must contain both the full root support and the candidate index whose ordinary coefficient is tested."
+}

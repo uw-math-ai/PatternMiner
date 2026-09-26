@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "counts": {
+    "words": 59276,
+    "contiguous_subwords": 1597416,
+    "intervals": 4017,
+    "all_nested_intervals_S_le_4": 4056,
+    "canonical_nonsingleton_factors": 4333,
+    "endpoint_facet_heredity": 22364,
+    "genus_zero_connected_facets": 7266
+  },
+  "genus_histogram": {
+    "S1:g0": 1,
+    "S2:g0": 3,
+    "S3:g0": 19,
+    "S4:g0": 208,
+    "S4:g1": 5,
+    "S5:g0": 3422,
+    "S5:g1": 330,
+    "S5:g2": 29
+  },
+  "twelve_position_genus_zero_pairs_d_le_13": [
+    [
+      11,
+      1
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      13,
+      3
+    ]
+  ],
+  "elapsed_seconds": 7.497,
+  "scope": "Independent finite controls; symbolic audit supplies universal reasoning. No KL coefficient bound tested or implied."
+}

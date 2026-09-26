@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "outputs": [
+    {
+      "path": "artifacts/CIRCUIT_FIGURE.png",
+      "sha256": "39bcd8918d843d0bfb5030ca0f51b2e06b4d07dd681cc5882f837710cae8f695"
+    },
+    {
+      "path": "artifacts/CIRCUIT_FIGURE.pdf",
+      "sha256": "181d8401a2f6da89046ec1cbd729439f910ed9062899257451d2e59630dd7b4a"
+    },
+    {
+      "path": "artifacts/CIRCUIT_FIGURE.svg",
+      "sha256": "ebb0de96dd8143becff5e896ffc64b3ef6c35f2dd60a23b7d0bdeeb22a95c4a5"
+    }
+  ],
+  "source_sha256": "f31b8287d251ef96ec876aa9c7c4b360e25558b3fca1adbadb00a2ac11cdfe5d",
+  "sources": {
+    "EXPANDED_DECOMPOSITION": "584ba9f6b900e442564b02fe8eb5ec6131663cb5a81d643f7c0b6dbad73028cd",
+    "ENDPOINT_RECEPTION": "4e8424b00007597f3be1899ecac5718d5085a6931b713c043d0c888f3631e27c",
+    "SUPPORT_CONTROLS": "bd4d9229979e55c9371fb36d495ee1802700ec1a3a1c6b79dbdc1ff38673842e"
+  },
+  "caption": "Means give equal weight to canonical factor orbits. Error bars are exploratory 95% bootstrap intervals over those orbits. Panels A\u2013C exclude all 53 factor orbits used in the earlier neuron analysis; panel D uses the preselected matched donors. A hidden-unit pair consists of indices k and k+384. The target contrast compares the valid indices of the paired opposite-support example with those of the destination. These effects are not additive and do not constitute independent confirmation. The selected checkpoint has minimum development accuracy 98.20%."
+}

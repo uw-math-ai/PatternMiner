@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/run_sampling_comparison.py", line 34, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/run_sampling_comparison.py", line 23, in main
+    subprocess.run(command,stdout=out,stderr=subprocess.STDOUT,check=True)
+  File "<conda-env>/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['<conda-env>/bin/python', 'schubert-structure-constants/research/2026-09-14-full-circuits/train_selector.py', '--arm', 'pinned_error_control', '--initial', 'schubert-structure-constants/research/2026-09-14-richardson-circuits/artifacts/root_action_training.pt', '--steps', '6000', '--evaluate-every', '1000', '--wall-limit', '1500', '--base-lr', '2e-5', '--extra-lr', '6e-5', '--root-action-lr', '5e-4', '--fresh', '--adaptive', '--screened', '--exposed-assessment', '--error-refresh-every', '1000', '--mining-samples', '250000', '--paired-views', '128', '--hard-supplied', 'mixed', '--pinned-errors']' returned non-zero exit status 1.

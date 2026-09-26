@@ -1,0 +1,2637 @@
+[
+  {
+    "name": "CIRCUIT_RESULTS.json",
+    "status": "failed_or_partial",
+    "wall_seconds": 20.163528834003955,
+    "gpu_seconds_charged": 20.163528834003955,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "forward_diagnostic",
+    "status": "completed",
+    "wall_seconds": 0.9761499490123242,
+    "gpu_seconds_charged": 0.9761499490123242,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "CIRCUIT_RESULTS_v2.json",
+    "status": "completed",
+    "wall_seconds": 16.370468609035015,
+    "gpu_seconds_charged": 16.370468609035015,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "LOCAL_INFORMATION.json",
+    "status": "completed",
+    "wall_seconds": 6.7163301090477034,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "LOCAL_INFORMATION_VERIFIED.json",
+    "status": "failed_or_partial",
+    "wall_seconds": 4.165504253935069,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 2039
+  },
+  {
+    "name": "LOCAL_INFORMATION_VERIFIED_v2.json",
+    "status": "passed",
+    "wall_seconds": 0.032723137992434204,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 12
+  },
+  {
+    "name": "MATCHED_CIRCUITS.json",
+    "status": "completed",
+    "wall_seconds": 0.6662570190383121,
+    "gpu_seconds_charged": 0.6662570190383121,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "CONTEXT_FOLLOWUP.json",
+    "status": "completed",
+    "wall_seconds": 15.921240927069448,
+    "gpu_seconds_charged": 15.921240927069448,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 6
+  },
+  {
+    "name": "QK_RESULTS.json",
+    "status": "completed",
+    "wall_seconds": 0.9511695589171723,
+    "gpu_seconds_charged": 0.9511695589171723,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "DIVIDED_DIFFERENCES_VERIFIED.json",
+    "status": "passed",
+    "wall_seconds": 0.029291893006302416,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 14
+  },
+  {
+    "name": "REPLAY_VERIFICATION.json",
+    "status": "passed",
+    "wall_seconds": 23.703324695001356,
+    "gpu_seconds_charged": 23.703324695001356,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 14
+  },
+  {
+    "name": "accuracy_prepare",
+    "status": "completed",
+    "wall_seconds": 43.74427842500154,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_train",
+    "status": "completed",
+    "wall_seconds": 213.0899519029772,
+    "gpu_seconds_charged": 213.0899519029772,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_assess",
+    "status": "completed",
+    "wall_seconds": 5.837567740003578,
+    "gpu_seconds_charged": 5.837567740003578,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_training_fit",
+    "status": "completed",
+    "wall_seconds": 8.512421946041286,
+    "gpu_seconds_charged": 8.512421946041286,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_verification",
+    "status": "completed",
+    "wall_seconds": 1.0656967419199646,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_rank_followup",
+    "status": "completed",
+    "wall_seconds": 248.12567604903597,
+    "gpu_seconds_charged": 248.12567604903597,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_training_error_mining",
+    "status": "completed",
+    "wall_seconds": 10.521574862999842,
+    "gpu_seconds_charged": 10.521574862999842,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_cache_rebuild",
+    "status": "completed",
+    "wall_seconds": 34.74252278194763,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_verification_replay",
+    "status": "completed",
+    "wall_seconds": 1.0660628440091386,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "implementation_check",
+    "status": "completed",
+    "wall_seconds": 0.6763570560142398,
+    "gpu_seconds_charged": 0.6763570560142398,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "hard_fit_train",
+    "status": "completed",
+    "wall_seconds": 45.528796895057894,
+    "gpu_seconds_charged": 45.528796895057894,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "uniform_no_dropout_train",
+    "status": "completed",
+    "wall_seconds": 113.28571296995506,
+    "gpu_seconds_charged": 113.28571296995506,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "hard_quarter_train",
+    "status": "completed",
+    "wall_seconds": 113.98403013299685,
+    "gpu_seconds_charged": 113.98403013299685,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "uniform_no_dropout_assess",
+    "status": "completed",
+    "wall_seconds": 8.179941512993537,
+    "gpu_seconds_charged": 8.179941512993537,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "hard_quarter_assess",
+    "status": "completed",
+    "wall_seconds": 8.113911702064797,
+    "gpu_seconds_charged": 8.113911702064797,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "fresh_data_generation",
+    "status": "completed",
+    "wall_seconds": 153.50910709996242,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 2075
+  },
+  {
+    "name": "fresh_label_verification",
+    "status": "completed",
+    "wall_seconds": 3.441396368900314,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 9
+  },
+  {
+    "name": "broad_small_train",
+    "status": "completed",
+    "wall_seconds": 186.77413298306055,
+    "gpu_seconds_charged": 186.77413298306055,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "broad_wide_train",
+    "status": "completed",
+    "wall_seconds": 226.95463629509322,
+    "gpu_seconds_charged": 226.95463629509322,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "broad_small_assess",
+    "status": "completed",
+    "wall_seconds": 13.194930100929923,
+    "gpu_seconds_charged": 13.194930100929923,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "broad_wide_assess",
+    "status": "completed",
+    "wall_seconds": 23.031611286103725,
+    "gpu_seconds_charged": 23.031611286103725,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "full_rank_feature_checks",
+    "status": "completed",
+    "wall_seconds": 3.1120049859164283,
+    "gpu_seconds_charged": 3.1120049859164283,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "full_rank_control_train",
+    "status": "completed",
+    "wall_seconds": 142.50390779797453,
+    "gpu_seconds_charged": 142.50390779797453,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "full_rank_inputs_train",
+    "status": "completed",
+    "wall_seconds": 163.87284207099583,
+    "gpu_seconds_charged": 163.87284207099583,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "symmetry_preparation",
+    "status": "completed",
+    "wall_seconds": 54.10012324701529,
+    "gpu_seconds_charged": 54.10012324701529,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 111
+  },
+  {
+    "name": "diagram_augmentation_train",
+    "status": "completed",
+    "wall_seconds": 343.7331003770232,
+    "gpu_seconds_charged": 343.7331003770232,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "training_pair_mining",
+    "status": "completed",
+    "wall_seconds": 29.033311231061816,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "order_bias_implementation_checks",
+    "status": "failed_or_partial",
+    "wall_seconds": 0.6032948999200016,
+    "gpu_seconds_charged": 0.6032948999200016,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "gelu_formula_diagnostic",
+    "status": "completed",
+    "wall_seconds": 0.6073317349655554,
+    "gpu_seconds_charged": 0.6073317349655554,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "order_bias_implementation_checks_v2",
+    "status": "completed",
+    "wall_seconds": 0.7158955499762669,
+    "gpu_seconds_charged": 0.7158955499762669,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "order_bias_train",
+    "status": "completed",
+    "wall_seconds": 328.79309125302825,
+    "gpu_seconds_charged": 328.79309125302825,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "training_pair_verification",
+    "status": "completed",
+    "wall_seconds": 6.622295712004416,
+    "gpu_seconds_charged": 6.622295712004416,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 6
+  },
+  {
+    "name": "paired_context_train",
+    "status": "completed",
+    "wall_seconds": 216.8792940939311,
+    "gpu_seconds_charged": 216.8792940939311,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "depth_implementation_checks",
+    "status": "failed_or_partial",
+    "wall_seconds": 0.6938931989716366,
+    "gpu_seconds_charged": 0.6938931989716366,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "deeper_attention_train",
+    "status": "completed",
+    "wall_seconds": 424.06067800999153,
+    "gpu_seconds_charged": 424.06067800999153,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "depth_implementation_checks_v2",
+    "status": "completed",
+    "wall_seconds": 0.6326405770378187,
+    "gpu_seconds_charged": 0.6326405770378187,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "deeper_attention_assess",
+    "status": "completed",
+    "wall_seconds": 43.74914892902598,
+    "gpu_seconds_charged": 43.74914892902598,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_all_witness_assessment",
+    "status": "completed",
+    "wall_seconds": 6.721731793950312,
+    "gpu_seconds_charged": 6.721731793950312,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "deeper_attention_circuit_checks",
+    "status": "completed",
+    "wall_seconds": 1.1264825409743935,
+    "gpu_seconds_charged": 1.1264825409743935,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "deeper_attention_gradient_checks",
+    "status": "completed",
+    "wall_seconds": 0.7728190670022741,
+    "gpu_seconds_charged": 0.7728190670022741,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "selected_checkpoint_replay",
+    "status": "completed",
+    "wall_seconds": 1.041906166006811,
+    "gpu_seconds_charged": 1.041906166006811,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "order_bias_assess",
+    "status": "completed",
+    "wall_seconds": 24.584803750971332,
+    "gpu_seconds_charged": 24.584803750971332,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "delivery_verification",
+    "status": "failed_or_partial",
+    "wall_seconds": 1.8950119629735127,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "delivery_verification_v2",
+    "status": "completed",
+    "wall_seconds": 8.289155171951279,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "CACHE_RECONSTRUCTION",
+    "status": "completed",
+    "wall_seconds": 13.610623517073691,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "reflection_consistency_diagnostic",
+    "status": "completed",
+    "wall_seconds": 6.4475029580062255,
+    "gpu_seconds_charged": 6.4475029580062255,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "uniform_views_train",
+    "status": "completed",
+    "wall_seconds": 216.68961758399382,
+    "gpu_seconds_charged": 216.68961758399382,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "paired_views_train",
+    "status": "completed",
+    "wall_seconds": 226.2536933280062,
+    "gpu_seconds_charged": 226.2536933280062,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "storage_maintenance",
+    "status": "completed",
+    "wall_seconds": 20.37886198796332,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "compact_representation_check",
+    "status": "completed",
+    "wall_seconds": 0.9166706190444529,
+    "gpu_seconds_charged": 0.9166706190444529,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "expanded_product_generation",
+    "status": "failed_or_partial",
+    "wall_seconds": 227.24796013499144,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 1253
+  },
+  {
+    "name": "expanded_product_generation_parallel",
+    "status": "completed",
+    "wall_seconds": 1317.374025327037,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 44193
+  },
+  {
+    "name": "expanded_data_preparation",
+    "status": "completed",
+    "wall_seconds": 23.733601840911433,
+    "gpu_seconds_charged": 23.733601840911433,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "expanded_base_train",
+    "status": "failed_or_partial",
+    "wall_seconds": 832.5380761040142,
+    "gpu_seconds_charged": 832.5380761040142,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "mine_expanded_training_collisions",
+    "status": "completed",
+    "wall_seconds": 184.44840933999512,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed",
+    "source_sha256": "5c106c0461c9578fc3de9140b3333129c45d1d57d8f3a13db254e33c4d522ce8"
+  },
+  {
+    "name": "candidate_rank_column_pair_audit",
+    "status": "completed",
+    "wall_seconds": 0.006713225971907377,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "expanded_midrun_fit_diagnostic",
+    "status": "completed",
+    "wall_seconds": 5.84702730702702,
+    "gpu_seconds_charged": 5.84702730702702,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "expanded_targeted_train",
+    "status": "completed",
+    "wall_seconds": 1675.1438193339854,
+    "gpu_seconds_charged": 1675.1438193339854,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "mine_all_supplied_training_pairs",
+    "status": "completed",
+    "wall_seconds": 39.590801215032116,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only, three workers",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "recorded_classical_battery_pair_audit",
+    "status": "completed",
+    "wall_seconds": 0.32023452792782336,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "projected_dimension_pair_audit",
+    "status": "completed",
+    "wall_seconds": 0.018235126975923777,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "all_certificate_pair_verification",
+    "status": "completed",
+    "wall_seconds": 1.6478773879352957,
+    "gpu_seconds_charged": 1.6478773879352957,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "classical_filter_model_diagnostic",
+    "status": "completed",
+    "wall_seconds": 0.8924986911006272,
+    "gpu_seconds_charged": 0.8924986911006272,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "expanded_training_pair_verification",
+    "status": "completed",
+    "wall_seconds": 1.13996578194201,
+    "gpu_seconds_charged": 1.13996578194201,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "targeted_fit_10k_fit_diagnostic",
+    "status": "completed",
+    "wall_seconds": 5.698810349102132,
+    "gpu_seconds_charged": 5.698810349102132,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "expanded_all_views_train",
+    "status": "completed",
+    "wall_seconds": 1674.9398301839828,
+    "gpu_seconds_charged": 1674.9398301839828,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "parabolic_rank_pair_audit",
+    "status": "completed",
+    "wall_seconds": 0.3116591890575364,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "collect_all_views_swa",
+    "status": "completed",
+    "wall_seconds": 419.42990018299315,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only; conservatively includes time waiting for checkpoints",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "targeted_development_circuit_scan",
+    "status": "completed",
+    "wall_seconds": 2.310760725988075,
+    "gpu_seconds_charged": 2.310760725988075,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed",
+    "source_sha256": "2d7741b387663b3ae24e6c533846d22bece0ab7931d6bc1f9c91056001ea303a"
+  },
+  {
+    "name": "targeted_development_localization",
+    "status": "completed",
+    "wall_seconds": 2.3658437619451433,
+    "gpu_seconds_charged": 2.3658437619451433,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "targeted_development_routing",
+    "status": "completed",
+    "wall_seconds": 13.831770406919532,
+    "gpu_seconds_charged": 13.831770406919532,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "all_views_swa_assessment",
+    "status": "completed",
+    "wall_seconds": 4.63614953297656,
+    "gpu_seconds_charged": 4.63614953297656,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "expanded_full_ranks_train",
+    "status": "failed_or_partial",
+    "wall_seconds": 1121.4299501429778,
+    "gpu_seconds_charged": 1121.4299501429778,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "commuting_reflection_obstruction_search",
+    "status": "completed",
+    "wall_seconds": 0.3925587690901011,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "independent_commuting_obstruction_verification",
+    "status": "completed",
+    "wall_seconds": 3.6027491360437125,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 12,
+    "exact_charge_scope": "Each independent coefficient extraction charged as one exact query",
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "all_views_robust_fit_fit_diagnostic",
+    "status": "completed",
+    "wall_seconds": 4.797955858986825,
+    "gpu_seconds_charged": 4.797955858986825,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "permutation_only_train",
+    "status": "completed",
+    "wall_seconds": 1677.7715356210247,
+    "gpu_seconds_charged": 1677.7715356210247,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "training_group_sampling_audit",
+    "status": "completed",
+    "wall_seconds": 0.15331957198213786,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "prepare_balanced_training_pair_groups",
+    "status": "completed",
+    "wall_seconds": 0.17438712099101394,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "mine_legacy_supplied_training_pairs",
+    "status": "completed",
+    "wall_seconds": 3.4988526679808274,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only, three workers",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "model_bank_convex_bound",
+    "status": "completed",
+    "wall_seconds": 0.0946031449129805,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "complete_certificate_pair_verification",
+    "status": "completed",
+    "wall_seconds": 1.6829426840413362,
+    "gpu_seconds_charged": 1.6829426840413362,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "development_model_bank_diagnostic",
+    "status": "completed",
+    "wall_seconds": 6.778201156063005,
+    "gpu_seconds_charged": 6.778201156063005,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "partial_intervention_implementation_checks",
+    "status": "completed",
+    "wall_seconds": 0.8755715599982068,
+    "gpu_seconds_charged": 0.8755715599982068,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "permutation_mid_fit_fit_diagnostic",
+    "status": "completed",
+    "wall_seconds": 4.807505434029736,
+    "gpu_seconds_charged": 4.807505434029736,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "complete_certificates_train",
+    "status": "completed",
+    "wall_seconds": 1751.5682547140168,
+    "gpu_seconds_charged": 1751.5682547140168,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "independent_model_error_label_audit",
+    "status": "completed",
+    "wall_seconds": 2.67106393200811,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 36,
+    "exact_charge_scope": "One charge per independent coefficient extraction",
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "all_pair_order_implementation_checks",
+    "status": "completed",
+    "wall_seconds": 1.3882295730290934,
+    "gpu_seconds_charged": 1.3882295730290934,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "certificate_projection_diagnostic",
+    "status": "completed",
+    "wall_seconds": 5.4060946750687435,
+    "gpu_seconds_charged": 5.4060946750687435,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "initial_prediction_errors",
+    "status": "completed",
+    "wall_seconds": 20.45620825898368,
+    "gpu_seconds_charged": 20.45620825898368,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "permutation_final_fit_fit_diagnostic",
+    "status": "completed",
+    "wall_seconds": 5.6854569599963725,
+    "gpu_seconds_charged": 5.6854569599963725,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "online_errors_train",
+    "status": "completed",
+    "wall_seconds": 1823.5257600619225,
+    "gpu_seconds_charged": 1823.5257600619225,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "training_coefficient_bound_audit",
+    "status": "completed",
+    "wall_seconds": 1.3161507219774649,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "all_pair_errors_train",
+    "status": "failed_or_partial",
+    "wall_seconds": 1290.855287390994,
+    "gpu_seconds_charged": 1290.855287390994,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "training_coefficient_examples",
+    "status": "completed",
+    "wall_seconds": 19.18505989003461,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "training_equivariant_root_targets",
+    "status": "completed",
+    "exact_queries": 2800,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only, three workers",
+    "accounting": "Reserved product calls, deferred until the concurrent trainer closes its ledger",
+    "wall_seconds": 410.51177112199366
+  },
+  {
+    "name": "independent_sharp_coefficient_verification",
+    "status": "completed",
+    "wall_seconds": 0.03345449292100966,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 12,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "training_weight_polytope_audit",
+    "status": "completed",
+    "wall_seconds": 2.9910135499667376,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "auxiliary_coefficient_implementation_checks_v2",
+    "status": "failed_or_partial",
+    "wall_seconds": 1.0062725510215387,
+    "gpu_seconds_charged": 1.0062725510215387,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "auxiliary_coefficient_implementation_checks_v3",
+    "status": "completed",
+    "wall_seconds": 1.2310782889835536,
+    "gpu_seconds_charged": 1.2310782889835536,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "auxiliary_coefficient_six_layer_checks",
+    "status": "completed",
+    "wall_seconds": 1.515004220069386,
+    "gpu_seconds_charged": 1.515004220069386,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "auxiliary_coefficient_implementation_checks",
+    "status": "failed_or_partial",
+    "wall_seconds": 0.8121957629919052,
+    "gpu_seconds_charged": 0.8121957629919052,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "auxiliary_deep_train",
+    "status": "intentional_early_stop",
+    "wall_seconds": 1858.8359186269809,
+    "gpu_seconds_charged": 1858.8359186269809,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "development_pair_equivariant_coefficients",
+    "status": "completed",
+    "exact_queries": 32,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "accounting": "Deferred until the concurrent trainer closes its ledger",
+    "wall_seconds": 13.134782816050574
+  },
+  {
+    "name": "equal_equivariant_training_search",
+    "status": "completed",
+    "wall_seconds": 0.036475867964327335,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "independent_equal_equivariant_verification",
+    "status": "completed",
+    "wall_seconds": 1.0470702740130946,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 22,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "training_poincare_eligibility",
+    "status": "completed",
+    "wall_seconds": 85.84994872601237,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only, at most three workers",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "independent_poincare_coefficient_verification",
+    "status": "completed",
+    "wall_seconds": 0.1946072579594329,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 24,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "poincare_on_device_training_checks",
+    "status": "completed",
+    "wall_seconds": 3.0004367410438135,
+    "gpu_seconds_charged": 3.0004367410438135,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "training_precision_benchmark",
+    "status": "completed",
+    "wall_seconds": 19.466667730011977,
+    "gpu_seconds_charged": 19.466667730011977,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "auxiliary_15000_readouts",
+    "status": "completed",
+    "wall_seconds": 1.3759896439732984,
+    "gpu_seconds_charged": 1.3759896439732984,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "duality_continuation_train",
+    "status": "completed",
+    "wall_seconds": 2617.3369798889617,
+    "gpu_seconds_charged": 2617.3369798889617,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "adaptive_factor_neighborhood_generation",
+    "status": "completed",
+    "exact_queries": 1800,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only, at most three workers",
+    "accounting": "Parent reserves descent products and one ordinary product per dispatched factor pair; deferred ledger append",
+    "wall_seconds": 130.79926488897763
+  },
+  {
+    "name": "adaptive_training_factor_plan",
+    "status": "completed",
+    "wall_seconds": 1.5430272839730605,
+    "gpu_seconds_charged": 1.5430272839730605,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "neighbor_training_implementation_check",
+    "status": "completed",
+    "wall_seconds": 10.9801558930194,
+    "gpu_seconds_charged": 10.9801558930194,
+    "gpu_charge_scope": "Entire process wall time, including concurrent training",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "predefined_symmetry_probability_averages",
+    "status": "completed",
+    "wall_seconds": 1.7707326549571007,
+    "gpu_seconds_charged": 1.7707326549571007,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "wide_model_implementation_checks",
+    "status": "completed",
+    "wall_seconds": 3.5186788040446118,
+    "gpu_seconds_charged": 3.5186788040446118,
+    "gpu_charge_scope": "Entire process wall time",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "duality_middle_average",
+    "status": "completed",
+    "wall_seconds": 1.7102650048909709,
+    "gpu_seconds_charged": 1.7102650048909709,
+    "gpu_charge_scope": "Entire process wall time; concurrent trainer is also charged",
+    "exact_queries": 0,
+    "accounting": "Deferred until concurrent trainer closes its ledger"
+  },
+  {
+    "name": "wide_neighbors_train",
+    "status": "failed_or_partial",
+    "wall_seconds": 1859.4628752500284,
+    "gpu_seconds_charged": 1859.4628752500284,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "adaptive_factor_final_neighborhood_generation",
+    "status": "completed",
+    "exact_queries": 479,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only, at most three workers",
+    "accounting": "Parent reserves descent products and one ordinary product per dispatched factor pair; deferred ledger append",
+    "wall_seconds": 16.9343505629804
+  },
+  {
+    "name": "rational_incidence_equation_certificate",
+    "status": "completed",
+    "wall_seconds": 3.0859429580159485,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 11,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "independent_rational_incidence_certificate_review",
+    "status": "completed",
+    "wall_seconds": 1.2149941149400547,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "root_weight_incidence_interpolation",
+    "status": "completed",
+    "wall_seconds": 0.2591064799344167,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "positive_root_weight_exploratory_scan",
+    "status": "completed",
+    "wall_seconds": 120.0,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Conservative 120-second reservation charged because the exploratory command lacked an internal timer; deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "wide_parameter_diversity",
+    "status": "completed",
+    "wall_seconds": 0.06186081608757377,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "final_neighbor_data_loader_check",
+    "status": "completed",
+    "wall_seconds": 3.2130475779995322,
+    "gpu_seconds_charged": 3.2130475779995322,
+    "gpu_charge_scope": "Entire timed process; concurrent trainer also charged",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "remaining_development_error_factor_plan",
+    "status": "completed",
+    "wall_seconds": 1.8696567590814084,
+    "gpu_seconds_charged": 1.8696567590814084,
+    "gpu_charge_scope": "Entire timed process; concurrent trainer also charged",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "qualified_assessment",
+    "status": "completed",
+    "wall_seconds": 74.4591493679909,
+    "gpu_seconds_charged": 74.4591493679909,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "fixed_point_stabilization_check",
+    "status": "completed",
+    "wall_seconds": 1.178538047010079,
+    "gpu_seconds_charged": 1.178538047010079,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0,
+    "accounting": "Deferred append before the next training run"
+  },
+  {
+    "name": "qualified_training_fit_fit_diagnostic",
+    "status": "completed",
+    "wall_seconds": 7.392667614039965,
+    "gpu_seconds_charged": 7.392667614039965,
+    "gpu_charge_scope": "Entire process wall time; concurrent training also charges its full elapsed time",
+    "exact_queries": 0,
+    "accounting": "Deferred append until the concurrent training ledger is closed"
+  },
+  {
+    "name": "stabilized_neighbors_train",
+    "status": "completed",
+    "wall_seconds": 1757.6589098629775,
+    "gpu_seconds_charged": 1757.6589098629775,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "incidence_conormal_diagnostic",
+    "status": "completed",
+    "wall_seconds": 1.2964137349044904,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "stability_failure_activation_interventions",
+    "status": "completed",
+    "wall_seconds": 5.16094630304724,
+    "gpu_seconds_charged": 5.16094630304724,
+    "gpu_charge_scope": "Entire timed process; concurrent trainer also charged",
+    "exact_queries": 0,
+    "accounting": "Deferred until the concurrent trainer closes its ledger"
+  },
+  {
+    "name": "fixed_stability_average_development",
+    "status": "completed",
+    "wall_seconds": 23.755081168026663,
+    "gpu_seconds_charged": 23.755081168026663,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "mine_neighbor_difficult_pairs",
+    "status": "completed",
+    "wall_seconds": 5.733127304003574,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "neighbor_hard_continuation_train",
+    "status": "completed",
+    "wall_seconds": 1191.9537371210754,
+    "gpu_seconds_charged": 1191.9537371210754,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "exposed_difficult_pair_geometric_certificates",
+    "status": "completed",
+    "wall_seconds": 15.944285182049498,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until the trainer closes its sequential ledger"
+  },
+  {
+    "name": "prior_evidence_integrity_after_storage_maintenance",
+    "status": "completed",
+    "wall_seconds": 0.3419498259900138,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until current trainer closes ledger"
+  },
+  {
+    "name": "stability_control_factor_group_summary",
+    "status": "completed",
+    "wall_seconds": 0.029451373033225536,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0,
+    "accounting": "Deferred until trainer closes ledger"
+  },
+  {
+    "name": "parabolic_component_prediction_diagnostic",
+    "status": "completed",
+    "wall_seconds": 14.033569229999557,
+    "gpu_seconds_charged": 14.033569229999557,
+    "gpu_charge_scope": "Entire timed process, also charged by concurrent trainer",
+    "exact_queries": 0,
+    "accounting": "Deferred until trainer closes ledger"
+  },
+  {
+    "name": "stability_intervention_matched_controls",
+    "status": "completed",
+    "wall_seconds": 5.672799621010199,
+    "gpu_seconds_charged": 5.672799621010199,
+    "gpu_charge_scope": "Entire timed process, also charged by concurrent trainer",
+    "exact_queries": 0,
+    "accounting": "Deferred until the trainer closes its sequential ledger"
+  },
+  {
+    "name": "final_selected_development_replay",
+    "status": "completed",
+    "wall_seconds": 31.297772009973414,
+    "gpu_seconds_charged": 31.297772009973414,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "fixed_predictor_ensemble_development",
+    "status": "completed",
+    "wall_seconds": 0.8546484499238431,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "relocate_retained_intermediate_checkpoints",
+    "status": "completed",
+    "wall_seconds": 9.142901643062942,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "plot_reliability_and_causal_controls",
+    "status": "completed",
+    "wall_seconds": 1.1351450819056481,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "richardson_features_and_model_checks",
+    "status": "failed_or_partial",
+    "wall_seconds": 1.1452346310252324,
+    "gpu_seconds_charged": 1.1452346310252324,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "richardson_features_and_model_checks_v2",
+    "status": "completed",
+    "wall_seconds": 2.652391771087423,
+    "gpu_seconds_charged": 2.652391771087423,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "fresh_data_freeze",
+    "status": "completed",
+    "wall_seconds": 1.1661277420353144,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "richardson_pilot_training",
+    "status": "completed",
+    "wall_seconds": 573.0450437230757,
+    "gpu_seconds_charged": 573.0450437230757,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "fresh_data_generate",
+    "status": "completed",
+    "wall_seconds": 789.0543464729562,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 18752
+  },
+  {
+    "name": "fresh_roots",
+    "status": "completed",
+    "wall_seconds": 261.6431092650164,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 2000
+  },
+  {
+    "name": "projection_zero_control_training",
+    "status": "completed",
+    "wall_seconds": 605.7812556989957,
+    "gpu_seconds_charged": 605.7812556989957,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "fresh_prepare",
+    "status": "completed",
+    "wall_seconds": 16.27838165999856,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "stability_training_checks",
+    "status": "completed",
+    "wall_seconds": 1.0030906660249457,
+    "gpu_seconds_charged": 1.0030906660249457,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "PROJECTION_PILOT_DIAGNOSTIC",
+    "status": "completed",
+    "wall_seconds": 26.108322746003978,
+    "gpu_seconds_charged": 26.108322746003978,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "adaptive_freeze",
+    "status": "completed",
+    "wall_seconds": 0.9176434930413961,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "adaptive_generate",
+    "status": "completed",
+    "wall_seconds": 507.03000080096535,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 4647
+  },
+  {
+    "name": "adaptive_pair_preparation",
+    "status": "completed",
+    "wall_seconds": 10.954684169963002,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "translation_degree_checks",
+    "status": "completed",
+    "wall_seconds": 6.993664090987295,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "GEOMETRIC_SCREEN_PILOT",
+    "status": "completed",
+    "wall_seconds": 3.84996947995387,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "fresh_paired_control_training",
+    "status": "completed",
+    "wall_seconds": 1989.8986751700286,
+    "gpu_seconds_charged": 1989.8986751700286,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "GEOMETRIC_SCREEN",
+    "status": "completed",
+    "wall_seconds": 444.3076669439906,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "neural_geometric_query_selection",
+    "status": "completed",
+    "wall_seconds": 5.846968933008611,
+    "gpu_seconds_charged": 5.846968933008611,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "screened_exact_generate",
+    "status": "completed",
+    "wall_seconds": 514.8162133450387,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 4200
+  },
+  {
+    "name": "screened_exact_prepare",
+    "status": "completed",
+    "wall_seconds": 19.465850937063806,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "combined_training_data_audit",
+    "status": "completed",
+    "wall_seconds": 0.09291411901358515,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "fresh_consistency_training",
+    "status": "completed",
+    "wall_seconds": 2025.74875891197,
+    "gpu_seconds_charged": 2025.74875891197,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "matched_stability_comparison",
+    "status": "completed",
+    "wall_seconds": 24.999902238021605,
+    "gpu_seconds_charged": 24.999902238021605,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "rank_only_equivalence_checks",
+    "status": "completed",
+    "wall_seconds": 2.2785278219962493,
+    "gpu_seconds_charged": 2.2785278219962493,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "REFINEMENT_PAIR_CIRCUITS",
+    "status": "completed",
+    "wall_seconds": 27.40692915103864,
+    "gpu_seconds_charged": 27.40692915103864,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "early_attention_paths",
+    "status": "completed",
+    "wall_seconds": 3.572095875046216,
+    "gpu_seconds_charged": 3.572095875046216,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "width_duplication_audit",
+    "status": "completed",
+    "wall_seconds": 1.6051870449446142,
+    "gpu_seconds_charged": 1.6051870449446142,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "mlp_path_integrated_gradients",
+    "status": "completed",
+    "wall_seconds": 7.669795321999118,
+    "gpu_seconds_charged": 7.669795321999118,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "mlp_rank_decomposition",
+    "status": "completed",
+    "wall_seconds": 1.3532723090611398,
+    "gpu_seconds_charged": 1.3532723090611398,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "attention_permutation_rule_test",
+    "status": "completed",
+    "wall_seconds": 1.2805650950176641,
+    "gpu_seconds_charged": 1.2805650950176641,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "relative_root_feature_checks",
+    "status": "completed",
+    "wall_seconds": 2.9235443610232323,
+    "gpu_seconds_charged": 2.9235443610232323,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "screened_refinement_training",
+    "status": "completed",
+    "wall_seconds": 2322.377251859056,
+    "gpu_seconds_charged": 2322.377251859056,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "symmetry_breaking_initializations",
+    "status": "completed",
+    "wall_seconds": 44.89326042402536,
+    "gpu_seconds_charged": 44.89326042402536,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "late_neighbors_freeze",
+    "status": "failed_or_partial",
+    "wall_seconds": 2.371828957926482,
+    "gpu_seconds_charged": 2.371828957926482,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "late_neighbors_freeze_retry2",
+    "status": "completed",
+    "wall_seconds": 2.4398343949578702,
+    "gpu_seconds_charged": 2.4398343949578702,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "late_neighbors_generate",
+    "status": "completed",
+    "wall_seconds": 119.78790651808959,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 400
+  },
+  {
+    "name": "late_neighbors_prepare",
+    "status": "completed",
+    "wall_seconds": 2.294859198969789,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "symmetric_control_training",
+    "status": "completed",
+    "wall_seconds": 963.5970045579597,
+    "gpu_seconds_charged": 963.5970045579597,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_training_loader_and_sampler_audit",
+    "status": "failed_or_partial",
+    "wall_seconds": 5.7233559099258855,
+    "gpu_seconds_charged": 5.7233559099258855,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "antisymmetric_perturbation_training",
+    "status": "completed",
+    "wall_seconds": 957.5367597249569,
+    "gpu_seconds_charged": 957.5367597249569,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "corpus_separation_and_duplicates_audit",
+    "status": "completed",
+    "wall_seconds": 9.817963473964483,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "relative_root_training_training",
+    "status": "completed",
+    "wall_seconds": 1010.5610735380324,
+    "gpu_seconds_charged": 1010.5610735380324,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_training_loader_and_sampler_serial_retry",
+    "status": "completed",
+    "wall_seconds": 7.058564736042172,
+    "gpu_seconds_charged": 7.058564736042172,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "RELATIVE_ROOT_PROJECTION_DIAGNOSTIC",
+    "status": "completed",
+    "wall_seconds": 12.054857839015312,
+    "gpu_seconds_charged": 12.054857839015312,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "relative_root_parameter_midpoint",
+    "status": "completed",
+    "wall_seconds": 40.577060630894266,
+    "gpu_seconds_charged": 40.577060630894266,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "root_diagnostic_numerical_recheck",
+    "status": "completed",
+    "wall_seconds": 1.4761488620424643,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "relative_root_circuit_replay",
+    "status": "completed",
+    "wall_seconds": 3.3580480980454013,
+    "gpu_seconds_charged": 3.3580480980454013,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "supplied_index_independence_checks",
+    "status": "completed",
+    "wall_seconds": 6.50792465696577,
+    "gpu_seconds_charged": 6.50792465696577,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "freeze_qualified_development_checkpoint",
+    "status": "completed",
+    "wall_seconds": 0.29660876910202205,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_balanced_continuation_training",
+    "status": "failed_or_partial",
+    "wall_seconds": 542.4029515059665,
+    "gpu_seconds_charged": 542.4029515059665,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "fresh_independent_assessment",
+    "status": "completed",
+    "wall_seconds": 223.12486680806614,
+    "gpu_seconds_charged": 223.12486680806614,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "prepare_exposed_assessment_pairs",
+    "status": "completed",
+    "wall_seconds": 0.12321943801362067,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "exact_cache_archive_audit",
+    "status": "completed",
+    "wall_seconds": 6.760456884978339,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "frozen_predecessor_and_manuscript_integrity",
+    "status": "completed",
+    "wall_seconds": 2.125711372005753,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "post_assessment_control_training",
+    "status": "completed",
+    "wall_seconds": 953.1363287359709,
+    "gpu_seconds_charged": 953.1363287359709,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "relative_candidate_feature_pair_audit",
+    "status": "completed",
+    "wall_seconds": 4.043004640028812,
+    "gpu_seconds_charged": 4.043004640028812,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "matched_relative_root_paths",
+    "status": "completed",
+    "wall_seconds": 2.0147009580396116,
+    "gpu_seconds_charged": 2.0147009580396116,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "root_action_interface_checks",
+    "status": "completed",
+    "wall_seconds": 2.5024836680386215,
+    "gpu_seconds_charged": 2.5024836680386215,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "supplied_independent_training_training",
+    "status": "completed",
+    "wall_seconds": 1003.0551364390412,
+    "gpu_seconds_charged": 1003.0551364390412,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "root_action_training_training",
+    "status": "completed",
+    "wall_seconds": 542.6789122010814,
+    "gpu_seconds_charged": 542.6789122010814,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_exposed_development_reassessment",
+    "status": "completed",
+    "wall_seconds": 226.4270466209855,
+    "gpu_seconds_charged": 226.4270466209855,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_circuit_replay",
+    "status": "completed",
+    "wall_seconds": 2.3552908450365067,
+    "gpu_seconds_charged": 2.3552908450365067,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "results_figure",
+    "status": "completed",
+    "wall_seconds": 1.6906632359605283,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_root_attention_ablation",
+    "status": "failed_or_partial",
+    "wall_seconds": 17.408591813058592,
+    "gpu_seconds_charged": 17.408591813058592,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "results_figure_labels",
+    "status": "completed",
+    "wall_seconds": 1.4379534140462056,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_root_attention_ablation_retry",
+    "status": "completed",
+    "wall_seconds": 17.412002871977165,
+    "gpu_seconds_charged": 17.412002871977165,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_evidence_freeze",
+    "status": "completed",
+    "wall_seconds": 4.502086750930175,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "continuation_setup_checks",
+    "status": "completed",
+    "wall_seconds": 0.10174039006233215,
+    "gpu_seconds_charged": 0.10174039006233215,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "continuation_isolation_recheck",
+    "status": "completed",
+    "wall_seconds": 0.00791010889224708,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "freeze_fresh_factor_populations",
+    "status": "completed",
+    "wall_seconds": 3.9918474820442498,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "fresh_exact_populations",
+    "status": "completed",
+    "wall_seconds": 330.89081664104015,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 6075
+  },
+  {
+    "name": "prepare_fresh_development",
+    "status": "completed",
+    "wall_seconds": 6.480128403985873,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "plan_current_failure_neighborhoods",
+    "status": "completed",
+    "wall_seconds": 1.5792565969750285,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "levi_projection_feature_checks",
+    "status": "completed",
+    "wall_seconds": 11.921758580952883,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "levi_restriction_prediction_diagnostic",
+    "status": "completed",
+    "wall_seconds": 2.6337483080569655,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "expanded_pair_factor_audit",
+    "status": "completed",
+    "wall_seconds": 1.6869790290948004,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "pinned_error_control_training",
+    "status": "intentional_time_stop",
+    "wall_seconds": 1378.3340908528771,
+    "gpu_seconds_charged": 1378.3340908528771,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "expanded_decomposition_preflight",
+    "status": "completed",
+    "wall_seconds": 6.04039691388607,
+    "gpu_seconds_charged": 6.04039691388607,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "exact_error_root_support",
+    "status": "failed_or_partial",
+    "wall_seconds": 23.9120193249546,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 15
+  },
+  {
+    "name": "root_support_interval_scan",
+    "status": "completed",
+    "wall_seconds": 6.843891496071592,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "exact_error_root_support_orientation_retry",
+    "status": "completed",
+    "wall_seconds": 103.79807611415163,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 124
+  },
+  {
+    "name": "plan_support_controls",
+    "status": "completed",
+    "wall_seconds": 1.8585880130995065,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "refreshed_errors_training",
+    "status": "intentional_time_stop",
+    "wall_seconds": 1359.2366967010312,
+    "gpu_seconds_charged": 1359.2366967010312,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "expanded_decomposition",
+    "status": "completed",
+    "wall_seconds": 122.50797638786025,
+    "gpu_seconds_charged": 122.50797638786025,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "support_controls",
+    "status": "completed",
+    "wall_seconds": 58.69704397395253,
+    "gpu_seconds_charged": 58.69704397395253,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "position_decomposition",
+    "status": "completed",
+    "wall_seconds": 30.769268427975476,
+    "gpu_seconds_charged": 30.769268427975476,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "endpoint_reception",
+    "status": "completed",
+    "wall_seconds": 107.92836227593943,
+    "gpu_seconds_charged": 107.92836227593943,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "initial_readout_comparison",
+    "status": "completed",
+    "wall_seconds": 33.13237715396099,
+    "gpu_seconds_charged": 33.13237715396099,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "exact_current_failure_neighbors",
+    "status": "completed",
+    "wall_seconds": 2890.4752787670586,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 9000
+  },
+  {
+    "name": "duplicate_compression",
+    "status": "completed",
+    "wall_seconds": 0.2948761039879173,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "prepare_current_failure_neighbors",
+    "status": "completed",
+    "wall_seconds": 55.75846699695103,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "neighbor_training_audit",
+    "status": "completed",
+    "wall_seconds": 11.137161731021479,
+    "gpu_seconds_charged": 11.137161731021479,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "root_endpoint_attention",
+    "status": "completed",
+    "wall_seconds": 126.91138619184494,
+    "gpu_seconds_charged": 126.91138619184494,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "circuit_figure",
+    "status": "completed",
+    "wall_seconds": 1.332741198129952,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "attention_approximation",
+    "status": "completed",
+    "wall_seconds": 26.70460388599895,
+    "gpu_seconds_charged": 26.70460388599895,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "retain_refinement_003000",
+    "status": "completed",
+    "wall_seconds": 0.3791446350514889,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "formal_interface_checks",
+    "status": "completed",
+    "wall_seconds": 3.3665720159187913,
+    "gpu_seconds_charged": 3.3665720159187913,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "support_factorization_retained_check",
+    "status": "completed",
+    "wall_seconds": 0.015546010807156563,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "prior_evidence_integrity",
+    "status": "completed",
+    "wall_seconds": 7.583690187893808,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "cache_archive_verification",
+    "status": "completed",
+    "wall_seconds": 8.048203537939116,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "refinement_readout_comparison",
+    "status": "completed",
+    "wall_seconds": 39.443489491939545,
+    "gpu_seconds_charged": 39.443489491939545,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "retain_refinement_007500",
+    "status": "completed",
+    "wall_seconds": 0.3648572890087962,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "retain_refinement_010500",
+    "status": "completed",
+    "wall_seconds": 0.3570686860475689,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "neighbor_refinement_training",
+    "status": "completed",
+    "wall_seconds": 2798.8530924560037,
+    "gpu_seconds_charged": 2798.8530924560037,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "neighbor_root_support_scan",
+    "status": "completed",
+    "wall_seconds": 2.4452703420538455,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_refinement_readouts",
+    "status": "completed",
+    "wall_seconds": 23.855462678940967,
+    "gpu_seconds_charged": 23.855462678940967,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_native_validation",
+    "status": "completed",
+    "wall_seconds": 35.970324588008225,
+    "gpu_seconds_charged": 35.970324588008225,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "new_independent_assessment",
+    "status": "completed",
+    "wall_seconds": 253.71561596705578,
+    "gpu_seconds_charged": 253.71561596705578,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "freeze_second_populations",
+    "status": "completed",
+    "wall_seconds": 0.5034341749269515,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "prepare_first_assessment_development",
+    "status": "completed",
+    "wall_seconds": 8.33038946497254,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_error_checkpoint_comparison",
+    "status": "completed",
+    "wall_seconds": 2.340255812043324,
+    "gpu_seconds_charged": 2.340255812043324,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_exact_populations",
+    "status": "completed",
+    "wall_seconds": 183.1299739109818,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 2641
+  },
+  {
+    "name": "exact_second_failure_neighbors",
+    "status": "completed",
+    "wall_seconds": 661.0310215419158,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 2183
+  },
+  {
+    "name": "prepare_second_failure_neighbors",
+    "status": "completed",
+    "wall_seconds": 14.502018373925239,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "all_new_factor_separation",
+    "status": "completed",
+    "wall_seconds": 8.506302343914285,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "larger_levi_restriction_check",
+    "status": "completed",
+    "wall_seconds": 13.535554755013436,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "all_levi_restriction_check",
+    "status": "completed",
+    "wall_seconds": 1.2681653080508113,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "all_levi_counterexample_exact",
+    "status": "completed",
+    "wall_seconds": 0.23441991209983826,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 3
+  },
+  {
+    "name": "counterexample_companion_check",
+    "status": "completed",
+    "wall_seconds": 0.025995928095653653,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "levi_companion_verification",
+    "status": "completed",
+    "wall_seconds": 0.06742445495910943,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "small_levi_obstruction_checks",
+    "status": "completed",
+    "wall_seconds": 0.03830038709565997,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "teacher_stability_training",
+    "status": "completed",
+    "wall_seconds": 1845.7815688340925,
+    "gpu_seconds_charged": 1845.7815688340925,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_neighbor_training_audit",
+    "status": "completed",
+    "wall_seconds": 12.415190231055021,
+    "gpu_seconds_charged": 12.415190231055021,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_neighbor_refinement_training",
+    "status": "failed_or_partial",
+    "wall_seconds": 163.40136938192882,
+    "gpu_seconds_charged": 163.40136938192882,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_neighbor_root_support_scan",
+    "status": "completed",
+    "wall_seconds": 1.0179885979741812,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_cache_archive_verification",
+    "status": "completed",
+    "wall_seconds": 4.131427462911233,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "small_levi_existing_factor_lookup",
+    "status": "completed",
+    "wall_seconds": 0.3231148368213326,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "training_weight_replacement",
+    "status": "completed",
+    "wall_seconds": 44.667256264947355,
+    "gpu_seconds_charged": 44.667256264947355,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "training_prefix_replacement",
+    "status": "completed",
+    "wall_seconds": 25.7382538409438,
+    "gpu_seconds_charged": 25.7382538409438,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_development_cohort_audit",
+    "status": "completed",
+    "wall_seconds": 5.3195202788338065,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "augmented_feature_obstruction",
+    "status": "failed_or_partial",
+    "wall_seconds": 0.12389985611662269,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "augmented_feature_obstruction_serialization_retry",
+    "status": "completed",
+    "wall_seconds": 0.13004007609561086,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "two_component_levi_reduction",
+    "status": "completed",
+    "wall_seconds": 0.33838611491955817,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "two_component_levi_sharpness",
+    "status": "completed",
+    "wall_seconds": 0.020085967844352126,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_neighbor_refinement_compact_training",
+    "status": "completed",
+    "wall_seconds": 3068.8616316521075,
+    "gpu_seconds_charged": 3068.8616316521075,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_parameter_interpolation",
+    "status": "completed",
+    "wall_seconds": 357.3290752400644,
+    "gpu_seconds_charged": 357.3290752400644,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_refinement_readouts",
+    "status": "completed",
+    "wall_seconds": 48.10860591591336,
+    "gpu_seconds_charged": 48.10860591591336,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_native_validation",
+    "status": "completed",
+    "wall_seconds": 72.92443290399387,
+    "gpu_seconds_charged": 72.92443290399387,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_independent_assessment",
+    "status": "completed",
+    "wall_seconds": 183.07343700993806,
+    "gpu_seconds_charged": 183.07343700993806,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_development_decomposition",
+    "status": "completed",
+    "wall_seconds": 173.49846373591572,
+    "gpu_seconds_charged": 173.49846373591572,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_support_controls",
+    "status": "completed",
+    "wall_seconds": 57.207168948836625,
+    "gpu_seconds_charged": 57.207168948836625,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_component_scan",
+    "status": "completed",
+    "wall_seconds": 163.06025117682293,
+    "gpu_seconds_charged": 163.06025117682293,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "development_head_controls",
+    "status": "completed",
+    "wall_seconds": 82.7872471078299,
+    "gpu_seconds_charged": 82.7872471078299,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "summarize_final_results",
+    "status": "completed",
+    "wall_seconds": 1.9053406319580972,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "development_head_pruning",
+    "status": "completed",
+    "wall_seconds": 61.431710568023846,
+    "gpu_seconds_charged": 61.431710568023846,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "development_task_head_pruning",
+    "status": "completed",
+    "wall_seconds": 61.97175319585949,
+    "gpu_seconds_charged": 61.97175319585949,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "task_head_pruning_native_validation",
+    "status": "completed",
+    "wall_seconds": 73.51232497906312,
+    "gpu_seconds_charged": 73.51232497906312,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "pruning_summary",
+    "status": "completed",
+    "wall_seconds": 0.008584482129663229,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "full_evidence_freeze",
+    "status": "failed_or_partial",
+    "wall_seconds": 0.12366104102693498,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "full_evidence_freeze_after_staging",
+    "status": "completed",
+    "wall_seconds": 6.058818676043302,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "interface_checks",
+    "status": "completed",
+    "wall_seconds": 2.2703315941616893,
+    "gpu_seconds_charged": 2.2703315941616893,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "discovery_scan",
+    "status": "completed",
+    "wall_seconds": 14.27984319999814,
+    "gpu_seconds_charged": 14.27984319999814,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "head_confirmation",
+    "status": "completed",
+    "wall_seconds": 8.575800309889019,
+    "gpu_seconds_charged": 8.575800309889019,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "mlp_confirmation",
+    "status": "completed",
+    "wall_seconds": 12.595530921826139,
+    "gpu_seconds_charged": 12.595530921826139,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "multistage_path_trace",
+    "status": "completed",
+    "wall_seconds": 6.771301713073626,
+    "gpu_seconds_charged": 6.771301713073626,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "endpoint_confirmation",
+    "status": "completed",
+    "wall_seconds": 7.398989511886612,
+    "gpu_seconds_charged": 7.398989511886612,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "head_coalitions_discovery",
+    "status": "completed",
+    "wall_seconds": 109.90176436584443,
+    "gpu_seconds_charged": 109.90176436584443,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "head_coalitions_confirmation",
+    "status": "completed",
+    "wall_seconds": 90.60027687391266,
+    "gpu_seconds_charged": 90.60027687391266,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "circuit_prior_evidence_integrity",
+    "status": "completed",
+    "wall_seconds": 8.100315493997186,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "multistage_path_trace_all_heads",
+    "status": "completed",
+    "wall_seconds": 6.745304281124845,
+    "gpu_seconds_charged": 6.745304281124845,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "matched_feature_path_trace",
+    "status": "completed",
+    "wall_seconds": 1.6023312590550631,
+    "gpu_seconds_charged": 1.6023312590550631,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "second_attention_hop",
+    "status": "completed",
+    "wall_seconds": 5.709740228950977,
+    "gpu_seconds_charged": 5.709740228950977,
+    "gpu_charge_scope": "Entire timed process",
+    "exact_queries": 0
+  },
+  {
+    "name": "circuit_result_summary",
+    "status": "completed",
+    "wall_seconds": 1.3728694759774953,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "circuit_evidence_freeze",
+    "status": "completed",
+    "wall_seconds": 0.39067651797086,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  }
+]

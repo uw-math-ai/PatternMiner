@@ -1,0 +1,5 @@
+{
+  "status": "retry_after_staging_completion",
+  "reason": "The initial freeze started before the asynchronous git add finished. Its staged file list was empty, so the audit stopped before writing a manifest. The failed audit is charged in the ledger; its source and log are retained. The original staging operation has now completed.",
+  "evidence_modified_by_failed_audit": false
+}

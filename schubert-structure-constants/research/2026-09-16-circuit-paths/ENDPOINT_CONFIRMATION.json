@@ -1,0 +1,1348 @@
+{
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "053fd88d6619cf3e3d76c8543b5c9bd438a2e869af2176aceee6b8ed39352cb5",
+  "parent_analysis_sha256": "45081ffd933dae219a09752038a5f0c06be5c3f19088eaf7e1be81c009a27ee8",
+  "inputs": 498,
+  "hypothesis": "The effective coefficients often favor one inverse position over their difference. Test retaining the larger endpoint coefficient in each fixed neuron, and separate transmission through second-block keys and values.",
+  "formulas": {
+    "midpoint": "(w^{-1}(j)+w^{-1}(j+1))/(2n)",
+    "gap": "(w^{-1}(j+1)-w^{-1}(j))/n",
+    "descent": "1[w^{-1}(j)>w^{-1}(j+1)]"
+  },
+  "role": "Previously developed endpoint hypothesis, evaluated with the fixed neuron ranking on the preassigned confirmation pairs",
+  "status": "completed",
+  "checks": {
+    "position_identity": 2.86102294921875e-06,
+    "retained_full_path_replay": 0.0
+  },
+  "summaries": {
+    "all": {
+      "left_position": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 3.8752241134643555,
+        "factor_group_mean": 3.9801206588745117,
+        "group_bootstrap_95_percent": [
+          2.149346673488617,
+          5.984524977207182
+        ]
+      },
+      "right_position": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 5.073452949523926,
+        "factor_group_mean": 6.441992282867432,
+        "group_bootstrap_95_percent": [
+          3.5040722250938416,
+          9.903439903259267
+        ]
+      },
+      "dominant_position": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 9.135814666748047,
+        "factor_group_mean": 9.586930274963379,
+        "group_bootstrap_95_percent": [
+          6.791743409633637,
+          12.832471656799315
+        ]
+      },
+      "other_position": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.2853313386440277,
+        "factor_group_mean": 0.3849782645702362,
+        "group_bootstrap_95_percent": [
+          0.20286045037209988,
+          0.5962253510951996
+        ]
+      },
+      "positions": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 9.844496726989746,
+        "factor_group_mean": 10.124421119689941,
+        "group_bootstrap_95_percent": [
+          7.328339171409607,
+          13.26535482406616
+        ]
+      },
+      "midpoint": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 1.5971226692199707,
+        "factor_group_mean": 2.5318915843963623,
+        "group_bootstrap_95_percent": [
+          1.077401903271675,
+          4.184090220928192
+        ]
+      },
+      "gap": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 6.986730098724365,
+        "factor_group_mean": 6.219168186187744,
+        "group_bootstrap_95_percent": [
+          4.4116004467010494,
+          8.045202088356017
+        ]
+      },
+      "descent": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.08923179656267166,
+        "factor_group_mean": 0.08446473628282547,
+        "group_bootstrap_95_percent": [
+          -0.03101126505061984,
+          0.213161189481616
+        ]
+      },
+      "positions_and_descent": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 9.736364364624023,
+        "factor_group_mean": 10.219659805297852,
+        "group_bootstrap_95_percent": [
+          7.425198936462403,
+          13.34659683704376
+        ]
+      },
+      "keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 4.325262069702148,
+        "factor_group_mean": 5.7701616287231445,
+        "group_bootstrap_95_percent": [
+          3.4803766012191772,
+          8.53510842323303
+        ]
+      },
+      "values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 4.046779632568359,
+        "factor_group_mean": 3.974029302597046,
+        "group_bootstrap_95_percent": [
+          2.541630744934082,
+          5.516238605976104
+        ]
+      },
+      "keys_and_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 7.625770092010498,
+        "factor_group_mean": 8.47121810913086,
+        "group_bootstrap_95_percent": [
+          5.95925794839859,
+          10.957241463661193
+        ]
+      },
+      "H0_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.5464536547660828,
+        "factor_group_mean": 1.1211334466934204,
+        "group_bootstrap_95_percent": [
+          0.4971371881663799,
+          1.8972724139690398
+        ]
+      },
+      "H0_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.19234898686408997,
+        "factor_group_mean": 0.10635031014680862,
+        "group_bootstrap_95_percent": [
+          -0.11765888147056103,
+          0.34829599037766457
+        ]
+      },
+      "H1_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.032900307327508926,
+        "factor_group_mean": 0.05208005756139755,
+        "group_bootstrap_95_percent": [
+          0.005597143305931241,
+          0.10417716875672335
+        ]
+      },
+      "H1_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.09965794533491135,
+        "factor_group_mean": 0.09699031710624695,
+        "group_bootstrap_95_percent": [
+          0.015727721434086562,
+          0.20765737332403658
+        ]
+      },
+      "H2_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.044182680547237396,
+        "factor_group_mean": 0.013414386659860611,
+        "group_bootstrap_95_percent": [
+          -0.0025343062472529708,
+          0.02984642242081463
+        ]
+      },
+      "H2_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.2168859839439392,
+        "factor_group_mean": 0.057658255100250244,
+        "group_bootstrap_95_percent": [
+          -0.12340632006525994,
+          0.22684225179255002
+        ]
+      },
+      "H3_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.0665937289595604,
+        "factor_group_mean": 0.09865505248308182,
+        "group_bootstrap_95_percent": [
+          0.019373759254813196,
+          0.2038526255637406
+        ]
+      },
+      "H3_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.06454337388277054,
+        "factor_group_mean": 0.0860944390296936,
+        "group_bootstrap_95_percent": [
+          0.003051673993468285,
+          0.17464194782078263
+        ]
+      },
+      "H4_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.07703181356191635,
+        "factor_group_mean": 0.03123493306338787,
+        "group_bootstrap_95_percent": [
+          -0.05707709062844515,
+          0.11460967157036062
+        ]
+      },
+      "H4_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.10572437942028046,
+        "factor_group_mean": 0.12632440030574799,
+        "group_bootstrap_95_percent": [
+          0.005403480678796768,
+          0.26977072209119796
+        ]
+      },
+      "H5_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.17261089384555817,
+        "factor_group_mean": 0.2382703721523285,
+        "group_bootstrap_95_percent": [
+          -0.0648424793034792,
+          0.6965641826391219
+        ]
+      },
+      "H5_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.08411002159118652,
+        "factor_group_mean": 0.03746509552001953,
+        "group_bootstrap_95_percent": [
+          -0.01960300696082413,
+          0.09587015453726053
+        ]
+      },
+      "H6_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.088491290807724,
+        "factor_group_mean": 0.1818648874759674,
+        "group_bootstrap_95_percent": [
+          0.0006263657502131543,
+          0.37762885764241216
+        ]
+      },
+      "H6_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.16703782975673676,
+        "factor_group_mean": 0.2419392168521881,
+        "group_bootstrap_95_percent": [
+          0.003383188310544938,
+          0.5140566870570181
+        ]
+      },
+      "H7_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.04237108305096626,
+        "factor_group_mean": 0.08150961995124817,
+        "group_bootstrap_95_percent": [
+          0.005988815927412361,
+          0.1832603387534618
+        ]
+      },
+      "H7_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.05957208201289177,
+        "factor_group_mean": 0.1509861797094345,
+        "group_bootstrap_95_percent": [
+          0.04795878231525421,
+          0.30226632505655265
+        ]
+      },
+      "H8_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.5457850098609924,
+        "factor_group_mean": 1.1203209161758423,
+        "group_bootstrap_95_percent": [
+          0.48301960080862044,
+          1.9031210303306578
+        ]
+      },
+      "H8_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.19223648309707642,
+        "factor_group_mean": 0.10630147904157639,
+        "group_bootstrap_95_percent": [
+          -0.10870413389056921,
+          0.35820695757865867
+        ]
+      },
+      "H9_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.032900724560022354,
+        "factor_group_mean": 0.05207621678709984,
+        "group_bootstrap_95_percent": [
+          0.005598284956067801,
+          0.10529111865907897
+        ]
+      },
+      "H9_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.09965028613805771,
+        "factor_group_mean": 0.09698408097028732,
+        "group_bootstrap_95_percent": [
+          0.014204584620893001,
+          0.21348741613328445
+        ]
+      },
+      "H10_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.04419625550508499,
+        "factor_group_mean": 0.013465038500726223,
+        "group_bootstrap_95_percent": [
+          -0.0023313978977967053,
+          0.030460674688220002
+        ]
+      },
+      "H10_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.2169625163078308,
+        "factor_group_mean": 0.05768270790576935,
+        "group_bootstrap_95_percent": [
+          -0.1163499316200614,
+          0.2337286155670881
+        ]
+      },
+      "H11_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.06659287959337234,
+        "factor_group_mean": 0.09863961488008499,
+        "group_bootstrap_95_percent": [
+          0.01914829472079873,
+          0.20371869616210458
+        ]
+      },
+      "H11_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.06455245614051819,
+        "factor_group_mean": 0.08610815554857254,
+        "group_bootstrap_95_percent": [
+          0.001052846052334644,
+          0.1685911376029252
+        ]
+      },
+      "H12_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.07696367800235748,
+        "factor_group_mean": 0.03124912455677986,
+        "group_bootstrap_95_percent": [
+          -0.053718754928559063,
+          0.11701847631484254
+        ]
+      },
+      "H12_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.10565318912267685,
+        "factor_group_mean": 0.1263217031955719,
+        "group_bootstrap_95_percent": [
+          0.005480718566104771,
+          0.2663116842508315
+        ]
+      },
+      "H13_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.17268258333206177,
+        "factor_group_mean": 0.23834067583084106,
+        "group_bootstrap_95_percent": [
+          -0.07559177428483962,
+          0.6869060456752776
+        ]
+      },
+      "H13_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.08412609994411469,
+        "factor_group_mean": 0.03746376559138298,
+        "group_bootstrap_95_percent": [
+          -0.022164348931983113,
+          0.09321512281894682
+        ]
+      },
+      "H14_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.08858221769332886,
+        "factor_group_mean": 0.1819780021905899,
+        "group_bootstrap_95_percent": [
+          0.007503339787945151,
+          0.3774061411619186
+        ]
+      },
+      "H14_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.16707497835159302,
+        "factor_group_mean": 0.24207431077957153,
+        "group_bootstrap_95_percent": [
+          0.0019234796549426416,
+          0.5109711259603497
+        ]
+      },
+      "H15_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.04237496852874756,
+        "factor_group_mean": 0.08156031370162964,
+        "group_bootstrap_95_percent": [
+          0.0060727464617230005,
+          0.18278578445315355
+        ]
+      },
+      "H15_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.05961858481168747,
+        "factor_group_mean": 0.1510099619626999,
+        "group_bootstrap_95_percent": [
+          0.04147294787690044,
+          0.29244391694664956
+        ]
+      }
+    },
+    "other_neuron_orbits": {
+      "left_position": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 3.8752241134643555,
+        "factor_group_mean": 3.9801206588745117,
+        "group_bootstrap_95_percent": [
+          2.1218232333660128,
+          6.1514995813369735
+        ]
+      },
+      "right_position": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 5.073452949523926,
+        "factor_group_mean": 6.441992282867432,
+        "group_bootstrap_95_percent": [
+          3.4099462985992433,
+          10.011912536621093
+        ]
+      },
+      "dominant_position": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 9.135814666748047,
+        "factor_group_mean": 9.586930274963379,
+        "group_bootstrap_95_percent": [
+          6.641011416912079,
+          12.685938143730162
+        ]
+      },
+      "other_position": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.2853313386440277,
+        "factor_group_mean": 0.3849782645702362,
+        "group_bootstrap_95_percent": [
+          0.21222154796123505,
+          0.6128427937626834
+        ]
+      },
+      "positions": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 9.844496726989746,
+        "factor_group_mean": 10.124421119689941,
+        "group_bootstrap_95_percent": [
+          7.140354931354523,
+          13.235011768341062
+        ]
+      },
+      "midpoint": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 1.5971226692199707,
+        "factor_group_mean": 2.5318915843963623,
+        "group_bootstrap_95_percent": [
+          0.9913032189011574,
+          4.152646744251251
+        ]
+      },
+      "gap": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 6.986730098724365,
+        "factor_group_mean": 6.219168186187744,
+        "group_bootstrap_95_percent": [
+          4.520237636566162,
+          8.029633235931394
+        ]
+      },
+      "descent": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.08923179656267166,
+        "factor_group_mean": 0.08446473628282547,
+        "group_bootstrap_95_percent": [
+          -0.029588851612061262,
+          0.21702011153101922
+        ]
+      },
+      "positions_and_descent": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 9.736364364624023,
+        "factor_group_mean": 10.219659805297852,
+        "group_bootstrap_95_percent": [
+          7.3241805076599125,
+          13.255945563316345
+        ]
+      },
+      "keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 4.325262069702148,
+        "factor_group_mean": 5.7701616287231445,
+        "group_bootstrap_95_percent": [
+          3.447462409734726,
+          8.432771110534663
+        ]
+      },
+      "values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 4.046779632568359,
+        "factor_group_mean": 3.974029302597046,
+        "group_bootstrap_95_percent": [
+          2.521165078878403,
+          5.455860018730163
+        ]
+      },
+      "keys_and_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 7.625770092010498,
+        "factor_group_mean": 8.47121810913086,
+        "group_bootstrap_95_percent": [
+          5.917666006088257,
+          11.20121672153473
+        ]
+      },
+      "H0_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.5464536547660828,
+        "factor_group_mean": 1.1211334466934204,
+        "group_bootstrap_95_percent": [
+          0.4928068593144417,
+          1.927636918425559
+        ]
+      },
+      "H0_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.19234898686408997,
+        "factor_group_mean": 0.10635031014680862,
+        "group_bootstrap_95_percent": [
+          -0.12173069640994072,
+          0.35373858809471104
+        ]
+      },
+      "H1_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.032900307327508926,
+        "factor_group_mean": 0.05208005756139755,
+        "group_bootstrap_95_percent": [
+          0.008462867396883667,
+          0.10324322711676354
+        ]
+      },
+      "H1_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.09965794533491135,
+        "factor_group_mean": 0.09699031710624695,
+        "group_bootstrap_95_percent": [
+          0.016129891294986008,
+          0.2113372363150118
+        ]
+      },
+      "H2_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.044182680547237396,
+        "factor_group_mean": 0.013414386659860611,
+        "group_bootstrap_95_percent": [
+          -0.002160735934739932,
+          0.03157894499599932
+        ]
+      },
+      "H2_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.2168859839439392,
+        "factor_group_mean": 0.057658255100250244,
+        "group_bootstrap_95_percent": [
+          -0.10784711800515652,
+          0.21720436513423916
+        ]
+      },
+      "H3_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.0665937289595604,
+        "factor_group_mean": 0.09865505248308182,
+        "group_bootstrap_95_percent": [
+          0.01789354467764497,
+          0.19942764043807984
+        ]
+      },
+      "H3_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.06454337388277054,
+        "factor_group_mean": 0.0860944390296936,
+        "group_bootstrap_95_percent": [
+          0.0021917721838690344,
+          0.17604499869048584
+        ]
+      },
+      "H4_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.07703181356191635,
+        "factor_group_mean": 0.03123493306338787,
+        "group_bootstrap_95_percent": [
+          -0.05524929063394666,
+          0.11945037692785263
+        ]
+      },
+      "H4_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.10572437942028046,
+        "factor_group_mean": 0.12632440030574799,
+        "group_bootstrap_95_percent": [
+          0.00216534773062449,
+          0.28064604103565216
+        ]
+      },
+      "H5_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.17261089384555817,
+        "factor_group_mean": 0.2382703721523285,
+        "group_bootstrap_95_percent": [
+          -0.06986244525760413,
+          0.7136887967586517
+        ]
+      },
+      "H5_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.08411002159118652,
+        "factor_group_mean": 0.03746509552001953,
+        "group_bootstrap_95_percent": [
+          -0.01625924319960177,
+          0.0942260570824146
+        ]
+      },
+      "H6_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.088491290807724,
+        "factor_group_mean": 0.1818648874759674,
+        "group_bootstrap_95_percent": [
+          0.0035099419648759074,
+          0.38163737356662725
+        ]
+      },
+      "H6_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.16703782975673676,
+        "factor_group_mean": 0.2419392168521881,
+        "group_bootstrap_95_percent": [
+          0.012267821608111263,
+          0.5185080006718633
+        ]
+      },
+      "H7_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.04237108305096626,
+        "factor_group_mean": 0.08150961995124817,
+        "group_bootstrap_95_percent": [
+          0.002860981953563169,
+          0.18227813914418206
+        ]
+      },
+      "H7_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.05957208201289177,
+        "factor_group_mean": 0.1509861797094345,
+        "group_bootstrap_95_percent": [
+          0.049731133971363306,
+          0.3072357036173343
+        ]
+      },
+      "H8_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.5457850098609924,
+        "factor_group_mean": 1.1203209161758423,
+        "group_bootstrap_95_percent": [
+          0.4596776582300663,
+          1.9537257373332977
+        ]
+      },
+      "H8_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.19223648309707642,
+        "factor_group_mean": 0.10630147904157639,
+        "group_bootstrap_95_percent": [
+          -0.12377918343991041,
+          0.33897933438420247
+        ]
+      },
+      "H9_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.032900724560022354,
+        "factor_group_mean": 0.05207621678709984,
+        "group_bootstrap_95_percent": [
+          0.004757443105336279,
+          0.10849195439368482
+        ]
+      },
+      "H9_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.09965028613805771,
+        "factor_group_mean": 0.09698408097028732,
+        "group_bootstrap_95_percent": [
+          0.016783323138952255,
+          0.21436807997524732
+        ]
+      },
+      "H10_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.04419625550508499,
+        "factor_group_mean": 0.013465038500726223,
+        "group_bootstrap_95_percent": [
+          -0.002381976047763601,
+          0.03053709883242844
+        ]
+      },
+      "H10_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.2169625163078308,
+        "factor_group_mean": 0.05768270790576935,
+        "group_bootstrap_95_percent": [
+          -0.10689978394657373,
+          0.23040224649012084
+        ]
+      },
+      "H11_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.06659287959337234,
+        "factor_group_mean": 0.09863961488008499,
+        "group_bootstrap_95_percent": [
+          0.015920243319123985,
+          0.19965712539851665
+        ]
+      },
+      "H11_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.06455245614051819,
+        "factor_group_mean": 0.08610815554857254,
+        "group_bootstrap_95_percent": [
+          -0.002227177639724686,
+          0.17230755388736724
+        ]
+      },
+      "H12_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.07696367800235748,
+        "factor_group_mean": 0.03124912455677986,
+        "group_bootstrap_95_percent": [
+          -0.05635741734877229,
+          0.11724569778889415
+        ]
+      },
+      "H12_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.10565318912267685,
+        "factor_group_mean": 0.1263217031955719,
+        "group_bootstrap_95_percent": [
+          0.0005851860420079911,
+          0.27557159885764115
+        ]
+      },
+      "H13_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.17268258333206177,
+        "factor_group_mean": 0.23834067583084106,
+        "group_bootstrap_95_percent": [
+          -0.06278364956378937,
+          0.7067218676209447
+        ]
+      },
+      "H13_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.08412609994411469,
+        "factor_group_mean": 0.03746376559138298,
+        "group_bootstrap_95_percent": [
+          -0.018504849914461375,
+          0.09594529327005143
+        ]
+      },
+      "H14_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.08858221769332886,
+        "factor_group_mean": 0.1819780021905899,
+        "group_bootstrap_95_percent": [
+          0.004289233259623871,
+          0.375249447673559
+        ]
+      },
+      "H14_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.16707497835159302,
+        "factor_group_mean": 0.24207431077957153,
+        "group_bootstrap_95_percent": [
+          -0.0009511320182355119,
+          0.5107628077268598
+        ]
+      },
+      "H15_keys": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.04237496852874756,
+        "factor_group_mean": 0.08156031370162964,
+        "group_bootstrap_95_percent": [
+          0.006338801956735552,
+          0.18428640216588973
+        ]
+      },
+      "H15_values": {
+        "inputs": 498,
+        "groups": 22,
+        "input_mean": 0.05961858481168747,
+        "factor_group_mean": 0.1510099619626999,
+        "group_bootstrap_95_percent": [
+          0.04997244067490101,
+          0.294359566271305
+        ]
+      }
+    },
+    "other_neuron_orbits_both_correct": {
+      "left_position": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 3.8851664066314697,
+        "factor_group_mean": 4.102532386779785,
+        "group_bootstrap_95_percent": [
+          2.1726448774337768,
+          6.359403717517853
+        ]
+      },
+      "right_position": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 5.059355735778809,
+        "factor_group_mean": 6.340680122375488,
+        "group_bootstrap_95_percent": [
+          2.961868464946747,
+          10.023444604873651
+        ]
+      },
+      "dominant_position": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 9.132037162780762,
+        "factor_group_mean": 9.563786506652832,
+        "group_bootstrap_95_percent": [
+          6.496034061908722,
+          12.801784777641291
+        ]
+      },
+      "other_position": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.28388968110084534,
+        "factor_group_mean": 0.37269800901412964,
+        "group_bootstrap_95_percent": [
+          0.17784039117395878,
+          0.5930704414844512
+        ]
+      },
+      "positions": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 9.841093063354492,
+        "factor_group_mean": 10.097542762756348,
+        "group_bootstrap_95_percent": [
+          7.059579277038575,
+          13.313161921501157
+        ]
+      },
+      "midpoint": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 1.5761783123016357,
+        "factor_group_mean": 2.329061508178711,
+        "group_bootstrap_95_percent": [
+          0.8323454901576042,
+          4.060986208915709
+        ]
+      },
+      "gap": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 6.9871745109558105,
+        "factor_group_mean": 6.1878662109375,
+        "group_bootstrap_95_percent": [
+          4.485939168930054,
+          8.020359349250793
+        ]
+      },
+      "descent": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.09189299494028091,
+        "factor_group_mean": 0.11566523462533951,
+        "group_bootstrap_95_percent": [
+          0.014073287975043059,
+          0.23434345796704292
+        ]
+      },
+      "positions_and_descent": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 9.72937297821045,
+        "factor_group_mean": 10.160103797912598,
+        "group_bootstrap_95_percent": [
+          7.137273991107941,
+          13.429837727546689
+        ]
+      },
+      "keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 4.2928385734558105,
+        "factor_group_mean": 5.456063270568848,
+        "group_bootstrap_95_percent": [
+          3.267279416322708,
+          8.424721121788025
+        ]
+      },
+      "values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 4.032027244567871,
+        "factor_group_mean": 3.7963485717773438,
+        "group_bootstrap_95_percent": [
+          2.3181294739246368,
+          5.4863712549209565
+        ]
+      },
+      "keys_and_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 7.5966668128967285,
+        "factor_group_mean": 8.167783737182617,
+        "group_bootstrap_95_percent": [
+          5.483528995513916,
+          10.94785475730896
+        ]
+      },
+      "H0_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.5251756906509399,
+        "factor_group_mean": 0.8972170948982239,
+        "group_bootstrap_95_percent": [
+          0.3632689617574215,
+          1.514491754770279
+        ]
+      },
+      "H0_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.19213150441646576,
+        "factor_group_mean": 0.09968680143356323,
+        "group_bootstrap_95_percent": [
+          -0.11876440960913896,
+          0.3577736042439933
+        ]
+      },
+      "H1_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.03231032192707062,
+        "factor_group_mean": 0.04602590203285217,
+        "group_bootstrap_95_percent": [
+          -0.00048434829659527146,
+          0.10199041869491336
+        ]
+      },
+      "H1_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.0998649150133133,
+        "factor_group_mean": 0.09930745512247086,
+        "group_bootstrap_95_percent": [
+          0.01364778291899711,
+          0.2164568319916725
+        ]
+      },
+      "H2_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.04434181749820709,
+        "factor_group_mean": 0.013828599825501442,
+        "group_bootstrap_95_percent": [
+          -0.003067552827997133,
+          0.03140940982848404
+        ]
+      },
+      "H2_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.2136722207069397,
+        "factor_group_mean": 0.012122999876737595,
+        "group_bootstrap_95_percent": [
+          -0.151289539411664,
+          0.15131401345133766
+        ]
+      },
+      "H3_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.06643790006637573,
+        "factor_group_mean": 0.09834148734807968,
+        "group_bootstrap_95_percent": [
+          0.015914911520667374,
+          0.21600819677114486
+        ]
+      },
+      "H3_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.06387530267238617,
+        "factor_group_mean": 0.07923103123903275,
+        "group_bootstrap_95_percent": [
+          -0.007180986611638218,
+          0.16557089053094384
+        ]
+      },
+      "H4_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.0789174884557724,
+        "factor_group_mean": 0.0513230562210083,
+        "group_bootstrap_95_percent": [
+          -0.027869299659505485,
+          0.13731430992484084
+        ]
+      },
+      "H4_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.10539845377206802,
+        "factor_group_mean": 0.1234564557671547,
+        "group_bootstrap_95_percent": [
+          -0.0062239049118943506,
+          0.27604656592011445
+        ]
+      },
+      "H5_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.17315773665905,
+        "factor_group_mean": 0.24785491824150085,
+        "group_bootstrap_95_percent": [
+          -0.07719940394163131,
+          0.7350883260369298
+        ]
+      },
+      "H5_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.08420310914516449,
+        "factor_group_mean": 0.03634330630302429,
+        "group_bootstrap_95_percent": [
+          -0.02395381750538945,
+          0.0943765003234148
+        ]
+      },
+      "H6_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.08938479423522949,
+        "factor_group_mean": 0.19686304032802582,
+        "group_bootstrap_95_percent": [
+          0.008801642293110491,
+          0.4078914754092693
+        ]
+      },
+      "H6_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.166842982172966,
+        "factor_group_mean": 0.24320490658283234,
+        "group_bootstrap_95_percent": [
+          -0.007379346061497926,
+          0.5326098307967185
+        ]
+      },
+      "H7_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.038820765912532806,
+        "factor_group_mean": 0.041445840150117874,
+        "group_bootstrap_95_percent": [
+          -0.0049905518768355245,
+          0.094504895247519
+        ]
+      },
+      "H7_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.054344337433576584,
+        "factor_group_mean": 0.09360211342573166,
+        "group_bootstrap_95_percent": [
+          0.0307682650629431,
+          0.1601723801344632
+        ]
+      },
+      "H8_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.5245128870010376,
+        "factor_group_mean": 0.8964665532112122,
+        "group_bootstrap_95_percent": [
+          0.3611617378890514,
+          1.5582123965024945
+        ]
+      },
+      "H8_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.19201231002807617,
+        "factor_group_mean": 0.09956187009811401,
+        "group_bootstrap_95_percent": [
+          -0.13945472240447998,
+          0.34256168752908694
+        ]
+      },
+      "H9_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.03231094777584076,
+        "factor_group_mean": 0.04602432996034622,
+        "group_bootstrap_95_percent": [
+          -0.0027961448300629853,
+          0.10107502248138182
+        ]
+      },
+      "H9_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.09985743463039398,
+        "factor_group_mean": 0.09930340200662613,
+        "group_bootstrap_95_percent": [
+          0.018233243515715,
+          0.21870219744741914
+        ]
+      },
+      "H10_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.04435604438185692,
+        "factor_group_mean": 0.013888691551983356,
+        "group_bootstrap_95_percent": [
+          -0.003273764549521729,
+          0.03239063331857324
+        ]
+      },
+      "H10_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.2137492597103119,
+        "factor_group_mean": 0.012150926515460014,
+        "group_bootstrap_95_percent": [
+          -0.14583499766886235,
+          0.15900950692594046
+        ]
+      },
+      "H11_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.06643746048212051,
+        "factor_group_mean": 0.09833022207021713,
+        "group_bootstrap_95_percent": [
+          0.01618514023721218,
+          0.2072118807584047
+        ]
+      },
+      "H11_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.06388474255800247,
+        "factor_group_mean": 0.07924923300743103,
+        "group_bootstrap_95_percent": [
+          -0.014932148135267196,
+          0.16246230527758587
+        ]
+      },
+      "H12_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.07884638011455536,
+        "factor_group_mean": 0.05130600929260254,
+        "group_bootstrap_95_percent": [
+          -0.027010815264657137,
+          0.13563400544226165
+        ]
+      },
+      "H12_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.1053258404135704,
+        "factor_group_mean": 0.12344013154506683,
+        "group_bootstrap_95_percent": [
+          -0.006322645454201847,
+          0.2788012288510797
+        ]
+      },
+      "H13_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.17323005199432373,
+        "factor_group_mean": 0.2479325234889984,
+        "group_bootstrap_95_percent": [
+          -0.06932671144604682,
+          0.7271708190441131
+        ]
+      },
+      "H13_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.08421949297189713,
+        "factor_group_mean": 0.036344610154628754,
+        "group_bootstrap_95_percent": [
+          -0.022277475614100695,
+          0.09736665952950713
+        ]
+      },
+      "H14_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.08947649598121643,
+        "factor_group_mean": 0.1969863325357437,
+        "group_bootstrap_95_percent": [
+          0.014475319860503079,
+          0.39424246326088885
+        ]
+      },
+      "H14_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.16687984764575958,
+        "factor_group_mean": 0.2433413714170456,
+        "group_bootstrap_95_percent": [
+          -0.007622394373174757,
+          0.5201124876737592
+        ]
+      },
+      "H15_keys": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.03882267698645592,
+        "factor_group_mean": 0.04147544503211975,
+        "group_bootstrap_95_percent": [
+          -0.00902718543075025,
+          0.09458832051604986
+        ]
+      },
+      "H15_values": {
+        "inputs": 496,
+        "groups": 21,
+        "input_mean": 0.05439109355211258,
+        "factor_group_mean": 0.09362770617008209,
+        "group_bootstrap_95_percent": [
+          0.032984734047204256,
+          0.16837387494742861
+        ]
+      }
+    }
+  },
+  "artifact_sha256": "6090362fdc48b52eacb6a2a42973323cf56e700ce768863bb37a7726bb703da9",
+  "limitation": "Effects after GELU and subsequent layers are not additive. The source normalization scale is fixed in the preactivation decomposition. No claim that the model computes a Bruhat projection is made."
+}

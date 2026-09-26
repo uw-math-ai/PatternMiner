@@ -1,0 +1,2531 @@
+{
+  "featurize_v003": {
+    "n_zeros_full": 328419,
+    "n_discovery_zero_sample": 45000,
+    "n_discovery_pos": 59979,
+    "n_heldout_pos": 83689,
+    "featurize_seconds": {
+      "zeros_full": 81.72749304771423,
+      "discovery_pos": 16.41274881362915,
+      "heldout_pos": 21.554656982421875
+    }
+  },
+  "featurize_v002": {
+    "n_zeros_grading_bruhat": 93347,
+    "n_zeros_also_descent_union": 31184,
+    "n_pos": 125773,
+    "featurize_seconds": {
+      "zeros": 26.349690675735474,
+      "pos": 30.708144903182983
+    }
+  },
+  "mine": {
+    "v003_C2": {
+      "n_zeros": 45000,
+      "n_pos": 59979,
+      "n_candidates_min30": 2,
+      "candidates": [
+        {
+          "feature": "ess_n_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "zeros_killed": 133,
+          "kill_rate": 0.0029555555555555555,
+          "group_kill_rates": {
+            "perturb": 0.00109802059530522,
+            "random": 0.008493320357427232
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ess_has_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "zeros_killed": 133,
+          "kill_rate": 0.0029555555555555555,
+          "group_kill_rates": {
+            "perturb": 0.00109802059530522,
+            "random": 0.008493320357427232
+          },
+          "mechanism_independent": false
+        }
+      ],
+      "C2_rank_by_kills": 1,
+      "C2_kills": 133,
+      "C2_rank_by_simplicity": 1,
+      "mine_seconds": 0.061956167221069336
+    },
+    "v003_ml_ceilings": {
+      "tree_d5": {
+        "balanced_acc": 0.7432162202215553,
+        "mcc": 0.4873997920458708,
+        "seconds": 0.32717418670654297
+      },
+      "boosted_trees": {
+        "balanced_acc": 0.7901543106961579,
+        "mcc": 0.5744956513329639,
+        "seconds": 5.0884904861450195
+      },
+      "sparse_logistic": {
+        "balanced_acc": 0.7541539649018809,
+        "mcc": 0.5033745812007722,
+        "n_nonzero_coefs": 34,
+        "seconds": 15.375039100646973
+      }
+    },
+    "v002_C1": {
+      "n_zeros": 31184,
+      "n_pos": 125773,
+      "n_candidates_min30": 17,
+      "candidates": [
+        {
+          "feature": "rothe_n_rows",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 1847,
+          "kill_rate": 0.05922909184197024,
+          "group_kill_rates": {
+            "3": 0.05689841348949248,
+            "4": 0.06753874591212854,
+            "6": 0.0273972602739726
+          },
+          "mechanism_independent": true
+        },
+        {
+          "feature": "ess_n_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "zeros_killed": 781,
+          "kill_rate": 0.02504489481785531,
+          "group_kill_rates": {
+            "3": 0.03193786859373702,
+            "4": 0.0017062420019906157,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ess_has_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "zeros_killed": 781,
+          "kill_rate": 0.02504489481785531,
+          "group_kill_rates": {
+            "3": 0.03193786859373702,
+            "4": 0.0017062420019906157,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ess_n_slack0",
+          "direction": ">",
+          "bound": 0.0,
+          "zeros_killed": 637,
+          "kill_rate": 0.02042714212416624,
+          "group_kill_rates": {
+            "3": 0.02620649555610931,
+            "4": 0.0008531210009953079,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_dist_ess",
+          "direction": "<",
+          "bound": 1.0,
+          "zeros_killed": 637,
+          "kill_rate": 0.02042714212416624,
+          "group_kill_rates": {
+            "3": 0.02620649555610931,
+            "4": 0.0008531210009953079,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ell_w",
+          "direction": ">",
+          "bound": 27.0,
+          "zeros_killed": 470,
+          "kill_rate": 0.015071831708568496,
+          "group_kill_rates": {
+            "3": 0.014868344546889277,
+            "4": 0.015924925351912412,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "mean_slack",
+          "direction": ">",
+          "bound": 4.37,
+          "zeros_killed": 385,
+          "kill_rate": 0.012346074910210364,
+          "group_kill_rates": {
+            "3": 0.012293379848824653,
+            "4": 0.0126546281814304,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ess_size",
+          "direction": ">",
+          "bound": 6.0,
+          "zeros_killed": 308,
+          "kill_rate": 0.009876859928168292,
+          "group_kill_rates": {
+            "3": 0.012127253094110807,
+            "4": 0.00213280250248827,
+            "6": 0.0136986301369863
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_dist_ess",
+          "direction": ">",
+          "bound": 10.0,
+          "zeros_killed": 203,
+          "kill_rate": 0.00650974858902001,
+          "group_kill_rates": {
+            "3": 0.005772904726306172,
+            "4": 0.00909995734394995,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "rothe_max_row",
+          "direction": ">",
+          "bound": 10.0,
+          "zeros_killed": 202,
+          "kill_rate": 0.006477680861980503,
+          "group_kill_rates": {
+            "3": 0.0060636265470554035,
+            "4": 0.007962462675956206,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_ev0",
+          "direction": ">",
+          "bound": 60.0,
+          "zeros_killed": 189,
+          "kill_rate": 0.006060800410466906,
+          "group_kill_rates": {
+            "3": 0.006520475122518482,
+            "4": 0.004549978671974975,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_ldesc_w",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 175,
+          "kill_rate": 0.005611852231913802,
+          "group_kill_rates": {
+            "3": 0.005565246282913864,
+            "4": 0.005829660173467937,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_col_span",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 81,
+          "kill_rate": 0.0025974858902001025,
+          "group_kill_rates": {
+            "3": 0.0030318132735277017,
+            "4": 0.0011374946679937438,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_max_row_run",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 81,
+          "kill_rate": 0.0025974858902001025,
+          "group_kill_rates": {
+            "3": 0.0030318132735277017,
+            "4": 0.0011374946679937438,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_eu0",
+          "direction": ">",
+          "bound": 60.0,
+          "zeros_killed": 69,
+          "kill_rate": 0.0022126731657260133,
+          "group_kill_rates": {
+            "3": 0.002533433009386162,
+            "4": 0.0011374946679937438,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_row_span",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 69,
+          "kill_rate": 0.0022126731657260133,
+          "group_kill_rates": {
+            "3": 0.0024088379433507764,
+            "4": 0.0015640551684913977,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_both_tight",
+          "direction": ">",
+          "bound": 60.0,
+          "zeros_killed": 47,
+          "kill_rate": 0.0015071831708568498,
+          "group_kill_rates": {
+            "3": 0.0017027992358169283,
+            "4": 0.0008531210009953079,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        }
+      ],
+      "C1_rank_by_kills": 4,
+      "C1_kills": 637,
+      "C2_rank_by_kills": 2,
+      "C2_kills": 781,
+      "mine_seconds": 0.11754846572875977
+    },
+    "v001_descent_union": {
+      "n_zeros": 93347,
+      "n_pos": 125773,
+      "n_candidates_min30": 26,
+      "candidates": [
+        {
+          "feature": "n_extra_descents",
+          "direction": ">",
+          "bound": 0.0,
+          "zeros_killed": 62163,
+          "kill_rate": 0.6659346310004607,
+          "group_kill_rates": {
+            "3": 0.6812465249278509,
+            "4": 0.6034618854307623,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "rothe_n_rows",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 23579,
+          "kill_rate": 0.25259515570934254,
+          "group_kill_rates": {
+            "3": 0.29485821705631604,
+            "4": 0.07352277852954443,
+            "6": 0.0273972602739726
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ell_w",
+          "direction": ">",
+          "bound": 27.0,
+          "zeros_killed": 2471,
+          "kill_rate": 0.026471123871147438,
+          "group_kill_rates": {
+            "3": 0.029428896714236544,
+            "4": 0.013982859720342805,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ess_size",
+          "direction": ">",
+          "bound": 6.0,
+          "zeros_killed": 2167,
+          "kill_rate": 0.023214457882952854,
+          "group_kill_rates": {
+            "3": 0.028263920146151606,
+            "4": 0.0017478574650428506,
+            "6": 0.0136986301369863
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "mean_slack",
+          "direction": ">",
+          "bound": 4.37,
+          "zeros_killed": 1969,
+          "kill_rate": 0.0210933399037998,
+          "group_kill_rates": {
+            "3": 0.023564298763536235,
+            "4": 0.010656292286874154,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ess_n_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "zeros_killed": 1298,
+          "kill_rate": 0.013905106752225567,
+          "group_kill_rates": {
+            "3": 0.016892160237231592,
+            "4": 0.0012404149751917004,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ess_has_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "zeros_killed": 1298,
+          "kill_rate": 0.013905106752225567,
+          "group_kill_rates": {
+            "3": 0.016892160237231592,
+            "4": 0.0012404149751917004,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_ev0",
+          "direction": ">",
+          "bound": 60.0,
+          "zeros_killed": 1181,
+          "kill_rate": 0.012651718855453308,
+          "group_kill_rates": {
+            "3": 0.01469459080198046,
+            "4": 0.004003157419936852,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "ess_n_slack0",
+          "direction": ">",
+          "bound": 0.0,
+          "zeros_killed": 1111,
+          "kill_rate": 0.01190182866080324,
+          "group_kill_rates": {
+            "3": 0.014588683841245466,
+            "4": 0.0005074424898511502,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_dist_ess",
+          "direction": "<",
+          "bound": 1.0,
+          "zeros_killed": 1111,
+          "kill_rate": 0.01190182866080324,
+          "group_kill_rates": {
+            "3": 0.014588683841245466,
+            "4": 0.0005074424898511502,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "rothe_max_row",
+          "direction": ">",
+          "bound": 10.0,
+          "zeros_killed": 1047,
+          "kill_rate": 0.011216214768551747,
+          "group_kill_rates": {
+            "3": 0.01216606211443247,
+            "4": 0.007216959855660803,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_ldesc_w",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 920,
+          "kill_rate": 0.009855699701115194,
+          "group_kill_rates": {
+            "3": 0.011252614578093146,
+            "4": 0.003946774921064502,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_dist_ess",
+          "direction": ">",
+          "bound": 10.0,
+          "zeros_killed": 791,
+          "kill_rate": 0.00847375919954578,
+          "group_kill_rates": {
+            "3": 0.00855198707935079,
+            "4": 0.008175462336490753,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_eu0",
+          "direction": ">",
+          "bound": 60.0,
+          "zeros_killed": 489,
+          "kill_rate": 0.005238518645484054,
+          "group_kill_rates": {
+            "3": 0.006169080462813418,
+            "4": 0.0012967974740640505,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_col_span",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 419,
+          "kill_rate": 0.004488628450833985,
+          "group_kill_rates": {
+            "3": 0.005268871296565967,
+            "4": 0.0011840324763193505,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_max_row_run",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 419,
+          "kill_rate": 0.004488628450833985,
+          "group_kill_rates": {
+            "3": 0.005268871296565967,
+            "4": 0.0011840324763193505,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_row_span",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 392,
+          "kill_rate": 0.0041993850900403865,
+          "group_kill_rates": {
+            "3": 0.004818766713442241,
+            "4": 0.0015787099684258007,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_both_tight",
+          "direction": ">",
+          "bound": 60.0,
+          "zeros_killed": 348,
+          "kill_rate": 0.003728025539117486,
+          "group_kill_rates": {
+            "3": 0.004368662130318515,
+            "4": 0.0010148849797023004,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_rdesc_w",
+          "direction": ">",
+          "bound": 5.0,
+          "zeros_killed": 270,
+          "kill_rate": 0.002892433607935981,
+          "group_kill_rates": {
+            "3": 0.003547883184622309,
+            "4": 0.00011276499774470004,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "asym_tight",
+          "direction": ">",
+          "bound": 25.0,
+          "zeros_killed": 206,
+          "kill_rate": 0.002206819715684489,
+          "group_kill_rates": {
+            "3": 0.002528528687547989,
+            "4": 0.0008457374830852503,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_slack0",
+          "direction": ">",
+          "bound": 13.0,
+          "zeros_killed": 84,
+          "kill_rate": 0.000899868233580083,
+          "group_kill_rates": {
+            "3": 0.0011120230877174403,
+            "4": 0.0,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_tight",
+          "direction": ">",
+          "bound": 13.0,
+          "zeros_killed": 84,
+          "kill_rate": 0.000899868233580083,
+          "group_kill_rates": {
+            "3": 0.0011120230877174403,
+            "4": 0.0,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "tight_in_dw",
+          "direction": ">",
+          "bound": 13.0,
+          "zeros_killed": 84,
+          "kill_rate": 0.000899868233580083,
+          "group_kill_rates": {
+            "3": 0.0011120230877174403,
+            "4": 0.0,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "dw_n_slack0",
+          "direction": ">",
+          "bound": 13.0,
+          "zeros_killed": 84,
+          "kill_rate": 0.000899868233580083,
+          "group_kill_rates": {
+            "3": 0.0011120230877174403,
+            "4": 0.0,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        },
+        {
+          "feature": "n_slack1",
+          "direction": ">",
+          "bound": 25.0,
+          "zeros_killed": 70,
+          "kill_rate": 0.0007498901946500691,
+          "group_kill_rates": {
+            "3": 0.0008472556858799545,
+            "4": 0.00033829499323410016,
+            "6": 0.0
+          },
+          "mechanism_independent": false
+        }
+      ],
+      "descent_union_rank_by_kills": 1,
+      "descent_union_kills": 62163,
+      "mine_seconds": 0.3245816230773926
+    }
+  },
+  "mine_heldout": {
+    "v003_C2": {
+      "candidates_heldout": [
+        {
+          "feature": "ess_n_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "kills": 133,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "ess_has_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "kills": 133,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        }
+      ],
+      "n_survive_heldout": 2,
+      "n_candidates": 2,
+      "n_heldout_pos": 83689
+    },
+    "v002_C1": {
+      "candidates_heldout": [
+        {
+          "feature": "rothe_n_rows",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 1847,
+          "heldout_viol": 32531,
+          "survives_heldout": false
+        },
+        {
+          "feature": "ess_n_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "kills": 781,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "ess_has_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "kills": 781,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "ess_n_slack0",
+          "direction": ">",
+          "bound": 0.0,
+          "kills": 637,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "tight_dist_ess",
+          "direction": "<",
+          "bound": 1.0,
+          "kills": 637,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "ell_w",
+          "direction": ">",
+          "bound": 27.0,
+          "kills": 470,
+          "heldout_viol": 14866,
+          "survives_heldout": false
+        },
+        {
+          "feature": "mean_slack",
+          "direction": ">",
+          "bound": 4.37,
+          "kills": 385,
+          "heldout_viol": 11712,
+          "survives_heldout": false
+        },
+        {
+          "feature": "ess_size",
+          "direction": ">",
+          "bound": 6.0,
+          "kills": 308,
+          "heldout_viol": 2590,
+          "survives_heldout": false
+        },
+        {
+          "feature": "tight_dist_ess",
+          "direction": ">",
+          "bound": 10.0,
+          "kills": 203,
+          "heldout_viol": 3167,
+          "survives_heldout": false
+        },
+        {
+          "feature": "rothe_max_row",
+          "direction": ">",
+          "bound": 10.0,
+          "kills": 202,
+          "heldout_viol": 9026,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_ev0",
+          "direction": ">",
+          "bound": 60.0,
+          "kills": 189,
+          "heldout_viol": 5772,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_ldesc_w",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 175,
+          "heldout_viol": 4687,
+          "survives_heldout": false
+        },
+        {
+          "feature": "tight_col_span",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 81,
+          "heldout_viol": 1990,
+          "survives_heldout": false
+        },
+        {
+          "feature": "tight_max_row_run",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 81,
+          "heldout_viol": 1990,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_eu0",
+          "direction": ">",
+          "bound": 60.0,
+          "kills": 69,
+          "heldout_viol": 2383,
+          "survives_heldout": false
+        },
+        {
+          "feature": "tight_row_span",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 69,
+          "heldout_viol": 1884,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_both_tight",
+          "direction": ">",
+          "bound": 60.0,
+          "kills": 47,
+          "heldout_viol": 1791,
+          "survives_heldout": false
+        }
+      ],
+      "n_survive_heldout": 4,
+      "n_candidates": 17,
+      "n_heldout_pos": 83689
+    },
+    "v001_descent_union": {
+      "candidates_heldout": [
+        {
+          "feature": "n_extra_descents",
+          "direction": ">",
+          "bound": 0.0,
+          "kills": 62163,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "rothe_n_rows",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 23579,
+          "heldout_viol": 32531,
+          "survives_heldout": false
+        },
+        {
+          "feature": "ell_w",
+          "direction": ">",
+          "bound": 27.0,
+          "kills": 2471,
+          "heldout_viol": 14866,
+          "survives_heldout": false
+        },
+        {
+          "feature": "ess_size",
+          "direction": ">",
+          "bound": 6.0,
+          "kills": 2167,
+          "heldout_viol": 2590,
+          "survives_heldout": false
+        },
+        {
+          "feature": "mean_slack",
+          "direction": ">",
+          "bound": 4.37,
+          "kills": 1969,
+          "heldout_viol": 11712,
+          "survives_heldout": false
+        },
+        {
+          "feature": "ess_n_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "kills": 1298,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "ess_has_both_tight",
+          "direction": ">",
+          "bound": 0.0,
+          "kills": 1298,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "n_ev0",
+          "direction": ">",
+          "bound": 60.0,
+          "kills": 1181,
+          "heldout_viol": 5772,
+          "survives_heldout": false
+        },
+        {
+          "feature": "ess_n_slack0",
+          "direction": ">",
+          "bound": 0.0,
+          "kills": 1111,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "tight_dist_ess",
+          "direction": "<",
+          "bound": 1.0,
+          "kills": 1111,
+          "heldout_viol": 0,
+          "survives_heldout": true
+        },
+        {
+          "feature": "rothe_max_row",
+          "direction": ">",
+          "bound": 10.0,
+          "kills": 1047,
+          "heldout_viol": 9026,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_ldesc_w",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 920,
+          "heldout_viol": 4687,
+          "survives_heldout": false
+        },
+        {
+          "feature": "tight_dist_ess",
+          "direction": ">",
+          "bound": 10.0,
+          "kills": 791,
+          "heldout_viol": 3167,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_eu0",
+          "direction": ">",
+          "bound": 60.0,
+          "kills": 489,
+          "heldout_viol": 2383,
+          "survives_heldout": false
+        },
+        {
+          "feature": "tight_col_span",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 419,
+          "heldout_viol": 1990,
+          "survives_heldout": false
+        },
+        {
+          "feature": "tight_max_row_run",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 419,
+          "heldout_viol": 1990,
+          "survives_heldout": false
+        },
+        {
+          "feature": "tight_row_span",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 392,
+          "heldout_viol": 1884,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_both_tight",
+          "direction": ">",
+          "bound": 60.0,
+          "kills": 348,
+          "heldout_viol": 1791,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_rdesc_w",
+          "direction": ">",
+          "bound": 5.0,
+          "kills": 270,
+          "heldout_viol": 963,
+          "survives_heldout": false
+        },
+        {
+          "feature": "asym_tight",
+          "direction": ">",
+          "bound": 25.0,
+          "kills": 206,
+          "heldout_viol": 1588,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_slack0",
+          "direction": ">",
+          "bound": 13.0,
+          "kills": 84,
+          "heldout_viol": 377,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_tight",
+          "direction": ">",
+          "bound": 13.0,
+          "kills": 84,
+          "heldout_viol": 377,
+          "survives_heldout": false
+        },
+        {
+          "feature": "tight_in_dw",
+          "direction": ">",
+          "bound": 13.0,
+          "kills": 84,
+          "heldout_viol": 377,
+          "survives_heldout": false
+        },
+        {
+          "feature": "dw_n_slack0",
+          "direction": ">",
+          "bound": 13.0,
+          "kills": 84,
+          "heldout_viol": 377,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_slack1",
+          "direction": ">",
+          "bound": 25.0,
+          "kills": 70,
+          "heldout_viol": 326,
+          "survives_heldout": false
+        },
+        {
+          "feature": "n_near",
+          "direction": ">",
+          "bound": 25.0,
+          "kills": 70,
+          "heldout_viol": 326,
+          "survives_heldout": false
+        }
+      ],
+      "n_survive_heldout": 5,
+      "n_candidates": 26,
+      "n_heldout_pos": 83689
+    }
+  },
+  "sample_complexity": {
+    "C2_both_tight": {
+      "n_pool_zeros": 328419,
+      "pos_bound": 0.0,
+      "pool_kill_rate": 0.0028682871575639655,
+      "rows": [
+        {
+          "n_zeros": 500,
+          "detection_freq": 0.0,
+          "kills_per_rep": [
+            0,
+            4,
+            0,
+            2,
+            1
+          ],
+          "rank_when_detected": []
+        },
+        {
+          "n_zeros": 2000,
+          "detection_freq": 0.2,
+          "kills_per_rep": [
+            7,
+            4,
+            13,
+            3,
+            6
+          ],
+          "rank_when_detected": [
+            1
+          ]
+        },
+        {
+          "n_zeros": 8000,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            29,
+            32,
+            25,
+            20,
+            14
+          ],
+          "rank_when_detected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "n_zeros": 32000,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            94,
+            96,
+            92,
+            95,
+            75
+          ],
+          "rank_when_detected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "n_zeros": 328419,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            942,
+            942,
+            942,
+            942,
+            942
+          ],
+          "rank_when_detected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "C1_ess_slack0": {
+      "n_pool_zeros": 31184,
+      "pos_bound": 0.0,
+      "pool_kill_rate": 0.02042714212416624,
+      "rows": [
+        {
+          "n_zeros": 500,
+          "detection_freq": 0.6,
+          "kills_per_rep": [
+            11,
+            8,
+            10,
+            7,
+            15
+          ],
+          "rank_when_detected": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "n_zeros": 2000,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            41,
+            43,
+            40,
+            29,
+            48
+          ],
+          "rank_when_detected": [
+            4,
+            4,
+            4,
+            5,
+            4
+          ]
+        },
+        {
+          "n_zeros": 8000,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            161,
+            169,
+            157,
+            146,
+            170
+          ],
+          "rank_when_detected": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "n_zeros": 31184,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            637,
+            637,
+            637,
+            637,
+            637
+          ],
+          "rank_when_detected": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "n_zeros": 31184,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            637,
+            637,
+            637,
+            637,
+            637
+          ],
+          "rank_when_detected": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    "descent_union": {
+      "n_pool_zeros": 93347,
+      "pos_bound": 0.0,
+      "pool_kill_rate": 0.6659346310004607,
+      "rows": [
+        {
+          "n_zeros": 500,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            317,
+            332,
+            318,
+            332,
+            303
+          ],
+          "rank_when_detected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "n_zeros": 2000,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            1383,
+            1342,
+            1276,
+            1325,
+            1347
+          ],
+          "rank_when_detected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "n_zeros": 8000,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            5373,
+            5336,
+            5272,
+            5319,
+            5295
+          ],
+          "rank_when_detected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "n_zeros": 32000,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            21270,
+            21365,
+            21351,
+            21290,
+            21284
+          ],
+          "rank_when_detected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "n_zeros": 93347,
+          "detection_freq": 1.0,
+          "kills_per_rep": [
+            62163,
+            62163,
+            62163,
+            62163,
+            62163
+          ],
+          "rank_when_detected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "depth2": {
+    "v003": {
+      "n_literals": 217,
+      "n_pairs_enumerated": 23436,
+      "n_predicates_enumerated": 23653,
+      "matmul_seconds": 0.38653087615966797,
+      "n_survivors": 364,
+      "n_distinct_kill_signatures": 92,
+      "n_clean_survivors": 359,
+      "junk_rate_heldout": 0.013736263736263736,
+      "targets": {
+        "C2_both_tight": {
+          "present_as_literal": true,
+          "kills": 133,
+          "is_survivor": true,
+          "rank_by_kills": 19,
+          "rank_by_simplicity": 1,
+          "rank_by_kills_among_clean": 19,
+          "n_survivors_subset_of_law": 325
+        },
+        "C1_ess_slack0": {
+          "present_as_literal": false
+        }
+      },
+      "top_survivors": [
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "both_tight_full_col <= 0"
+          ],
+          "depth": 2,
+          "kills": 1253,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "tight_col_span >= 2"
+          ],
+          "depth": 2,
+          "kills": 811,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "tight_max_row_run >= 2"
+          ],
+          "depth": 2,
+          "kills": 811,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack0 >= 3",
+            "both_tight_full_row >= 1"
+          ],
+          "depth": 2,
+          "kills": 677,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "n_tight >= 3"
+          ],
+          "depth": 2,
+          "kills": 677,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "tight_in_dw >= 3"
+          ],
+          "depth": 2,
+          "kills": 677,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "dw_n_slack0 >= 3"
+          ],
+          "depth": 2,
+          "kills": 677,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "tight_col_span >= 3"
+          ],
+          "depth": 2,
+          "kills": 557,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "tight_max_row_run >= 3"
+          ],
+          "depth": 2,
+          "kills": 557,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack0 >= 4",
+            "both_tight_full_row >= 1"
+          ],
+          "depth": 2,
+          "kills": 526,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "n_tight >= 4"
+          ],
+          "depth": 2,
+          "kills": 526,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "tight_in_dw >= 4"
+          ],
+          "depth": 2,
+          "kills": 526,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "dw_n_slack0 >= 4"
+          ],
+          "depth": 2,
+          "kills": 526,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "tight_col_span >= 4"
+          ],
+          "depth": 2,
+          "kills": 374,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "tight_max_row_run >= 4"
+          ],
+          "depth": 2,
+          "kills": 374,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "tight_row_span >= 3"
+          ],
+          "depth": 2,
+          "kills": 173,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "rothe_max_row <= 3",
+            "tight_col_span >= 2"
+          ],
+          "depth": 2,
+          "kills": 149,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "rothe_max_row <= 3",
+            "tight_max_row_run >= 2"
+          ],
+          "depth": 2,
+          "kills": 149,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 1,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 1,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 1",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 2",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 2",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 3",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 3",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "mean_slack >= 2",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "mean_slack >= 2",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 1",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 2",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 2",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 3",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 3",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 4",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 4",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 1",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 2",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 2",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 133,
+          "heldout_viol": 0
+        }
+      ],
+      "total_seconds": 1.1338410377502441
+    },
+    "v002": {
+      "n_literals": 252,
+      "n_pairs_enumerated": 31626,
+      "n_predicates_enumerated": 31878,
+      "matmul_seconds": 0.6040282249450684,
+      "n_survivors": 845,
+      "n_distinct_kill_signatures": 183,
+      "n_clean_survivors": 841,
+      "junk_rate_heldout": 0.004733727810650888,
+      "targets": {
+        "C1_ess_slack0": {
+          "present_as_literal": true,
+          "kills": 637,
+          "is_survivor": true,
+          "rank_by_kills": 189,
+          "rank_by_simplicity": 4,
+          "rank_by_kills_among_clean": 189,
+          "n_survivors_subset_of_law": 431
+        },
+        "C2_both_tight": {
+          "present_as_literal": true,
+          "kills": 781,
+          "is_survivor": true,
+          "rank_by_kills": 2,
+          "rank_by_simplicity": 2,
+          "rank_by_kills_among_clean": 2,
+          "n_survivors_subset_of_law": 812
+        }
+      },
+      "top_survivors": [
+        {
+          "pred": [
+            "both_tight_full_row >= 1",
+            "both_tight_full_col <= 0"
+          ],
+          "depth": 2,
+          "kills": 818,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 1,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 1,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 1",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 2",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 2",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 3",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 3",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "mean_slack >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "mean_slack >= 1",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "mean_slack >= 2",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "mean_slack >= 2",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 1",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 2",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 2",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 3",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 3",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 4",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 4",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 1",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 2",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 2",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 3",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 3",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 4",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 4",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 1",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 2",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 2",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 3",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 3",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 4",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 4",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "has_both_tight >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "has_both_tight >= 1",
+            "ess_has_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "both_tight_2x2 >= 1",
+            "ess_n_both_tight >= 1"
+          ],
+          "depth": 2,
+          "kills": 781,
+          "heldout_viol": 0
+        }
+      ],
+      "total_seconds": 1.9334821701049805
+    },
+    "v001": {
+      "n_literals": 262,
+      "n_pairs_enumerated": 34191,
+      "n_predicates_enumerated": 34453,
+      "matmul_seconds": 0.7839250564575195,
+      "n_survivors": 1786,
+      "n_distinct_kill_signatures": 628,
+      "n_clean_survivors": 1773,
+      "junk_rate_heldout": 0.007278835386338186,
+      "targets": {
+        "descent_union": {
+          "present_as_literal": true,
+          "kills": 62163,
+          "is_survivor": true,
+          "rank_by_kills": 1,
+          "rank_by_simplicity": 2,
+          "rank_by_kills_among_clean": 1,
+          "n_survivors_subset_of_law": 779
+        }
+      },
+      "top_survivors": [
+        {
+          "pred": [
+            "n_extra_descents >= 1"
+          ],
+          "depth": 1,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "mean_slack >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 3",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ev0 >= 4",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_size >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ell_w >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ell_w >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_rdesc_w >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ldesc_w >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "rothe_max_row >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "rothe_n_rows >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "rothe_n_rows >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "dw_min_slack <= 3",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62163,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ell_w >= 3",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62161,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ell_w >= 4",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62161,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_n_slack0 <= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62160,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_n_both_tight <= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62160,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_min_slack <= 4",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62158,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "rothe_max_row >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62157,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_n_slack1 <= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62157,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_n_slack2 <= 4",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62155,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "min_slack <= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62154,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62154,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_near >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62154,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "near_dist_ess <= 4",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62154,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "ess_size >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62153,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "near_dist_ess <= 3",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62149,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62141,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_extra_descents >= 1",
+            "n_extra_descents <= 3"
+          ],
+          "depth": 2,
+          "kills": 62140,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_both_tight >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62135,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "has_both_tight >= 1",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62135,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "dw_min_slack <= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62118,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_rdesc_w >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62116,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_slack1 >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62098,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_near >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62098,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "near_dist_ess <= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62089,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_eu0 >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62071,
+          "heldout_viol": 0
+        },
+        {
+          "pred": [
+            "n_ldesc_w >= 2",
+            "n_extra_descents >= 1"
+          ],
+          "depth": 2,
+          "kills": 62058,
+          "heldout_viol": 0
+        }
+      ],
+      "total_seconds": 4.579891204833984
+    }
+  },
+  "random_control": {
+    "sae": {
+      "n_features": 1024,
+      "n_dead": 0,
+      "max_zero_auc": 0.985386525244354,
+      "top5": [
+        [
+          653,
+          0.985386525244354
+        ],
+        [
+          857,
+          0.9853006779079598
+        ],
+        [
+          235,
+          0.9235130219801783
+        ],
+        [
+          715,
+          0.8039787764617584
+        ],
+        [
+          9,
+          0.7744965246342077
+        ]
+      ],
+      "n_auc_gt_0.9": 3,
+      "n_auc_gt_0.95": 2,
+      "n_auc_gt_0.98": 2
+    },
+    "random_linear": {
+      "n_features": 1024,
+      "max_zero_auc": 0.985495753961075,
+      "n_auc_gt_0.9": 337,
+      "n_auc_gt_0.95": 110,
+      "n_auc_gt_0.98": 5,
+      "median_auc": 0.8520059644930102
+    },
+    "random_relu": {
+      "n_features": 1024,
+      "max_zero_auc": 0.9787933588342627,
+      "n_auc_gt_0.9": 148,
+      "n_auc_gt_0.95": 34,
+      "n_auc_gt_0.98": 0,
+      "median_auc": 0.7714669751208934
+    },
+    "raw_coords": {
+      "n_features": 256,
+      "max_zero_auc": 0.9743470201292501,
+      "n_auc_gt_0.95": 40
+    },
+    "shadow_naming": {
+      "sae_653_rho_mp": 0.587318465758033,
+      "sae_653_rho_min_delta": -0.4790337203655362,
+      "best_rho_mp_top8_sae": 0.587318465758033,
+      "best_rho_mp_top8_random_linear": -0.47968000968958735,
+      "best_rho_mp_top8_random_relu": 0.5856633121665125
+    },
+    "seconds": 54.030778646469116
+  }
+}

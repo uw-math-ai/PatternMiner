@@ -1,0 +1,10 @@
+{"part": "confirmation", "inputs": 64, "total": 498}
+{"part": "confirmation", "inputs": 128, "total": 498}
+{"part": "confirmation", "inputs": 192, "total": 498}
+{"part": "confirmation", "inputs": 256, "total": 498}
+{"part": "confirmation", "inputs": 320, "total": 498}
+{"part": "confirmation", "inputs": 384, "total": 498}
+{"part": "confirmation", "inputs": 448, "total": 498}
+{"part": "confirmation", "inputs": 498, "total": 498}
+{"status": "completed", "part": "confirmation", "selected": {"selection": {"mask": 255, "pairs": [0, 1, 2, 3, 4, 5, 6, 7], "discovery_discrepancy": 0.0, "discovery_agreement": 1.0, "source_sha256": "308a67e2a34609a253e66a3828f8dedd46a0f44778b50350a2043d47103420c0", "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894"}, "relative_effect_discrepancy": 0.0, "full_intervention_choice_agreement": 1.0, "effect": {"inputs": 498, "groups": 22, "input_mean": 7.625770092010498, "factor_group_mean": 8.47121810913086, "group_bootstrap_95_percent": [5.877423286437988, 11.085637927055359]}}, "checks": {"native": 0.0, "identity": 0.0, "full_path_replay": 0.0}}
+{"name": "head_coalitions_confirmation", "status": "completed", "wall_seconds": 90.60027687391266, "gpu_seconds_charged": 90.60027687391266, "gpu_charge_scope": "Entire timed process", "exact_queries": 0}

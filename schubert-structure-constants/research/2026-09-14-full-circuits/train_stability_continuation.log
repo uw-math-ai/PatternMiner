@@ -1,0 +1,67 @@
+{"arm": "teacher_stability", "initial_criterion": [0.9770642201834863, 0.998003615342617], "elapsed": 93.29419971001334}
+{"arm": "teacher_stability", "error_refresh": {"sampled_oriented_triples": 250000, "supplied_inputs": 446690, "incorrect_inputs": 265, "distinct_incorrect_inputs": 261, "retained": 261, "seed": 2026100722, "cap": 16384, "error_balance": {"incorrect_inputs": 261, "factor_orbits": 134, "source_groups": [1, 0, 6, 6, 2, 1, 0, 9, 6, 24, 14, 6, 59], "maximum_unbalanced_factor_fraction": 0.02681992337164751, "maximum_balanced_factor_fraction": 0.042061206845071954, "policy": "Preserve the relative source weights among sources containing errors, then sample canonical factor orbits uniformly within each source and incorrect inputs uniformly within each orbit"}, "step": 0, "sha256": "1970df48f213145e16218e48a846f557e4c2f8e222f2dc732987215500cb315b"}}
+{"arm": "teacher_stability", "step": 100, "loss": 0.05799436196684837, "elapsed": 162.507645200938}
+{"arm": "teacher_stability", "step": 200, "loss": 0.05753437429666519, "elapsed": 182.29633497493342}
+{"arm": "teacher_stability", "step": 300, "loss": 0.052401646971702576, "elapsed": 201.85291043203324}
+{"arm": "teacher_stability", "step": 400, "loss": 0.045394644141197205, "elapsed": 221.41803858499043}
+{"arm": "teacher_stability", "step": 500, "loss": 0.04238981008529663, "elapsed": 240.94637388107367}
+{"arm": "teacher_stability", "step": 600, "loss": 0.05752981826663017, "elapsed": 260.4490102950949}
+{"arm": "teacher_stability", "step": 700, "loss": 0.0518871545791626, "elapsed": 279.9418800729327}
+{"arm": "teacher_stability", "step": 800, "loss": 0.041964340955019, "elapsed": 299.4888555719517}
+{"arm": "teacher_stability", "step": 900, "loss": 0.03347843512892723, "elapsed": 318.9734561529476}
+{"arm": "teacher_stability", "step": 1000, "loss": 0.03406381979584694, "elapsed": 338.44270680402406}
+{"arm": "teacher_stability", "step": 1100, "loss": 0.03527909517288208, "elapsed": 358.0166557379998}
+{"arm": "teacher_stability", "step": 1200, "loss": 0.03694289177656174, "elapsed": 377.49637618102133}
+{"arm": "teacher_stability", "step": 1300, "loss": 0.036060575395822525, "elapsed": 397.0412285660859}
+{"arm": "teacher_stability", "step": 1400, "loss": 0.03679976239800453, "elapsed": 416.59578511095606}
+{"arm": "teacher_stability", "step": 1500, "loss": 0.04029478877782822, "elapsed": 436.20569990505464}
+{"arm": "teacher_stability", "step": 1600, "loss": 0.039304766803979874, "elapsed": 455.89699153602123}
+{"arm": "teacher_stability", "step": 1700, "loss": 0.028807122260332108, "elapsed": 475.5781897190027}
+{"arm": "teacher_stability", "step": 1800, "loss": 0.03900802135467529, "elapsed": 495.12261467496864}
+{"arm": "teacher_stability", "step": 1900, "loss": 0.0386490561068058, "elapsed": 514.7308532979805}
+{"arm": "teacher_stability", "step": 2000, "loss": 0.03582281246781349, "elapsed": 534.3488773400895}
+{"arm": "teacher_stability", "step": 2000, "criterion": [0.9762996941896025, 0.9979128547919184], "populations": {"S7_validation": 0.999877420936504, "S8_validation": 0.9999, "S9_validation": 0.9997089262613196, "S10_validation": 0.9977319220848528, "hard_validation": 1.0, "historical_pairs": 0.9956331877729258, "S9_exposed_pairs": 1.0, "S10_exposed_pairs": 1.0, "fresh_S9_validation": 0.9995744077174067, "fresh_S9_validation_pairs": 1.0, "fresh_S10_validation": 0.9978882534095909, "fresh_S10_validation_pairs": 0.9980694980694981, "new_S9_validation": 0.9994051346274264, "new_S9_validation_pairs": 1.0, "new_S10_validation": 0.998061224489796, "new_S10_validation_pairs": 0.9965156794425087, "first_exposed_S7": 1.0, "first_exposed_S7_pairs": 1.0, "first_exposed_S8": 0.9999400479616307, "first_exposed_S8_pairs": 1.0, "first_exposed_S9": 0.9992600109941224, "first_exposed_S9_pairs": 1.0, "first_exposed_S10": 0.9981663022780168, "first_exposed_S10_pairs": 0.9762996941896025, "exposed_fresh_S8_pairs": 1.0, "exposed_fresh_S9_pairs": 0.9896193771626297, "exposed_fresh_S10_pairs": 0.9979959919839679}}
+{"arm": "teacher_stability", "step": 2100, "loss": 0.04510384798049927, "elapsed": 716.0055841440335}
+{"arm": "teacher_stability", "step": 2200, "loss": 0.03437052294611931, "elapsed": 735.5315589578822}
+{"arm": "teacher_stability", "step": 2300, "loss": 0.031662389636039734, "elapsed": 755.0890938639641}
+{"arm": "teacher_stability", "step": 2400, "loss": 0.037163928151130676, "elapsed": 774.6116914930753}
+{"arm": "teacher_stability", "step": 2500, "loss": 0.03593356907367706, "elapsed": 793.9959429600276}
+{"arm": "teacher_stability", "step": 2600, "loss": 0.040673818439245224, "elapsed": 813.3538198200986}
+{"arm": "teacher_stability", "step": 2700, "loss": 0.03237001597881317, "elapsed": 832.7697983928956}
+{"arm": "teacher_stability", "step": 2800, "loss": 0.036015670746564865, "elapsed": 852.0649423929863}
+{"arm": "teacher_stability", "step": 2900, "loss": 0.03579966723918915, "elapsed": 871.4834219908807}
+{"arm": "teacher_stability", "step": 3000, "loss": 0.03345553204417229, "elapsed": 891.0127643269952}
+{"arm": "teacher_stability", "error_refresh": {"sampled_oriented_triples": 250000, "supplied_inputs": 447099, "incorrect_inputs": 209, "distinct_incorrect_inputs": 208, "retained": 208, "seed": 2026103722, "cap": 16384, "error_balance": {"incorrect_inputs": 208, "factor_orbits": 114, "source_groups": [1, 0, 7, 5, 0, 0, 0, 1, 8, 6, 10, 6, 70], "maximum_unbalanced_factor_fraction": 0.019230769230769232, "maximum_balanced_factor_fraction": 0.12321980187853153, "policy": "Preserve the relative source weights among sources containing errors, then sample canonical factor orbits uniformly within each source and incorrect inputs uniformly within each orbit"}, "step": 3000, "sha256": "f00450e1b2fa613115c68c061bbf3dc57817f2ca2ad940320f9ad8339fe73e11"}}
+{"arm": "teacher_stability", "step": 3100, "loss": 0.03995182365179062, "elapsed": 959.0378831129055}
+{"arm": "teacher_stability", "step": 3200, "loss": 0.035383328795433044, "elapsed": 978.4582441980019}
+{"arm": "teacher_stability", "step": 3300, "loss": 0.03781453147530556, "elapsed": 997.8151564409491}
+{"arm": "teacher_stability", "step": 3400, "loss": 0.03403855860233307, "elapsed": 1017.1522893570364}
+{"arm": "teacher_stability", "step": 3500, "loss": 0.03466614708304405, "elapsed": 1036.468017004896}
+{"arm": "teacher_stability", "step": 3600, "loss": 0.04461705684661865, "elapsed": 1055.7767419079319}
+{"arm": "teacher_stability", "step": 3700, "loss": 0.04155451059341431, "elapsed": 1075.0966224689037}
+{"arm": "teacher_stability", "step": 3800, "loss": 0.034581635147333145, "elapsed": 1094.4197250099387}
+{"arm": "teacher_stability", "step": 3900, "loss": 0.03110995516180992, "elapsed": 1113.8301958870143}
+{"arm": "teacher_stability", "step": 4000, "loss": 0.03288954123854637, "elapsed": 1133.226067716023}
+{"arm": "teacher_stability", "step": 4000, "criterion": [0.9793577981651376, 0.9983651983929615], "populations": {"S7_validation": 0.9998161314047561, "S8_validation": 0.9999, "S9_validation": 0.9996442432082794, "S10_validation": 0.9971093124610869, "hard_validation": 1.0, "historical_pairs": 1.0, "S9_exposed_pairs": 1.0, "S10_exposed_pairs": 1.0, "fresh_S9_validation": 0.9995034756703078, "fresh_S9_validation_pairs": 1.0, "fresh_S10_validation": 0.9979762428508578, "fresh_S10_validation_pairs": 1.0, "new_S9_validation": 0.9993738259236068, "new_S9_validation_pairs": 1.0, "new_S10_validation": 0.9979251700680272, "new_S10_validation_pairs": 0.9982578397212544, "first_exposed_S7": 0.9998032270759544, "first_exposed_S7_pairs": 1.0, "first_exposed_S8": 0.9999400479616307, "first_exposed_S8_pairs": 1.0, "first_exposed_S9": 0.9992600109941224, "first_exposed_S9_pairs": 1.0, "first_exposed_S10": 0.9979194583539036, "first_exposed_S10_pairs": 0.9793577981651376, "exposed_fresh_S8_pairs": 1.0, "exposed_fresh_S9_pairs": 0.9930795847750865, "exposed_fresh_S10_pairs": 0.996993987975952}}
+{"arm": "teacher_stability", "step": 4100, "loss": 0.0368344709277153, "elapsed": 1314.131993491901}
+{"arm": "teacher_stability", "step": 4200, "loss": 0.035064518451690674, "elapsed": 1333.499187059002}
+{"arm": "teacher_stability", "step": 4300, "loss": 0.03375847637653351, "elapsed": 1352.8949952491093}
+{"arm": "teacher_stability", "step": 4400, "loss": 0.03649147227406502, "elapsed": 1372.2984241680242}
+{"arm": "teacher_stability", "step": 4500, "loss": 0.033202242106199265, "elapsed": 1391.7132129028905}
+{"arm": "teacher_stability", "step": 4600, "loss": 0.03515900298953056, "elapsed": 1411.1291071530432}
+{"arm": "teacher_stability", "step": 4700, "loss": 0.030036406591534615, "elapsed": 1430.5829182309099}
+{"arm": "teacher_stability", "step": 4800, "loss": 0.03844768926501274, "elapsed": 1450.0307461570483}
+{"arm": "teacher_stability", "step": 4900, "loss": 0.04018585756421089, "elapsed": 1469.4643148239702}
+{"arm": "teacher_stability", "step": 5000, "loss": 0.025292979553341866, "elapsed": 1488.9180769799277}
+{"arm": "teacher_stability", "step": 5100, "loss": 0.031245114281773567, "elapsed": 1508.3794984749984}
+{"arm": "teacher_stability", "step": 5200, "loss": 0.06361346691846848, "elapsed": 1527.8495114559773}
+{"arm": "teacher_stability", "step": 5300, "loss": 0.034704044461250305, "elapsed": 1547.3057910699863}
+{"arm": "teacher_stability", "step": 5400, "loss": 0.05071591958403587, "elapsed": 1566.7301323038992}
+{"arm": "teacher_stability", "step": 5500, "loss": 0.03238406032323837, "elapsed": 1586.0563935840037}
+{"arm": "teacher_stability", "step": 5600, "loss": 0.03109057806432247, "elapsed": 1605.4943556259386}
+{"arm": "teacher_stability", "step": 5700, "loss": 0.03828084468841553, "elapsed": 1625.05750777293}
+{"arm": "teacher_stability", "step": 5800, "loss": 0.031435202807188034, "elapsed": 1644.614716815995}
+{"arm": "teacher_stability", "step": 5900, "loss": 0.03635289520025253, "elapsed": 1664.125389820896}
+{"arm": "teacher_stability", "step": 6000, "loss": 0.03986360505223274, "elapsed": 1683.5948972709011}
+{"arm": "teacher_stability", "step": 6000, "criterion": [0.9801223241590215, 0.9984725086041815], "populations": {"S7_validation": 0.9998161314047561, "S8_validation": 1.0, "S9_validation": 0.9996442432082794, "S10_validation": 0.99728720092502, "hard_validation": 1.0, "historical_pairs": 1.0, "S9_exposed_pairs": 1.0, "S10_exposed_pairs": 1.0, "fresh_S9_validation": 0.9995034756703078, "fresh_S9_validation_pairs": 1.0, "fresh_S10_validation": 0.9980202375714914, "fresh_S10_validation_pairs": 1.0, "new_S9_validation": 0.9993738259236068, "new_S9_validation_pairs": 1.0, "new_S10_validation": 0.9978911564625851, "new_S10_validation_pairs": 0.9965156794425087, "first_exposed_S7": 0.9998032270759544, "first_exposed_S7_pairs": 1.0, "first_exposed_S8": 0.9999400479616307, "first_exposed_S8_pairs": 1.0, "first_exposed_S9": 0.9992811535371474, "first_exposed_S9_pairs": 1.0, "first_exposed_S10": 0.998025248607095, "first_exposed_S10_pairs": 0.9801223241590215, "exposed_fresh_S8_pairs": 1.0, "exposed_fresh_S9_pairs": 0.9965397923875432, "exposed_fresh_S10_pairs": 0.996993987975952}}
+{"name": "teacher_stability_training", "status": "completed", "wall_seconds": 1845.7815688340925, "gpu_seconds_charged": 1845.7815688340925, "gpu_charge_scope": "Entire timed process", "exact_queries": 0}

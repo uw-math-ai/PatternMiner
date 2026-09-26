@@ -1,0 +1,12 @@
+{
+  "status": "fixed_before_window_completion",
+  "updates": 5000,
+  "parent_plan_sha256": "a3ad14876426fa5d2e9d4d225a9d72292a21fd8a4e77df3275b5d2be2f76130e",
+  "source_sha256": "a79a1aff3ba33687a2018f7fcd45fc53e877c4fafd694b094e68cdeb6319dbcb",
+  "reason": "Measured evaluation and mining cost projects the 6000-update schedules beyond their conservative timed stopping point. Compare both arms on the identical first 5000 updates and preserve those checkpoints before further updates.",
+  "control_completed_evaluations_when_fixed": [
+    1000,
+    2000
+  ],
+  "comparison": "Same six scheduled evaluations including initialization, same 6000-step learning-rate schedule restricted to the first 5000 updates; later updates are outside this comparison"
+}

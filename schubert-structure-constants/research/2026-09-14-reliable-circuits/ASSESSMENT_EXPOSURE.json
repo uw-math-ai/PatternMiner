@@ -1,0 +1,16 @@
+{
+  "assessment": "qualified_assessment.json",
+  "assessment_sha256": "2881848088892d1471f66a23af0ba62425bcd152285016ede278e8fdf52eb1cb",
+  "checkpoint_sha256": "d8fe4af053402869987e601752ff7c9f3dce2434bb171102228c60e2615fe3bd",
+  "role_after_failure": "development",
+  "reason": "Difficult-pair accuracies of 198/207 in S9 and 249/270 in S10 failed the 99% requirement; subsequent error inspection and strategy choices expose these populations.",
+  "labels_added_to_training": false,
+  "validation_use": "All 477 difficult pairs from the exposed S9/S10 assessment; ordinary inputs remain available for reassessment with disclosed exposure.",
+  "unopened_populations": [
+    "S9_discovery",
+    "S10_discovery",
+    "S9_confirmation",
+    "S10_confirmation"
+  ],
+  "replacement_assessment": "To be frozen before opening any replacement predictions; no final generalization claim may rely only on the exposed assessment"
+}

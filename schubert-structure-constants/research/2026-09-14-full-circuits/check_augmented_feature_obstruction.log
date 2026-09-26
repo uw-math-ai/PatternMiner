@@ -1,0 +1,36 @@
+{"name": "augmented_feature_obstruction", "status": "failed_or_partial", "wall_seconds": 0.12389985611662269, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}
+Traceback (most recent call last):
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/check_augmented_feature_obstruction.py", line 75, in <module>
+    try:main(budget);status='completed'
+        ^^^^^^^^^^^^
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/check_augmented_feature_obstruction.py", line 70, in main
+    s.write('AUGMENTED_FEATURE_OBSTRUCTION.json',result);print(json.dumps(dict(status=result['status'],pairs=len(records),chosen=chosen)),flush=True)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/session.py", line 15, in write
+    def write(name,value):c.prior.c.write(HERE/name,value)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "schubert-structure-constants/research/2026-09-13-circuit-readiness/campaign.py", line 30, in write
+    a.write(path, obj)
+  File "schubert-structure-constants/research/2026-09-13-witness-accuracy/accuracy.py", line 46, in write
+    tmp.write_text(json.dumps(obj, indent=2)+'\n')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<conda-env>/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "<conda-env>/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "<conda-env>/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "<conda-env>/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "<conda-env>/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "<conda-env>/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "<conda-env>/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "<conda-env>/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable

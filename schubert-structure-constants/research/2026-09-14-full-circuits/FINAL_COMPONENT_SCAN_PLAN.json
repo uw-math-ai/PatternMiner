@@ -1,0 +1,9 @@
+{
+  "registered_at": "2026-09-15T03:03:16.323479+00:00",
+  "checkpoint": "artifacts/SECOND_REFINEMENT_READOUTS.pt",
+  "status": "registered_before_interventions",
+  "scope": "Every recorded difficult pair in the 27 development criteria, both directions, no correctness selection; all 96 attention heads and all 6 MLP outputs.",
+  "measurements": "Gradient times paired activation difference; direct paired activation replacement for every component; native, identity and complete-restoration checks.",
+  "selection": "Report every component. Any ranking is exploratory. No subsequent model selection or change to formal hypotheses.",
+  "role": "Development analysis, executed after the conditional formal study and fixed path replay. No original formal data are read by this script."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "checkpoints": {
+    "3000": {
+      "path": "artifacts/neighbor_refinement_step003000.pt",
+      "sha256": "50c04c238a579b8043272a6dcf34270e448176a43e6f83afcabdf01749fe5a47",
+      "criterion": [
+        0.9896193771626297,
+        0.9981963624612371
+      ],
+      "report_sha256": "b468392e4056a70f51683079758810cb88fa6e945f4b48d046868d0783a7a51f"
+    },
+    "7500": {
+      "path": "artifacts/neighbor_refinement_step007500.pt",
+      "sha256": "6fc7abec4bf4b3af62015147f3ea936289c980214e08998deafd058112a4d04e",
+      "criterion": [
+        0.9896193771626297,
+        0.9984723137192524
+      ],
+      "report_sha256": "19b0fed67c7c77754aee38c4aa24f59ac88a83876b022badc534152dcaf3689d"
+    },
+    "10500": {
+      "path": "artifacts/neighbor_refinement_step010500.pt",
+      "sha256": "2ce8ff3e2c3db59b568d8ee5e1f880bf048f1da6180b840025a396164f4cfcf5",
+      "criterion": [
+        0.9930795847750865,
+        0.9985274333625584
+      ],
+      "report_sha256": "9565ec3449816c1e4482ddf2c0a9f864e0e6e0adef1a62a914cc969cf65bb724"
+    }
+  }
+}

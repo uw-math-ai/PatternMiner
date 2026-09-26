@@ -1,0 +1,29 @@
+{
+  "status": "fixed_before_interventions",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "0d4193855ee77f575ac193293e553619fbb8f0b7502fac4ad3a349021486bf6e",
+  "inputs": 10890,
+  "pairs": 5445,
+  "factor_orbits": 500,
+  "populations": [
+    "hard_validation",
+    "historical_pairs",
+    "S9_exposed_pairs",
+    "S10_exposed_pairs",
+    "fresh_S9_validation_pairs",
+    "fresh_S10_validation_pairs",
+    "new_S9_validation_pairs",
+    "new_S10_validation_pairs",
+    "first_exposed_S7_pairs",
+    "first_exposed_S8_pairs",
+    "first_exposed_S9_pairs",
+    "first_exposed_S10_pairs",
+    "exposed_fresh_S8_pairs",
+    "exposed_fresh_S9_pairs",
+    "exposed_fresh_S10_pairs"
+  ],
+  "selection": "Every recorded difficult pair in the declared development populations; no correctness filter. Results are separated by correctness and prior use in neuron analysis.",
+  "units": "The earlier fixed ranking of pairs at offsets k and k+384, inherited from widening; no reselection",
+  "random_controls": "All twenty fixed earlier magnitude-matched 16-pair subsets; no rematching",
+  "role": "Development analysis on the final retained model. This script reads no formal population and is not independent confirmation."
+}

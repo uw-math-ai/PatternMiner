@@ -1,0 +1,50 @@
+{
+  "sources": {
+    "legacy_train": {
+      "rows": 390940,
+      "weight": 0.136
+    },
+    "S8_train": {
+      "rows": 46628,
+      "weight": 0.034
+    },
+    "S9_train": {
+      "rows": 1885078,
+      "weight": 0.34
+    },
+    "S10_train": {
+      "rows": 3722697,
+      "weight": 0.17
+    },
+    "neighborhood_train": {
+      "rows": 429068,
+      "weight": 0.17,
+      "data_sha256": "d17c81b87a8bf465e471d4d18cac1bee3277c7dc567cd3c6b9f0e1e69a920765",
+      "root_targets": {
+        "path": "cache/data/neighborhood_Q.npy",
+        "sha256": "da0e4f225dd086d3f7ddce8428e40014f845706579e7cdd670e29f09399a55b3"
+      },
+      "sampling": {
+        "kind": "uniform_parent_then_factor_then_row",
+        "plan": "NEIGHBOR_PLAN.json",
+        "plan_sha256": "766d0ed3d289a16726d357a61ad2fab433db3eefa6724c3147d84a4f249bab71",
+        "data": "NEIGHBOR_DATA.json",
+        "data_sha256": "17a8fa7547d3dc9b9514b47b3ef72d0c4038dcaf637a2be116aa345e3cf76584"
+      }
+    },
+    "final_neighborhood_train": {
+      "rows": 77695,
+      "weight": 0.15,
+      "data_sha256": "2e3adffed1c20dafe56b96797ee91670bb107d798222d5944f84e2068eb4f316",
+      "root_targets": {
+        "path": "cache/data/final_neighborhood_Q.npy",
+        "sha256": "706e12ef59c1243aca83fb1100bf4225d30407929d6ca0e2dfd97f814e3b0762"
+      }
+    }
+  },
+  "base_specification_sha256": "42491bad1f73a4a365d62260079649da2b14c99b8760d55dceb0f2f25d9dab99",
+  "base_rows": 6045343,
+  "new_rows": 506763,
+  "data_metadata": "FINAL_NEIGHBOR_DATA.json",
+  "scope": "Original training prefix and both rounds of adaptive, orbit-disjoint factor neighborhoods"
+}

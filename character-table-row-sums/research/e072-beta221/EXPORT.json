@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-21",
+  "files": [
+    {
+      "destination": "research/e072-beta221/results.md",
+      "mode": "publication-path-normalization",
+      "published_sha256": "a86f61eeee07f5bd85e7e72d5514ac2d7f6358384141a9a26e342312d6dc4cff",
+      "source": "experiments/E072-results.md",
+      "source_sha256": "82708fbd29f822b4baedff28f9f101b8757900b9c71897aa0d584237ccf53fd3"
+    },
+    {
+      "destination": "research/e072-beta221/protocol.md",
+      "mode": "publication-path-normalization",
+      "published_sha256": "90d5b47241322da5a36cd15160a36c39bc31853c4b76dc59d4e48c0e89cdd2ee",
+      "source": "experiments/E072-beta221-matching-pilot.md",
+      "source_sha256": "af10017867f7f77313847a591d970e7d9a2214d7dd2c0950b1529db81db6b247"
+    },
+    {
+      "destination": "research/e072-beta221/root-preflight.md",
+      "mode": "verbatim",
+      "published_sha256": "d479d5d2a2d300a7ebcdd131d39f969fa94f3a1aa4f7941adf52ca5f90dc3cf2",
+      "source": "experiments/E072-root-preflight.md",
+      "source_sha256": "d479d5d2a2d300a7ebcdd131d39f969fa94f3a1aa4f7941adf52ca5f90dc3cf2"
+    },
+    {
+      "destination": "research/e072-beta221/historical_runner.py",
+      "mode": "verbatim",
+      "published_sha256": "84f447fe7a4a02ecdeec9159c4703de0bb51d84e2a93d3551506a9c284d93c9f",
+      "source": "scripts/run_e072_beta221.py",
+      "source_sha256": "84f447fe7a4a02ecdeec9159c4703de0bb51d84e2a93d3551506a9c284d93c9f"
+    },
+    {
+      "destination": "research/e072-beta221/p12_nonhook_three_cube.py",
+      "mode": "verbatim",
+      "published_sha256": "f17bcfc84cf627521795681ba058c7631f9d9acc8797d5c9cc52ee8e425f59a8",
+      "source": "src/p12_nonhook_three_cube.py",
+      "source_sha256": "f17bcfc84cf627521795681ba058c7631f9d9acc8797d5c9cc52ee8e425f59a8"
+    },
+    {
+      "destination": "research/e072-beta221/p12_lr_degree12.py",
+      "mode": "verbatim",
+      "published_sha256": "2bd184d5822e0b71d719be205b6b536dec761e0630705325d9f5eef7ae235cbe",
+      "source": "src/p12_lr_degree12.py",
+      "source_sha256": "2bd184d5822e0b71d719be205b6b536dec761e0630705325d9f5eef7ae235cbe"
+    },
+    {
+      "destination": "research/e072-beta221/result.json.gz",
+      "mode": "verbatim",
+      "published_sha256": "8c16d0e187f3da83eade2e31f366fb3b624836d621fc8e6de92af7e9f8f9482d",
+      "source": "artifacts/e072/result.json.gz",
+      "source_sha256": "8c16d0e187f3da83eade2e31f366fb3b624836d621fc8e6de92af7e9f8f9482d"
+    },
+    {
+      "destination": "research/e072-beta221/result.sha256",
+      "mode": "verbatim",
+      "published_sha256": "a39d55583a8669c87df6e614bb783aa9f630a0a23c56c60faba7c64d25215bb6",
+      "source": "artifacts/e072/result.sha256",
+      "source_sha256": "a39d55583a8669c87df6e614bb783aa9f630a0a23c56c60faba7c64d25215bb6"
+    },
+    {
+      "destination": "research/e072-beta221/beta221-working-route.md",
+      "mode": "verbatim",
+      "published_sha256": "f061a9c9deafc24e3cdba6347ff9989f50e7697d45cad9a8f8deca159143e058",
+      "source": "research-notes/P12-tail-ten-cubic-length-five-beta221-working-route.md",
+      "source_sha256": "f061a9c9deafc24e3cdba6347ff9989f50e7697d45cad9a8f8deca159143e058"
+    },
+    {
+      "destination": "research/e072-beta221/negative-corner-domain.md",
+      "mode": "verbatim",
+      "published_sha256": "57e40e5c4308ae0e4070e39eb464258b3e391a2fb8c70a4266bd383abafeb7d6",
+      "source": "research-notes/P12-beta221-ordinary-negative-corner-domain.md",
+      "source_sha256": "57e40e5c4308ae0e4070e39eb464258b3e391a2fb8c70a4266bd383abafeb7d6"
+    },
+    {
+      "destination": "research/e072-beta221/negative-domain-review.md",
+      "mode": "verbatim",
+      "published_sha256": "13dcf2c8227a827b64826ab06543191897ead87b295dc8d5fb8945595032a941",
+      "source": "experiments/P12-beta221-ordinary-negative-corner-domain-static-review.md",
+      "source_sha256": "13dcf2c8227a827b64826ab06543191897ead87b295dc8d5fb8945595032a941"
+    },
+    {
+      "destination": "research/e072-beta221/working-route-review.md",
+      "mode": "verbatim",
+      "published_sha256": "06b41ab29f5fcd8556cf23daf096c6da6981d0e55bf4eb8a543f4c6bcaa413e7",
+      "source": "experiments/P12-tail-ten-cubic-length-five-beta221-static-review.md",
+      "source_sha256": "06b41ab29f5fcd8556cf23daf096c6da6981d0e55bf4eb8a543f4c6bcaa413e7"
+    },
+    {
+      "destination": "paper/beta221_learning_pilot.md",
+      "mode": "publication-path-normalization",
+      "published_sha256": "bdf8726dfe10a7fc7a9410a00dd5974d95adf792354480670a5acbe9c3ff0ed4",
+      "source": "paper-candidates/cubic-cycle-witness-grammar/beta221-learning-pilot.md",
+      "source_sha256": "eef52b893009faa71e33fcb10db2489c23fb7a2fef4c4473400efd4e4031e009"
+    }
+  ],
+  "schema": "e072-scoped-export-v1",
+  "warning": "Historical runner is a source snapshot, not a standalone replay. See README.md."
+}

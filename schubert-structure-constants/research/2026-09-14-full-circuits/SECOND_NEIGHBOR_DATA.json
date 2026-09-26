@@ -1,0 +1,4193 @@
+{
+  "status": "completed",
+  "groups": [
+    {
+      "group": 0,
+      "parent": 0,
+      "rows": 1282,
+      "exact_queries": 7,
+      "product_output_terms": 4558,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 0,
+        "begin": 0,
+        "end": 1282,
+        "product_terms": 948,
+        "product_sha256": "513af4a15e7eec398aa38a226bd15defed736283b03454b8885ae73e89959401"
+      }
+    },
+    {
+      "group": 1,
+      "parent": 1,
+      "rows": 8129,
+      "exact_queries": 9,
+      "product_output_terms": 41787,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 1,
+        "begin": 0,
+        "end": 8129,
+        "product_terms": 7950,
+        "product_sha256": "a08b08666825e2618e2d331e1b179548ba683f355670ce7ee48b1e4f6193e8da"
+      }
+    },
+    {
+      "group": 2,
+      "parent": 2,
+      "rows": 6760,
+      "exact_queries": 9,
+      "product_output_terms": 33887,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 2,
+        "begin": 0,
+        "end": 6760,
+        "product_terms": 6111,
+        "product_sha256": "852e8c56623855587e664dfd0612b3996b0b465d95a3b386d1a22265be600834"
+      }
+    },
+    {
+      "group": 3,
+      "parent": 3,
+      "rows": 8796,
+      "exact_queries": 10,
+      "product_output_terms": 44286,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 3,
+        "begin": 0,
+        "end": 8796,
+        "product_terms": 7767,
+        "product_sha256": "aa8a1953fd5207039939453d9e2856db0d80069c74844972f3da428dd808589e"
+      }
+    },
+    {
+      "group": 4,
+      "parent": 4,
+      "rows": 678,
+      "exact_queries": 8,
+      "product_output_terms": 2494,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 4,
+        "begin": 0,
+        "end": 678,
+        "product_terms": 515,
+        "product_sha256": "fe654b92d76c99c91476e7d32ebb0c571237a7b35560f1f4b4c694ea10a0a560"
+      }
+    },
+    {
+      "group": 5,
+      "parent": 5,
+      "rows": 2193,
+      "exact_queries": 6,
+      "product_output_terms": 7842,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 5,
+        "begin": 0,
+        "end": 2193,
+        "product_terms": 1872,
+        "product_sha256": "2a8efae9461d74e8b2cb3368ccaa8475f8bce7a0e7643e42f6c203334da95b81"
+      }
+    },
+    {
+      "group": 6,
+      "parent": 6,
+      "rows": 6081,
+      "exact_queries": 8,
+      "product_output_terms": 24818,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 6,
+        "begin": 0,
+        "end": 6081,
+        "product_terms": 4542,
+        "product_sha256": "3e312734d698a1739683825857897095e5933f697f1ac3963ee0ab61b9240cbd"
+      }
+    },
+    {
+      "group": 7,
+      "parent": 7,
+      "rows": 1295,
+      "exact_queries": 8,
+      "product_output_terms": 5388,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 7,
+        "begin": 0,
+        "end": 1295,
+        "product_terms": 890,
+        "product_sha256": "9a6e4f95e1b4cdb2887358c2a76d7f2bb32351618b042e81a7b9e62283cfa010"
+      }
+    },
+    {
+      "group": 8,
+      "parent": 8,
+      "rows": 1124,
+      "exact_queries": 8,
+      "product_output_terms": 4051,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 8,
+        "begin": 0,
+        "end": 1124,
+        "product_terms": 710,
+        "product_sha256": "36df9184dba6c03b860c4443c5099f2f6cbab5c0d9dc60591b3b7ddc13c2004e"
+      }
+    },
+    {
+      "group": 9,
+      "parent": 9,
+      "rows": 1913,
+      "exact_queries": 10,
+      "product_output_terms": 10017,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 9,
+        "begin": 0,
+        "end": 1913,
+        "product_terms": 1628,
+        "product_sha256": "caaf555d0bc32940aa96bd891506f42a5e955dd53d5ede202b2a53048d644652"
+      }
+    },
+    {
+      "group": 10,
+      "parent": 10,
+      "rows": 1412,
+      "exact_queries": 9,
+      "product_output_terms": 6973,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 10,
+        "begin": 0,
+        "end": 1412,
+        "product_terms": 1280,
+        "product_sha256": "8f0e74e48e89a31785c1223aa897bdc8a0f79f95b3900b3a6c320c726a77d275"
+      }
+    },
+    {
+      "group": 11,
+      "parent": 0,
+      "rows": 3834,
+      "exact_queries": 8,
+      "product_output_terms": 14661,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 11,
+        "begin": 0,
+        "end": 3834,
+        "product_terms": 3011,
+        "product_sha256": "8dc03c6a80eb3009ce32919857f47c56b1f9f03f5fcb0bfff5cb3be54dadee0c"
+      }
+    },
+    {
+      "group": 12,
+      "parent": 1,
+      "rows": 5541,
+      "exact_queries": 8,
+      "product_output_terms": 25607,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 12,
+        "begin": 0,
+        "end": 5541,
+        "product_terms": 4966,
+        "product_sha256": "2f5bc4bb10d6d721524d1e52f199205e0a45a9de862b748e0fc7d5e990cded4f"
+      }
+    },
+    {
+      "group": 13,
+      "parent": 2,
+      "rows": 8352,
+      "exact_queries": 10,
+      "product_output_terms": 42243,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 13,
+        "begin": 0,
+        "end": 8352,
+        "product_terms": 7087,
+        "product_sha256": "328370fb54999aba71c160a1cfead6ce50e5215fe9d64bb854e73614ac6d100b"
+      }
+    },
+    {
+      "group": 14,
+      "parent": 3,
+      "rows": 32149,
+      "exact_queries": 11,
+      "product_output_terms": 178245,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 14,
+        "begin": 0,
+        "end": 32149,
+        "product_terms": 28456,
+        "product_sha256": "8d2749930cf3d0e708d9b2442c1289b96c95089a7cd4a7dde9481d75474ecd8d"
+      }
+    },
+    {
+      "group": 15,
+      "parent": 4,
+      "rows": 1021,
+      "exact_queries": 9,
+      "product_output_terms": 4248,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 15,
+        "begin": 0,
+        "end": 1021,
+        "product_terms": 823,
+        "product_sha256": "486785fa9065c63a7724ddecc400ecd456da1c847029fdd15af3f002b4bca353"
+      }
+    },
+    {
+      "group": 16,
+      "parent": 5,
+      "rows": 1052,
+      "exact_queries": 6,
+      "product_output_terms": 3660,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 16,
+        "begin": 0,
+        "end": 1052,
+        "product_terms": 842,
+        "product_sha256": "26de0108590f997a877f2eaf6685ca3f99c592b3a186bca221745db75419d246"
+      }
+    },
+    {
+      "group": 17,
+      "parent": 6,
+      "rows": 2824,
+      "exact_queries": 8,
+      "product_output_terms": 11779,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 17,
+        "begin": 0,
+        "end": 2824,
+        "product_terms": 2198,
+        "product_sha256": "acc7eb4071fe8e97c4e1f8dfadcb2b637bf3ac682e5f35fd47e9da6af05b221d"
+      }
+    },
+    {
+      "group": 18,
+      "parent": 7,
+      "rows": 221,
+      "exact_queries": 7,
+      "product_output_terms": 696,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 18,
+        "begin": 0,
+        "end": 221,
+        "product_terms": 121,
+        "product_sha256": "a453168a78c431911cdcaaffc29bc887f0edaf39e8de9d3d9e91a1ab3df7d7b6"
+      }
+    },
+    {
+      "group": 19,
+      "parent": 8,
+      "rows": 4588,
+      "exact_queries": 8,
+      "product_output_terms": 16573,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 19,
+        "begin": 0,
+        "end": 4588,
+        "product_terms": 2753,
+        "product_sha256": "9895316c57267587bc607d972c4a05e3fac680f92d6e1b57bcd03fc80e169d16"
+      }
+    },
+    {
+      "group": 20,
+      "parent": 9,
+      "rows": 1895,
+      "exact_queries": 11,
+      "product_output_terms": 11502,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 20,
+        "begin": 0,
+        "end": 1895,
+        "product_terms": 1918,
+        "product_sha256": "5d7202dcb608ad1f7e2fe86db87266be45f9d00faa782157aa575cf9bde22320"
+      }
+    },
+    {
+      "group": 21,
+      "parent": 10,
+      "rows": 126,
+      "exact_queries": 7,
+      "product_output_terms": 434,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 21,
+        "begin": 0,
+        "end": 126,
+        "product_terms": 78,
+        "product_sha256": "f3005d0776f75d1fdda859974938548b898f63e4be78294266d448b5d77c1690"
+      }
+    },
+    {
+      "group": 22,
+      "parent": 0,
+      "rows": 1491,
+      "exact_queries": 8,
+      "product_output_terms": 4958,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 22,
+        "begin": 0,
+        "end": 1491,
+        "product_terms": 945,
+        "product_sha256": "e88599f716d7c26e61e865fc5d367a4249633bd86fc2f1647ef8a6a4860c9d7b"
+      }
+    },
+    {
+      "group": 23,
+      "parent": 1,
+      "rows": 22384,
+      "exact_queries": 10,
+      "product_output_terms": 115433,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 23,
+        "begin": 0,
+        "end": 22384,
+        "product_terms": 20465,
+        "product_sha256": "157c19ed881098ca66148bb631564fe72e98deace12f9078257dc6f3e1be4290"
+      }
+    },
+    {
+      "group": 24,
+      "parent": 2,
+      "rows": 11817,
+      "exact_queries": 10,
+      "product_output_terms": 67507,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 24,
+        "begin": 0,
+        "end": 11817,
+        "product_terms": 11288,
+        "product_sha256": "c1d5c17ad76cc6f4f57413076c585f2bd16b011b26a63e5a5573715b1f3486f5"
+      }
+    },
+    {
+      "group": 25,
+      "parent": 3,
+      "rows": 19792,
+      "exact_queries": 11,
+      "product_output_terms": 108565,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 25,
+        "begin": 0,
+        "end": 19792,
+        "product_terms": 17527,
+        "product_sha256": "cdf388f14cb470369e66904ec748513a9af7ff05d574ef518de809c3a2851405"
+      }
+    },
+    {
+      "group": 26,
+      "parent": 4,
+      "rows": 1656,
+      "exact_queries": 8,
+      "product_output_terms": 5261,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 26,
+        "begin": 0,
+        "end": 1656,
+        "product_terms": 1173,
+        "product_sha256": "4075bedf002f8198afa6282712196d547d9177eab7bc4cadb58f32417d98deb6"
+      }
+    },
+    {
+      "group": 27,
+      "parent": 5,
+      "rows": 1838,
+      "exact_queries": 6,
+      "product_output_terms": 6307,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 27,
+        "begin": 0,
+        "end": 1838,
+        "product_terms": 1525,
+        "product_sha256": "bf023978146119240a82a1d0f8b19a676345a19c1b85c43c890b1826766fbf07"
+      }
+    },
+    {
+      "group": 28,
+      "parent": 6,
+      "rows": 1525,
+      "exact_queries": 8,
+      "product_output_terms": 7209,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 28,
+        "begin": 0,
+        "end": 1525,
+        "product_terms": 1277,
+        "product_sha256": "f47936f8ee77729c5c96e8be251b8661b715ef58b86f351a3240d9727199c7b1"
+      }
+    },
+    {
+      "group": 29,
+      "parent": 7,
+      "rows": 559,
+      "exact_queries": 7,
+      "product_output_terms": 1967,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 29,
+        "begin": 0,
+        "end": 559,
+        "product_terms": 348,
+        "product_sha256": "6135840227370de5e099078739814635a99af58c888f05c11677a78337bbe5bf"
+      }
+    },
+    {
+      "group": 30,
+      "parent": 8,
+      "rows": 1516,
+      "exact_queries": 8,
+      "product_output_terms": 6013,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 30,
+        "begin": 0,
+        "end": 1516,
+        "product_terms": 987,
+        "product_sha256": "908454069a13e21d51b9c19eb99df43cf69d3689dbb400ea925a364a876361b8"
+      }
+    },
+    {
+      "group": 31,
+      "parent": 9,
+      "rows": 1175,
+      "exact_queries": 9,
+      "product_output_terms": 5413,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 31,
+        "begin": 0,
+        "end": 1175,
+        "product_terms": 887,
+        "product_sha256": "ded42ae2514a76fabf0b4f94ac8336b6a0a7c50c80ffb2a1a7281182e405fa3e"
+      }
+    },
+    {
+      "group": 32,
+      "parent": 10,
+      "rows": 382,
+      "exact_queries": 8,
+      "product_output_terms": 1802,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 32,
+        "begin": 0,
+        "end": 382,
+        "product_terms": 352,
+        "product_sha256": "f7bc85b218e133a55156bd7e501c5e7cf0a010e324688d6e030b728bf0f8cb77"
+      }
+    },
+    {
+      "group": 33,
+      "parent": 0,
+      "rows": 1226,
+      "exact_queries": 7,
+      "product_output_terms": 4411,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 33,
+        "begin": 0,
+        "end": 1226,
+        "product_terms": 932,
+        "product_sha256": "8ef302756240cc66a78839502aff7e64d727e7ab675e93e98fb75b11db41d9c8"
+      }
+    },
+    {
+      "group": 34,
+      "parent": 1,
+      "rows": 9360,
+      "exact_queries": 10,
+      "product_output_terms": 52980,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 34,
+        "begin": 0,
+        "end": 9360,
+        "product_terms": 8924,
+        "product_sha256": "a5d715215349ed3f0586fae42578069a7fd5d931afef6d7cb8d0e7594a41bd2c"
+      }
+    },
+    {
+      "group": 35,
+      "parent": 2,
+      "rows": 12636,
+      "exact_queries": 10,
+      "product_output_terms": 72245,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 35,
+        "begin": 0,
+        "end": 12636,
+        "product_terms": 12411,
+        "product_sha256": "0a403511536c90340695d2d5b24d725610cdee061c7d8f7b4ff9b9b7425c22fe"
+      }
+    },
+    {
+      "group": 36,
+      "parent": 3,
+      "rows": 13214,
+      "exact_queries": 10,
+      "product_output_terms": 61137,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 36,
+        "begin": 0,
+        "end": 13214,
+        "product_terms": 10940,
+        "product_sha256": "5d5af5b1e54105825d48378d135e08753e13cb00c1e541c860d420c426ac0104"
+      }
+    },
+    {
+      "group": 37,
+      "parent": 4,
+      "rows": 1857,
+      "exact_queries": 8,
+      "product_output_terms": 8108,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 37,
+        "begin": 0,
+        "end": 1857,
+        "product_terms": 1624,
+        "product_sha256": "c5727f34f7cebd3d104a7d0bbdfe0437ccc1abc9c61206c2591f3bfdd3e8678a"
+      }
+    },
+    {
+      "group": 38,
+      "parent": 5,
+      "rows": 1002,
+      "exact_queries": 6,
+      "product_output_terms": 3666,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 38,
+        "begin": 0,
+        "end": 1002,
+        "product_terms": 865,
+        "product_sha256": "df0f1d8df29ebd83c4adc454647af9748d68d64c368440cf2d21481d8f202e0a"
+      }
+    },
+    {
+      "group": 39,
+      "parent": 6,
+      "rows": 895,
+      "exact_queries": 6,
+      "product_output_terms": 3104,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 39,
+        "begin": 0,
+        "end": 895,
+        "product_terms": 587,
+        "product_sha256": "69109e65b7d639c18481b46d28da0ba27eb648a4ab279cf79d6a7d7604f9bc73"
+      }
+    },
+    {
+      "group": 40,
+      "parent": 7,
+      "rows": 876,
+      "exact_queries": 7,
+      "product_output_terms": 3248,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 40,
+        "begin": 0,
+        "end": 876,
+        "product_terms": 567,
+        "product_sha256": "866e169384ba78c491bf802bae3f2cec94f980fc9e4f12c2b63c7580790aeaa1"
+      }
+    },
+    {
+      "group": 41,
+      "parent": 8,
+      "rows": 3779,
+      "exact_queries": 8,
+      "product_output_terms": 14890,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 41,
+        "begin": 0,
+        "end": 3779,
+        "product_terms": 2671,
+        "product_sha256": "0f4f09cb2a386ca5d98f82f4b9ef810ebc3216665692bdca0ffdd91cf261c32e"
+      }
+    },
+    {
+      "group": 42,
+      "parent": 9,
+      "rows": 1074,
+      "exact_queries": 9,
+      "product_output_terms": 4471,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 42,
+        "begin": 0,
+        "end": 1074,
+        "product_terms": 720,
+        "product_sha256": "54c14576140862a8bf74ca14efd6b1bda1877d8d1f824266556a08f13bd97eb7"
+      }
+    },
+    {
+      "group": 43,
+      "parent": 10,
+      "rows": 214,
+      "exact_queries": 7,
+      "product_output_terms": 966,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 43,
+        "begin": 0,
+        "end": 214,
+        "product_terms": 203,
+        "product_sha256": "0892918e3c45130381f9ce6e290e267be6a210cd2a188e1d151dbdcfeab0bb46"
+      }
+    },
+    {
+      "group": 44,
+      "parent": 0,
+      "rows": 3482,
+      "exact_queries": 8,
+      "product_output_terms": 14004,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 44,
+        "begin": 0,
+        "end": 3482,
+        "product_terms": 2902,
+        "product_sha256": "aaf5a7bf28d8796d3f0606357d23bd94d5247b561ab9b0a37f78e232e074fa41"
+      }
+    },
+    {
+      "group": 45,
+      "parent": 1,
+      "rows": 11969,
+      "exact_queries": 10,
+      "product_output_terms": 61195,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 45,
+        "begin": 0,
+        "end": 11969,
+        "product_terms": 10896,
+        "product_sha256": "dd742fc3d70afd705477a89bbc1d30f5bb794a0ea8843ba2ed98ccf49fffb977"
+      }
+    },
+    {
+      "group": 46,
+      "parent": 2,
+      "rows": 8330,
+      "exact_queries": 8,
+      "product_output_terms": 35906,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 46,
+        "begin": 0,
+        "end": 8330,
+        "product_terms": 7041,
+        "product_sha256": "68d956e054d68a91234f1ff43b96e40c659df8e543fb79ab663044d6ef1b97b1"
+      }
+    },
+    {
+      "group": 47,
+      "parent": 3,
+      "rows": 8867,
+      "exact_queries": 9,
+      "product_output_terms": 36517,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 47,
+        "begin": 0,
+        "end": 8867,
+        "product_terms": 6711,
+        "product_sha256": "0407f63a84b25e6736c10844afcbcf58d5c0e14beca66e411943024d4a94d2ec"
+      }
+    },
+    {
+      "group": 48,
+      "parent": 4,
+      "rows": 1060,
+      "exact_queries": 8,
+      "product_output_terms": 3803,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 48,
+        "begin": 0,
+        "end": 1060,
+        "product_terms": 852,
+        "product_sha256": "3d25867151a673ed2827a9c841e64a0e8a0969746d845ef7f345745041d4e31d"
+      }
+    },
+    {
+      "group": 49,
+      "parent": 5,
+      "rows": 1616,
+      "exact_queries": 6,
+      "product_output_terms": 5746,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 49,
+        "begin": 0,
+        "end": 1616,
+        "product_terms": 1365,
+        "product_sha256": "f1a63f87fab4d3146514126db431763474428101223e37106fc060508277581d"
+      }
+    },
+    {
+      "group": 50,
+      "parent": 6,
+      "rows": 2426,
+      "exact_queries": 8,
+      "product_output_terms": 9953,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 50,
+        "begin": 0,
+        "end": 2426,
+        "product_terms": 1769,
+        "product_sha256": "bb95f732d22824433eb6ea2f0f633b6e54816659fe52773c0b575db5ca03406c"
+      }
+    },
+    {
+      "group": 51,
+      "parent": 7,
+      "rows": 780,
+      "exact_queries": 7,
+      "product_output_terms": 3181,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 51,
+        "begin": 0,
+        "end": 780,
+        "product_terms": 608,
+        "product_sha256": "9ae71efe75695a287d6d131dfe12fd484be992f101f6aba287d965bdea9c0b3a"
+      }
+    },
+    {
+      "group": 52,
+      "parent": 8,
+      "rows": 749,
+      "exact_queries": 7,
+      "product_output_terms": 2625,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 52,
+        "begin": 0,
+        "end": 749,
+        "product_terms": 453,
+        "product_sha256": "eae05b49116d6c971488aa6375fd09d9d09e4dcabb1641429d277e8a1027884f"
+      }
+    },
+    {
+      "group": 53,
+      "parent": 9,
+      "rows": 3839,
+      "exact_queries": 11,
+      "product_output_terms": 22738,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 53,
+        "begin": 0,
+        "end": 3839,
+        "product_terms": 3729,
+        "product_sha256": "2445820f5d4ee319f258311538e580f4f4f8b08235722c645fa70c538b600860"
+      }
+    },
+    {
+      "group": 54,
+      "parent": 10,
+      "rows": 976,
+      "exact_queries": 9,
+      "product_output_terms": 4885,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 54,
+        "begin": 0,
+        "end": 976,
+        "product_terms": 913,
+        "product_sha256": "92e8cd09eeac17735bca2caa9b83bc963cc5ba7fbcb724f51872111350fb1440"
+      }
+    },
+    {
+      "group": 55,
+      "parent": 0,
+      "rows": 2647,
+      "exact_queries": 9,
+      "product_output_terms": 11269,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 55,
+        "begin": 0,
+        "end": 2647,
+        "product_terms": 2061,
+        "product_sha256": "992326ac7fd1e4234eed288458c4d2f5fd47a103a0e0cfe0cd4fff340786aeec"
+      }
+    },
+    {
+      "group": 56,
+      "parent": 1,
+      "rows": 15063,
+      "exact_queries": 10,
+      "product_output_terms": 83394,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 56,
+        "begin": 0,
+        "end": 15063,
+        "product_terms": 14031,
+        "product_sha256": "1137a84938074460e4243522d55af62deefc734f76a100838c3207c94f4ece0c"
+      }
+    },
+    {
+      "group": 57,
+      "parent": 2,
+      "rows": 25836,
+      "exact_queries": 10,
+      "product_output_terms": 144245,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 57,
+        "begin": 0,
+        "end": 25836,
+        "product_terms": 24365,
+        "product_sha256": "d2b3d47553991f5e60797c2995d86228d7b9a95b0ef083fa7103a7c2149ba54b"
+      }
+    },
+    {
+      "group": 58,
+      "parent": 3,
+      "rows": 17575,
+      "exact_queries": 10,
+      "product_output_terms": 92147,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 58,
+        "begin": 0,
+        "end": 17575,
+        "product_terms": 14717,
+        "product_sha256": "979cf4fc59534b4c0a676ff439cdc9549a70c2a33ac15d5d7cd32e1188a56e6c"
+      }
+    },
+    {
+      "group": 59,
+      "parent": 4,
+      "rows": 2603,
+      "exact_queries": 8,
+      "product_output_terms": 11134,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 59,
+        "begin": 0,
+        "end": 2603,
+        "product_terms": 2321,
+        "product_sha256": "f96aec9f1b7dd2937ff4ad0d79a879cba3312a1e06b658e3bfbe8c3449144ae0"
+      }
+    },
+    {
+      "group": 60,
+      "parent": 5,
+      "rows": 2161,
+      "exact_queries": 6,
+      "product_output_terms": 8068,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 60,
+        "begin": 0,
+        "end": 2161,
+        "product_terms": 1887,
+        "product_sha256": "7bb9b8c7d64cfcba4f98a3012e3ce8303710485f2c2bafecb11cc94f551294a0"
+      }
+    },
+    {
+      "group": 61,
+      "parent": 6,
+      "rows": 4235,
+      "exact_queries": 8,
+      "product_output_terms": 19088,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 61,
+        "begin": 0,
+        "end": 4235,
+        "product_terms": 3586,
+        "product_sha256": "d36dab6487460bf3aea7d9b122f91aca4b8e4ff6dde3ab9c2f5c2119275c16b8"
+      }
+    },
+    {
+      "group": 62,
+      "parent": 7,
+      "rows": 628,
+      "exact_queries": 7,
+      "product_output_terms": 2638,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 62,
+        "begin": 0,
+        "end": 628,
+        "product_terms": 517,
+        "product_sha256": "caaffe687c3828b25c84e52188eeacd39ef96e5c1c85311e20480b1acaa37ed4"
+      }
+    },
+    {
+      "group": 63,
+      "parent": 8,
+      "rows": 1728,
+      "exact_queries": 8,
+      "product_output_terms": 6820,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 63,
+        "begin": 0,
+        "end": 1728,
+        "product_terms": 1158,
+        "product_sha256": "093802765e20ac9c684bad4ff594e5fcb79c08bc3b41d4d1f72d605e9c9a269b"
+      }
+    },
+    {
+      "group": 64,
+      "parent": 9,
+      "rows": 2046,
+      "exact_queries": 11,
+      "product_output_terms": 14436,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 64,
+        "begin": 0,
+        "end": 2046,
+        "product_terms": 2528,
+        "product_sha256": "041d99638691c5bf85535f2bcee81921eb0744d56fe9f1e9aeee3b17683ac953"
+      }
+    },
+    {
+      "group": 65,
+      "parent": 10,
+      "rows": 613,
+      "exact_queries": 8,
+      "product_output_terms": 2920,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 65,
+        "begin": 0,
+        "end": 613,
+        "product_terms": 570,
+        "product_sha256": "7d7ee6f71bee07bc5c7ed84d9af7a95f779ec29598c7f315f3ef052cd8e98122"
+      }
+    },
+    {
+      "group": 66,
+      "parent": 0,
+      "rows": 7660,
+      "exact_queries": 9,
+      "product_output_terms": 32851,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 66,
+        "begin": 0,
+        "end": 7660,
+        "product_terms": 6188,
+        "product_sha256": "1498d43d75d035ecb17025ec8aced41a97d8a551e883ffac85e48bc72eeea895"
+      }
+    },
+    {
+      "group": 67,
+      "parent": 1,
+      "rows": 15252,
+      "exact_queries": 9,
+      "product_output_terms": 67767,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 67,
+        "begin": 0,
+        "end": 15252,
+        "product_terms": 13610,
+        "product_sha256": "bee11c816a5c5930982e687faaf1bcf57e1a947169d331335e49c83ea369702e"
+      }
+    },
+    {
+      "group": 68,
+      "parent": 2,
+      "rows": 9642,
+      "exact_queries": 8,
+      "product_output_terms": 46384,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 68,
+        "begin": 0,
+        "end": 9642,
+        "product_terms": 8718,
+        "product_sha256": "ea137a713c490820f4fb142af283fca0f5e64b3e854b95f6c370942fba676ff4"
+      }
+    },
+    {
+      "group": 69,
+      "parent": 3,
+      "rows": 10405,
+      "exact_queries": 9,
+      "product_output_terms": 52375,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 69,
+        "begin": 0,
+        "end": 10405,
+        "product_terms": 9345,
+        "product_sha256": "e76c6385e278590c656650c1168735c4687693ba1c8066c36b790d35961e4d4d"
+      }
+    },
+    {
+      "group": 70,
+      "parent": 4,
+      "rows": 2500,
+      "exact_queries": 9,
+      "product_output_terms": 10316,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 70,
+        "begin": 0,
+        "end": 2500,
+        "product_terms": 2244,
+        "product_sha256": "ee1c5ae534ade5717829d237e5d7e018b98ae4f8ef0d9b0757fafc4cf1eb50ff"
+      }
+    },
+    {
+      "group": 71,
+      "parent": 6,
+      "rows": 1228,
+      "exact_queries": 8,
+      "product_output_terms": 4943,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 71,
+        "begin": 0,
+        "end": 1228,
+        "product_terms": 831,
+        "product_sha256": "8e3b6f43dda8ada95d1cedba3fa564a2605b4bfbc8acf1f0b79b35749257bc3e"
+      }
+    },
+    {
+      "group": 72,
+      "parent": 7,
+      "rows": 1238,
+      "exact_queries": 8,
+      "product_output_terms": 4982,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 72,
+        "begin": 0,
+        "end": 1238,
+        "product_terms": 879,
+        "product_sha256": "176a3b77b4c2b41e61d7a23325b389404d1ff21a1e8f4efff7fbbd4957974229"
+      }
+    },
+    {
+      "group": 73,
+      "parent": 8,
+      "rows": 5385,
+      "exact_queries": 8,
+      "product_output_terms": 20282,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 73,
+        "begin": 0,
+        "end": 5385,
+        "product_terms": 3418,
+        "product_sha256": "7a66d2a4c11da6f9d7fb5e9209a5fb83e99309de7021f9e9b47384754cc5de66"
+      }
+    },
+    {
+      "group": 74,
+      "parent": 9,
+      "rows": 3268,
+      "exact_queries": 10,
+      "product_output_terms": 16569,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 74,
+        "begin": 0,
+        "end": 3268,
+        "product_terms": 2945,
+        "product_sha256": "cc51550ab54c51602ec696ade21cff4d20b80d6eb4ffb81e3f890725517a95cf"
+      }
+    },
+    {
+      "group": 75,
+      "parent": 10,
+      "rows": 622,
+      "exact_queries": 8,
+      "product_output_terms": 2947,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 75,
+        "begin": 0,
+        "end": 622,
+        "product_terms": 535,
+        "product_sha256": "b526ad78426ac36f3b58f17b64c853031fb6364f2f01abb2559f7e4c2b96076e"
+      }
+    },
+    {
+      "group": 76,
+      "parent": 0,
+      "rows": 2827,
+      "exact_queries": 7,
+      "product_output_terms": 9729,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 76,
+        "begin": 0,
+        "end": 2827,
+        "product_terms": 1976,
+        "product_sha256": "267d26b9eca9ad11c4d4758aa84a24747c8254d0da7f66898bbe2dd405d08ebf"
+      }
+    },
+    {
+      "group": 77,
+      "parent": 1,
+      "rows": 12068,
+      "exact_queries": 10,
+      "product_output_terms": 67682,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 77,
+        "begin": 0,
+        "end": 12068,
+        "product_terms": 11041,
+        "product_sha256": "59f1e83e2aeca584b7da587bc52b503931498b006425c5c8c543e28c17123c6c"
+      }
+    },
+    {
+      "group": 78,
+      "parent": 2,
+      "rows": 7171,
+      "exact_queries": 9,
+      "product_output_terms": 36984,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 78,
+        "begin": 0,
+        "end": 7171,
+        "product_terms": 6520,
+        "product_sha256": "109dec2fbae7378fd7468023bb09e81e3bd86b42395e77f33f15edddb3ce3cd1"
+      }
+    },
+    {
+      "group": 79,
+      "parent": 3,
+      "rows": 8517,
+      "exact_queries": 10,
+      "product_output_terms": 41998,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 79,
+        "begin": 0,
+        "end": 8517,
+        "product_terms": 7001,
+        "product_sha256": "142e5dd02f443a5b6ba0aade2c0806c00788343b914e0238491404cac76f16f4"
+      }
+    },
+    {
+      "group": 80,
+      "parent": 4,
+      "rows": 3643,
+      "exact_queries": 9,
+      "product_output_terms": 14305,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 80,
+        "begin": 0,
+        "end": 3643,
+        "product_terms": 3089,
+        "product_sha256": "85a4edc602385f194d6a4e2f94ad9abfba80c1820dff738e90d0166421fdd5ed"
+      }
+    },
+    {
+      "group": 81,
+      "parent": 6,
+      "rows": 2905,
+      "exact_queries": 7,
+      "product_output_terms": 11154,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 81,
+        "begin": 0,
+        "end": 2905,
+        "product_terms": 2100,
+        "product_sha256": "90ad175c6940a55fc781b23db111f52164a8081ebd39e3df2d8dd9f50923a21f"
+      }
+    },
+    {
+      "group": 82,
+      "parent": 7,
+      "rows": 760,
+      "exact_queries": 8,
+      "product_output_terms": 2882,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 82,
+        "begin": 0,
+        "end": 760,
+        "product_terms": 497,
+        "product_sha256": "8159f1027ad559a102f1407b0a32e9863fb234e69dd6a26e9766b6121a1505b9"
+      }
+    },
+    {
+      "group": 83,
+      "parent": 8,
+      "rows": 2046,
+      "exact_queries": 9,
+      "product_output_terms": 7548,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 83,
+        "begin": 0,
+        "end": 2046,
+        "product_terms": 1290,
+        "product_sha256": "391e0595fd88e54562f4c4407bd90c2c648ee1c387d8b3a16f9fb9d0ba01f284"
+      }
+    },
+    {
+      "group": 84,
+      "parent": 9,
+      "rows": 1967,
+      "exact_queries": 9,
+      "product_output_terms": 8413,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 84,
+        "begin": 0,
+        "end": 1967,
+        "product_terms": 1365,
+        "product_sha256": "83f7d6ce2f9d60564b4239c55e92eeb0d801067247816479f34201d54fb03abc"
+      }
+    },
+    {
+      "group": 85,
+      "parent": 10,
+      "rows": 259,
+      "exact_queries": 7,
+      "product_output_terms": 1109,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 85,
+        "begin": 0,
+        "end": 259,
+        "product_terms": 232,
+        "product_sha256": "4a6e9c5e165627d99cd74aa45e98f54d5b0df67747c68b3aea6230a0ab272d27"
+      }
+    },
+    {
+      "group": 86,
+      "parent": 0,
+      "rows": 483,
+      "exact_queries": 7,
+      "product_output_terms": 1431,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 86,
+        "begin": 0,
+        "end": 483,
+        "product_terms": 277,
+        "product_sha256": "75eaceae0a4493fbd68f3b98201be7ff62eb088d37e5bee0ca0fdc790928bb38"
+      }
+    },
+    {
+      "group": 87,
+      "parent": 1,
+      "rows": 6478,
+      "exact_queries": 8,
+      "product_output_terms": 29849,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 87,
+        "begin": 0,
+        "end": 6478,
+        "product_terms": 5747,
+        "product_sha256": "640dcf83b92196bafc9ecf75a81b6811b6a13cf159ef1bcb97e5d4f25db035aa"
+      }
+    },
+    {
+      "group": 88,
+      "parent": 2,
+      "rows": 15301,
+      "exact_queries": 8,
+      "product_output_terms": 66283,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 88,
+        "begin": 0,
+        "end": 15301,
+        "product_terms": 13135,
+        "product_sha256": "fb6a2e519c528aff862b97cba789a57d5d133529ce413f168a7d471a963f0954"
+      }
+    },
+    {
+      "group": 89,
+      "parent": 3,
+      "rows": 13306,
+      "exact_queries": 11,
+      "product_output_terms": 66413,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 89,
+        "begin": 0,
+        "end": 13306,
+        "product_terms": 11722,
+        "product_sha256": "3c2183eb59af266245ca5a75d421e2f19b859c11b12257fa8e1cc1522cddf8cc"
+      }
+    },
+    {
+      "group": 90,
+      "parent": 4,
+      "rows": 3434,
+      "exact_queries": 9,
+      "product_output_terms": 16739,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 90,
+        "begin": 0,
+        "end": 3434,
+        "product_terms": 3225,
+        "product_sha256": "a5783d18963542f6af34acbf09431b8101bd433262ec8e5222162fbc94124c82"
+      }
+    },
+    {
+      "group": 91,
+      "parent": 6,
+      "rows": 2335,
+      "exact_queries": 7,
+      "product_output_terms": 8116,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 91,
+        "begin": 0,
+        "end": 2335,
+        "product_terms": 1590,
+        "product_sha256": "d398b0c5eb6debb87e0e1d9634785c6ca03dcb08af0771db1f357f365bbcbe51"
+      }
+    },
+    {
+      "group": 92,
+      "parent": 7,
+      "rows": 2194,
+      "exact_queries": 9,
+      "product_output_terms": 11301,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 92,
+        "begin": 0,
+        "end": 2194,
+        "product_terms": 1799,
+        "product_sha256": "829136005ba364f5cea2e3ce06e80dfa75a27da49b4053ae77b64959aee5ae84"
+      }
+    },
+    {
+      "group": 93,
+      "parent": 8,
+      "rows": 6220,
+      "exact_queries": 9,
+      "product_output_terms": 27342,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 93,
+        "begin": 0,
+        "end": 6220,
+        "product_terms": 4319,
+        "product_sha256": "479596fd151f09f4d20ce86591a7f56be0b6369af7c60d95541dccf10ac0e9a6"
+      }
+    },
+    {
+      "group": 94,
+      "parent": 9,
+      "rows": 5956,
+      "exact_queries": 11,
+      "product_output_terms": 32263,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 94,
+        "begin": 0,
+        "end": 5956,
+        "product_terms": 4992,
+        "product_sha256": "4b6a99620b82758a4419c35a39dc0f218314d360eb9b44848f33fb15a192f8b4"
+      }
+    },
+    {
+      "group": 95,
+      "parent": 10,
+      "rows": 583,
+      "exact_queries": 8,
+      "product_output_terms": 2664,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 95,
+        "begin": 0,
+        "end": 583,
+        "product_terms": 514,
+        "product_sha256": "3f771bee77d9957595364ed941e3b320b500ea0ebd2d3a8f721a6dafcee834d5"
+      }
+    },
+    {
+      "group": 96,
+      "parent": 0,
+      "rows": 2481,
+      "exact_queries": 8,
+      "product_output_terms": 9157,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 96,
+        "begin": 0,
+        "end": 2481,
+        "product_terms": 1836,
+        "product_sha256": "ea4a081bb1c5c990a1f20af7e67ce9f81c6ecd53129328195c01c4574824ccbf"
+      }
+    },
+    {
+      "group": 97,
+      "parent": 1,
+      "rows": 9440,
+      "exact_queries": 8,
+      "product_output_terms": 44254,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 97,
+        "begin": 0,
+        "end": 9440,
+        "product_terms": 8456,
+        "product_sha256": "b7232cc4effd3d4cb07d6c3842f0f64e07bcf2354272af0def826ce8c4f216b8"
+      }
+    },
+    {
+      "group": 98,
+      "parent": 2,
+      "rows": 9847,
+      "exact_queries": 8,
+      "product_output_terms": 47109,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 98,
+        "begin": 0,
+        "end": 9847,
+        "product_terms": 8955,
+        "product_sha256": "80c8fea87d8841f8840196e3b30e8029dfc32fb48c2c0e854ad4c48e3fe9c2f8"
+      }
+    },
+    {
+      "group": 99,
+      "parent": 3,
+      "rows": 7289,
+      "exact_queries": 10,
+      "product_output_terms": 29435,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 99,
+        "begin": 0,
+        "end": 7289,
+        "product_terms": 4331,
+        "product_sha256": "cd045036dd3ad829aad7a565b79a5b445736e38edbac5814e9503e5124d5649e"
+      }
+    },
+    {
+      "group": 100,
+      "parent": 4,
+      "rows": 2660,
+      "exact_queries": 8,
+      "product_output_terms": 9001,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 100,
+        "begin": 0,
+        "end": 2660,
+        "product_terms": 1959,
+        "product_sha256": "8a84ae20712d82dc64a1d2a46ea57aea63e86871436bb2a9f8fff50cf6d847c8"
+      }
+    },
+    {
+      "group": 101,
+      "parent": 6,
+      "rows": 3816,
+      "exact_queries": 8,
+      "product_output_terms": 15894,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 101,
+        "begin": 0,
+        "end": 3816,
+        "product_terms": 3033,
+        "product_sha256": "ccc96eaff2fdaeb833a18b31245b8c4d5f71c3ef22e44dbf2625aa39759ae173"
+      }
+    },
+    {
+      "group": 102,
+      "parent": 7,
+      "rows": 610,
+      "exact_queries": 9,
+      "product_output_terms": 2703,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 102,
+        "begin": 0,
+        "end": 610,
+        "product_terms": 422,
+        "product_sha256": "2375595ed0a2452cd10db45697d0fd6a9a46552326beb2890b8afea2020d182e"
+      }
+    },
+    {
+      "group": 103,
+      "parent": 8,
+      "rows": 5596,
+      "exact_queries": 8,
+      "product_output_terms": 21922,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 103,
+        "begin": 0,
+        "end": 5596,
+        "product_terms": 3677,
+        "product_sha256": "b7ab7d8f6b4333f8741f6e3ec3167ebc975347d526db5c64909ff1a7544b71dd"
+      }
+    },
+    {
+      "group": 104,
+      "parent": 9,
+      "rows": 5285,
+      "exact_queries": 10,
+      "product_output_terms": 26846,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 104,
+        "begin": 0,
+        "end": 5285,
+        "product_terms": 4290,
+        "product_sha256": "2c4c41d6688d4faeec29fe1437040512e7d8030b580729dbc6991a1894ad4a8e"
+      }
+    },
+    {
+      "group": 105,
+      "parent": 10,
+      "rows": 805,
+      "exact_queries": 9,
+      "product_output_terms": 4007,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 105,
+        "begin": 0,
+        "end": 805,
+        "product_terms": 773,
+        "product_sha256": "64db66076b2226faed73454cae9d1802b1a154d733d59f26a98b620842a79264"
+      }
+    },
+    {
+      "group": 106,
+      "parent": 0,
+      "rows": 1319,
+      "exact_queries": 8,
+      "product_output_terms": 4370,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 106,
+        "begin": 0,
+        "end": 1319,
+        "product_terms": 853,
+        "product_sha256": "b9995b9491cdf5c9d9edb1fa01cfc9e2aa5386312419c5fb1d2cf0ef6338e9ab"
+      }
+    },
+    {
+      "group": 107,
+      "parent": 1,
+      "rows": 7636,
+      "exact_queries": 8,
+      "product_output_terms": 31690,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 107,
+        "begin": 0,
+        "end": 7636,
+        "product_terms": 5986,
+        "product_sha256": "f36a6302a38acf07bbc404c35825092fe547fdaeacd75451502da5b1cde3fbcd"
+      }
+    },
+    {
+      "group": 108,
+      "parent": 2,
+      "rows": 24238,
+      "exact_queries": 9,
+      "product_output_terms": 121122,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 108,
+        "begin": 0,
+        "end": 24238,
+        "product_terms": 22084,
+        "product_sha256": "bce02cab64f964d3a3b2292e9b2a7a5bb8c1c27a73f9e95ce478ed275f2f132e"
+      }
+    },
+    {
+      "group": 109,
+      "parent": 3,
+      "rows": 9290,
+      "exact_queries": 9,
+      "product_output_terms": 42854,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 109,
+        "begin": 0,
+        "end": 9290,
+        "product_terms": 7483,
+        "product_sha256": "b70482cdb87ed2934f0752792a7ce5f8c2543ed89b898b07f939e07fbbd8dcdb"
+      }
+    },
+    {
+      "group": 110,
+      "parent": 4,
+      "rows": 2458,
+      "exact_queries": 7,
+      "product_output_terms": 8137,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 110,
+        "begin": 0,
+        "end": 2458,
+        "product_terms": 1997,
+        "product_sha256": "0c45fe773fb91cf70719507876d4afaab82943a1b25bc25a546b8dccfef57d33"
+      }
+    },
+    {
+      "group": 111,
+      "parent": 6,
+      "rows": 868,
+      "exact_queries": 6,
+      "product_output_terms": 3002,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 111,
+        "begin": 0,
+        "end": 868,
+        "product_terms": 555,
+        "product_sha256": "fa31f4de5f8a9f1fea2556a5fd1ddd1aee1c17399faabd7f64fccbd3663e20c6"
+      }
+    },
+    {
+      "group": 112,
+      "parent": 7,
+      "rows": 3149,
+      "exact_queries": 10,
+      "product_output_terms": 16946,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 112,
+        "begin": 0,
+        "end": 3149,
+        "product_terms": 2655,
+        "product_sha256": "b6d2c89b791f3c1a8620d9caf559a8e91ed4d52109a18d6e26d28a1957fbeee8"
+      }
+    },
+    {
+      "group": 113,
+      "parent": 8,
+      "rows": 1054,
+      "exact_queries": 7,
+      "product_output_terms": 3976,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 113,
+        "begin": 0,
+        "end": 1054,
+        "product_terms": 696,
+        "product_sha256": "4c6d26265867d1f151cca9c334dcee82f0f49ad45149757060fece6f6775e216"
+      }
+    },
+    {
+      "group": 114,
+      "parent": 9,
+      "rows": 832,
+      "exact_queries": 10,
+      "product_output_terms": 4118,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 114,
+        "begin": 0,
+        "end": 832,
+        "product_terms": 582,
+        "product_sha256": "969516fe613095c045951ad8cfb2f07a06a693e146356a39ad2b1fced116bad9"
+      }
+    },
+    {
+      "group": 115,
+      "parent": 10,
+      "rows": 207,
+      "exact_queries": 8,
+      "product_output_terms": 726,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 115,
+        "begin": 0,
+        "end": 207,
+        "product_terms": 132,
+        "product_sha256": "9591434baa180bc5df9e88f12e4796ba2d9e67990d927160a63b9ec18ca5a912"
+      }
+    },
+    {
+      "group": 116,
+      "parent": 0,
+      "rows": 2087,
+      "exact_queries": 9,
+      "product_output_terms": 8452,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 116,
+        "begin": 0,
+        "end": 2087,
+        "product_terms": 1619,
+        "product_sha256": "08bd1afd8bc71a90b5653c20e205a739f54d3da0bb5274ea68f538205dd1db6d"
+      }
+    },
+    {
+      "group": 117,
+      "parent": 1,
+      "rows": 4422,
+      "exact_queries": 9,
+      "product_output_terms": 22998,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 117,
+        "begin": 0,
+        "end": 4422,
+        "product_terms": 4388,
+        "product_sha256": "825af3ab122d05eb5f1f763ae06f91b6a0b283135528ac699136381f87bb7613"
+      }
+    },
+    {
+      "group": 118,
+      "parent": 2,
+      "rows": 4165,
+      "exact_queries": 8,
+      "product_output_terms": 21006,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 118,
+        "begin": 0,
+        "end": 4165,
+        "product_terms": 3930,
+        "product_sha256": "043c494eb4b626e28ffb135a108b8a5dfca70966757ca0605b2a712838d4d61b"
+      }
+    },
+    {
+      "group": 119,
+      "parent": 3,
+      "rows": 6756,
+      "exact_queries": 9,
+      "product_output_terms": 31085,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 119,
+        "begin": 0,
+        "end": 6756,
+        "product_terms": 5582,
+        "product_sha256": "407f88530131fc18cd3e1bc8bdd1b2ee559c7d5491b38ca063196edbccea434e"
+      }
+    },
+    {
+      "group": 120,
+      "parent": 4,
+      "rows": 2624,
+      "exact_queries": 9,
+      "product_output_terms": 11117,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 120,
+        "begin": 0,
+        "end": 2624,
+        "product_terms": 2260,
+        "product_sha256": "1e023719a46b800f6c3d63ebf115964dd2a28d588063347dba56a6c032470820"
+      }
+    },
+    {
+      "group": 121,
+      "parent": 6,
+      "rows": 1214,
+      "exact_queries": 8,
+      "product_output_terms": 6125,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 121,
+        "begin": 0,
+        "end": 1214,
+        "product_terms": 1075,
+        "product_sha256": "c8489532c6e1b1d51da1d4409ff1f6c6f676d1f498449d4e57ff4effe5083e62"
+      }
+    },
+    {
+      "group": 122,
+      "parent": 7,
+      "rows": 3007,
+      "exact_queries": 9,
+      "product_output_terms": 13371,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 122,
+        "begin": 0,
+        "end": 3007,
+        "product_terms": 2199,
+        "product_sha256": "d2eb30f48b8b554562f33707621ae6458b494614f827b99a25f12d1c00935b83"
+      }
+    },
+    {
+      "group": 123,
+      "parent": 8,
+      "rows": 5484,
+      "exact_queries": 9,
+      "product_output_terms": 24369,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 123,
+        "begin": 0,
+        "end": 5484,
+        "product_terms": 4398,
+        "product_sha256": "5fb584b18fdc341bf6d3a29ca5df40060c87112008de7eb097b9b8cb65853c80"
+      }
+    },
+    {
+      "group": 124,
+      "parent": 9,
+      "rows": 5097,
+      "exact_queries": 11,
+      "product_output_terms": 28885,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 124,
+        "begin": 0,
+        "end": 5097,
+        "product_terms": 4842,
+        "product_sha256": "fb5fd6edcf252b45a1829455f84703f5e183345128e0e1b5560027cb31bb1754"
+      }
+    },
+    {
+      "group": 125,
+      "parent": 10,
+      "rows": 813,
+      "exact_queries": 9,
+      "product_output_terms": 3888,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 125,
+        "begin": 0,
+        "end": 813,
+        "product_terms": 722,
+        "product_sha256": "b1aa3263c47d51938983cfdf32a78bfc1df651e9a1660fe29559706feff35353"
+      }
+    },
+    {
+      "group": 126,
+      "parent": 0,
+      "rows": 1314,
+      "exact_queries": 8,
+      "product_output_terms": 5026,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 126,
+        "begin": 0,
+        "end": 1314,
+        "product_terms": 995,
+        "product_sha256": "706be2cd3b8f2ef3e5ee9681a3078024eddfe115f281aa999d6def0bd453a628"
+      }
+    },
+    {
+      "group": 127,
+      "parent": 1,
+      "rows": 9357,
+      "exact_queries": 10,
+      "product_output_terms": 49173,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 127,
+        "begin": 0,
+        "end": 9357,
+        "product_terms": 8893,
+        "product_sha256": "ab38f361563b2e59b35b929e4467c9b97249c475584887ae4a7a4f1f93a1babf"
+      }
+    },
+    {
+      "group": 128,
+      "parent": 2,
+      "rows": 20461,
+      "exact_queries": 10,
+      "product_output_terms": 115634,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 128,
+        "begin": 0,
+        "end": 20461,
+        "product_terms": 19367,
+        "product_sha256": "46552d307c748621ab0fbcb9b28c0715e1ab8da8b78d47be177f97d839f210a2"
+      }
+    },
+    {
+      "group": 129,
+      "parent": 3,
+      "rows": 9313,
+      "exact_queries": 10,
+      "product_output_terms": 38539,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 129,
+        "begin": 0,
+        "end": 9313,
+        "product_terms": 5507,
+        "product_sha256": "2c8c1692b7955567c4a5e31f9ae905fc690c1d0ae1ca498f7ad5c6f651edff7c"
+      }
+    },
+    {
+      "group": 130,
+      "parent": 4,
+      "rows": 3283,
+      "exact_queries": 9,
+      "product_output_terms": 15287,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 130,
+        "begin": 0,
+        "end": 3283,
+        "product_terms": 3288,
+        "product_sha256": "d29fc6becf371091b8c80aaace0f3b9d1a74c97a5349fe3679d6ce8fbcfa58dc"
+      }
+    },
+    {
+      "group": 131,
+      "parent": 6,
+      "rows": 635,
+      "exact_queries": 6,
+      "product_output_terms": 2161,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 131,
+        "begin": 0,
+        "end": 635,
+        "product_terms": 400,
+        "product_sha256": "4b2beaf5ecd4461bec1a9cd38772c31c4eed935a8f14c167045ae30f661e73ff"
+      }
+    },
+    {
+      "group": 132,
+      "parent": 7,
+      "rows": 605,
+      "exact_queries": 7,
+      "product_output_terms": 2141,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 132,
+        "begin": 0,
+        "end": 605,
+        "product_terms": 375,
+        "product_sha256": "726dcb0e027650a068c9d2b35749c162dacee331640f7f16b365887bdca6c389"
+      }
+    },
+    {
+      "group": 133,
+      "parent": 8,
+      "rows": 6058,
+      "exact_queries": 9,
+      "product_output_terms": 25282,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 133,
+        "begin": 0,
+        "end": 6058,
+        "product_terms": 3979,
+        "product_sha256": "9ff0fe5eaae8b761f1d29685bb17dd8994892b74b43ed7d19797dc5a3acc7713"
+      }
+    },
+    {
+      "group": 134,
+      "parent": 9,
+      "rows": 2411,
+      "exact_queries": 11,
+      "product_output_terms": 14017,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 134,
+        "begin": 0,
+        "end": 2411,
+        "product_terms": 2291,
+        "product_sha256": "989b76b727b02bcb7e1d3fe44da9ddcfc7db89b9f49f1a1f9da62946fd563ae7"
+      }
+    },
+    {
+      "group": 135,
+      "parent": 10,
+      "rows": 3050,
+      "exact_queries": 8,
+      "product_output_terms": 12747,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 135,
+        "begin": 0,
+        "end": 3050,
+        "product_terms": 2457,
+        "product_sha256": "26dde3a95f10b52e368823a6c97a29d03fd2875fed4495bc002269aba8179aec"
+      }
+    },
+    {
+      "group": 136,
+      "parent": 0,
+      "rows": 1143,
+      "exact_queries": 7,
+      "product_output_terms": 3690,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 136,
+        "begin": 0,
+        "end": 1143,
+        "product_terms": 819,
+        "product_sha256": "dee91585a2ad53aae4772feb08dd6ceb984951727d764b5bd4906c1c789b5022"
+      }
+    },
+    {
+      "group": 137,
+      "parent": 1,
+      "rows": 4598,
+      "exact_queries": 9,
+      "product_output_terms": 23160,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 137,
+        "begin": 0,
+        "end": 4598,
+        "product_terms": 4124,
+        "product_sha256": "70df29a14378b64aff3708eeddea73eb4c9097802f74354768d25f5c6371cf82"
+      }
+    },
+    {
+      "group": 138,
+      "parent": 2,
+      "rows": 14865,
+      "exact_queries": 8,
+      "product_output_terms": 63071,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 138,
+        "begin": 0,
+        "end": 14865,
+        "product_terms": 12511,
+        "product_sha256": "6b34b072d10ec6a835d853d84e85b843417393b4bdf42ac2a99d0569634f2d4f"
+      }
+    },
+    {
+      "group": 139,
+      "parent": 3,
+      "rows": 30244,
+      "exact_queries": 10,
+      "product_output_terms": 146643,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 139,
+        "begin": 0,
+        "end": 30244,
+        "product_terms": 28297,
+        "product_sha256": "d120c313356e3be0b905b6c853794f1d96246edd0ecbc9165cb4f65c8c23c98c"
+      }
+    },
+    {
+      "group": 140,
+      "parent": 4,
+      "rows": 1831,
+      "exact_queries": 8,
+      "product_output_terms": 6401,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 140,
+        "begin": 0,
+        "end": 1831,
+        "product_terms": 1393,
+        "product_sha256": "e25dd853e990c179b18347644340d0695ad9110877cde7de8eb0bdaebb9ca4e0"
+      }
+    },
+    {
+      "group": 141,
+      "parent": 6,
+      "rows": 815,
+      "exact_queries": 7,
+      "product_output_terms": 2833,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 141,
+        "begin": 0,
+        "end": 815,
+        "product_terms": 517,
+        "product_sha256": "1bf0d4ba4db39129a1fcd67769b6bb0547f357d36d715e105fc3b7e8d8a525e3"
+      }
+    },
+    {
+      "group": 142,
+      "parent": 7,
+      "rows": 1422,
+      "exact_queries": 9,
+      "product_output_terms": 6075,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 142,
+        "begin": 0,
+        "end": 1422,
+        "product_terms": 1029,
+        "product_sha256": "194139c01d7451f1e9d2c4ac6f1587a8082d9263011d9311c2ef0a146716d6cf"
+      }
+    },
+    {
+      "group": 143,
+      "parent": 8,
+      "rows": 1931,
+      "exact_queries": 7,
+      "product_output_terms": 6469,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 143,
+        "begin": 0,
+        "end": 1931,
+        "product_terms": 1198,
+        "product_sha256": "c34e3022930e5d6780063a1113e9d98589ec69331ddcc4df2e6c99c532589b66"
+      }
+    },
+    {
+      "group": 144,
+      "parent": 9,
+      "rows": 4165,
+      "exact_queries": 10,
+      "product_output_terms": 16985,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 144,
+        "begin": 0,
+        "end": 4165,
+        "product_terms": 2710,
+        "product_sha256": "fde71e740c30be898cb511bef727cf835a4bd7645d1f90f9185f75942034437e"
+      }
+    },
+    {
+      "group": 145,
+      "parent": 10,
+      "rows": 1711,
+      "exact_queries": 8,
+      "product_output_terms": 7911,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 145,
+        "begin": 0,
+        "end": 1711,
+        "product_terms": 1553,
+        "product_sha256": "9e1dd1dc940d03f049cf1b9bd978859469cefac7d0fc4c7f3e55a5700a09c3e0"
+      }
+    },
+    {
+      "group": 146,
+      "parent": 0,
+      "rows": 2599,
+      "exact_queries": 8,
+      "product_output_terms": 8884,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 146,
+        "begin": 0,
+        "end": 2599,
+        "product_terms": 1709,
+        "product_sha256": "db408f702f6e381685b35f539b9a0c0a1f8e79e267432328867961e804492cc4"
+      }
+    },
+    {
+      "group": 147,
+      "parent": 1,
+      "rows": 6809,
+      "exact_queries": 10,
+      "product_output_terms": 36889,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 147,
+        "begin": 0,
+        "end": 6809,
+        "product_terms": 6374,
+        "product_sha256": "4ea2d0c8779f79ae647fece70a089f0db2a85456a2be946f3042d93ecb91ad8a"
+      }
+    },
+    {
+      "group": 148,
+      "parent": 2,
+      "rows": 3923,
+      "exact_queries": 8,
+      "product_output_terms": 18483,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 148,
+        "begin": 0,
+        "end": 3923,
+        "product_terms": 3441,
+        "product_sha256": "b170764ffec67174deb9b8d1583059fb77ed972712b5ac6439bc3db0c3fc3901"
+      }
+    },
+    {
+      "group": 149,
+      "parent": 3,
+      "rows": 3293,
+      "exact_queries": 9,
+      "product_output_terms": 13182,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 149,
+        "begin": 0,
+        "end": 3293,
+        "product_terms": 1927,
+        "product_sha256": "5787685180b806cd7d2f85f723d6f1525d22dd94f1f5853490c87906466677c7"
+      }
+    },
+    {
+      "group": 150,
+      "parent": 4,
+      "rows": 1482,
+      "exact_queries": 7,
+      "product_output_terms": 4892,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 150,
+        "begin": 0,
+        "end": 1482,
+        "product_terms": 1092,
+        "product_sha256": "6895f7dadb4c15b7379535b541a68b25a24a61cd300922e785a2e48a5cb60ba7"
+      }
+    },
+    {
+      "group": 151,
+      "parent": 6,
+      "rows": 1830,
+      "exact_queries": 8,
+      "product_output_terms": 7661,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 151,
+        "begin": 0,
+        "end": 1830,
+        "product_terms": 1418,
+        "product_sha256": "2f1255713d41e8140cf22a1554e33e2d8c7eb98620c023e423aa5a4ab7cf3d73"
+      }
+    },
+    {
+      "group": 152,
+      "parent": 7,
+      "rows": 383,
+      "exact_queries": 8,
+      "product_output_terms": 1637,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 152,
+        "begin": 0,
+        "end": 383,
+        "product_terms": 268,
+        "product_sha256": "f8264eca445300fa281e3d1f56dc5c5575c2a8b1d33e695c0c2d14f57dfc10d6"
+      }
+    },
+    {
+      "group": 153,
+      "parent": 8,
+      "rows": 795,
+      "exact_queries": 7,
+      "product_output_terms": 3028,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 153,
+        "begin": 0,
+        "end": 795,
+        "product_terms": 530,
+        "product_sha256": "fd37dcfdea00e147086ad871d5d4ef2fa6e01a7403363e9bfcbc5caabee19ea8"
+      }
+    },
+    {
+      "group": 154,
+      "parent": 9,
+      "rows": 3411,
+      "exact_queries": 11,
+      "product_output_terms": 20384,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 154,
+        "begin": 0,
+        "end": 3411,
+        "product_terms": 3323,
+        "product_sha256": "7dc775c0a0820b02855e5b2232291b0c371a4eb6abb694e512d4df6370e286c1"
+      }
+    },
+    {
+      "group": 155,
+      "parent": 10,
+      "rows": 630,
+      "exact_queries": 9,
+      "product_output_terms": 3104,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 155,
+        "begin": 0,
+        "end": 630,
+        "product_terms": 547,
+        "product_sha256": "08e8153b9bc808571d8d49e44d57f8ab1fdecd96049fd5557362aa8c72a67006"
+      }
+    },
+    {
+      "group": 156,
+      "parent": 0,
+      "rows": 3843,
+      "exact_queries": 9,
+      "product_output_terms": 16929,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 156,
+        "begin": 0,
+        "end": 3843,
+        "product_terms": 3183,
+        "product_sha256": "29713a3a4ec37601e61ea6aebb41ab2799f937c7dc6235fd170e69d289f16074"
+      }
+    },
+    {
+      "group": 157,
+      "parent": 1,
+      "rows": 5929,
+      "exact_queries": 8,
+      "product_output_terms": 26084,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 157,
+        "begin": 0,
+        "end": 5929,
+        "product_terms": 5292,
+        "product_sha256": "5cb086f088d947e8c1c47c4ad7ca63cd5300ca6c4ec4b746ca0057bf48571ad5"
+      }
+    },
+    {
+      "group": 158,
+      "parent": 2,
+      "rows": 8458,
+      "exact_queries": 9,
+      "product_output_terms": 44624,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 158,
+        "begin": 0,
+        "end": 8458,
+        "product_terms": 7602,
+        "product_sha256": "dd135e45b11357f62dfece3bf51ae36ac5272a4c7e6f03c8ba26ca4c36c369bf"
+      }
+    },
+    {
+      "group": 159,
+      "parent": 3,
+      "rows": 11435,
+      "exact_queries": 10,
+      "product_output_terms": 48482,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 159,
+        "begin": 0,
+        "end": 11435,
+        "product_terms": 8106,
+        "product_sha256": "58ae63516cca6db77fc33c6524c3dadfdc2e3aff307eb4d0b5f643a009beede6"
+      }
+    },
+    {
+      "group": 160,
+      "parent": 4,
+      "rows": 900,
+      "exact_queries": 7,
+      "product_output_terms": 3020,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 160,
+        "begin": 0,
+        "end": 900,
+        "product_terms": 678,
+        "product_sha256": "0a18e4e11af724551df8035b94b19a3c5a22ddec0b13dbb6137a1b4923a1d090"
+      }
+    },
+    {
+      "group": 161,
+      "parent": 6,
+      "rows": 3369,
+      "exact_queries": 7,
+      "product_output_terms": 12369,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 161,
+        "begin": 0,
+        "end": 3369,
+        "product_terms": 2298,
+        "product_sha256": "0fd9c604b4dc165620e98cded493e78eb02cb6174eed6c52fef8384335458246"
+      }
+    },
+    {
+      "group": 162,
+      "parent": 7,
+      "rows": 817,
+      "exact_queries": 7,
+      "product_output_terms": 3399,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 162,
+        "begin": 0,
+        "end": 817,
+        "product_terms": 677,
+        "product_sha256": "2e7c7e97d9e20e17546e936c226839d0a825cb93fc7bfa16d465ab8430042329"
+      }
+    },
+    {
+      "group": 163,
+      "parent": 8,
+      "rows": 2216,
+      "exact_queries": 7,
+      "product_output_terms": 8766,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 163,
+        "begin": 0,
+        "end": 2216,
+        "product_terms": 1514,
+        "product_sha256": "cfe880297b11b4e464c530e9b1d678489b13fd1fd473113e2c35f81d72b9f590"
+      }
+    },
+    {
+      "group": 164,
+      "parent": 9,
+      "rows": 3005,
+      "exact_queries": 10,
+      "product_output_terms": 15185,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 164,
+        "begin": 0,
+        "end": 3005,
+        "product_terms": 2561,
+        "product_sha256": "01714498f5fa508b67dbc3548dcaeabcc4c7292b9d0d2867065ff879f9f5a255"
+      }
+    },
+    {
+      "group": 165,
+      "parent": 10,
+      "rows": 382,
+      "exact_queries": 8,
+      "product_output_terms": 1767,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 165,
+        "begin": 0,
+        "end": 382,
+        "product_terms": 352,
+        "product_sha256": "fbf235f6daca8d53c1ab4f973636cccf5716ab5145610d79076ec04e2f014d41"
+      }
+    },
+    {
+      "group": 166,
+      "parent": 0,
+      "rows": 1388,
+      "exact_queries": 8,
+      "product_output_terms": 5478,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 166,
+        "begin": 0,
+        "end": 1388,
+        "product_terms": 1050,
+        "product_sha256": "d19b71b9b36f82300cb468ef6f6b657115b8a468aac6b86fe23211d134227ab2"
+      }
+    },
+    {
+      "group": 167,
+      "parent": 1,
+      "rows": 10865,
+      "exact_queries": 8,
+      "product_output_terms": 47101,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 167,
+        "begin": 0,
+        "end": 10865,
+        "product_terms": 9163,
+        "product_sha256": "a6b6b47b88eee9728ad2972e27e05d520414d3f13056b0de3d9f170562cebb4a"
+      }
+    },
+    {
+      "group": 168,
+      "parent": 2,
+      "rows": 12107,
+      "exact_queries": 8,
+      "product_output_terms": 58395,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 168,
+        "begin": 0,
+        "end": 12107,
+        "product_terms": 10642,
+        "product_sha256": "22966891ce940f6de6fc57a470fd526b9a7a238f10f59ad498c6cee0f49af452"
+      }
+    },
+    {
+      "group": 169,
+      "parent": 3,
+      "rows": 9977,
+      "exact_queries": 10,
+      "product_output_terms": 40512,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 169,
+        "begin": 0,
+        "end": 9977,
+        "product_terms": 6879,
+        "product_sha256": "f02686e61721880858f93913bbfae694ba56b318d03a148e291df16378621f33"
+      }
+    },
+    {
+      "group": 170,
+      "parent": 4,
+      "rows": 1205,
+      "exact_queries": 7,
+      "product_output_terms": 4420,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 170,
+        "begin": 0,
+        "end": 1205,
+        "product_terms": 1056,
+        "product_sha256": "7a886ed4659e1bce57fb7d2becd94c18abf4ddcd965d79fd5835e056edeba3ce"
+      }
+    },
+    {
+      "group": 171,
+      "parent": 6,
+      "rows": 4799,
+      "exact_queries": 7,
+      "product_output_terms": 17502,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 171,
+        "begin": 0,
+        "end": 4799,
+        "product_terms": 3507,
+        "product_sha256": "cd3166502c2fe481f90ca697d5d746c8b47cf02dc6bebea0605a2a05c3a40624"
+      }
+    },
+    {
+      "group": 172,
+      "parent": 7,
+      "rows": 491,
+      "exact_queries": 7,
+      "product_output_terms": 1844,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 172,
+        "begin": 0,
+        "end": 491,
+        "product_terms": 352,
+        "product_sha256": "bfe1a5fd6dc8dbf6fe978c246e2beb5163d04bdcedf8e2ea02a32d22bd75b782"
+      }
+    },
+    {
+      "group": 173,
+      "parent": 8,
+      "rows": 2175,
+      "exact_queries": 8,
+      "product_output_terms": 7423,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 173,
+        "begin": 0,
+        "end": 2175,
+        "product_terms": 1285,
+        "product_sha256": "2c28d3087eec6a705e4930d2cbc73f1fca9947d5e3ebd1ef16092c15a18ad53b"
+      }
+    },
+    {
+      "group": 174,
+      "parent": 9,
+      "rows": 1887,
+      "exact_queries": 9,
+      "product_output_terms": 9028,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 174,
+        "begin": 0,
+        "end": 1887,
+        "product_terms": 1604,
+        "product_sha256": "847a1efaebd1e379cd816b2788d58c09666dedbed9b7a916421e2963308cfee1"
+      }
+    },
+    {
+      "group": 175,
+      "parent": 10,
+      "rows": 384,
+      "exact_queries": 7,
+      "product_output_terms": 1284,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 175,
+        "begin": 0,
+        "end": 384,
+        "product_terms": 233,
+        "product_sha256": "094221262f92040e9565df7b7e54fe2e7b92813fda4f5ce6e7dfcfd6de21e3fd"
+      }
+    },
+    {
+      "group": 176,
+      "parent": 0,
+      "rows": 1735,
+      "exact_queries": 8,
+      "product_output_terms": 6743,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 176,
+        "begin": 0,
+        "end": 1735,
+        "product_terms": 1353,
+        "product_sha256": "0c92807f418e6ed7d905dd45ca88aabf8cfb071db03e9cff0e1c852e415e39b5"
+      }
+    },
+    {
+      "group": 177,
+      "parent": 1,
+      "rows": 12647,
+      "exact_queries": 9,
+      "product_output_terms": 57404,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 177,
+        "begin": 0,
+        "end": 12647,
+        "product_terms": 10215,
+        "product_sha256": "5e1aa8e282cb42384a93c1ecb040d828e0f347f59d5acc4fbed8a0762683ec17"
+      }
+    },
+    {
+      "group": 178,
+      "parent": 2,
+      "rows": 6132,
+      "exact_queries": 8,
+      "product_output_terms": 28387,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 178,
+        "begin": 0,
+        "end": 6132,
+        "product_terms": 5285,
+        "product_sha256": "d53022058167099dab4019c24a125319726ea9ab0929d1729ec51b962ec9d679"
+      }
+    },
+    {
+      "group": 179,
+      "parent": 3,
+      "rows": 15156,
+      "exact_queries": 9,
+      "product_output_terms": 68855,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 179,
+        "begin": 0,
+        "end": 15156,
+        "product_terms": 12921,
+        "product_sha256": "53d6cbc2f6db9b0d6daa1f39dacd72af64284d6e46316399d4764dad9078bd2d"
+      }
+    },
+    {
+      "group": 180,
+      "parent": 4,
+      "rows": 1302,
+      "exact_queries": 8,
+      "product_output_terms": 4681,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 180,
+        "begin": 0,
+        "end": 1302,
+        "product_terms": 1010,
+        "product_sha256": "76da0eb9e41e99dc1d5ae4b7f66c1049f84d7253fbc8f2e113083d92798fb35b"
+      }
+    },
+    {
+      "group": 181,
+      "parent": 6,
+      "rows": 932,
+      "exact_queries": 8,
+      "product_output_terms": 3223,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 181,
+        "begin": 0,
+        "end": 932,
+        "product_terms": 552,
+        "product_sha256": "252b0958e949910fee2f3b4abd2fb8fae41e0075b86acf0180b50a9544d7215d"
+      }
+    },
+    {
+      "group": 182,
+      "parent": 7,
+      "rows": 1509,
+      "exact_queries": 9,
+      "product_output_terms": 6601,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 182,
+        "begin": 0,
+        "end": 1509,
+        "product_terms": 1115,
+        "product_sha256": "a7015a2be4e4dc0d8d8e69c894d81f36eab1711fbf8a2ce7e41911bfb00d0d33"
+      }
+    },
+    {
+      "group": 183,
+      "parent": 8,
+      "rows": 2818,
+      "exact_queries": 8,
+      "product_output_terms": 10058,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 183,
+        "begin": 0,
+        "end": 2818,
+        "product_terms": 1768,
+        "product_sha256": "d0f620bb180c477aa7fe6e4f62f1c75a2dcff4b9008d2d584aa592eba1e7b1fb"
+      }
+    },
+    {
+      "group": 184,
+      "parent": 9,
+      "rows": 1674,
+      "exact_queries": 9,
+      "product_output_terms": 7636,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 184,
+        "begin": 0,
+        "end": 1674,
+        "product_terms": 1416,
+        "product_sha256": "2ed7d0ba1b75d8b0ed3678d111df02aff3217618deecfb8c1f15149ce4d210ef"
+      }
+    },
+    {
+      "group": 185,
+      "parent": 10,
+      "rows": 515,
+      "exact_queries": 8,
+      "product_output_terms": 2343,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 185,
+        "begin": 0,
+        "end": 515,
+        "product_terms": 464,
+        "product_sha256": "bc110c3248499b1c241cbbead5e25b9e0d6c49709b88ff5e6d5a9e266c22dc2b"
+      }
+    },
+    {
+      "group": 186,
+      "parent": 0,
+      "rows": 2989,
+      "exact_queries": 9,
+      "product_output_terms": 13054,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 186,
+        "begin": 0,
+        "end": 2989,
+        "product_terms": 2430,
+        "product_sha256": "fd2e2d940e8898f885544a82e0c8339bdbad087044b80c36c22de07eac11d79b"
+      }
+    },
+    {
+      "group": 187,
+      "parent": 1,
+      "rows": 3094,
+      "exact_queries": 8,
+      "product_output_terms": 12379,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 187,
+        "begin": 0,
+        "end": 3094,
+        "product_terms": 2325,
+        "product_sha256": "454290c56c8f76219521d22a91b9026c77f1103c155f72a1066a2e6e22b97478"
+      }
+    },
+    {
+      "group": 188,
+      "parent": 2,
+      "rows": 13905,
+      "exact_queries": 9,
+      "product_output_terms": 68552,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 188,
+        "begin": 0,
+        "end": 13905,
+        "product_terms": 12414,
+        "product_sha256": "74314dacb0523c93712348ab80f66dea84086b0eaa95daa17b4329fda4ca225a"
+      }
+    },
+    {
+      "group": 189,
+      "parent": 3,
+      "rows": 27630,
+      "exact_queries": 10,
+      "product_output_terms": 141637,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 189,
+        "begin": 0,
+        "end": 27630,
+        "product_terms": 24170,
+        "product_sha256": "156ffff09b3082f7f7cc6064b100aa8165c0795189c321c0b1fb957e19a0c240"
+      }
+    },
+    {
+      "group": 190,
+      "parent": 4,
+      "rows": 1928,
+      "exact_queries": 7,
+      "product_output_terms": 6509,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 190,
+        "begin": 0,
+        "end": 1928,
+        "product_terms": 1436,
+        "product_sha256": "3828a28508db6a62c644ab30eb27b93e4deb52b8464e0f1d9ab3b1015bb8ae31"
+      }
+    },
+    {
+      "group": 191,
+      "parent": 6,
+      "rows": 4012,
+      "exact_queries": 8,
+      "product_output_terms": 15647,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 191,
+        "begin": 0,
+        "end": 4012,
+        "product_terms": 2927,
+        "product_sha256": "ae7fefb45280170bfd042e4af1f66bbb9bc63b9ecde3b4e9ae12ef454eb6f9c3"
+      }
+    },
+    {
+      "group": 192,
+      "parent": 7,
+      "rows": 1128,
+      "exact_queries": 7,
+      "product_output_terms": 4641,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 192,
+        "begin": 0,
+        "end": 1128,
+        "product_terms": 894,
+        "product_sha256": "c79fe512f8579f0a8e810aa8a0b11654429f5fc44e7ad7cd14af424d067d77f0"
+      }
+    },
+    {
+      "group": 193,
+      "parent": 8,
+      "rows": 5313,
+      "exact_queries": 9,
+      "product_output_terms": 23217,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 193,
+        "begin": 0,
+        "end": 5313,
+        "product_terms": 3657,
+        "product_sha256": "54429f1275c656cf644995ba8ce4e891fade0e3989f8f3985d759d45df765728"
+      }
+    },
+    {
+      "group": 194,
+      "parent": 9,
+      "rows": 1147,
+      "exact_queries": 10,
+      "product_output_terms": 7128,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 194,
+        "begin": 0,
+        "end": 1147,
+        "product_terms": 1292,
+        "product_sha256": "c3e31f1d0e9ee062301932ba203fbad3bb27a9993534fb37e20203bcdb7ce37f"
+      }
+    },
+    {
+      "group": 195,
+      "parent": 10,
+      "rows": 372,
+      "exact_queries": 8,
+      "product_output_terms": 1633,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 195,
+        "begin": 0,
+        "end": 372,
+        "product_terms": 323,
+        "product_sha256": "dde0f66412b18e6bf5ea63723717db71b58748b834611af99b8b8c3721f81e18"
+      }
+    },
+    {
+      "group": 196,
+      "parent": 0,
+      "rows": 4321,
+      "exact_queries": 8,
+      "product_output_terms": 16267,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 196,
+        "begin": 0,
+        "end": 4321,
+        "product_terms": 3216,
+        "product_sha256": "a2c3c2ee84f1e613206f33c8e3bb359e75d626aa62b84135532abdd50c048681"
+      }
+    },
+    {
+      "group": 197,
+      "parent": 1,
+      "rows": 7054,
+      "exact_queries": 8,
+      "product_output_terms": 30184,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 197,
+        "begin": 0,
+        "end": 7054,
+        "product_terms": 5658,
+        "product_sha256": "1040cbf4886fce744895be0f3e90568d6d49a1ac8f662ed3eaadb656d3e7577e"
+      }
+    },
+    {
+      "group": 198,
+      "parent": 2,
+      "rows": 2543,
+      "exact_queries": 8,
+      "product_output_terms": 11962,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 198,
+        "begin": 0,
+        "end": 2543,
+        "product_terms": 1958,
+        "product_sha256": "a20a681c01efd447788159d4bb657f5aa2e90a22fb8162dc6c0e1c29f36697e2"
+      }
+    },
+    {
+      "group": 199,
+      "parent": 3,
+      "rows": 11391,
+      "exact_queries": 9,
+      "product_output_terms": 51222,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 199,
+        "begin": 0,
+        "end": 11391,
+        "product_terms": 9183,
+        "product_sha256": "ca9ac9cd9e8ea5df9ebeb31fdb6bb63b3d786c9d3c6ace665ad848d28cef831a"
+      }
+    },
+    {
+      "group": 200,
+      "parent": 4,
+      "rows": 496,
+      "exact_queries": 7,
+      "product_output_terms": 1532,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 200,
+        "begin": 0,
+        "end": 496,
+        "product_terms": 341,
+        "product_sha256": "36a68974ac17385dc9e8af0369c6a6552dc3ea9e1cf8f6339feb2288f4b23470"
+      }
+    },
+    {
+      "group": 201,
+      "parent": 6,
+      "rows": 2382,
+      "exact_queries": 8,
+      "product_output_terms": 8773,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 201,
+        "begin": 0,
+        "end": 2382,
+        "product_terms": 1581,
+        "product_sha256": "2a3ca5915cd774900d1697e26e1db5c82a4704284530e3eb5e7b778f88dfcdd4"
+      }
+    },
+    {
+      "group": 202,
+      "parent": 7,
+      "rows": 1240,
+      "exact_queries": 8,
+      "product_output_terms": 4518,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 202,
+        "begin": 0,
+        "end": 1240,
+        "product_terms": 817,
+        "product_sha256": "41348398a173fa5e7bb8d55c2a3cc4d11ec89815a806f431b1896b65f259e758"
+      }
+    },
+    {
+      "group": 203,
+      "parent": 8,
+      "rows": 697,
+      "exact_queries": 8,
+      "product_output_terms": 2296,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 203,
+        "begin": 0,
+        "end": 697,
+        "product_terms": 337,
+        "product_sha256": "672fdc5e576c25581efe06137440866a5b87c6a00a193920746c12e5b000dd52"
+      }
+    },
+    {
+      "group": 204,
+      "parent": 9,
+      "rows": 1469,
+      "exact_queries": 8,
+      "product_output_terms": 7546,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 204,
+        "begin": 0,
+        "end": 1469,
+        "product_terms": 1659,
+        "product_sha256": "e7adf55dd4c299089216f978ecf45029765a43feea742406e55b11f83b615142"
+      }
+    },
+    {
+      "group": 205,
+      "parent": 10,
+      "rows": 441,
+      "exact_queries": 7,
+      "product_output_terms": 1951,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 205,
+        "begin": 0,
+        "end": 441,
+        "product_terms": 392,
+        "product_sha256": "34e3d7bfb358aa6e784fa665baa97e8ac5e7be0eaed7c13b30e24cd5de1909fa"
+      }
+    },
+    {
+      "group": 206,
+      "parent": 0,
+      "rows": 1237,
+      "exact_queries": 8,
+      "product_output_terms": 5286,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 206,
+        "begin": 0,
+        "end": 1237,
+        "product_terms": 1012,
+        "product_sha256": "3dfa640bbbadca468fb71d58805ad48a9ac2852711b6440b97d8a2580591aba6"
+      }
+    },
+    {
+      "group": 207,
+      "parent": 1,
+      "rows": 8475,
+      "exact_queries": 10,
+      "product_output_terms": 45606,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 207,
+        "begin": 0,
+        "end": 8475,
+        "product_terms": 8160,
+        "product_sha256": "ae8319ffe9022622449c8f3ff16c57babf0c408f8dff4280cecbdc1e1d52db88"
+      }
+    },
+    {
+      "group": 208,
+      "parent": 2,
+      "rows": 24341,
+      "exact_queries": 10,
+      "product_output_terms": 136619,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 208,
+        "begin": 0,
+        "end": 24341,
+        "product_terms": 22772,
+        "product_sha256": "784e17fe8310e7b9c9a3cbc7df358a9abf7810c2e430022608c3e5e14f8ed084"
+      }
+    },
+    {
+      "group": 209,
+      "parent": 3,
+      "rows": 7474,
+      "exact_queries": 9,
+      "product_output_terms": 30787,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 209,
+        "begin": 0,
+        "end": 7474,
+        "product_terms": 5152,
+        "product_sha256": "55fc578fc7ce8e584c2eef66f049f924d8269e73fc332d6b9a8884fab442bfce"
+      }
+    },
+    {
+      "group": 210,
+      "parent": 4,
+      "rows": 511,
+      "exact_queries": 7,
+      "product_output_terms": 1589,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 210,
+        "begin": 0,
+        "end": 511,
+        "product_terms": 371,
+        "product_sha256": "a5119220ebcb9387ef9eac562638031767867b6cebb25b13c735e977ed01bd87"
+      }
+    },
+    {
+      "group": 211,
+      "parent": 6,
+      "rows": 2017,
+      "exact_queries": 8,
+      "product_output_terms": 7714,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 211,
+        "begin": 0,
+        "end": 2017,
+        "product_terms": 1209,
+        "product_sha256": "5888e691776aec0aa3b94490f7e9d96cff2564ec46359843091aebbea5250cb9"
+      }
+    },
+    {
+      "group": 212,
+      "parent": 7,
+      "rows": 277,
+      "exact_queries": 7,
+      "product_output_terms": 946,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 212,
+        "begin": 0,
+        "end": 277,
+        "product_terms": 158,
+        "product_sha256": "b69336a015fe17b60a4d44232285d7e9f5adb4fff455daa03a5d630cde95f8b7"
+      }
+    },
+    {
+      "group": 213,
+      "parent": 8,
+      "rows": 4652,
+      "exact_queries": 9,
+      "product_output_terms": 18225,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 213,
+        "begin": 0,
+        "end": 4652,
+        "product_terms": 2925,
+        "product_sha256": "ae093ee8d02cfbfe3c9018a271e60235ab560b4cc0683ac20deb22b3291bb0f9"
+      }
+    },
+    {
+      "group": 214,
+      "parent": 9,
+      "rows": 724,
+      "exact_queries": 9,
+      "product_output_terms": 3118,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 214,
+        "begin": 0,
+        "end": 724,
+        "product_terms": 557,
+        "product_sha256": "c0aa6fe385555468433e52edc1cafc48193bd18f43149face1679708e358100c"
+      }
+    },
+    {
+      "group": 215,
+      "parent": 10,
+      "rows": 580,
+      "exact_queries": 8,
+      "product_output_terms": 2578,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 215,
+        "begin": 0,
+        "end": 580,
+        "product_terms": 513,
+        "product_sha256": "1d92a68a3c8fdac270e1cebec95b0adce388e2f9bd623562bf8825a581d85e0b"
+      }
+    },
+    {
+      "group": 216,
+      "parent": 0,
+      "rows": 1001,
+      "exact_queries": 7,
+      "product_output_terms": 3524,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 216,
+        "begin": 0,
+        "end": 1001,
+        "product_terms": 738,
+        "product_sha256": "bd47a1f838939e432ba1f3ee94302d4af51ea8a62046350f74f7701ed739ee7d"
+      }
+    },
+    {
+      "group": 217,
+      "parent": 1,
+      "rows": 18314,
+      "exact_queries": 9,
+      "product_output_terms": 89395,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 217,
+        "begin": 0,
+        "end": 18314,
+        "product_terms": 16634,
+        "product_sha256": "71d75c59a07627cbe3f41e63ed07bd04349ecf8c399d661c3fab96979d3af3ad"
+      }
+    },
+    {
+      "group": 218,
+      "parent": 2,
+      "rows": 14944,
+      "exact_queries": 10,
+      "product_output_terms": 82090,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 218,
+        "begin": 0,
+        "end": 14944,
+        "product_terms": 13493,
+        "product_sha256": "e25d8f79f7aa2c06eaa88718b24b32b1784e89fd6f952eb025a30f296f85811c"
+      }
+    },
+    {
+      "group": 219,
+      "parent": 3,
+      "rows": 18732,
+      "exact_queries": 11,
+      "product_output_terms": 98222,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 219,
+        "begin": 0,
+        "end": 18732,
+        "product_terms": 16723,
+        "product_sha256": "e733b077b16e40c03a6767411d036ab869ab61468e00523aad93973852f0d137"
+      }
+    },
+    {
+      "group": 220,
+      "parent": 4,
+      "rows": 1060,
+      "exact_queries": 8,
+      "product_output_terms": 3618,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 220,
+        "begin": 0,
+        "end": 1060,
+        "product_terms": 815,
+        "product_sha256": "fb3c8fb898671d981063c0a2f7350074ece1e9e5812586f8315380d0cc2e6823"
+      }
+    },
+    {
+      "group": 221,
+      "parent": 6,
+      "rows": 2138,
+      "exact_queries": 7,
+      "product_output_terms": 7573,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 221,
+        "begin": 0,
+        "end": 2138,
+        "product_terms": 1362,
+        "product_sha256": "b5db45d4050c6bb3a582d6537e365f85600f2bdd076b19721d14e5143e50ae39"
+      }
+    },
+    {
+      "group": 222,
+      "parent": 7,
+      "rows": 903,
+      "exact_queries": 8,
+      "product_output_terms": 3625,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 222,
+        "begin": 0,
+        "end": 903,
+        "product_terms": 647,
+        "product_sha256": "0f0e2deddfb2630f1ffd4693930177bf3299939d41905042e7a7c4dfb7ef6e22"
+      }
+    },
+    {
+      "group": 223,
+      "parent": 8,
+      "rows": 255,
+      "exact_queries": 7,
+      "product_output_terms": 885,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 223,
+        "begin": 0,
+        "end": 255,
+        "product_terms": 156,
+        "product_sha256": "6719366813e0a5dcb7dd4d051f4baf2ad2f1388e17244955a5a711ecc4044399"
+      }
+    },
+    {
+      "group": 224,
+      "parent": 9,
+      "rows": 4070,
+      "exact_queries": 11,
+      "product_output_terms": 21747,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 224,
+        "begin": 0,
+        "end": 4070,
+        "product_terms": 3553,
+        "product_sha256": "319f419ba1e254ee70270a7db550b7175863013094e53d3c1885d46bd0103ccc"
+      }
+    },
+    {
+      "group": 225,
+      "parent": 10,
+      "rows": 1503,
+      "exact_queries": 9,
+      "product_output_terms": 6685,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 225,
+        "begin": 0,
+        "end": 1503,
+        "product_terms": 1247,
+        "product_sha256": "8f3a129cec983d0be3f2a900a957803f268460c816a224346c84f07eb86c89ad"
+      }
+    },
+    {
+      "group": 226,
+      "parent": 0,
+      "rows": 1779,
+      "exact_queries": 7,
+      "product_output_terms": 6640,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 226,
+        "begin": 0,
+        "end": 1779,
+        "product_terms": 1363,
+        "product_sha256": "d3ea2d711937daed991ee6f45cb0c2e5b9c0ad4e334bd69152bbe0affecbd50c"
+      }
+    },
+    {
+      "group": 227,
+      "parent": 1,
+      "rows": 8858,
+      "exact_queries": 8,
+      "product_output_terms": 37456,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 227,
+        "begin": 0,
+        "end": 8858,
+        "product_terms": 7300,
+        "product_sha256": "a5ee3665215f32415fe2dda11be5df7faf321e0dad59ab289cd56a270611bb15"
+      }
+    },
+    {
+      "group": 228,
+      "parent": 2,
+      "rows": 8424,
+      "exact_queries": 10,
+      "product_output_terms": 47370,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 228,
+        "begin": 0,
+        "end": 8424,
+        "product_terms": 7708,
+        "product_sha256": "cc77fbced8c2d8bc1e6544536367823d9ef0a7e611882331ae07bdb90ecb4807"
+      }
+    },
+    {
+      "group": 229,
+      "parent": 3,
+      "rows": 5718,
+      "exact_queries": 8,
+      "product_output_terms": 25681,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 229,
+        "begin": 0,
+        "end": 5718,
+        "product_terms": 4782,
+        "product_sha256": "1a566eebf1307fed1f0b3dcfc64d6858227e71b8ad4d918bc28bfb88f7d6f955"
+      }
+    },
+    {
+      "group": 230,
+      "parent": 4,
+      "rows": 900,
+      "exact_queries": 8,
+      "product_output_terms": 3294,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 230,
+        "begin": 0,
+        "end": 900,
+        "product_terms": 709,
+        "product_sha256": "d7096cbb5d06e7adc08920895803eacaa724605f47098e03987b19468dd44a30"
+      }
+    },
+    {
+      "group": 231,
+      "parent": 6,
+      "rows": 3689,
+      "exact_queries": 8,
+      "product_output_terms": 17015,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 231,
+        "begin": 0,
+        "end": 3689,
+        "product_terms": 3244,
+        "product_sha256": "d8ed6f11354cf5c8578298d04faf15e1eb82576c4e16d5229ea8e9c796ac2216"
+      }
+    },
+    {
+      "group": 232,
+      "parent": 7,
+      "rows": 1070,
+      "exact_queries": 9,
+      "product_output_terms": 4362,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 232,
+        "begin": 0,
+        "end": 1070,
+        "product_terms": 731,
+        "product_sha256": "15a17ddbc0414b85674f7758c543db3a4a16ca34a46bd4c6329d3f52fae31f9b"
+      }
+    },
+    {
+      "group": 233,
+      "parent": 8,
+      "rows": 1531,
+      "exact_queries": 8,
+      "product_output_terms": 5993,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 233,
+        "begin": 0,
+        "end": 1531,
+        "product_terms": 981,
+        "product_sha256": "0ece0e6c16bae7bd53fa6b4a0a642cb5dfe6d79469aadf5cc8f1b1e919621bc2"
+      }
+    },
+    {
+      "group": 234,
+      "parent": 9,
+      "rows": 4987,
+      "exact_queries": 10,
+      "product_output_terms": 24694,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 234,
+        "begin": 0,
+        "end": 4987,
+        "product_terms": 4181,
+        "product_sha256": "3cd61e00db585d06758f4156986ed1fbf632cbb8a825ab3469c74928d4fb9bac"
+      }
+    },
+    {
+      "group": 235,
+      "parent": 10,
+      "rows": 1046,
+      "exact_queries": 8,
+      "product_output_terms": 4347,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 235,
+        "begin": 0,
+        "end": 1046,
+        "product_terms": 909,
+        "product_sha256": "7d6421a44f381bf446b0c5fc71117b7184b098924400ae18a7209d5806bc705a"
+      }
+    },
+    {
+      "group": 236,
+      "parent": 0,
+      "rows": 1502,
+      "exact_queries": 8,
+      "product_output_terms": 6111,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 236,
+        "begin": 0,
+        "end": 1502,
+        "product_terms": 1154,
+        "product_sha256": "86be704ed6d800be2426de37a1ba6c82b2056702dfcad90e9417d0ed64cd85fb"
+      }
+    },
+    {
+      "group": 237,
+      "parent": 1,
+      "rows": 23284,
+      "exact_queries": 10,
+      "product_output_terms": 109375,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 237,
+        "begin": 0,
+        "end": 23284,
+        "product_terms": 21057,
+        "product_sha256": "357e28a8149b3d669903d7751ee30970e551e7441c4093ba0c52dc2f6b8c7fe1"
+      }
+    },
+    {
+      "group": 238,
+      "parent": 2,
+      "rows": 8109,
+      "exact_queries": 8,
+      "product_output_terms": 35584,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 238,
+        "begin": 0,
+        "end": 8109,
+        "product_terms": 7107,
+        "product_sha256": "d4043c57af61f2965b95e555421d8592b12502ecab932484fd7c1b81fb21a0ac"
+      }
+    },
+    {
+      "group": 239,
+      "parent": 3,
+      "rows": 11129,
+      "exact_queries": 9,
+      "product_output_terms": 50323,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 239,
+        "begin": 0,
+        "end": 11129,
+        "product_terms": 9294,
+        "product_sha256": "c5f6c6c4cfa07aaaad5bf06041db7a89a9b3b326b1bf2fc55c6acaa614f02a05"
+      }
+    },
+    {
+      "group": 240,
+      "parent": 4,
+      "rows": 1095,
+      "exact_queries": 8,
+      "product_output_terms": 3704,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 240,
+        "begin": 0,
+        "end": 1095,
+        "product_terms": 828,
+        "product_sha256": "07466c6e88ed6eb98d23df94d83b90a3d9d7d7f5e4dceacfb4716e3a34bc1d4d"
+      }
+    },
+    {
+      "group": 241,
+      "parent": 6,
+      "rows": 3795,
+      "exact_queries": 7,
+      "product_output_terms": 14206,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 241,
+        "begin": 0,
+        "end": 3795,
+        "product_terms": 2737,
+        "product_sha256": "dc0d84847eed8915f073c6ff58ff80b7b0ce23f50de08e3bb199e999d8dc4173"
+      }
+    },
+    {
+      "group": 242,
+      "parent": 7,
+      "rows": 307,
+      "exact_queries": 7,
+      "product_output_terms": 1046,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 242,
+        "begin": 0,
+        "end": 307,
+        "product_terms": 189,
+        "product_sha256": "7b65ce2af46b2e66a0482a00303002f29541ede23b3badc949b9916cc3c9d6b7"
+      }
+    },
+    {
+      "group": 243,
+      "parent": 8,
+      "rows": 2078,
+      "exact_queries": 9,
+      "product_output_terms": 7620,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 243,
+        "begin": 0,
+        "end": 2078,
+        "product_terms": 1134,
+        "product_sha256": "e114950f9483e49d3cabe1a4e8417869a4013e73ee65229cf49756cd9c2c2f63"
+      }
+    },
+    {
+      "group": 244,
+      "parent": 9,
+      "rows": 4524,
+      "exact_queries": 11,
+      "product_output_terms": 22846,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 244,
+        "begin": 0,
+        "end": 4524,
+        "product_terms": 3625,
+        "product_sha256": "7771f5968c18c349255730584755cd88a9f373b65565940b91abb29c85eb5b8d"
+      }
+    },
+    {
+      "group": 245,
+      "parent": 10,
+      "rows": 418,
+      "exact_queries": 8,
+      "product_output_terms": 2237,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 245,
+        "begin": 0,
+        "end": 418,
+        "product_terms": 416,
+        "product_sha256": "49f0647a5746caee5e53382760c814acd13d8b8c12480e5a48ddd05d3b23f066"
+      }
+    },
+    {
+      "group": 246,
+      "parent": 0,
+      "rows": 2017,
+      "exact_queries": 8,
+      "product_output_terms": 6689,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 246,
+        "begin": 0,
+        "end": 2017,
+        "product_terms": 1313,
+        "product_sha256": "04fed1c6cb5794db57a9d0695b4841a77e14f3c5049717a5c2ba38ac89aee49d"
+      }
+    },
+    {
+      "group": 247,
+      "parent": 1,
+      "rows": 4747,
+      "exact_queries": 8,
+      "product_output_terms": 22252,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 247,
+        "begin": 0,
+        "end": 4747,
+        "product_terms": 4457,
+        "product_sha256": "4fb1c77f18403489186a182bc6d7c83328e1d95cb77039da5f5c3eaf984e8c70"
+      }
+    },
+    {
+      "group": 248,
+      "parent": 2,
+      "rows": 5424,
+      "exact_queries": 9,
+      "product_output_terms": 24562,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 248,
+        "begin": 0,
+        "end": 5424,
+        "product_terms": 4205,
+        "product_sha256": "d38eab3621ec86f2af741eeb9478f388af2a659f167b74e2f7826176c40e7b8a"
+      }
+    },
+    {
+      "group": 249,
+      "parent": 3,
+      "rows": 10908,
+      "exact_queries": 10,
+      "product_output_terms": 50063,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 249,
+        "begin": 0,
+        "end": 10908,
+        "product_terms": 8632,
+        "product_sha256": "b57f94a21d0b5b6dbb2ebd43100ce661e677a196bd716aeeeb8c9730623b5206"
+      }
+    },
+    {
+      "group": 250,
+      "parent": 4,
+      "rows": 979,
+      "exact_queries": 7,
+      "product_output_terms": 3232,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 250,
+        "begin": 0,
+        "end": 979,
+        "product_terms": 717,
+        "product_sha256": "d8382383be027c1fdcbe861afd483e1ab058de82f9cda150f7ba61dbd18f1d10"
+      }
+    },
+    {
+      "group": 251,
+      "parent": 6,
+      "rows": 8168,
+      "exact_queries": 8,
+      "product_output_terms": 35919,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 251,
+        "begin": 0,
+        "end": 8168,
+        "product_terms": 6842,
+        "product_sha256": "7af7bc87f9b5e660cb3dc4214466efa0a98f5711e352010e33b469d05079c9ef"
+      }
+    },
+    {
+      "group": 252,
+      "parent": 7,
+      "rows": 1133,
+      "exact_queries": 8,
+      "product_output_terms": 4191,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 252,
+        "begin": 0,
+        "end": 1133,
+        "product_terms": 637,
+        "product_sha256": "cfbc8b1db1375503f1a295a459fe36710d8054cacb0cd398dee674fdc4c1f5ac"
+      }
+    },
+    {
+      "group": 253,
+      "parent": 8,
+      "rows": 3485,
+      "exact_queries": 8,
+      "product_output_terms": 13421,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 253,
+        "begin": 0,
+        "end": 3485,
+        "product_terms": 2290,
+        "product_sha256": "a9cca57783117c175775877a5aca2b5b91feb659d5cd4d637e34706a320bae56"
+      }
+    },
+    {
+      "group": 254,
+      "parent": 9,
+      "rows": 1089,
+      "exact_queries": 10,
+      "product_output_terms": 4636,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 254,
+        "begin": 0,
+        "end": 1089,
+        "product_terms": 682,
+        "product_sha256": "85aea9052c0a7709c28262c87c285c2ff4625bb9e9a5666fa17406a2f4f5c171"
+      }
+    },
+    {
+      "group": 255,
+      "parent": 10,
+      "rows": 1321,
+      "exact_queries": 9,
+      "product_output_terms": 6775,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 255,
+        "begin": 0,
+        "end": 1321,
+        "product_terms": 1292,
+        "product_sha256": "de660111cb5fc5c667f0a59e5f2dd548ff6556a88a4872d5807bfbdc6fe49a2e"
+      }
+    },
+    {
+      "group": 256,
+      "parent": 0,
+      "rows": 1778,
+      "exact_queries": 8,
+      "product_output_terms": 6523,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 256,
+        "begin": 0,
+        "end": 1778,
+        "product_terms": 1307,
+        "product_sha256": "506a143f58ba4679f0099dc6e452f91d0119773a9c940fabbfab171e1a57bf58"
+      }
+    },
+    {
+      "group": 257,
+      "parent": 1,
+      "rows": 13944,
+      "exact_queries": 8,
+      "product_output_terms": 62844,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 257,
+        "begin": 0,
+        "end": 13944,
+        "product_terms": 13069,
+        "product_sha256": "e7964f0c95053eeab0cae589355e75ff3b4be0903d791dd504aeb536e4dc6200"
+      }
+    },
+    {
+      "group": 258,
+      "parent": 2,
+      "rows": 4929,
+      "exact_queries": 8,
+      "product_output_terms": 23392,
+      "excluded_terms_above_17": 0,
+      "root_product": {
+        "group": 258,
+        "begin": 0,
+        "end": 4929,
+        "product_terms": 4263,
+        "product_sha256": "f29dc7a86e950350bb2c1e86a96e3a5ab9b178a4e4f2e7403e813c579f814935"
+      }
+    }
+  ],
+  "offsets": [
+    0,
+    1282,
+    9411,
+    16171,
+    24967,
+    25645,
+    27838,
+    33919,
+    35214,
+    36338,
+    38251,
+    39663,
+    43497,
+    49038,
+    57390,
+    89539,
+    90560,
+    91612,
+    94436,
+    94657,
+    99245,
+    101140,
+    101266,
+    102757,
+    125141,
+    136958,
+    156750,
+    158406,
+    160244,
+    161769,
+    162328,
+    163844,
+    165019,
+    165401,
+    166627,
+    175987,
+    188623,
+    201837,
+    203694,
+    204696,
+    205591,
+    206467,
+    210246,
+    211320,
+    211534,
+    215016,
+    226985,
+    235315,
+    244182,
+    245242,
+    246858,
+    249284,
+    250064,
+    250813,
+    254652,
+    255628,
+    258275,
+    273338,
+    299174,
+    316749,
+    319352,
+    321513,
+    325748,
+    326376,
+    328104,
+    330150,
+    330763,
+    338423,
+    353675,
+    363317,
+    373722,
+    376222,
+    377450,
+    378688,
+    384073,
+    387341,
+    387963,
+    390790,
+    402858,
+    410029,
+    418546,
+    422189,
+    425094,
+    425854,
+    427900,
+    429867,
+    430126,
+    430609,
+    437087,
+    452388,
+    465694,
+    469128,
+    471463,
+    473657,
+    479877,
+    485833,
+    486416,
+    488897,
+    498337,
+    508184,
+    515473,
+    518133,
+    521949,
+    522559,
+    528155,
+    533440,
+    534245,
+    535564,
+    543200,
+    567438,
+    576728,
+    579186,
+    580054,
+    583203,
+    584257,
+    585089,
+    585296,
+    587383,
+    591805,
+    595970,
+    602726,
+    605350,
+    606564,
+    609571,
+    615055,
+    620152,
+    620965,
+    622279,
+    631636,
+    652097,
+    661410,
+    664693,
+    665328,
+    665933,
+    671991,
+    674402,
+    677452,
+    678595,
+    683193,
+    698058,
+    728302,
+    730133,
+    730948,
+    732370,
+    734301,
+    738466,
+    740177,
+    742776,
+    749585,
+    753508,
+    756801,
+    758283,
+    760113,
+    760496,
+    761291,
+    764702,
+    765332,
+    769175,
+    775104,
+    783562,
+    794997,
+    795897,
+    799266,
+    800083,
+    802299,
+    805304,
+    805686,
+    807074,
+    817939,
+    830046,
+    840023,
+    841228,
+    846027,
+    846518,
+    848693,
+    850580,
+    850964,
+    852699,
+    865346,
+    871478,
+    886634,
+    887936,
+    888868,
+    890377,
+    893195,
+    894869,
+    895384,
+    898373,
+    901467,
+    915372,
+    943002,
+    944930,
+    948942,
+    950070,
+    955383,
+    956530,
+    956902,
+    961223,
+    968277,
+    970820,
+    982211,
+    982707,
+    985089,
+    986329,
+    987026,
+    988495,
+    988936,
+    990173,
+    998648,
+    1022989,
+    1030463,
+    1030974,
+    1032991,
+    1033268,
+    1037920,
+    1038644,
+    1039224,
+    1040225,
+    1058539,
+    1073483,
+    1092215,
+    1093275,
+    1095413,
+    1096316,
+    1096571,
+    1100641,
+    1102144,
+    1103923,
+    1112781,
+    1121205,
+    1126923,
+    1127823,
+    1131512,
+    1132582,
+    1134113,
+    1139100,
+    1140146,
+    1141648,
+    1164932,
+    1173041,
+    1184170,
+    1185265,
+    1189060,
+    1189367,
+    1191445,
+    1195969,
+    1196387,
+    1198404,
+    1203151,
+    1208575,
+    1219483,
+    1220462,
+    1228630,
+    1229763,
+    1233248,
+    1234337,
+    1235658,
+    1237436,
+    1251380,
+    1256309
+  ],
+  "plan_sha256": "4739f2ac8c70d65dd32e4c39ecc2762186ee13943096a18f189110dbd9612022",
+  "source_sha256": "7511fba72f05524ccb19881983d5f227fc59aa280692f1822aab8dd870b42e55",
+  "worker_sha256": "7511fba72f05524ccb19881983d5f227fc59aa280692f1822aab8dd870b42e55",
+  "rows": 1256309,
+  "exact_queries": 2183,
+  "data_sha256": "373bb132c7c5d00da485fc7e58cc541f8f79290a76b77eb7ff0e5d1396596de1",
+  "root_sha256": "469834d6da472e2fb368fb3ea00d3ab4dc359f1299b7f3740721b18376c4cab5",
+  "removed_redundant_raw_q_sha256": "aad1a1008bfc64ee547b53ba35ce70c0e55fc06cc64492eeb48b1eb5e2513180",
+  "archives": [
+    {
+      "name": "second_neighbors_train_0000.bin.gz",
+      "sha256": "ed9a570253e2c8694751af17f6125383cd8257e08572abdd69a0ef104fcff914",
+      "uncompressed_sha256": "c94648e3e12d9f68cfdeb08e78da8529f9aed11b0a4b46936071f7fec4df92d0"
+    },
+    {
+      "name": "second_neighbors_train_0001.bin.gz",
+      "sha256": "4df2498932d4a2066e273b94e33c001de0d316340bf32e075e9804197768e5b7",
+      "uncompressed_sha256": "db4676aa65036206e13fddfcef4795deb051f128e72a5da702cd044bea3848fa"
+    },
+    {
+      "name": "second_neighbors_train_0002.bin.gz",
+      "sha256": "51d6af8bb7b06b28e092d001b00eb67df4a433ac658e26800ab3fa6d9414e5f5",
+      "uncompressed_sha256": "0dc6ed0f9d94e198d1c198d2577f1a790a27cbc6515524c115393a19b075845a"
+    },
+    {
+      "name": "second_neighbors_train_0003.bin.gz",
+      "sha256": "7d249be2a9536aa69f66dc38831c556a82df0c0cb8f86a3e1aeffb02c987aa87",
+      "uncompressed_sha256": "b6d885eeae3bd716a7e04d29d7d66d4496429721c70082ceee66858f0a78c730"
+    },
+    {
+      "name": "second_neighbors_train_0004.bin.gz",
+      "sha256": "c059cbda4463f68f289f1f027b82390600c782dab38cd4ff439c524798f6b6ed",
+      "uncompressed_sha256": "472eeda06c7fd47cc7e9c336b773efa8c592d1131de5cf9caeb6895728c57264"
+    },
+    {
+      "name": "second_neighbors_train_0005.bin.gz",
+      "sha256": "2e0857669590a91a355d98c4b417915a733bac9168bb49bfed762ca544776b98",
+      "uncompressed_sha256": "a21867b3537cf8e8806065874d006f6488bb66abb27b7e618e5dd128a80d1530"
+    }
+  ],
+  "root_archive_sha256": "579ec616cb78e321a94f712ea7b71307d99d26f76dc94bb156a7dccf15cd7c58"
+}

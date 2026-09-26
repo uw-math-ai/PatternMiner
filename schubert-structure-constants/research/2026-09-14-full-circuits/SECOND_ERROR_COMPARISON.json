@@ -1,0 +1,42 @@
+{
+  "status": "completed",
+  "models": {
+    "FINAL_REFINEMENT_READOUTS": {
+      "checkpoint_sha256": "a9da8cad2d6732c7f5a484839112797486905a05547c372490a12a28d709cee3",
+      "pairs": 1308,
+      "correct_pairs": 1278,
+      "accuracy": 0.9770642201834863,
+      "fixed": 0,
+      "lost": 0
+    },
+    "neighbor_refinement_final": {
+      "checkpoint_sha256": "be9802a17c6f8699cc64b42a582dfdb10c44e646c8c775260c316d4ccf73e0bb",
+      "pairs": 1308,
+      "correct_pairs": 1277,
+      "accuracy": 0.9762996941896025,
+      "fixed": 2,
+      "lost": 3
+    },
+    "neighbor_refinement_step007500": {
+      "checkpoint_sha256": "6fc7abec4bf4b3af62015147f3ea936289c980214e08998deafd058112a4d04e",
+      "pairs": 1308,
+      "correct_pairs": 1273,
+      "accuracy": 0.9732415902140673,
+      "fixed": 6,
+      "lost": 11
+    },
+    "pinned_error_control_common5000": {
+      "checkpoint_sha256": "63d89e2ccf6c10aaa8dc3d53c18f2e3607b19fb063c1768de92bb6ed418f0edb",
+      "pairs": 1308,
+      "correct_pairs": 1275,
+      "accuracy": 0.9747706422018348,
+      "fixed": 11,
+      "lost": 14
+    }
+  },
+  "union_correct_pairs": 1289,
+  "union_role": "Oracle comparison of retained predictions, not an executable selection rule.",
+  "source_sha256": "81806a088923ae21eb3cb5397c3f39ea6150cbceba2200f57e1818bb0aafe988",
+  "data_sha256": "bb0bc51dadcbd6feca8f42deddf1333820843521881b75aa44ca0a4e58b35730",
+  "role": "Development diagnosis after the first independent assessment failed; replacement assessment remains unopened."
+}

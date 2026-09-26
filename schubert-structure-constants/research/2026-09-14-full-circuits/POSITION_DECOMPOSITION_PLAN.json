@@ -1,0 +1,14 @@
+{
+  "status": "fixed_before_interventions",
+  "checkpoint_sha256": "63d89e2ccf6c10aaa8dc3d53c18f2e3607b19fb063c1768de92bb6ed418f0edb",
+  "source_sha256": "05648f6c28dd8577400ef10974ec5d8ad6f6292b37ca7c9482e0d8a939f15a5c",
+  "parent_analysis_sha256": "584ba9f6b900e442564b02fe8eb5ec6131663cb5a81d643f7c0b6dbad73028cd",
+  "inputs": 7606,
+  "hypothesis": "The inverse-position contribution can be separated into the midpoint, signed difference, and left-descent indicator, without fitting a probe.",
+  "formulas": {
+    "midpoint": "(w^{-1}(j)+w^{-1}(j+1))/(2n)",
+    "gap": "(w^{-1}(j+1)-w^{-1}(j))/n",
+    "descent": "1[w^{-1}(j)>w^{-1}(j+1)]"
+  },
+  "role": "Adaptive follow-up on the same development populations; not independent confirmation"
+}

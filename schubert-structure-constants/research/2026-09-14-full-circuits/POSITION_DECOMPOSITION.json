@@ -1,0 +1,238 @@
+{
+  "checkpoint_sha256": "63d89e2ccf6c10aaa8dc3d53c18f2e3607b19fb063c1768de92bb6ed418f0edb",
+  "source_sha256": "05648f6c28dd8577400ef10974ec5d8ad6f6292b37ca7c9482e0d8a939f15a5c",
+  "parent_analysis_sha256": "584ba9f6b900e442564b02fe8eb5ec6131663cb5a81d643f7c0b6dbad73028cd",
+  "inputs": 7606,
+  "hypothesis": "The inverse-position contribution can be separated into the midpoint, signed difference, and left-descent indicator, without fitting a probe.",
+  "formulas": {
+    "midpoint": "(w^{-1}(j)+w^{-1}(j+1))/(2n)",
+    "gap": "(w^{-1}(j+1)-w^{-1}(j))/n",
+    "descent": "1[w^{-1}(j)>w^{-1}(j+1)]"
+  },
+  "role": "Adaptive follow-up on the same development populations; not independent confirmation",
+  "status": "completed",
+  "checks": {
+    "position_identity": 2.86102294921875e-06,
+    "retained_full_path_replay": 0.0
+  },
+  "summaries": {
+    "all": {
+      "midpoint": {
+        "inputs": 7606,
+        "groups": 357,
+        "input_mean": 3.265939235687256,
+        "factor_group_mean": 3.5247340202331543,
+        "group_bootstrap_95_percent": [
+          3.1219307601451876,
+          3.938465988636017
+        ]
+      },
+      "gap": {
+        "inputs": 7606,
+        "groups": 357,
+        "input_mean": 5.9435715675354,
+        "factor_group_mean": 6.5204033851623535,
+        "group_bootstrap_95_percent": [
+          5.953515267372131,
+          7.109238195419311
+        ]
+      },
+      "descent": {
+        "inputs": 7606,
+        "groups": 357,
+        "input_mean": 0.13588044047355652,
+        "factor_group_mean": 0.1608162671327591,
+        "group_bootstrap_95_percent": [
+          0.12087492141872644,
+          0.20385382287204265
+        ]
+      },
+      "positions": {
+        "inputs": 7606,
+        "groups": 357,
+        "input_mean": 9.17585563659668,
+        "factor_group_mean": 10.261035919189453,
+        "group_bootstrap_95_percent": [
+          9.524670314788818,
+          10.989757013320922
+        ]
+      },
+      "positions_and_descent": {
+        "inputs": 7606,
+        "groups": 357,
+        "input_mean": 9.221833229064941,
+        "factor_group_mean": 10.337555885314941,
+        "group_bootstrap_95_percent": [
+          9.621541380882263,
+          11.125719165802
+        ]
+      },
+      "gap_and_descent": {
+        "inputs": 7606,
+        "groups": 357,
+        "input_mean": 5.987709999084473,
+        "factor_group_mean": 6.581676959991455,
+        "group_bootstrap_95_percent": [
+          6.025733208656311,
+          7.1556753516197205
+        ]
+      },
+      "midpoint_and_descent": {
+        "inputs": 7606,
+        "groups": 357,
+        "input_mean": 3.374901294708252,
+        "factor_group_mean": 3.6396470069885254,
+        "group_bootstrap_95_percent": [
+          3.2419966340065,
+          4.06448962688446
+        ]
+      }
+    },
+    "other_neuron_orbits": {
+      "midpoint": {
+        "inputs": 6766,
+        "groups": 304,
+        "input_mean": 2.977367401123047,
+        "factor_group_mean": 3.2461845874786377,
+        "group_bootstrap_95_percent": [
+          2.856026065349579,
+          3.638564103841781
+        ]
+      },
+      "gap": {
+        "inputs": 6766,
+        "groups": 304,
+        "input_mean": 5.357109546661377,
+        "factor_group_mean": 5.886056423187256,
+        "group_bootstrap_95_percent": [
+          5.329319715499878,
+          6.452550828456879
+        ]
+      },
+      "descent": {
+        "inputs": 6766,
+        "groups": 304,
+        "input_mean": 0.13085785508155823,
+        "factor_group_mean": 0.13682155311107635,
+        "group_bootstrap_95_percent": [
+          0.09307039901614189,
+          0.178520031273365
+        ]
+      },
+      "positions": {
+        "inputs": 6766,
+        "groups": 304,
+        "input_mean": 8.378138542175293,
+        "factor_group_mean": 9.423135757446289,
+        "group_bootstrap_95_percent": [
+          8.702807545661926,
+          10.185329866409301
+        ]
+      },
+      "positions_and_descent": {
+        "inputs": 6766,
+        "groups": 304,
+        "input_mean": 8.428348541259766,
+        "factor_group_mean": 9.456904411315918,
+        "group_bootstrap_95_percent": [
+          8.713354563713073,
+          10.192862629890442
+        ]
+      },
+      "gap_and_descent": {
+        "inputs": 6766,
+        "groups": 304,
+        "input_mean": 5.394986629486084,
+        "factor_group_mean": 5.909129619598389,
+        "group_bootstrap_95_percent": [
+          5.3571470260620115,
+          6.48848432302475
+        ]
+      },
+      "midpoint_and_descent": {
+        "inputs": 6766,
+        "groups": 304,
+        "input_mean": 3.08406400680542,
+        "factor_group_mean": 3.3392109870910645,
+        "group_bootstrap_95_percent": [
+          2.9774183571338653,
+          3.7329452872276305
+        ]
+      }
+    },
+    "other_neuron_orbits_both_correct": {
+      "midpoint": {
+        "inputs": 6706,
+        "groups": 303,
+        "input_mean": 3.003277540206909,
+        "factor_group_mean": 3.267251491546631,
+        "group_bootstrap_95_percent": [
+          2.8814845621585845,
+          3.637447512149811
+        ]
+      },
+      "gap": {
+        "inputs": 6706,
+        "groups": 303,
+        "input_mean": 5.396586894989014,
+        "factor_group_mean": 5.959839820861816,
+        "group_bootstrap_95_percent": [
+          5.430159163475037,
+          6.531760561466217
+        ]
+      },
+      "descent": {
+        "inputs": 6706,
+        "groups": 303,
+        "input_mean": 0.1323428452014923,
+        "factor_group_mean": 0.13843463361263275,
+        "group_bootstrap_95_percent": [
+          0.09654896687716245,
+          0.1811489563435316
+        ]
+      },
+      "positions": {
+        "inputs": 6706,
+        "groups": 303,
+        "input_mean": 8.43757438659668,
+        "factor_group_mean": 9.4862060546875,
+        "group_bootstrap_95_percent": [
+          8.732324743270874,
+          10.260255551338195
+        ]
+      },
+      "positions_and_descent": {
+        "inputs": 6706,
+        "groups": 303,
+        "input_mean": 8.487579345703125,
+        "factor_group_mean": 9.522008895874023,
+        "group_bootstrap_95_percent": [
+          8.80058581829071,
+          10.274005341529847
+        ]
+      },
+      "gap_and_descent": {
+        "inputs": 6706,
+        "groups": 303,
+        "input_mean": 5.434075832366943,
+        "factor_group_mean": 5.984543323516846,
+        "group_bootstrap_95_percent": [
+          5.402227532863617,
+          6.544729900360107
+        ]
+      },
+      "midpoint_and_descent": {
+        "inputs": 6706,
+        "groups": 303,
+        "input_mean": 3.112274646759033,
+        "factor_group_mean": 3.3614892959594727,
+        "group_bootstrap_95_percent": [
+          2.9783950805664063,
+          3.748227357864379
+        ]
+      }
+    }
+  },
+  "artifact_sha256": "0cd830c9a129045b6949460c986fee3901d14b0ba3c3716aad0a42b8f0f44195",
+  "limitation": "Effects after GELU and subsequent layers are not additive. The source normalization scale is fixed in the preactivation decomposition. No claim that the model computes a Bruhat projection is made."
+}

@@ -1,0 +1,2 @@
+{"status": "passed", "verification_only": true, "source_sha256": "e85840f80b50af554783ad3d72f00e11412e645b95406e32460bcd65fd8b5f23"}
+{"name": "cache_archive_verification", "status": "completed", "wall_seconds": 8.048203537939116, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

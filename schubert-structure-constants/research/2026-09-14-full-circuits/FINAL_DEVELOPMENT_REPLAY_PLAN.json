@@ -1,0 +1,20 @@
+{
+  "registered_at": "2026-09-15T03:01:05.581874+00:00",
+  "status": "registered_before_final_model_interventions",
+  "checkpoint": "artifacts/SECOND_REFINEMENT_READOUTS.pt",
+  "wait_for": "Completion of the second continuation and its conditional formal study",
+  "studies": [
+    {
+      "script": "final_development_decomposition.py",
+      "name": "FINAL_DEVELOPMENT_DECOMPOSITION",
+      "scope": "Every difficult pair in all 27 development criteria; fixed prior neuron ranking and twenty magnitude-matched random subsets; no correctness selection"
+    },
+    {
+      "script": "support_controls.py",
+      "name": "FINAL_SUPPORT_CONTROLS",
+      "scope": "Same previously fixed same-support donor cohort, matching rule and first-MLP to second-layer K/V path; no rematching"
+    }
+  ],
+  "role": "Both are development analyses on the final network. They do not replace independent confirmation.",
+  "selection": "No further training or readout selection from these interventions."
+}

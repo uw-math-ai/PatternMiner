@@ -1,0 +1,2 @@
+{"assessment_queries": 2641, "training_queries": 2183, "anchors": 11, "neighbor_groups": 259}
+{"name": "freeze_second_populations", "status": "completed", "wall_seconds": 0.5034341749269515, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

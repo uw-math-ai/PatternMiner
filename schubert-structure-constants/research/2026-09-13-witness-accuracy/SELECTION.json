@@ -1,0 +1,5 @@
+{
+  "selected": "support_supervision",
+  "selection_mean": 0.9606827653836725,
+  "rule": "mean S7 validation first/last accuracy; ties prefer ranking"
+}

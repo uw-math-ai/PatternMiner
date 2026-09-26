@@ -1,0 +1,15 @@
+# SageMath environment for exact Schubert product generation (PROJECT.md 6.2).
+# Create with:  mamba env create -f environment.yml
+# Used only by scripts/generate_products_sage.py (the exact backend).
+name: sage
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - sage=10.9
+  - pyarrow
+  - pandas
+  - pyyaml
+  - numpy
+# The ML / training / interpretability stack lives in a separate env (see
+# environment-ml.yml) so the heavy Sage solve never conflicts with CUDA PyTorch.

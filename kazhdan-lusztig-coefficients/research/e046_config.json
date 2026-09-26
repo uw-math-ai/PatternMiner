@@ -1,0 +1,68 @@
+{
+  "experiment_id": "E046",
+  "task": "Positive versus zero degree-four coefficient of eligible gap-nine upper KL intervals",
+  "permutation_indexing": "zero-based",
+  "features": [
+    "r1",
+    "r2",
+    "r3",
+    "r4",
+    "size",
+    "defect_volume",
+    "defect_zeros",
+    "local_volume",
+    "local_zeros",
+    "position_span",
+    "value_span",
+    "simple_sided",
+    "facet_descents",
+    "bottom_descents"
+  ],
+  "training_sources": [
+    "C012",
+    "C014-terminal",
+    "E041-a",
+    "E041-b",
+    "sparse"
+  ],
+  "training_rows": 33,
+  "positive_training_labels": 16,
+  "zero_training_labels": 17,
+  "holdout": "C016 fixed cover at the two prescribed facets",
+  "holdout_rows": 2,
+  "model": "one-feature threshold with either polarity",
+  "thresholds": "minimum minus one, and midpoints of consecutive distinct training values",
+  "objective": "unweighted training errors",
+  "tie_policy": "retain all minimizers, sorted by (errors, feature, cut, direction)",
+  "random_seed": null,
+  "optimizer": null,
+  "stochastic_training": false,
+  "expected_best_rules": [
+    [
+      "r1",
+      12.5,
+      1
+    ],
+    [
+      "simple_sided",
+      0.5,
+      1
+    ]
+  ],
+  "best_training_errors": 3,
+  "holdout_exact_labels": [
+    0,
+    1
+  ],
+  "holdout_predictions": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "scope": "Selected finite failure; not an unbiased generalization benchmark or a universal feature-impossibility result"
+}

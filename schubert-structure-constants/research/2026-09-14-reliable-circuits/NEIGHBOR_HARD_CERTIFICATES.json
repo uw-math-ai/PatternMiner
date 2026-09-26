@@ -1,0 +1,25 @@
+{
+  "training_rows": 6552106,
+  "pairs": 21776,
+  "legacy_pairs": 1008,
+  "appended_pairs": 2531,
+  "populations": {
+    "neighborhood_train": {
+      "rows": 429068,
+      "pairs": 1564,
+      "factor_groups": 113,
+      "data_sha256": "d17c81b87a8bf465e471d4d18cac1bee3277c7dc567cd3c6b9f0e1e69a920765"
+    },
+    "final_neighborhood_train": {
+      "rows": 77695,
+      "pairs": 967,
+      "factor_groups": 55,
+      "data_sha256": "2e3adffed1c20dafe56b96797ee91670bb107d798222d5944f84e2068eb4f316"
+    }
+  },
+  "pair_sha256": "cc4763b6a7a54cf9eccd87ad01dae60b5f509bb4b6420e23212458ee4e946565",
+  "source_sha256": "9c08d31e414ee8c3a83b6966c819e84877670d167b023cc6abcb82967727daab",
+  "worker_sha256": "4dfb8f231e0825c2675b7a1780903c3cdaaf7b77979daddc113bc8c7e2cfe6b2",
+  "checks": "Equal factors and ambient rank, positive supplied indices, disjoint nonempty target supports",
+  "base_pair_sha256": "4a2ac55089e9cfa0bffceb1bd2e5b1bbd9d59dc22d5ce61daa5da7f94c870292"
+}

@@ -1,0 +1,4153 @@
+{
+  "status": "completed",
+  "plan_sha256": "766d0ed3d289a16726d357a61ad2fab433db3eefa6724c3147d84a4f249bab71",
+  "source_sha256": "f3f91db4b5903ca944cc7ea941493d3b109d2776328b7271f5abcf8ef45647f0",
+  "product_evaluator_sha256": "43029d47a60409cc59f9835c05a3d52287bee0c994a926f60441254c68fa59a1",
+  "root_evaluator_sha256": "97c51df4df97182dc4f3b295b5a7ca8391bf5e343bdd9cad562b2f838c8c03c8",
+  "groups": [
+    {
+      "group": 0,
+      "rows": 2152,
+      "exact_queries": 7,
+      "descent_product_terms": 8913,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 0,
+        "begin": 0,
+        "end": 2152,
+        "product_terms": 1799,
+        "product_sha256": "f9c506f29ddcb5e4fcdfa0f667dc54a7305d8031b8d3146a1c23f3d4d8235150",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 1,
+      "rows": 566,
+      "exact_queries": 6,
+      "descent_product_terms": 1751,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 1,
+        "begin": 0,
+        "end": 566,
+        "product_terms": 389,
+        "product_sha256": "7205e543dc39c805b43e6d4af977cae238cdd646826b604a44fdd307002320ed",
+        "maximum_root_coefficient": 4
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 2,
+      "rows": 373,
+      "exact_queries": 5,
+      "descent_product_terms": 1145,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 2,
+        "begin": 0,
+        "end": 373,
+        "product_terms": 317,
+        "product_sha256": "77d189ad66db2e6144067612098260108b58e2f9b3d6928a79bec8bf8762eacf",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 3,
+      "rows": 2251,
+      "exact_queries": 8,
+      "descent_product_terms": 9494,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 3,
+        "begin": 0,
+        "end": 2251,
+        "product_terms": 2253,
+        "product_sha256": "0a8391522260bd85cfa94c9c30ce35202027394b438e4b7ff864442c0a2366a9",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 4,
+      "rows": 1133,
+      "exact_queries": 8,
+      "descent_product_terms": 5479,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 4,
+        "begin": 0,
+        "end": 1133,
+        "product_terms": 1181,
+        "product_sha256": "d44bee09ea6bc90862f0b3d9ac968ed8beadf148fe8d9e2df1f4be918eec86d7",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 5,
+      "rows": 93,
+      "exact_queries": 6,
+      "descent_product_terms": 321,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 5,
+        "begin": 0,
+        "end": 93,
+        "product_terms": 86,
+        "product_sha256": "6b0e72b84244b187618f97ad90e560f547f5ead55da3eec299e7394a783953de",
+        "maximum_root_coefficient": 2
+      },
+      "maximum_coefficient": 1,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 6,
+      "rows": 855,
+      "exact_queries": 7,
+      "descent_product_terms": 3497,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 6,
+        "begin": 0,
+        "end": 855,
+        "product_terms": 699,
+        "product_sha256": "30be4efb200ad4452de86f1c8602575b8bb05ef80c40eea0a11294aee0a6c730",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 7,
+      "rows": 270,
+      "exact_queries": 6,
+      "descent_product_terms": 889,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 7,
+        "begin": 0,
+        "end": 270,
+        "product_terms": 205,
+        "product_sha256": "c8839c9ae033c37c368fb4f303e59aedc7f87ddc3eb631a257c8444af44f3790",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 8,
+      "rows": 366,
+      "exact_queries": 7,
+      "descent_product_terms": 1652,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 8,
+        "begin": 0,
+        "end": 366,
+        "product_terms": 364,
+        "product_sha256": "1d23635761b3e1161da68758724bfde73dd8c965f55eed59457a4dfa4edec4ad",
+        "maximum_root_coefficient": 14
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 9,
+      "rows": 714,
+      "exact_queries": 6,
+      "descent_product_terms": 2519,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 9,
+        "begin": 0,
+        "end": 714,
+        "product_terms": 632,
+        "product_sha256": "806fa25a3845680bf18906ffd6a095dbf4fbe7baad44217ad3f0238dd37ff35d",
+        "maximum_root_coefficient": 15
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 10,
+      "rows": 230,
+      "exact_queries": 6,
+      "descent_product_terms": 957,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 10,
+        "begin": 0,
+        "end": 230,
+        "product_terms": 206,
+        "product_sha256": "2e24454e39522651c92e58a43fbc70b72ec66ff7c53a7d798b20f22200054992",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 11,
+      "rows": 762,
+      "exact_queries": 6,
+      "descent_product_terms": 2504,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 11,
+        "begin": 0,
+        "end": 762,
+        "product_terms": 686,
+        "product_sha256": "996edf410a7c939c94e44c04ba1ac06eb1b868ab602d216cb28131a4f99d8d7d",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 12,
+      "rows": 5432,
+      "exact_queries": 11,
+      "descent_product_terms": 28851,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 12,
+        "begin": 0,
+        "end": 5432,
+        "product_terms": 5726,
+        "product_sha256": "662d1eebe836a26aa35355e9b524c959c2963c1e0172d668d5cf485057176a1b",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 13,
+      "rows": 1974,
+      "exact_queries": 7,
+      "descent_product_terms": 7894,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 13,
+        "begin": 0,
+        "end": 1974,
+        "product_terms": 1934,
+        "product_sha256": "795876360fe207602acfc39a816d5c18b346ce2668e58d7b165873bcc47c7fb6",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 14,
+      "rows": 1990,
+      "exact_queries": 9,
+      "descent_product_terms": 8240,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 14,
+        "begin": 0,
+        "end": 1990,
+        "product_terms": 1632,
+        "product_sha256": "54d74e78852f51f11f4a8bdcd1c4c74e2b286bc689e2b00cfb16870794b07f3b",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 15,
+      "rows": 7711,
+      "exact_queries": 10,
+      "descent_product_terms": 35298,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 15,
+        "begin": 0,
+        "end": 7711,
+        "product_terms": 6575,
+        "product_sha256": "8a38b1b7cf2d62136a8ffb475e3d357459e194e3782f4f5e9d9b5ed85dd8e778",
+        "maximum_root_coefficient": 22
+      },
+      "maximum_coefficient": 12,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 16,
+      "rows": 3816,
+      "exact_queries": 9,
+      "descent_product_terms": 14685,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 16,
+        "begin": 0,
+        "end": 3816,
+        "product_terms": 2732,
+        "product_sha256": "a85e8f32ce7b0612792109900b01af1968287902d31a43ecb25b15ef35168213",
+        "maximum_root_coefficient": 17
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 17,
+      "rows": 2643,
+      "exact_queries": 9,
+      "descent_product_terms": 12493,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 17,
+        "begin": 0,
+        "end": 2643,
+        "product_terms": 2560,
+        "product_sha256": "f94b33c377999ba1abb2ed2342319f144680b53f7bade2cbc09c4600e8941629",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 18,
+      "rows": 2718,
+      "exact_queries": 10,
+      "descent_product_terms": 11696,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 18,
+        "begin": 0,
+        "end": 2718,
+        "product_terms": 1715,
+        "product_sha256": "ca8f70ae57880f56a3037b5ab4f4fcf128a8498a57e31bdd9929aaaef6de2036",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 19,
+      "rows": 974,
+      "exact_queries": 7,
+      "descent_product_terms": 4114,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 19,
+        "begin": 0,
+        "end": 974,
+        "product_terms": 739,
+        "product_sha256": "b0542b9cbf8d41fd2702df6cb724602b1bfcb058dcfe0c1f6dbe9c7796d0f1e8",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 20,
+      "rows": 352,
+      "exact_queries": 7,
+      "descent_product_terms": 1513,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 20,
+        "begin": 0,
+        "end": 352,
+        "product_terms": 349,
+        "product_sha256": "315f36ac37682b01b6f9a711bb5af2e96222baa6c797b321d8cb0825cfb774a0",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 21,
+      "rows": 761,
+      "exact_queries": 8,
+      "descent_product_terms": 3161,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 21,
+        "begin": 0,
+        "end": 761,
+        "product_terms": 597,
+        "product_sha256": "6b9de61eb5b798997a8c890dd08a0cae849d1d1f2dba2d53fefe965714cbab76",
+        "maximum_root_coefficient": 20
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 22,
+      "rows": 2622,
+      "exact_queries": 10,
+      "descent_product_terms": 11175,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 22,
+        "begin": 0,
+        "end": 2622,
+        "product_terms": 2512,
+        "product_sha256": "e485260d0928148cc331ee10e6a96b7135102ec286e3a7e49799edfd8ed06fe9",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 23,
+      "rows": 760,
+      "exact_queries": 10,
+      "descent_product_terms": 3090,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 23,
+        "begin": 0,
+        "end": 760,
+        "product_terms": 601,
+        "product_sha256": "19517abe07678049b5819cde87ef6c058c119f13caa0650686cff79f174210d4",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 24,
+      "rows": 891,
+      "exact_queries": 7,
+      "descent_product_terms": 3952,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 24,
+        "begin": 0,
+        "end": 891,
+        "product_terms": 922,
+        "product_sha256": "a84c02b483c4790901e3c075ed6f01e52362b78d041ca304172e76586e9c96a6",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 25,
+      "rows": 1142,
+      "exact_queries": 9,
+      "descent_product_terms": 5253,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 25,
+        "begin": 0,
+        "end": 1142,
+        "product_terms": 1171,
+        "product_sha256": "04978525bb843084f7f6ecefee2dfa846065fd6cd2791281526c8d416d63a333",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 26,
+      "rows": 5681,
+      "exact_queries": 10,
+      "descent_product_terms": 29735,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 26,
+        "begin": 0,
+        "end": 5681,
+        "product_terms": 5675,
+        "product_sha256": "d39ef2d76a24128970a239cda13db7a04cfd87b15fe0a4c8d20daf9b1c1ed944",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 9,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 27,
+      "rows": 3587,
+      "exact_queries": 9,
+      "descent_product_terms": 19542,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 27,
+        "begin": 0,
+        "end": 3587,
+        "product_terms": 3637,
+        "product_sha256": "3f987e261fe4d2d1549e03a1dc038c755cb7dbf807407b1513a272551c1a6d36",
+        "maximum_root_coefficient": 39
+      },
+      "maximum_coefficient": 10,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 28,
+      "rows": 3128,
+      "exact_queries": 8,
+      "descent_product_terms": 13553,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 28,
+        "begin": 0,
+        "end": 3128,
+        "product_terms": 2710,
+        "product_sha256": "0cb56202c57fb801fdc05396eef51161d5c9f3a8da23b544d3cdf444fd189b9e",
+        "maximum_root_coefficient": 19
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 29,
+      "rows": 242,
+      "exact_queries": 8,
+      "descent_product_terms": 780,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 29,
+        "begin": 0,
+        "end": 242,
+        "product_terms": 155,
+        "product_sha256": "cc65cf713f4b78a959ed78992ec8f892908f800440f2b00ea6f2d03d42577244",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 30,
+      "rows": 334,
+      "exact_queries": 5,
+      "descent_product_terms": 1007,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 30,
+        "begin": 0,
+        "end": 334,
+        "product_terms": 274,
+        "product_sha256": "d6f37da3fc0600ec812d267e179c3cfc062c860d3b8b6e33af17999b054d6de8",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 31,
+      "rows": 368,
+      "exact_queries": 8,
+      "descent_product_terms": 1541,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 31,
+        "begin": 0,
+        "end": 368,
+        "product_terms": 329,
+        "product_sha256": "05975231eefc2ab6e25baee4d8f43e2b839fdb1e52ee471354d69b2685a00622",
+        "maximum_root_coefficient": 19
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 32,
+      "rows": 2629,
+      "exact_queries": 9,
+      "descent_product_terms": 12717,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 32,
+        "begin": 0,
+        "end": 2629,
+        "product_terms": 2904,
+        "product_sha256": "e75d87dec7ba6eb266afdcfffe4e8725b6ca1cfa1b9066bce1afc898b2c8da1f",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 33,
+      "rows": 227,
+      "exact_queries": 6,
+      "descent_product_terms": 873,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 33,
+        "begin": 0,
+        "end": 227,
+        "product_terms": 229,
+        "product_sha256": "2e42a9c62ffce32f2a2cc3f692d277dec6702e86b789596f29d8bae9748611fc",
+        "maximum_root_coefficient": 4
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 34,
+      "rows": 836,
+      "exact_queries": 6,
+      "descent_product_terms": 3402,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 34,
+        "begin": 0,
+        "end": 836,
+        "product_terms": 817,
+        "product_sha256": "f00c0e33d1c3f5442fd05c2c11f7db3c024708b30040867d36e3256f1affac34",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 35,
+      "rows": 652,
+      "exact_queries": 7,
+      "descent_product_terms": 2325,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 35,
+        "begin": 0,
+        "end": 652,
+        "product_terms": 513,
+        "product_sha256": "8c4599954f537961287fa84f0d3f887c124537a57bdc31b73293d1dea2fc0ee2",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 36,
+      "rows": 344,
+      "exact_queries": 7,
+      "descent_product_terms": 1477,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 36,
+        "begin": 0,
+        "end": 344,
+        "product_terms": 381,
+        "product_sha256": "a8a5645fd8e352ef9c1f18479ac3fa53c2517d735bd0f80782b6c61f57aa1baa",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 37,
+      "rows": 1413,
+      "exact_queries": 7,
+      "descent_product_terms": 5117,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 37,
+        "begin": 0,
+        "end": 1413,
+        "product_terms": 1349,
+        "product_sha256": "386f22050882d6e208eea298b3b5c8e69c0dab57dfae9ec602ee9af27220b200",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 38,
+      "rows": 588,
+      "exact_queries": 8,
+      "descent_product_terms": 2678,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 38,
+        "begin": 0,
+        "end": 588,
+        "product_terms": 519,
+        "product_sha256": "9e2e4d038444f44b887bf6660b635c3985886a49a8a2be0c8f8d4ff792e3cfb6",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 39,
+      "rows": 797,
+      "exact_queries": 6,
+      "descent_product_terms": 2944,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 39,
+        "begin": 0,
+        "end": 797,
+        "product_terms": 764,
+        "product_sha256": "ea73a40d97503f16482eaa0a3bed56a64933b7f8ad6da66ea804faba167508c0",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 40,
+      "rows": 2671,
+      "exact_queries": 9,
+      "descent_product_terms": 9873,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 40,
+        "begin": 0,
+        "end": 2671,
+        "product_terms": 1939,
+        "product_sha256": "3043bb857eca71b928a0bf5cfff03eb96a004d4f6df28dfbf968c99d81002220",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 41,
+      "rows": 1435,
+      "exact_queries": 7,
+      "descent_product_terms": 6439,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 41,
+        "begin": 0,
+        "end": 1435,
+        "product_terms": 1512,
+        "product_sha256": "c1d83c52c917b9d6fac6c7100e9566d9b3da7631d432ef0e2bc5f11db7060e07",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 42,
+      "rows": 4206,
+      "exact_queries": 11,
+      "descent_product_terms": 18735,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 42,
+        "begin": 0,
+        "end": 4206,
+        "product_terms": 3282,
+        "product_sha256": "12761b133da6a1eb9fbb0bad36ab36cb132bf50789d70910b21ac87b1d8cd613",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 43,
+      "rows": 5097,
+      "exact_queries": 10,
+      "descent_product_terms": 27247,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 43,
+        "begin": 0,
+        "end": 5097,
+        "product_terms": 5109,
+        "product_sha256": "d0f029edc187cc6cc36f33496614f1d9c5550556fe08959cceb9fc8e16dcf51d",
+        "maximum_root_coefficient": 15
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 44,
+      "rows": 5504,
+      "exact_queries": 8,
+      "descent_product_terms": 23838,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 44,
+        "begin": 0,
+        "end": 5504,
+        "product_terms": 4788,
+        "product_sha256": "b3d0e09a9ae6f83671df84475384a0c42e68fd29d08942bb215759b3edbf6799",
+        "maximum_root_coefficient": 24
+      },
+      "maximum_coefficient": 10,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 45,
+      "rows": 860,
+      "exact_queries": 9,
+      "descent_product_terms": 3668,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 45,
+        "begin": 0,
+        "end": 860,
+        "product_terms": 722,
+        "product_sha256": "9cd3694d22cd5afc43f652fab1a2db505e77d8d80dd5533bf1ae9ecf9a69cf19",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 46,
+      "rows": 2410,
+      "exact_queries": 10,
+      "descent_product_terms": 8092,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 46,
+        "begin": 0,
+        "end": 2410,
+        "product_terms": 1244,
+        "product_sha256": "98b9e5ba49d15b10d209a7cc0b4728c307c17a97858cc538b03cf67277606711",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 47,
+      "rows": 2017,
+      "exact_queries": 8,
+      "descent_product_terms": 9349,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 47,
+        "begin": 0,
+        "end": 2017,
+        "product_terms": 1637,
+        "product_sha256": "5620361dc6a1a4aadefe3e04984f1226c222da54447e90f6d28e346b0917ab70",
+        "maximum_root_coefficient": 17
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 48,
+      "rows": 385,
+      "exact_queries": 7,
+      "descent_product_terms": 1652,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 48,
+        "begin": 0,
+        "end": 385,
+        "product_terms": 368,
+        "product_sha256": "b9c0c2c6481035c5ada63c2f18acc5b366d8ec65f0a4f040fa3133cb4e1463d7",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 49,
+      "rows": 1181,
+      "exact_queries": 9,
+      "descent_product_terms": 5996,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 49,
+        "begin": 0,
+        "end": 1181,
+        "product_terms": 980,
+        "product_sha256": "87ec3cb2ae698e4fa19e4cbbc751065cbc7041e8a248252659c5ee8324b68f45",
+        "maximum_root_coefficient": 25
+      },
+      "maximum_coefficient": 9,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 50,
+      "rows": 3491,
+      "exact_queries": 9,
+      "descent_product_terms": 12675,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 50,
+        "begin": 0,
+        "end": 3491,
+        "product_terms": 2877,
+        "product_sha256": "2dce3a02168d6b618dded1a64319355956c570303638daecc0bd39b0eef452fc",
+        "maximum_root_coefficient": 14
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 51,
+      "rows": 738,
+      "exact_queries": 8,
+      "descent_product_terms": 2707,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 51,
+        "begin": 0,
+        "end": 738,
+        "product_terms": 560,
+        "product_sha256": "c3a38c23300c6ddc622d542da80b72faddbdea86674f6dcd844beea77a70231b",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 52,
+      "rows": 1293,
+      "exact_queries": 8,
+      "descent_product_terms": 6356,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 52,
+        "begin": 0,
+        "end": 1293,
+        "product_terms": 1339,
+        "product_sha256": "e1c75dd255cc4217254e062d59947934f010e28c2835f24f430b5f0c94aad1fa",
+        "maximum_root_coefficient": 17
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 53,
+      "rows": 134,
+      "exact_queries": 8,
+      "descent_product_terms": 611,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 53,
+        "begin": 0,
+        "end": 134,
+        "product_terms": 114,
+        "product_sha256": "877f591e1a9ba791b74f7c398ea1ef6e57b817e94641f48f71e5c999264e4cc0",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 54,
+      "rows": 1572,
+      "exact_queries": 10,
+      "descent_product_terms": 9480,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 54,
+        "begin": 0,
+        "end": 1572,
+        "product_terms": 1793,
+        "product_sha256": "ff94a77f641f658ffa7c6a7ada0a0ce8df2d0c88c42cf3f5a2dfcaff05b708d7",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 55,
+      "rows": 6266,
+      "exact_queries": 9,
+      "descent_product_terms": 34854,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 55,
+        "begin": 0,
+        "end": 6266,
+        "product_terms": 6840,
+        "product_sha256": "991f990274c4279139dd8b5ffcd70fd8e6480f819008550e2c31d69c04eead46",
+        "maximum_root_coefficient": 30
+      },
+      "maximum_coefficient": 10,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 56,
+      "rows": 1924,
+      "exact_queries": 9,
+      "descent_product_terms": 9313,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 56,
+        "begin": 0,
+        "end": 1924,
+        "product_terms": 1783,
+        "product_sha256": "1c3eb35095c9123ccaad8f2d22013cc8ef80b8b374e04153c82d28f89155174f",
+        "maximum_root_coefficient": 21
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 57,
+      "rows": 1004,
+      "exact_queries": 8,
+      "descent_product_terms": 4206,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 57,
+        "begin": 0,
+        "end": 1004,
+        "product_terms": 900,
+        "product_sha256": "80bd42e9235da74bc4f67d555cc858005d4c8b259243d9ee4da0997b6fdcaff6",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 58,
+      "rows": 402,
+      "exact_queries": 6,
+      "descent_product_terms": 1557,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 58,
+        "begin": 0,
+        "end": 402,
+        "product_terms": 412,
+        "product_sha256": "7d8139ee031ae2ad964cb84e56b4ba785e63b2214019a74a8b4d20525ce34c72",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 59,
+      "rows": 591,
+      "exact_queries": 6,
+      "descent_product_terms": 1647,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 59,
+        "begin": 0,
+        "end": 591,
+        "product_terms": 377,
+        "product_sha256": "79b2d0ab891a59eb97374dfab21789c334a7ff62d3853dd88cd3d0b7a32d67e7",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 60,
+      "rows": 5125,
+      "exact_queries": 9,
+      "descent_product_terms": 19115,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 60,
+        "begin": 0,
+        "end": 5125,
+        "product_terms": 4205,
+        "product_sha256": "c6ac837d8145ba0a56eb41cf9a46d9365acee22e0c29f925e3cc3a2e7109df03",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 61,
+      "rows": 339,
+      "exact_queries": 7,
+      "descent_product_terms": 1396,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 61,
+        "begin": 0,
+        "end": 339,
+        "product_terms": 349,
+        "product_sha256": "aad2b892fec07667dc54c330ef1df494835f413c967fc5aba30f97b47885b42f",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 62,
+      "rows": 662,
+      "exact_queries": 7,
+      "descent_product_terms": 2706,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 62,
+        "begin": 0,
+        "end": 662,
+        "product_terms": 558,
+        "product_sha256": "0b22187b43684e14f9942fefb94deb859481f90dffe4e4516ebc547d3f7ed94e",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 63,
+      "rows": 442,
+      "exact_queries": 7,
+      "descent_product_terms": 1716,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 63,
+        "begin": 0,
+        "end": 442,
+        "product_terms": 362,
+        "product_sha256": "23501c4a8208c53a79b7778ab201a478220f68a1efed6000c8e4626042940c4f",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 64,
+      "rows": 399,
+      "exact_queries": 7,
+      "descent_product_terms": 1836,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 64,
+        "begin": 0,
+        "end": 399,
+        "product_terms": 447,
+        "product_sha256": "a420f0e9b041eecea6b8ae06987faac250404c89fb07d3d8c87db19dfa05b635",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 65,
+      "rows": 1824,
+      "exact_queries": 7,
+      "descent_product_terms": 7074,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 65,
+        "begin": 0,
+        "end": 1824,
+        "product_terms": 1689,
+        "product_sha256": "aedd7c93da325b27745c4c05c0786e2aa412bdda9143ade62e501746df0558b6",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 66,
+      "rows": 207,
+      "exact_queries": 6,
+      "descent_product_terms": 770,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 66,
+        "begin": 0,
+        "end": 207,
+        "product_terms": 160,
+        "product_sha256": "c8354e500199507329cf989dac595b154bf9986fea7d67e85c535c4d3bd403fb",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 67,
+      "rows": 721,
+      "exact_queries": 7,
+      "descent_product_terms": 3064,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 67,
+        "begin": 0,
+        "end": 721,
+        "product_terms": 733,
+        "product_sha256": "d4393fa2c6fd7d387b5257633ab0f6001d9e9c9abdc044114b7213927adb2e97",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 68,
+      "rows": 2822,
+      "exact_queries": 11,
+      "descent_product_terms": 14807,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 68,
+        "begin": 0,
+        "end": 2822,
+        "product_terms": 2863,
+        "product_sha256": "8aed2d62d178e8e1915b0d0b5c75ec41be82ca7b0799b19a10323b098a249221",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 69,
+      "rows": 477,
+      "exact_queries": 7,
+      "descent_product_terms": 2123,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 69,
+        "begin": 0,
+        "end": 477,
+        "product_terms": 471,
+        "product_sha256": "d704326d37b33048fb57a0de0dd65af5429934fdd4ffd0785fa32a0cae92cbfc",
+        "maximum_root_coefficient": 17
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 70,
+      "rows": 735,
+      "exact_queries": 9,
+      "descent_product_terms": 2437,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 70,
+        "begin": 0,
+        "end": 735,
+        "product_terms": 456,
+        "product_sha256": "3303786d489510276e803d987cdc34b21aa5f09b851c95461b3a37e1d0f20b80",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 71,
+      "rows": 5130,
+      "exact_queries": 10,
+      "descent_product_terms": 24006,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 71,
+        "begin": 0,
+        "end": 5130,
+        "product_terms": 4824,
+        "product_sha256": "b2576bc9c7722743fe57197eaaed670b0006ac8798efec2afc83f5d228ab811c",
+        "maximum_root_coefficient": 19
+      },
+      "maximum_coefficient": 9,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 72,
+      "rows": 6205,
+      "exact_queries": 9,
+      "descent_product_terms": 27885,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 72,
+        "begin": 0,
+        "end": 6205,
+        "product_terms": 4805,
+        "product_sha256": "db4e51e822f55d0e26b7574c8579a3b8f912c8d8063d197b2bf4bdf2f3b09ee2",
+        "maximum_root_coefficient": 37
+      },
+      "maximum_coefficient": 15,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 73,
+      "rows": 679,
+      "exact_queries": 7,
+      "descent_product_terms": 2228,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 73,
+        "begin": 0,
+        "end": 679,
+        "product_terms": 437,
+        "product_sha256": "a933f60cdd090a0d70484c828abaeaef99e8c8b4eb4529b15e43dd7e1af606ba",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 74,
+      "rows": 3883,
+      "exact_queries": 10,
+      "descent_product_terms": 14909,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 74,
+        "begin": 0,
+        "end": 3883,
+        "product_terms": 2227,
+        "product_sha256": "2f35afafb4708b2a76ebe757305691d404790942df3702285f781a385292661b",
+        "maximum_root_coefficient": 16
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 75,
+      "rows": 4040,
+      "exact_queries": 8,
+      "descent_product_terms": 18558,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 75,
+        "begin": 0,
+        "end": 4040,
+        "product_terms": 3239,
+        "product_sha256": "f856d87ac3ee5c205b0ea9ea5f54a22fbd5e499b17b8ed129278cb7bc818a05e",
+        "maximum_root_coefficient": 26
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 76,
+      "rows": 352,
+      "exact_queries": 6,
+      "descent_product_terms": 1393,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 76,
+        "begin": 0,
+        "end": 352,
+        "product_terms": 322,
+        "product_sha256": "84226a64c3a983fca7673d350ae66bb49bd937acaa6c2f18c681f7cc2582c64d",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 77,
+      "rows": 752,
+      "exact_queries": 9,
+      "descent_product_terms": 3408,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 77,
+        "begin": 0,
+        "end": 752,
+        "product_terms": 550,
+        "product_sha256": "4ceb9efa5850a8569192ec0fda9f8677f22a2edd1e1276c047b352e7b01f1ccf",
+        "maximum_root_coefficient": 26
+      },
+      "maximum_coefficient": 9,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 78,
+      "rows": 393,
+      "exact_queries": 8,
+      "descent_product_terms": 1393,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 78,
+        "begin": 0,
+        "end": 393,
+        "product_terms": 345,
+        "product_sha256": "bc6e2ce926474a9b4efdaa615dcc79bd631ab7f9304891ae202239e520aac97f",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 79,
+      "rows": 547,
+      "exact_queries": 8,
+      "descent_product_terms": 2922,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 79,
+        "begin": 0,
+        "end": 547,
+        "product_terms": 598,
+        "product_sha256": "a483b64dc30673acdb606d04fcd50e61b89821cc00ff83c74c1e90b0a49f05c6",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 80,
+      "rows": 4871,
+      "exact_queries": 9,
+      "descent_product_terms": 23656,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 80,
+        "begin": 0,
+        "end": 4871,
+        "product_terms": 4579,
+        "product_sha256": "6eba2faa5f5625707d465738328748496e8681840dc407e03d405424ebaf5e4c",
+        "maximum_root_coefficient": 29
+      },
+      "maximum_coefficient": 11,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 81,
+      "rows": 325,
+      "exact_queries": 8,
+      "descent_product_terms": 1523,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 81,
+        "begin": 0,
+        "end": 325,
+        "product_terms": 282,
+        "product_sha256": "fe137b69acf371cf97281d1982583146f45f9e7422aeaec648927a04b269bc4c",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 82,
+      "rows": 1482,
+      "exact_queries": 9,
+      "descent_product_terms": 8092,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 82,
+        "begin": 0,
+        "end": 1482,
+        "product_terms": 1722,
+        "product_sha256": "8dfaeb652df376d9ec9e4dab084ac358f1595029f5741e08961e631818d4c716",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 83,
+      "rows": 6348,
+      "exact_queries": 9,
+      "descent_product_terms": 33998,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 83,
+        "begin": 0,
+        "end": 6348,
+        "product_terms": 6503,
+        "product_sha256": "808cb56e4b0bddcd7014c0c0473849790e6b59bb7b75df6f28129f779d99b7d2",
+        "maximum_root_coefficient": 45
+      },
+      "maximum_coefficient": 11,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 84,
+      "rows": 6231,
+      "exact_queries": 9,
+      "descent_product_terms": 31817,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 84,
+        "begin": 0,
+        "end": 6231,
+        "product_terms": 6524,
+        "product_sha256": "b39e880fd1ca1a0b232b906d77cc9b44b82f20ccbf7fb8261163c7454e88e40c",
+        "maximum_root_coefficient": 27
+      },
+      "maximum_coefficient": 12,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 85,
+      "rows": 664,
+      "exact_queries": 7,
+      "descent_product_terms": 2119,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 85,
+        "begin": 0,
+        "end": 664,
+        "product_terms": 468,
+        "product_sha256": "49da299f1574e1a674affe9fe4b3953813a5cb99055aa9294cf4bfcb751fdb33",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 86,
+      "rows": 85,
+      "exact_queries": 4,
+      "descent_product_terms": 244,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 86,
+        "begin": 0,
+        "end": 85,
+        "product_terms": 65,
+        "product_sha256": "df7d1fd3c5982ad262375425256af6c1eb9eda22b70b9e9f027885e85447d4d3",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 87,
+      "rows": 721,
+      "exact_queries": 8,
+      "descent_product_terms": 2977,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 87,
+        "begin": 0,
+        "end": 721,
+        "product_terms": 668,
+        "product_sha256": "eb632eeaedf335527b87885ed2162b48e868e336bdcdbe5519764970ff421f98",
+        "maximum_root_coefficient": 14
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 88,
+      "rows": 4156,
+      "exact_queries": 9,
+      "descent_product_terms": 16216,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 88,
+        "begin": 0,
+        "end": 4156,
+        "product_terms": 3436,
+        "product_sha256": "ba7501cbd30d7cd90f376fb90961e1ff642900950393ff1202ff86293f2b3e5d",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 89,
+      "rows": 111,
+      "exact_queries": 6,
+      "descent_product_terms": 430,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 89,
+        "begin": 0,
+        "end": 111,
+        "product_terms": 116,
+        "product_sha256": "6be3577306a3d9d07036e7b63fad80b507511c07947f64fe8a9461bdb53de986",
+        "maximum_root_coefficient": 4
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 90,
+      "rows": 408,
+      "exact_queries": 7,
+      "descent_product_terms": 1484,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 90,
+        "begin": 0,
+        "end": 408,
+        "product_terms": 252,
+        "product_sha256": "f361f6de882cedb79ee60c8c40820325a5f8ad403526d871f61580583353fe0e",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 91,
+      "rows": 387,
+      "exact_queries": 7,
+      "descent_product_terms": 1345,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 91,
+        "begin": 0,
+        "end": 387,
+        "product_terms": 278,
+        "product_sha256": "4e0e06ebae8a1a382c0faaabe9d5060d2ce42fc9d9ebf94548be9548d6636ea5",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 92,
+      "rows": 410,
+      "exact_queries": 6,
+      "descent_product_terms": 1491,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 92,
+        "begin": 0,
+        "end": 410,
+        "product_terms": 385,
+        "product_sha256": "1a92c0ede6999fabcbf65b4d7bd549a29b1b52044aa97708582971beb9e27a75",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 93,
+      "rows": 366,
+      "exact_queries": 7,
+      "descent_product_terms": 1294,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 93,
+        "begin": 0,
+        "end": 366,
+        "product_terms": 306,
+        "product_sha256": "bea2e3ed6004134f00bcd8b98242bd31d0fbec76f31c5779df481d3dccde9e34",
+        "maximum_root_coefficient": 14
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 94,
+      "rows": 307,
+      "exact_queries": 6,
+      "descent_product_terms": 1032,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 94,
+        "begin": 0,
+        "end": 307,
+        "product_terms": 220,
+        "product_sha256": "dac71c404714f8aa7a70bfb17a97175e22cd8a2b73f6fbfa79fb0c0c4b08e57b",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 95,
+      "rows": 708,
+      "exact_queries": 7,
+      "descent_product_terms": 3088,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 95,
+        "begin": 0,
+        "end": 708,
+        "product_terms": 720,
+        "product_sha256": "de59db07c84579f04e74d0512ed9ba24f1bcb85ef99f6be75ba9a9d930bd323c",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 96,
+      "rows": 1961,
+      "exact_queries": 10,
+      "descent_product_terms": 9678,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 96,
+        "begin": 0,
+        "end": 1961,
+        "product_terms": 2033,
+        "product_sha256": "dfc63dbc304cf470bc1c4592abedc22015f9c0999096362474a99f5227f2531a",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 97,
+      "rows": 1227,
+      "exact_queries": 7,
+      "descent_product_terms": 5505,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 97,
+        "begin": 0,
+        "end": 1227,
+        "product_terms": 1115,
+        "product_sha256": "d348a3a621af188af863eee2b20a6a7beff6e92ab1aae8782edac27d96a30279",
+        "maximum_root_coefficient": 14
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 98,
+      "rows": 2423,
+      "exact_queries": 10,
+      "descent_product_terms": 10661,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 98,
+        "begin": 0,
+        "end": 2423,
+        "product_terms": 1834,
+        "product_sha256": "95c4d270a008cb34f60a389752c0dca72ef74193276a5cd0eabfcc94382e177b",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 99,
+      "rows": 8359,
+      "exact_queries": 11,
+      "descent_product_terms": 43861,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 99,
+        "begin": 0,
+        "end": 8359,
+        "product_terms": 7330,
+        "product_sha256": "eb6bc1e3fe4a98692bd5d4d58df99d1e46836d3df1c94f9d1296bf6cde5555f5",
+        "maximum_root_coefficient": 37
+      },
+      "maximum_coefficient": 17,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 100,
+      "rows": 3538,
+      "exact_queries": 7,
+      "descent_product_terms": 12887,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 100,
+        "begin": 0,
+        "end": 3538,
+        "product_terms": 2667,
+        "product_sha256": "fd9bdfb183ec403bdb1014df03a54243f76072d52522f9714be8ba31a42faa86",
+        "maximum_root_coefficient": 15
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 101,
+      "rows": 465,
+      "exact_queries": 8,
+      "descent_product_terms": 1952,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 101,
+        "begin": 0,
+        "end": 465,
+        "product_terms": 426,
+        "product_sha256": "ee302ad119b964cccdeed8137b7aeb6cf4ac987854fb6089c3fe40564d4973c4",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 102,
+      "rows": 1221,
+      "exact_queries": 10,
+      "descent_product_terms": 4905,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 102,
+        "begin": 0,
+        "end": 1221,
+        "product_terms": 688,
+        "product_sha256": "38754e305e60016b463dd0c793d990a9750c775fe03ebb72a596c7bbcbf32c21",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 103,
+      "rows": 2233,
+      "exact_queries": 8,
+      "descent_product_terms": 10588,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 103,
+        "begin": 0,
+        "end": 2233,
+        "product_terms": 1864,
+        "product_sha256": "7d80743e86814b82724914cd5ba117c62389b46dfa666182958051286a577a86",
+        "maximum_root_coefficient": 15
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 104,
+      "rows": 177,
+      "exact_queries": 6,
+      "descent_product_terms": 681,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 104,
+        "begin": 0,
+        "end": 177,
+        "product_terms": 162,
+        "product_sha256": "0a5672297d0057d7746c76bec2d9f22db73af3729ea44b3373931d6e3e56e0fb",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 105,
+      "rows": 1514,
+      "exact_queries": 9,
+      "descent_product_terms": 7105,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 105,
+        "begin": 0,
+        "end": 1514,
+        "product_terms": 1157,
+        "product_sha256": "b32079b214731052b0fa40925c24bb37e1186db69f9678fa70b005bf8c318df0",
+        "maximum_root_coefficient": 25
+      },
+      "maximum_coefficient": 9,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 106,
+      "rows": 1027,
+      "exact_queries": 9,
+      "descent_product_terms": 4006,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 106,
+        "begin": 0,
+        "end": 1027,
+        "product_terms": 845,
+        "product_sha256": "6adbe7c58a155b67e7ecf25929279ba209afd9c9388dad28b3caeb9e21f5fe1f",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 107,
+      "rows": 700,
+      "exact_queries": 8,
+      "descent_product_terms": 2917,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 107,
+        "begin": 0,
+        "end": 700,
+        "product_terms": 589,
+        "product_sha256": "a8f7ac14037db5b0a18a32791db22515e57c463547400ec32a05c026edd54ef3",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 108,
+      "rows": 1757,
+      "exact_queries": 8,
+      "descent_product_terms": 8760,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 108,
+        "begin": 0,
+        "end": 1757,
+        "product_terms": 1854,
+        "product_sha256": "ecc4e23c263b4cc5ae74e67bb151f153cf409051e52c9e06ba742add0d737c96",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 109,
+      "rows": 520,
+      "exact_queries": 9,
+      "descent_product_terms": 2307,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 109,
+        "begin": 0,
+        "end": 520,
+        "product_terms": 464,
+        "product_sha256": "a20a373f5003419f5d26ea6847bc5f107e471eaae26543462117f4a022e02790",
+        "maximum_root_coefficient": 15
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 110,
+      "rows": 261,
+      "exact_queries": 8,
+      "descent_product_terms": 1559,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 110,
+        "begin": 0,
+        "end": 261,
+        "product_terms": 333,
+        "product_sha256": "d6ab288b045e7d4d68ebcc5ef775755f4d21ffc803e918db517360244f6d5763",
+        "maximum_root_coefficient": 3
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 111,
+      "rows": 6143,
+      "exact_queries": 8,
+      "descent_product_terms": 29392,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 111,
+        "begin": 0,
+        "end": 6143,
+        "product_terms": 6170,
+        "product_sha256": "a41b090e91c37bf99ecaccaf65b4b8089035a7691328f5f71a9ec973b4e5cf5c",
+        "maximum_root_coefficient": 23
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 112,
+      "rows": 1176,
+      "exact_queries": 7,
+      "descent_product_terms": 5227,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 112,
+        "begin": 0,
+        "end": 1176,
+        "product_terms": 1072,
+        "product_sha256": "554310b82fa9cc4ab86eaa8afc62d84b334792126a806cc598403aa87c862860",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 113,
+      "rows": 151,
+      "exact_queries": 6,
+      "descent_product_terms": 491,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 113,
+        "begin": 0,
+        "end": 151,
+        "product_terms": 110,
+        "product_sha256": "31628c9e87e24decfbb7f5d8e86c69eb59c1f1c1fa0dab45ce7bb2ed6839e917",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 114,
+      "rows": 571,
+      "exact_queries": 6,
+      "descent_product_terms": 1974,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 114,
+        "begin": 0,
+        "end": 571,
+        "product_terms": 480,
+        "product_sha256": "45ea54eb0ced4711f230a63d0f866498c5062c06ee5d1844bde75844f657a398",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 115,
+      "rows": 432,
+      "exact_queries": 8,
+      "descent_product_terms": 2168,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 115,
+        "begin": 0,
+        "end": 432,
+        "product_terms": 384,
+        "product_sha256": "76b1ccb74daa0632652e21435657daae8c3082c2582e90bc1dcae4a7b1380d57",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 116,
+      "rows": 136,
+      "exact_queries": 6,
+      "descent_product_terms": 488,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 116,
+        "begin": 0,
+        "end": 136,
+        "product_terms": 128,
+        "product_sha256": "eb3902d209dd6e06d7c7c404179d25f49fdaf0ea681fdb02fd33602bd20a270a",
+        "maximum_root_coefficient": 4
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 117,
+      "rows": 195,
+      "exact_queries": 7,
+      "descent_product_terms": 886,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 117,
+        "begin": 0,
+        "end": 195,
+        "product_terms": 172,
+        "product_sha256": "f6894e0e69af16e548caf8d7c97a5f85c47f614581bbff6ce0d26007d97a2696",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 118,
+      "rows": 951,
+      "exact_queries": 7,
+      "descent_product_terms": 3331,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 118,
+        "begin": 0,
+        "end": 951,
+        "product_terms": 697,
+        "product_sha256": "d23979dde7d743e2cd2efa20b3fa784594bb1bfc03929df753c146e7ab83951b",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 119,
+      "rows": 335,
+      "exact_queries": 6,
+      "descent_product_terms": 1187,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 119,
+        "begin": 0,
+        "end": 335,
+        "product_terms": 315,
+        "product_sha256": "a28016a7725ef316a32ac89dfd3c4abf2f10bf8d87161c42ff52f01b5b74046f",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 120,
+      "rows": 954,
+      "exact_queries": 7,
+      "descent_product_terms": 2988,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 120,
+        "begin": 0,
+        "end": 954,
+        "product_terms": 745,
+        "product_sha256": "6d069681a4b9b4233c6e3366b227fc7dc32fa867997fc13dafd36d7e51b1e3af",
+        "maximum_root_coefficient": 14
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 121,
+      "rows": 384,
+      "exact_queries": 7,
+      "descent_product_terms": 1427,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 121,
+        "begin": 0,
+        "end": 384,
+        "product_terms": 283,
+        "product_sha256": "30c63aa741fa334019546fabee40f168307d64d5a488864093e3973c1af4863f",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 122,
+      "rows": 1351,
+      "exact_queries": 7,
+      "descent_product_terms": 5159,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 122,
+        "begin": 0,
+        "end": 1351,
+        "product_terms": 1300,
+        "product_sha256": "871604b39e0d973029f6baf823116825f8c505838b14765a79ba8521b7979603",
+        "maximum_root_coefficient": 17
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 123,
+      "rows": 2142,
+      "exact_queries": 9,
+      "descent_product_terms": 9781,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 123,
+        "begin": 0,
+        "end": 2142,
+        "product_terms": 2224,
+        "product_sha256": "f7de290497663312b8b30b460252760780f1a8bc8cf02c449973acc7d3a5a8ac",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 124,
+      "rows": 970,
+      "exact_queries": 7,
+      "descent_product_terms": 4384,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 124,
+        "begin": 0,
+        "end": 970,
+        "product_terms": 969,
+        "product_sha256": "c0e22ace9360844145ca54b97630c43adf49b52c8d57c33edafa17896fa2e279",
+        "maximum_root_coefficient": 14
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 125,
+      "rows": 1806,
+      "exact_queries": 9,
+      "descent_product_terms": 6707,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 125,
+        "begin": 0,
+        "end": 1806,
+        "product_terms": 1214,
+        "product_sha256": "1b0e82f882e36626266c285d2e50d316622070182ae87513d782a7ec9e1a8031",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 126,
+      "rows": 10668,
+      "exact_queries": 10,
+      "descent_product_terms": 52978,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 126,
+        "begin": 0,
+        "end": 10668,
+        "product_terms": 10163,
+        "product_sha256": "faa273ebabfdc2029b271c68dbdedeb24aabcff064fb120e64933d63c0bb1895",
+        "maximum_root_coefficient": 16
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 127,
+      "rows": 1483,
+      "exact_queries": 8,
+      "descent_product_terms": 6267,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 127,
+        "begin": 0,
+        "end": 1483,
+        "product_terms": 1189,
+        "product_sha256": "3d525b5ccab175eba21ebe8bd36d11e50315ff9f867dcbb2ec8728c6a413459a",
+        "maximum_root_coefficient": 15
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 128,
+      "rows": 812,
+      "exact_queries": 8,
+      "descent_product_terms": 3357,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 128,
+        "begin": 0,
+        "end": 812,
+        "product_terms": 675,
+        "product_sha256": "4411969e229de4ae5f185deb838152cd6f021f03ae7794eeaf6ea7b6381b4a13",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 129,
+      "rows": 3040,
+      "exact_queries": 10,
+      "descent_product_terms": 12474,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 129,
+        "begin": 0,
+        "end": 3040,
+        "product_terms": 1864,
+        "product_sha256": "dd0abf6b37986ecac10c9fa4c5a90687de5424bc216e98574776fc6951e67411",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 130,
+      "rows": 1851,
+      "exact_queries": 8,
+      "descent_product_terms": 9898,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 130,
+        "begin": 0,
+        "end": 1851,
+        "product_terms": 1718,
+        "product_sha256": "cf69403d990ab548da6bb6699e14b1d768c7ff620127243dc2a2c3ec69801377",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 131,
+      "rows": 220,
+      "exact_queries": 6,
+      "descent_product_terms": 839,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 131,
+        "begin": 0,
+        "end": 220,
+        "product_terms": 210,
+        "product_sha256": "f3a6c7bbd2c31a97aea770699d67b0c83a6e8691cf5877dd857811ceca931603",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 132,
+      "rows": 1883,
+      "exact_queries": 9,
+      "descent_product_terms": 9559,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 132,
+        "begin": 0,
+        "end": 1883,
+        "product_terms": 1607,
+        "product_sha256": "28025b513aa749acacc99c2e76b8956447420b89d18c4ad2a554e683017f3318",
+        "maximum_root_coefficient": 22
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 133,
+      "rows": 1030,
+      "exact_queries": 8,
+      "descent_product_terms": 3500,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 133,
+        "begin": 0,
+        "end": 1030,
+        "product_terms": 799,
+        "product_sha256": "3f15e11f153c1bcd314789a120780ad14faf215ef3d0bcfc6b548e27306f9570",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 134,
+      "rows": 154,
+      "exact_queries": 8,
+      "descent_product_terms": 675,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 134,
+        "begin": 0,
+        "end": 154,
+        "product_terms": 122,
+        "product_sha256": "72e47609c0955d8f1a19c3d3ed5bc0a4adcd2f2a2f57e624568e6ab39b75f933",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 135,
+      "rows": 2124,
+      "exact_queries": 9,
+      "descent_product_terms": 11743,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 135,
+        "begin": 0,
+        "end": 2124,
+        "product_terms": 2354,
+        "product_sha256": "b4337eed900063add4649657285b9d380d2674329bf3c4770b9c089a8492824d",
+        "maximum_root_coefficient": 34
+      },
+      "maximum_coefficient": 13,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 136,
+      "rows": 247,
+      "exact_queries": 7,
+      "descent_product_terms": 949,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 136,
+        "begin": 0,
+        "end": 247,
+        "product_terms": 222,
+        "product_sha256": "7e2515b1807afc361a323bf408f32353b57128574b74e619696a413e93e9b995",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 137,
+      "rows": 2296,
+      "exact_queries": 8,
+      "descent_product_terms": 10683,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 137,
+        "begin": 0,
+        "end": 2296,
+        "product_terms": 2300,
+        "product_sha256": "b6e092be6c2b479aff9ed38b48f8e2b17bcc9d4df850913eef972d77c94f7f3b",
+        "maximum_root_coefficient": 5
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 138,
+      "rows": 5898,
+      "exact_queries": 9,
+      "descent_product_terms": 35915,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 138,
+        "begin": 0,
+        "end": 5898,
+        "product_terms": 6607,
+        "product_sha256": "aab854701d15a001c2d6309851766205b568961d9d07e15ceb118d95d9813f7f",
+        "maximum_root_coefficient": 35
+      },
+      "maximum_coefficient": 13,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 139,
+      "rows": 2483,
+      "exact_queries": 8,
+      "descent_product_terms": 10229,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 139,
+        "begin": 0,
+        "end": 2483,
+        "product_terms": 1938,
+        "product_sha256": "ed433ade75504f78ef71f56e36bdab00e5d5f772acd0709d5be33c340ceb8cfd",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 140,
+      "rows": 431,
+      "exact_queries": 6,
+      "descent_product_terms": 1633,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 140,
+        "begin": 0,
+        "end": 431,
+        "product_terms": 401,
+        "product_sha256": "767e2f249533fbe8b79128ec2c9b2167b24290749dd6d522d50267c28bc75bc5",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 141,
+      "rows": 773,
+      "exact_queries": 6,
+      "descent_product_terms": 2989,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 141,
+        "begin": 0,
+        "end": 773,
+        "product_terms": 708,
+        "product_sha256": "b430c4662514d2fbbe2159b97b008a364ed3ee83c204dbc0c2ff13178f6c77f9",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 142,
+      "rows": 2097,
+      "exact_queries": 8,
+      "descent_product_terms": 9588,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 142,
+        "begin": 0,
+        "end": 2097,
+        "product_terms": 2164,
+        "product_sha256": "2245e2d3c514ef7bb57eaee85e7b2109fa89e4ad688003d7f71a9c10eedd0b6b",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 143,
+      "rows": 172,
+      "exact_queries": 7,
+      "descent_product_terms": 649,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 143,
+        "begin": 0,
+        "end": 172,
+        "product_terms": 162,
+        "product_sha256": "b77c70c09f31929c1cfadd339f37a4c1590c6777e1e17b1a4b5c4c93200e995f",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 144,
+      "rows": 588,
+      "exact_queries": 6,
+      "descent_product_terms": 1923,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 144,
+        "begin": 0,
+        "end": 588,
+        "product_terms": 399,
+        "product_sha256": "c31697879f9d71221f4614ed75798faa16c503a4b15104b128529270de53dc3c",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 145,
+      "rows": 369,
+      "exact_queries": 7,
+      "descent_product_terms": 1355,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 145,
+        "begin": 0,
+        "end": 369,
+        "product_terms": 267,
+        "product_sha256": "ca8f4bf8792aaa11ff83a6c40b7421225f7da283e233dd0af83171b80e9cf360",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 146,
+      "rows": 665,
+      "exact_queries": 6,
+      "descent_product_terms": 2724,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 146,
+        "begin": 0,
+        "end": 665,
+        "product_terms": 688,
+        "product_sha256": "0ab1b846608f1fb4ae7ec18d3cf74ba4e2decef61df2d6a18ce2298d63ac47f2",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 147,
+      "rows": 493,
+      "exact_queries": 6,
+      "descent_product_terms": 1812,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 147,
+        "begin": 0,
+        "end": 493,
+        "product_terms": 430,
+        "product_sha256": "f544692f5dd9f25eaa7f51084b445d6bdfdd00f5da2a8768a9d81918fc4013e2",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 148,
+      "rows": 121,
+      "exact_queries": 6,
+      "descent_product_terms": 505,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 148,
+        "begin": 0,
+        "end": 121,
+        "product_terms": 105,
+        "product_sha256": "fa44259481d4d348b76df406e95777166f5da8d8789b2ab56b7ce85c361e5586",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 149,
+      "rows": 1327,
+      "exact_queries": 7,
+      "descent_product_terms": 5083,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 149,
+        "begin": 0,
+        "end": 1327,
+        "product_terms": 1292,
+        "product_sha256": "b05345e09985c1fbfde42d9f4663fff5f9ba29222d8f3266b25b080aa2b43140",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 150,
+      "rows": 1953,
+      "exact_queries": 9,
+      "descent_product_terms": 9130,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 150,
+        "begin": 0,
+        "end": 1953,
+        "product_terms": 1949,
+        "product_sha256": "c31f7fd1b504fe30d639ac3b4ae0bca36577921cfae7ac8c577d5ab0f71dae0d",
+        "maximum_root_coefficient": 4
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 151,
+      "rows": 608,
+      "exact_queries": 6,
+      "descent_product_terms": 2234,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 151,
+        "begin": 0,
+        "end": 608,
+        "product_terms": 576,
+        "product_sha256": "e7e5c631028ab26391841c0c0bb1bff4e79650388f02b1a503868b433904468e",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 152,
+      "rows": 1559,
+      "exact_queries": 10,
+      "descent_product_terms": 6782,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 152,
+        "begin": 0,
+        "end": 1559,
+        "product_terms": 1156,
+        "product_sha256": "3cae87b291a873295d8d714b05053b019996d979e94895d3fe18f5cb28de4db4",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 153,
+      "rows": 8968,
+      "exact_queries": 10,
+      "descent_product_terms": 45496,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 153,
+        "begin": 0,
+        "end": 8968,
+        "product_terms": 8713,
+        "product_sha256": "e0d5f09f1d047f78a8c129a679ce10569f43c7d5714677f37272c53faad7d165",
+        "maximum_root_coefficient": 21
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 154,
+      "rows": 5313,
+      "exact_queries": 9,
+      "descent_product_terms": 22194,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 154,
+        "begin": 0,
+        "end": 5313,
+        "product_terms": 4188,
+        "product_sha256": "31121ef609e9704bea8a3845cf04226ff3852d39389b64b39343821c7260723e",
+        "maximum_root_coefficient": 24
+      },
+      "maximum_coefficient": 9,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 155,
+      "rows": 943,
+      "exact_queries": 8,
+      "descent_product_terms": 3709,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 155,
+        "begin": 0,
+        "end": 943,
+        "product_terms": 730,
+        "product_sha256": "908a9bae066d19fb6179581f6830a3ddb865199af186541bef3bc5091550c216",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 156,
+      "rows": 1352,
+      "exact_queries": 10,
+      "descent_product_terms": 5475,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 156,
+        "begin": 0,
+        "end": 1352,
+        "product_terms": 835,
+        "product_sha256": "9cd6d905cad823e6891bd4d2df03497e981dace0ca8425f0cb836ea9793451d8",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 157,
+      "rows": 2843,
+      "exact_queries": 8,
+      "descent_product_terms": 12519,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 157,
+        "begin": 0,
+        "end": 2843,
+        "product_terms": 2233,
+        "product_sha256": "b8e325f12e854dbc1c67fd5f3590c252944efbc6d49a23dceb10d9e5d95551cb",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 158,
+      "rows": 592,
+      "exact_queries": 7,
+      "descent_product_terms": 2571,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 158,
+        "begin": 0,
+        "end": 592,
+        "product_terms": 572,
+        "product_sha256": "91d741efef09fc95b92dab042f0d5757b774527395399caa2bf6bbc2e157e127",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 159,
+      "rows": 1398,
+      "exact_queries": 10,
+      "descent_product_terms": 7493,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 159,
+        "begin": 0,
+        "end": 1398,
+        "product_terms": 1162,
+        "product_sha256": "c96896ca1f83d1e4bd1821d0ab9902c1c7214837f8ce58eb14f20106787856f0",
+        "maximum_root_coefficient": 25
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 160,
+      "rows": 690,
+      "exact_queries": 7,
+      "descent_product_terms": 2347,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 160,
+        "begin": 0,
+        "end": 690,
+        "product_terms": 581,
+        "product_sha256": "2aebad06be494479e405685d3d3157cf9eb15a402972115bf78baca2f0c9bbbf",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 161,
+      "rows": 371,
+      "exact_queries": 8,
+      "descent_product_terms": 1868,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 161,
+        "begin": 0,
+        "end": 371,
+        "product_terms": 386,
+        "product_sha256": "e710a745b3e3c5157d69b368c48a40f50b929c70ac4f08fa7076058245890409",
+        "maximum_root_coefficient": 16
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 162,
+      "rows": 3646,
+      "exact_queries": 9,
+      "descent_product_terms": 18731,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 162,
+        "begin": 0,
+        "end": 3646,
+        "product_terms": 4047,
+        "product_sha256": "91c596138484f0cd5f7fe89e74ff06a0fc2fd9e90e9557bacc28e979aa330df1",
+        "maximum_root_coefficient": 33
+      },
+      "maximum_coefficient": 10,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 163,
+      "rows": 578,
+      "exact_queries": 9,
+      "descent_product_terms": 2490,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 163,
+        "begin": 0,
+        "end": 578,
+        "product_terms": 479,
+        "product_sha256": "1afa064e7ee43009b28ef67d8d73b54c3e94e1264a66d326812f71f5c636c8cc",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 164,
+      "rows": 527,
+      "exact_queries": 8,
+      "descent_product_terms": 2542,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 164,
+        "begin": 0,
+        "end": 527,
+        "product_terms": 510,
+        "product_sha256": "54ecf9f6f7a8c9d10383487b0bd6009c602e0ecad543e80f019e9472d6da147e",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 165,
+      "rows": 7260,
+      "exact_queries": 9,
+      "descent_product_terms": 35699,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 165,
+        "begin": 0,
+        "end": 7260,
+        "product_terms": 7370,
+        "product_sha256": "2d35144bf6b526e812c7b41e70272d79a3097103135d335865104e6132c32630",
+        "maximum_root_coefficient": 26
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 166,
+      "rows": 591,
+      "exact_queries": 7,
+      "descent_product_terms": 2475,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 166,
+        "begin": 0,
+        "end": 591,
+        "product_terms": 526,
+        "product_sha256": "c24aaf3001f2234ede2efead3d226616ba0c925852a54e6853d38bac33bb2fbb",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 167,
+      "rows": 618,
+      "exact_queries": 8,
+      "descent_product_terms": 2206,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 167,
+        "begin": 0,
+        "end": 618,
+        "product_terms": 425,
+        "product_sha256": "df90b431416b7e51c0795d556dda5ab0c503732a504330442b112dfa70b9530d",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 168,
+      "rows": 367,
+      "exact_queries": 6,
+      "descent_product_terms": 1375,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 168,
+        "begin": 0,
+        "end": 367,
+        "product_terms": 311,
+        "product_sha256": "373371415ab60492cca6918e26b85a2c2f926ff52a52202974f784049765d6f4",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 169,
+      "rows": 1799,
+      "exact_queries": 9,
+      "descent_product_terms": 9075,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 169,
+        "begin": 0,
+        "end": 1799,
+        "product_terms": 1646,
+        "product_sha256": "62984a5248737851fff8c69f24fb09a2a2d2667d1939f4dc165483eac0049eb9",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 170,
+      "rows": 245,
+      "exact_queries": 7,
+      "descent_product_terms": 1155,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 170,
+        "begin": 0,
+        "end": 245,
+        "product_terms": 321,
+        "product_sha256": "15f44121e2a554edca6db1f058705ae78555dbb3de78a0cddd235e51899ae5fb",
+        "maximum_root_coefficient": 4
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 171,
+      "rows": 240,
+      "exact_queries": 7,
+      "descent_product_terms": 1115,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 171,
+        "begin": 0,
+        "end": 240,
+        "product_terms": 212,
+        "product_sha256": "b384778de48f4f6df5012e9d919c6f2d4f2bfebb656614d2dabc78f38ba06255",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 172,
+      "rows": 1165,
+      "exact_queries": 7,
+      "descent_product_terms": 4318,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 172,
+        "begin": 0,
+        "end": 1165,
+        "product_terms": 856,
+        "product_sha256": "f3f9b16f63ecf99cea8f89e0040fe2bb3b965474e7889e21a8cd668fc4da68a2",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 173,
+      "rows": 342,
+      "exact_queries": 6,
+      "descent_product_terms": 1280,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 173,
+        "begin": 0,
+        "end": 342,
+        "product_terms": 320,
+        "product_sha256": "57dcd877b2a49b829dcb2eec9f54ea20902aedfaf0b72295531c03965734e5f2",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 174,
+      "rows": 1731,
+      "exact_queries": 7,
+      "descent_product_terms": 6391,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 174,
+        "begin": 0,
+        "end": 1731,
+        "product_terms": 1551,
+        "product_sha256": "95303e5a8ab5c0cc7a38f633c077988c751d26c69e335a502543dfb2a0d401b5",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 175,
+      "rows": 264,
+      "exact_queries": 6,
+      "descent_product_terms": 1063,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 175,
+        "begin": 0,
+        "end": 264,
+        "product_terms": 243,
+        "product_sha256": "dc3b17378162ff68aa9e77ccc0c92c49e4419a25b703c1acba3740c88c3ad36b",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 176,
+      "rows": 1225,
+      "exact_queries": 7,
+      "descent_product_terms": 4481,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 176,
+        "begin": 0,
+        "end": 1225,
+        "product_terms": 1178,
+        "product_sha256": "15b9cd06534e03f92171f9fa5f1195156e22a2f432dacb1f7750d75e3e13d795",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 177,
+      "rows": 1201,
+      "exact_queries": 9,
+      "descent_product_terms": 5151,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 177,
+        "begin": 0,
+        "end": 1201,
+        "product_terms": 937,
+        "product_sha256": "efa2c6ea97f6cfa062447e59b1fc7c5ecc1cfbc01027f45a5c620b5aaccb0956",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 178,
+      "rows": 2082,
+      "exact_queries": 7,
+      "descent_product_terms": 8015,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 178,
+        "begin": 0,
+        "end": 2082,
+        "product_terms": 2111,
+        "product_sha256": "0823e8fd001d87a2ac6d0f39e2502ecdea2ecb2ac07ada61ad34126d1d588e89",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 179,
+      "rows": 875,
+      "exact_queries": 9,
+      "descent_product_terms": 3983,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 179,
+        "begin": 0,
+        "end": 875,
+        "product_terms": 776,
+        "product_sha256": "d461723dc8f0f1a44f279ce480d04eaa34c55f96e4eca7e72aca156acd359ce0",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 180,
+      "rows": 9096,
+      "exact_queries": 10,
+      "descent_product_terms": 45820,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 180,
+        "begin": 0,
+        "end": 9096,
+        "product_terms": 8538,
+        "product_sha256": "15b6cbd96d876c4372b995660ec98761b149b17183bdc3bfe3b6b943d5ab4792",
+        "maximum_root_coefficient": 54
+      },
+      "maximum_coefficient": 18,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 181,
+      "rows": 5959,
+      "exact_queries": 9,
+      "descent_product_terms": 23851,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 181,
+        "begin": 0,
+        "end": 5959,
+        "product_terms": 4366,
+        "product_sha256": "eaeafa0162fcf542589caa59eef000938e52dfb7ec7519f1d03c3cf0e1d734ef",
+        "maximum_root_coefficient": 30
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 182,
+      "rows": 1232,
+      "exact_queries": 9,
+      "descent_product_terms": 5846,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 182,
+        "begin": 0,
+        "end": 1232,
+        "product_terms": 1102,
+        "product_sha256": "616b82c829926af95b15c5dc57cba52e815eb4c85ceffd71a90e85886ba23021",
+        "maximum_root_coefficient": 17
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 183,
+      "rows": 3268,
+      "exact_queries": 11,
+      "descent_product_terms": 14233,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 183,
+        "begin": 0,
+        "end": 3268,
+        "product_terms": 2086,
+        "product_sha256": "2a5fd06f449fc4340a837e0e3713d8f49a931d35fd365e14984671269cc54c63",
+        "maximum_root_coefficient": 16
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 184,
+      "rows": 596,
+      "exact_queries": 7,
+      "descent_product_terms": 2716,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 184,
+        "begin": 0,
+        "end": 596,
+        "product_terms": 489,
+        "product_sha256": "cfef979513f5297a3dc7091b87c015d21774486d131de86d78dcda0fc5b7c189",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 185,
+      "rows": 443,
+      "exact_queries": 7,
+      "descent_product_terms": 2001,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 185,
+        "begin": 0,
+        "end": 443,
+        "product_terms": 418,
+        "product_sha256": "7a75ba81a0710e6ca12eb764596905a0ec30f8638f7bc7e227b15d8adfb6587a",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 186,
+      "rows": 1563,
+      "exact_queries": 10,
+      "descent_product_terms": 9189,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 186,
+        "begin": 0,
+        "end": 1563,
+        "product_terms": 1402,
+        "product_sha256": "4d66dd2b16046a9a459beeff42719ee8c14abd3f0d0da26bda71234f7e0ebeda",
+        "maximum_root_coefficient": 41
+      },
+      "maximum_coefficient": 14,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 187,
+      "rows": 4327,
+      "exact_queries": 10,
+      "descent_product_terms": 19191,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 187,
+        "begin": 0,
+        "end": 4327,
+        "product_terms": 3822,
+        "product_sha256": "c065def80a0cc392230f8292f3521f40c3c9427c315af43d763b5e349ee2b789",
+        "maximum_root_coefficient": 25
+      },
+      "maximum_coefficient": 9,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 188,
+      "rows": 486,
+      "exact_queries": 8,
+      "descent_product_terms": 2146,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 188,
+        "begin": 0,
+        "end": 486,
+        "product_terms": 450,
+        "product_sha256": "b1d16c50d0bc8e7a4d2bbf9c179a05691b8159dbf528594c840b6317991d39e0",
+        "maximum_root_coefficient": 5
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 189,
+      "rows": 4605,
+      "exact_queries": 8,
+      "descent_product_terms": 22442,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 189,
+        "begin": 0,
+        "end": 4605,
+        "product_terms": 4971,
+        "product_sha256": "b99aa9776ff53ac5671d41a0d97718d96d26c63d2d5500c0ce02c7fc189eae2e",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 190,
+      "rows": 963,
+      "exact_queries": 9,
+      "descent_product_terms": 4372,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 190,
+        "begin": 0,
+        "end": 963,
+        "product_terms": 903,
+        "product_sha256": "6a70bbf583d84143e8269229f096064a907cf4f8c7c4eedc86a476d155c9d9ed",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 191,
+      "rows": 232,
+      "exact_queries": 8,
+      "descent_product_terms": 1198,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 191,
+        "begin": 0,
+        "end": 232,
+        "product_terms": 229,
+        "product_sha256": "848ccdc3941e991c290aa0aad8d14b681318cb076a964004fe7a1e5ad24c4511",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 192,
+      "rows": 2693,
+      "exact_queries": 9,
+      "descent_product_terms": 12890,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 192,
+        "begin": 0,
+        "end": 2693,
+        "product_terms": 2839,
+        "product_sha256": "2ce66aab48fdc0442c7866ffd0b7f09d9c7d401f7107857f725c585233f8f180",
+        "maximum_root_coefficient": 15
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 193,
+      "rows": 445,
+      "exact_queries": 7,
+      "descent_product_terms": 1882,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 193,
+        "begin": 0,
+        "end": 445,
+        "product_terms": 394,
+        "product_sha256": "8383e7a8fac8123d973be42009a7acb4631392e5bd85199f4843bafb12a885ae",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 194,
+      "rows": 634,
+      "exact_queries": 8,
+      "descent_product_terms": 2390,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 194,
+        "begin": 0,
+        "end": 634,
+        "product_terms": 482,
+        "product_sha256": "fe727c3c18695c4e7fd223e93d1aa6c336bba4412de93d145fd56b895fe4ffb3",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 195,
+      "rows": 1420,
+      "exact_queries": 7,
+      "descent_product_terms": 5360,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 195,
+        "begin": 0,
+        "end": 1420,
+        "product_terms": 1280,
+        "product_sha256": "95c4d6771c5500a0b787401f287784377c4aa4ef6723b7414975c9e4172fbb4e",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 196,
+      "rows": 3956,
+      "exact_queries": 9,
+      "descent_product_terms": 17582,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 196,
+        "begin": 0,
+        "end": 3956,
+        "product_terms": 3845,
+        "product_sha256": "21d77f2886926439090d204c66e8fd36516387fc85970f03a91b0bee1806d98e",
+        "maximum_root_coefficient": 15
+      },
+      "maximum_coefficient": 7,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 197,
+      "rows": 120,
+      "exact_queries": 7,
+      "descent_product_terms": 488,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 197,
+        "begin": 0,
+        "end": 120,
+        "product_terms": 119,
+        "product_sha256": "bd8827dc96a548e3a5f0fe9c427f22560990e28f52d1ba657cace32cea791b2d",
+        "maximum_root_coefficient": 4
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 198,
+      "rows": 994,
+      "exact_queries": 8,
+      "descent_product_terms": 4047,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 198,
+        "begin": 0,
+        "end": 994,
+        "product_terms": 756,
+        "product_sha256": "53f017fba8d9be5a30ef02f0307438b6e2bbaf57cefdba912ccb0ccff09a0f9a",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 199,
+      "rows": 1318,
+      "exact_queries": 8,
+      "descent_product_terms": 5426,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 199,
+        "begin": 0,
+        "end": 1318,
+        "product_terms": 1145,
+        "product_sha256": "b69a28cb4da3b429e3fa2780dae0db03781b8a3a8e317e175272ea879302226a",
+        "maximum_root_coefficient": 14
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 200,
+      "rows": 967,
+      "exact_queries": 6,
+      "descent_product_terms": 3965,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 200,
+        "begin": 0,
+        "end": 967,
+        "product_terms": 989,
+        "product_sha256": "a5d8a3b763a1193c43ec0fa8b1702b1287a219d3ffed5b1689d42b6b957bc435",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 201,
+      "rows": 460,
+      "exact_queries": 7,
+      "descent_product_terms": 1785,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 201,
+        "begin": 0,
+        "end": 460,
+        "product_terms": 449,
+        "product_sha256": "c5ebee286ef3efc5aaee3a205fb8827365221f10a46780e1aeaa55a2264a3d1c",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 202,
+      "rows": 29,
+      "exact_queries": 6,
+      "descent_product_terms": 118,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 202,
+        "begin": 0,
+        "end": 29,
+        "product_terms": 22,
+        "product_sha256": "6d4809c4521edc87062b88190434e32c232d03cb3686165972703e38dd751b7c",
+        "maximum_root_coefficient": 10
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 203,
+      "rows": 489,
+      "exact_queries": 6,
+      "descent_product_terms": 1554,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 203,
+        "begin": 0,
+        "end": 489,
+        "product_terms": 421,
+        "product_sha256": "642714c509cfc2027c00129f498e06213ef545c689160092c8c696e83df6d631",
+        "maximum_root_coefficient": 12
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 204,
+      "rows": 5215,
+      "exact_queries": 10,
+      "descent_product_terms": 23541,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 204,
+        "begin": 0,
+        "end": 5215,
+        "product_terms": 4960,
+        "product_sha256": "17abb36cd5416b91c3d92c73c1f3920cba38c6f4bc57ab5bbe133135aa7906cf",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 205,
+      "rows": 1172,
+      "exact_queries": 6,
+      "descent_product_terms": 4758,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 205,
+        "begin": 0,
+        "end": 1172,
+        "product_terms": 1340,
+        "product_sha256": "95020c9cfe1accd53dbd72529b46bd289b7be77087475c81b67c271edd7a3229",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 206,
+      "rows": 2853,
+      "exact_queries": 10,
+      "descent_product_terms": 11743,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 206,
+        "begin": 0,
+        "end": 2853,
+        "product_terms": 1938,
+        "product_sha256": "6b8a12f03a59ea637b5c5580f730d434479cc3c6c4ad1d78a0595844cb06964d",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 9,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 207,
+      "rows": 20320,
+      "exact_queries": 12,
+      "descent_product_terms": 116040,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 207,
+        "begin": 0,
+        "end": 20320,
+        "product_terms": 19974,
+        "product_sha256": "0f6b78228e73bbaf34a72ff04996f819548d4205514fcffd4a857e5d55b86173",
+        "maximum_root_coefficient": 36
+      },
+      "maximum_coefficient": 14,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 208,
+      "rows": 7283,
+      "exact_queries": 8,
+      "descent_product_terms": 28858,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 208,
+        "begin": 0,
+        "end": 7283,
+        "product_terms": 5498,
+        "product_sha256": "a0eeafb2458c7260f30b6225bcfa6ef5d8cf669e13077e57b3cee0432e71bc50",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 209,
+      "rows": 1399,
+      "exact_queries": 8,
+      "descent_product_terms": 5934,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 209,
+        "begin": 0,
+        "end": 1399,
+        "product_terms": 1271,
+        "product_sha256": "cf6dd1135f527a5846c4084c99b190eb977905908ae05ed6adc597a93a43f770",
+        "maximum_root_coefficient": 20
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 210,
+      "rows": 3006,
+      "exact_queries": 10,
+      "descent_product_terms": 11410,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 210,
+        "begin": 0,
+        "end": 3006,
+        "product_terms": 1659,
+        "product_sha256": "35a67278c1203b4ba0bed4ce50f2ad51da516d39df62965ff6bcbfab15b28890",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 211,
+      "rows": 1172,
+      "exact_queries": 7,
+      "descent_product_terms": 4856,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 211,
+        "begin": 0,
+        "end": 1172,
+        "product_terms": 882,
+        "product_sha256": "57a88211027af9ec412c620e85ab50590594ea95452be816296d1bfdd62b17ab",
+        "maximum_root_coefficient": 17
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 212,
+      "rows": 135,
+      "exact_queries": 6,
+      "descent_product_terms": 524,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 212,
+        "begin": 0,
+        "end": 135,
+        "product_terms": 114,
+        "product_sha256": "db9cdcb9a1ea4aeb2f1b5777fdaa6d03f63056dcfe6ad5acf441aa3937013444",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 213,
+      "rows": 3546,
+      "exact_queries": 9,
+      "descent_product_terms": 17525,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 213,
+        "begin": 0,
+        "end": 3546,
+        "product_terms": 3073,
+        "product_sha256": "bedadc12bd6c85060b8f76416618d20ad3156f5eadccb5f93203885de556bb20",
+        "maximum_root_coefficient": 32
+      },
+      "maximum_coefficient": 11,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 214,
+      "rows": 1311,
+      "exact_queries": 8,
+      "descent_product_terms": 4575,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 214,
+        "begin": 0,
+        "end": 1311,
+        "product_terms": 1119,
+        "product_sha256": "e9cf6ca3d47847f4dfc4d0e0e31dbe78ec71b58698a20dac74d6011c6c113670",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 215,
+      "rows": 938,
+      "exact_queries": 8,
+      "descent_product_terms": 3664,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 215,
+        "begin": 0,
+        "end": 938,
+        "product_terms": 754,
+        "product_sha256": "416a7ed24d98d624791be2b45a71a1d22538bed376371879c9085bdb162619f0",
+        "maximum_root_coefficient": 13
+      },
+      "maximum_coefficient": 6,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 216,
+      "rows": 1504,
+      "exact_queries": 8,
+      "descent_product_terms": 8032,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 216,
+        "begin": 0,
+        "end": 1504,
+        "product_terms": 1595,
+        "product_sha256": "e4c6bf3f9fe7e0464644cb675c2e5ed38d7809873fcf2a60ba53d217faaa2120",
+        "maximum_root_coefficient": 18
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 217,
+      "rows": 761,
+      "exact_queries": 9,
+      "descent_product_terms": 3035,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 217,
+        "begin": 0,
+        "end": 761,
+        "product_terms": 617,
+        "product_sha256": "d64e73a4f3dcc5f64592d1ef9d0dedd3f0b41d1d4b6594ee102b21fc781f6534",
+        "maximum_root_coefficient": 9
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 218,
+      "rows": 4942,
+      "exact_queries": 9,
+      "descent_product_terms": 23697,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 218,
+        "begin": 0,
+        "end": 4942,
+        "product_terms": 4927,
+        "product_sha256": "c05fe32d50c3a9f53d4f7862f04495b8169292ea1a79e67c2146789f4cb844fa",
+        "maximum_root_coefficient": 7
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 219,
+      "rows": 4229,
+      "exact_queries": 8,
+      "descent_product_terms": 22183,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 219,
+        "begin": 0,
+        "end": 4229,
+        "product_terms": 4388,
+        "product_sha256": "845c13171a1fc92705b1622950eaeab5eba94d9ce789b73c82ea73545790ca10",
+        "maximum_root_coefficient": 30
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 220,
+      "rows": 7609,
+      "exact_queries": 9,
+      "descent_product_terms": 32720,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 220,
+        "begin": 0,
+        "end": 7609,
+        "product_terms": 6583,
+        "product_sha256": "e342ef9616ab5a790412a1dbc0aaa890518108b3ed81657259774e1c896dfb9b",
+        "maximum_root_coefficient": 29
+      },
+      "maximum_coefficient": 11,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 221,
+      "rows": 204,
+      "exact_queries": 6,
+      "descent_product_terms": 623,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 221,
+        "begin": 0,
+        "end": 204,
+        "product_terms": 139,
+        "product_sha256": "cf5cda2958513b37da1a73125eb45f7435a31c1707cb5fc06c8160846f41b9ad",
+        "maximum_root_coefficient": 4
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 222,
+      "rows": 1020,
+      "exact_queries": 7,
+      "descent_product_terms": 4191,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 222,
+        "begin": 0,
+        "end": 1020,
+        "product_terms": 906,
+        "product_sha256": "6108d830772e8352823b3ea76bccfe047a9676ee31116ec534a52fe779dbedfb",
+        "maximum_root_coefficient": 15
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 223,
+      "rows": 3486,
+      "exact_queries": 8,
+      "descent_product_terms": 12286,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 223,
+        "begin": 0,
+        "end": 3486,
+        "product_terms": 2712,
+        "product_sha256": "320d9708001b2a6a60a9c986160f118f1b0792d84b7b269147719c4a4c583b20",
+        "maximum_root_coefficient": 14
+      },
+      "maximum_coefficient": 5,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 224,
+      "rows": 181,
+      "exact_queries": 7,
+      "descent_product_terms": 773,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 224,
+        "begin": 0,
+        "end": 181,
+        "product_terms": 199,
+        "product_sha256": "9035941082d97a3e1161c77a1b01f0842ddbc2b17f90fc1b642fa4db908a7cb9",
+        "maximum_root_coefficient": 6
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 225,
+      "rows": 494,
+      "exact_queries": 7,
+      "descent_product_terms": 1868,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 225,
+        "begin": 0,
+        "end": 494,
+        "product_terms": 380,
+        "product_sha256": "2f0a2767c926bc3829ea5c0eb6ec8e2241fb90fde703f85bbc32fea463d4462c",
+        "maximum_root_coefficient": 8
+      },
+      "maximum_coefficient": 4,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 226,
+      "rows": 35,
+      "exact_queries": 6,
+      "descent_product_terms": 108,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 226,
+        "begin": 0,
+        "end": 35,
+        "product_terms": 22,
+        "product_sha256": "ddbe2b9283178477ec216347c056acb9d48dfbf60499de3ed4c0fdbec746b9dc",
+        "maximum_root_coefficient": 5
+      },
+      "maximum_coefficient": 2,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 227,
+      "rows": 689,
+      "exact_queries": 7,
+      "descent_product_terms": 3045,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 227,
+        "begin": 0,
+        "end": 689,
+        "product_terms": 731,
+        "product_sha256": "3a583fba89de6e3f2ee972bc288d57c791ad72e17ee5167eda4360d33b0678f4",
+        "maximum_root_coefficient": 21
+      },
+      "maximum_coefficient": 8,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    },
+    {
+      "group": 228,
+      "rows": 746,
+      "exact_queries": 7,
+      "descent_product_terms": 2743,
+      "excluded_output_terms_above_17": 0,
+      "ordinary_product": {
+        "group": 228,
+        "begin": 0,
+        "end": 746,
+        "product_terms": 677,
+        "product_sha256": "9ea2696226b9a0747b5b37c5088158abebd54fa961156a023cb332b92c954213",
+        "maximum_root_coefficient": 11
+      },
+      "maximum_coefficient": 3,
+      "coefficient_inequalities_and_weight_polytope": "passed"
+    }
+  ],
+  "offsets": [
+    0,
+    2152,
+    2718,
+    3091,
+    5342,
+    6475,
+    6568,
+    7423,
+    7693,
+    8059,
+    8773,
+    9003,
+    9765,
+    15197,
+    17171,
+    19161,
+    26872,
+    30688,
+    33331,
+    36049,
+    37023,
+    37375,
+    38136,
+    40758,
+    41518,
+    42409,
+    43551,
+    49232,
+    52819,
+    55947,
+    56189,
+    56523,
+    56891,
+    59520,
+    59747,
+    60583,
+    61235,
+    61579,
+    62992,
+    63580,
+    64377,
+    67048,
+    68483,
+    72689,
+    77786,
+    83290,
+    84150,
+    86560,
+    88577,
+    88962,
+    90143,
+    93634,
+    94372,
+    95665,
+    95799,
+    97371,
+    103637,
+    105561,
+    106565,
+    106967,
+    107558,
+    112683,
+    113022,
+    113684,
+    114126,
+    114525,
+    116349,
+    116556,
+    117277,
+    120099,
+    120576,
+    121311,
+    126441,
+    132646,
+    133325,
+    137208,
+    141248,
+    141600,
+    142352,
+    142745,
+    143292,
+    148163,
+    148488,
+    149970,
+    156318,
+    162549,
+    163213,
+    163298,
+    164019,
+    168175,
+    168286,
+    168694,
+    169081,
+    169491,
+    169857,
+    170164,
+    170872,
+    172833,
+    174060,
+    176483,
+    184842,
+    188380,
+    188845,
+    190066,
+    192299,
+    192476,
+    193990,
+    195017,
+    195717,
+    197474,
+    197994,
+    198255,
+    204398,
+    205574,
+    205725,
+    206296,
+    206728,
+    206864,
+    207059,
+    208010,
+    208345,
+    209299,
+    209683,
+    211034,
+    213176,
+    214146,
+    215952,
+    226620,
+    228103,
+    228915,
+    231955,
+    233806,
+    234026,
+    235909,
+    236939,
+    237093,
+    239217,
+    239464,
+    241760,
+    247658,
+    250141,
+    250572,
+    251345,
+    253442,
+    253614,
+    254202,
+    254571,
+    255236,
+    255729,
+    255850,
+    257177,
+    259130,
+    259738,
+    261297,
+    270265,
+    275578,
+    276521,
+    277873,
+    280716,
+    281308,
+    282706,
+    283396,
+    283767,
+    287413,
+    287991,
+    288518,
+    295778,
+    296369,
+    296987,
+    297354,
+    299153,
+    299398,
+    299638,
+    300803,
+    301145,
+    302876,
+    303140,
+    304365,
+    305566,
+    307648,
+    308523,
+    317619,
+    323578,
+    324810,
+    328078,
+    328674,
+    329117,
+    330680,
+    335007,
+    335493,
+    340098,
+    341061,
+    341293,
+    343986,
+    344431,
+    345065,
+    346485,
+    350441,
+    350561,
+    351555,
+    352873,
+    353840,
+    354300,
+    354329,
+    354818,
+    360033,
+    361205,
+    364058,
+    384378,
+    391661,
+    393060,
+    396066,
+    397238,
+    397373,
+    400919,
+    402230,
+    403168,
+    404672,
+    405433,
+    410375,
+    414604,
+    422213,
+    422417,
+    423437,
+    426923,
+    427104,
+    427598,
+    427633,
+    428322,
+    429068
+  ],
+  "rows": 429068,
+  "exact_queries": 1800,
+  "data_sha256": "d17c81b87a8bf465e471d4d18cac1bee3277c7dc567cd3c6b9f0e1e69a920765",
+  "root_targets_sha256": "da0e4f225dd086d3f7ddce8428e40014f845706579e7cdd670e29f09399a55b3",
+  "removed_redundant_raw_Q_sha256": "9cfd18e7131fd3566d180b083044eebc7901369c937fc039786aa26ffaa1cf11",
+  "archives": [
+    {
+      "name": "neighborhood_train_0000.bin.gz",
+      "records": 250000,
+      "sha256": "fa6182e841a5d3f35ff677c754d195688ce10f8a9a028468693678eda1abee16"
+    },
+    {
+      "name": "neighborhood_train_0001.bin.gz",
+      "records": 179068,
+      "sha256": "1b009ac3506f562bc2c2a15655125b93f14fb4cabc11158911a69674d6dd0e13"
+    }
+  ],
+  "root_archive_sha256": "8ef106f8c2829492130f648ea056793de5e4eaba81f59e345ef9918d3424010b",
+  "training_specification_sha256": "060c7b77928ec20cfec292ed73c9a29c1f5dda844b80872b2c1a16e809d4704c"
+}

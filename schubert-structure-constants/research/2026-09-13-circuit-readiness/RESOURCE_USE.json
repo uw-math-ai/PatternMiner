@@ -1,0 +1,450 @@
+[
+  {
+    "name": "CIRCUIT_RESULTS.json",
+    "status": "failed_or_partial",
+    "wall_seconds": 20.163528834003955,
+    "gpu_seconds_charged": 20.163528834003955,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "forward_diagnostic",
+    "status": "completed",
+    "wall_seconds": 0.9761499490123242,
+    "gpu_seconds_charged": 0.9761499490123242,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "CIRCUIT_RESULTS_v2.json",
+    "status": "completed",
+    "wall_seconds": 16.370468609035015,
+    "gpu_seconds_charged": 16.370468609035015,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "LOCAL_INFORMATION.json",
+    "status": "completed",
+    "wall_seconds": 6.7163301090477034,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "LOCAL_INFORMATION_VERIFIED.json",
+    "status": "failed_or_partial",
+    "wall_seconds": 4.165504253935069,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 2039
+  },
+  {
+    "name": "LOCAL_INFORMATION_VERIFIED_v2.json",
+    "status": "passed",
+    "wall_seconds": 0.032723137992434204,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 12
+  },
+  {
+    "name": "MATCHED_CIRCUITS.json",
+    "status": "completed",
+    "wall_seconds": 0.6662570190383121,
+    "gpu_seconds_charged": 0.6662570190383121,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "CONTEXT_FOLLOWUP.json",
+    "status": "completed",
+    "wall_seconds": 15.921240927069448,
+    "gpu_seconds_charged": 15.921240927069448,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 6
+  },
+  {
+    "name": "QK_RESULTS.json",
+    "status": "completed",
+    "wall_seconds": 0.9511695589171723,
+    "gpu_seconds_charged": 0.9511695589171723,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "DIVIDED_DIFFERENCES_VERIFIED.json",
+    "status": "passed",
+    "wall_seconds": 0.029291893006302416,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 14
+  },
+  {
+    "name": "REPLAY_VERIFICATION.json",
+    "status": "passed",
+    "wall_seconds": 23.703324695001356,
+    "gpu_seconds_charged": 23.703324695001356,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 14
+  },
+  {
+    "name": "accuracy_prepare",
+    "status": "completed",
+    "wall_seconds": 43.74427842500154,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_train",
+    "status": "completed",
+    "wall_seconds": 213.0899519029772,
+    "gpu_seconds_charged": 213.0899519029772,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_assess",
+    "status": "completed",
+    "wall_seconds": 5.837567740003578,
+    "gpu_seconds_charged": 5.837567740003578,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_training_fit",
+    "status": "completed",
+    "wall_seconds": 8.512421946041286,
+    "gpu_seconds_charged": 8.512421946041286,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_verification",
+    "status": "completed",
+    "wall_seconds": 1.0656967419199646,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_rank_followup",
+    "status": "completed",
+    "wall_seconds": 248.12567604903597,
+    "gpu_seconds_charged": 248.12567604903597,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_training_error_mining",
+    "status": "completed",
+    "wall_seconds": 10.521574862999842,
+    "gpu_seconds_charged": 10.521574862999842,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_cache_rebuild",
+    "status": "completed",
+    "wall_seconds": 34.74252278194763,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "accuracy_verification_replay",
+    "status": "completed",
+    "wall_seconds": 1.0660628440091386,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "implementation_check",
+    "status": "completed",
+    "wall_seconds": 0.6763570560142398,
+    "gpu_seconds_charged": 0.6763570560142398,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "hard_fit_train",
+    "status": "completed",
+    "wall_seconds": 45.528796895057894,
+    "gpu_seconds_charged": 45.528796895057894,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "uniform_no_dropout_train",
+    "status": "completed",
+    "wall_seconds": 113.28571296995506,
+    "gpu_seconds_charged": 113.28571296995506,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "hard_quarter_train",
+    "status": "completed",
+    "wall_seconds": 113.98403013299685,
+    "gpu_seconds_charged": 113.98403013299685,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "uniform_no_dropout_assess",
+    "status": "completed",
+    "wall_seconds": 8.179941512993537,
+    "gpu_seconds_charged": 8.179941512993537,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "hard_quarter_assess",
+    "status": "completed",
+    "wall_seconds": 8.113911702064797,
+    "gpu_seconds_charged": 8.113911702064797,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "fresh_data_generation",
+    "status": "completed",
+    "wall_seconds": 153.50910709996242,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 2075
+  },
+  {
+    "name": "fresh_label_verification",
+    "status": "completed",
+    "wall_seconds": 3.441396368900314,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 9
+  },
+  {
+    "name": "broad_small_train",
+    "status": "completed",
+    "wall_seconds": 186.77413298306055,
+    "gpu_seconds_charged": 186.77413298306055,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "broad_wide_train",
+    "status": "completed",
+    "wall_seconds": 226.95463629509322,
+    "gpu_seconds_charged": 226.95463629509322,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "broad_small_assess",
+    "status": "completed",
+    "wall_seconds": 13.194930100929923,
+    "gpu_seconds_charged": 13.194930100929923,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "broad_wide_assess",
+    "status": "completed",
+    "wall_seconds": 23.031611286103725,
+    "gpu_seconds_charged": 23.031611286103725,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "full_rank_feature_checks",
+    "status": "completed",
+    "wall_seconds": 3.1120049859164283,
+    "gpu_seconds_charged": 3.1120049859164283,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "full_rank_control_train",
+    "status": "completed",
+    "wall_seconds": 142.50390779797453,
+    "gpu_seconds_charged": 142.50390779797453,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "full_rank_inputs_train",
+    "status": "completed",
+    "wall_seconds": 163.87284207099583,
+    "gpu_seconds_charged": 163.87284207099583,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "symmetry_preparation",
+    "status": "completed",
+    "wall_seconds": 54.10012324701529,
+    "gpu_seconds_charged": 54.10012324701529,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 111
+  },
+  {
+    "name": "diagram_augmentation_train",
+    "status": "completed",
+    "wall_seconds": 343.7331003770232,
+    "gpu_seconds_charged": 343.7331003770232,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "training_pair_mining",
+    "status": "completed",
+    "wall_seconds": 29.033311231061816,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "order_bias_implementation_checks",
+    "status": "failed_or_partial",
+    "wall_seconds": 0.6032948999200016,
+    "gpu_seconds_charged": 0.6032948999200016,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "gelu_formula_diagnostic",
+    "status": "completed",
+    "wall_seconds": 0.6073317349655554,
+    "gpu_seconds_charged": 0.6073317349655554,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "order_bias_implementation_checks_v2",
+    "status": "completed",
+    "wall_seconds": 0.7158955499762669,
+    "gpu_seconds_charged": 0.7158955499762669,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "order_bias_train",
+    "status": "completed",
+    "wall_seconds": 328.79309125302825,
+    "gpu_seconds_charged": 328.79309125302825,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "training_pair_verification",
+    "status": "completed",
+    "wall_seconds": 6.622295712004416,
+    "gpu_seconds_charged": 6.622295712004416,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 6
+  },
+  {
+    "name": "paired_context_train",
+    "status": "completed",
+    "wall_seconds": 216.8792940939311,
+    "gpu_seconds_charged": 216.8792940939311,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "depth_implementation_checks",
+    "status": "failed_or_partial",
+    "wall_seconds": 0.6938931989716366,
+    "gpu_seconds_charged": 0.6938931989716366,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "deeper_attention_train",
+    "status": "completed",
+    "wall_seconds": 424.06067800999153,
+    "gpu_seconds_charged": 424.06067800999153,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "depth_implementation_checks_v2",
+    "status": "completed",
+    "wall_seconds": 0.6326405770378187,
+    "gpu_seconds_charged": 0.6326405770378187,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "deeper_attention_assess",
+    "status": "completed",
+    "wall_seconds": 43.74914892902598,
+    "gpu_seconds_charged": 43.74914892902598,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "final_all_witness_assessment",
+    "status": "completed",
+    "wall_seconds": 6.721731793950312,
+    "gpu_seconds_charged": 6.721731793950312,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "deeper_attention_circuit_checks",
+    "status": "completed",
+    "wall_seconds": 1.1264825409743935,
+    "gpu_seconds_charged": 1.1264825409743935,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "deeper_attention_gradient_checks",
+    "status": "completed",
+    "wall_seconds": 0.7728190670022741,
+    "gpu_seconds_charged": 0.7728190670022741,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "selected_checkpoint_replay",
+    "status": "completed",
+    "wall_seconds": 1.041906166006811,
+    "gpu_seconds_charged": 1.041906166006811,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "order_bias_assess",
+    "status": "completed",
+    "wall_seconds": 24.584803750971332,
+    "gpu_seconds_charged": 24.584803750971332,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  },
+  {
+    "name": "delivery_verification",
+    "status": "failed_or_partial",
+    "wall_seconds": 1.8950119629735127,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "delivery_verification_v2",
+    "status": "completed",
+    "wall_seconds": 8.289155171951279,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  },
+  {
+    "name": "CACHE_RECONSTRUCTION",
+    "status": "completed",
+    "wall_seconds": 13.610623517073691,
+    "gpu_seconds_charged": 0,
+    "gpu_charge_scope": "CPU only",
+    "exact_queries": 0
+  }
+]

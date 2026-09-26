@@ -1,0 +1,302 @@
+{
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "8cb4068edec29d3554dded5d3dcb1c4c46447a288f95ab6ff90b448d7d493c21",
+  "membership_sha256": "a38f63e75286b70276e5a579235a8222f66460ccb2d9652b5b721369ff8a188d",
+  "inputs": 1247,
+  "path": "First-block MLP hidden units at non-candidate tokens, through second-block keys and values only",
+  "subsets": "Earlier fixed neuron ranking and twenty fixed magnitude-matched random 16-pair subsets",
+  "endpoint": "Change in log-sum-exp contrast of opposite paired target support against destination target support",
+  "role": "Exploratory development comparison; no formal confirmation population opened",
+  "status": "completed",
+  "checks": {
+    "native": 0.0,
+    "identity": 0.0,
+    "restoration": 0.0
+  },
+  "factor_orbits": 202,
+  "all_three_correct": 1240,
+  "summaries": {
+    "all": {
+      "top_16": {
+        "opposite": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 7.8070807456970215,
+          "factor_group_mean": 7.960768222808838,
+          "group_bootstrap_95_percent": [
+            6.934824657440186,
+            9.078014397621153
+          ]
+        },
+        "same": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 0.6837021112442017,
+          "factor_group_mean": 0.9318752288818359,
+          "group_bootstrap_95_percent": [
+            0.6145345985889434,
+            1.2929783701896667
+          ]
+        },
+        "opposite_minus_same": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 7.123378276824951,
+          "factor_group_mean": 7.028892993927002,
+          "group_bootstrap_95_percent": [
+            6.0272045016288756,
+            8.073779010772704
+          ]
+        }
+      },
+      "top_32": {
+        "opposite": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 11.797664642333984,
+          "factor_group_mean": 11.99904727935791,
+          "group_bootstrap_95_percent": [
+            10.775835084915162,
+            13.316918611526486
+          ]
+        },
+        "same": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 0.980900764465332,
+          "factor_group_mean": 1.3692044019699097,
+          "group_bootstrap_95_percent": [
+            0.9209220170974731,
+            1.9184900492429726
+          ]
+        },
+        "opposite_minus_same": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 10.816762924194336,
+          "factor_group_mean": 10.629842758178711,
+          "group_bootstrap_95_percent": [
+            9.441677355766297,
+            11.964090299606323
+          ]
+        }
+      },
+      "top_64": {
+        "opposite": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 14.748878479003906,
+          "factor_group_mean": 15.12548542022705,
+          "group_bootstrap_95_percent": [
+            13.692569708824157,
+            16.581671905517577
+          ]
+        },
+        "same": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 1.1676692962646484,
+          "factor_group_mean": 1.4467661380767822,
+          "group_bootstrap_95_percent": [
+            0.9925398051738739,
+            1.9538778543472288
+          ]
+        },
+        "opposite_minus_same": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 13.581207275390625,
+          "factor_group_mean": 13.678720474243164,
+          "group_bootstrap_95_percent": [
+            12.2879230260849,
+            15.225397682189941
+          ]
+        }
+      },
+      "top_384": {
+        "opposite": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 16.100221633911133,
+          "factor_group_mean": 16.36304473876953,
+          "group_bootstrap_95_percent": [
+            14.924076151847839,
+            17.767295551300048
+          ]
+        },
+        "same": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 1.35772705078125,
+          "factor_group_mean": 1.5879731178283691,
+          "group_bootstrap_95_percent": [
+            1.0883618712425231,
+            2.2034883201122284
+          ]
+        },
+        "opposite_minus_same": {
+          "inputs": 1247,
+          "groups": 202,
+          "input_mean": 14.742494583129883,
+          "factor_group_mean": 14.775069236755371,
+          "group_bootstrap_95_percent": [
+            13.469920325279237,
+            16.19482645988464
+          ]
+        }
+      },
+      "top_16_specificity_minus_random": {
+        "inputs": 1247,
+        "groups": 202,
+        "input_mean": 5.514474868774414,
+        "factor_group_mean": 5.409560203552246,
+        "group_bootstrap_95_percent": [
+          4.493008041381836,
+          6.376370215415953
+        ]
+      }
+    },
+    "all_three_correct": {
+      "top_16": {
+        "opposite": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 7.8149003982543945,
+          "factor_group_mean": 7.960710048675537,
+          "group_bootstrap_95_percent": [
+            6.872497642040253,
+            9.040228843688965
+          ]
+        },
+        "same": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 0.702759861946106,
+          "factor_group_mean": 0.9649819731712341,
+          "group_bootstrap_95_percent": [
+            0.6344725161790847,
+            1.3600374609231947
+          ]
+        },
+        "opposite_minus_same": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 7.112140655517578,
+          "factor_group_mean": 6.995728969573975,
+          "group_bootstrap_95_percent": [
+            5.9663936495780945,
+            8.031190371513366
+          ]
+        }
+      },
+      "top_32": {
+        "opposite": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 11.808653831481934,
+          "factor_group_mean": 11.993141174316406,
+          "group_bootstrap_95_percent": [
+            10.678269338607787,
+            13.308251667022704
+          ]
+        },
+        "same": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 1.000928282737732,
+          "factor_group_mean": 1.3989239931106567,
+          "group_bootstrap_95_percent": [
+            0.9485786199569702,
+            1.92265727519989
+          ]
+        },
+        "opposite_minus_same": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 10.807723999023438,
+          "factor_group_mean": 10.594216346740723,
+          "group_bootstrap_95_percent": [
+            9.28714578151703,
+            11.815850949287414
+          ]
+        }
+      },
+      "top_64": {
+        "opposite": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 14.778968811035156,
+          "factor_group_mean": 15.119710922241211,
+          "group_bootstrap_95_percent": [
+            13.638083696365356,
+            16.63753876686096
+          ]
+        },
+        "same": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 1.1883152723312378,
+          "factor_group_mean": 1.4779103994369507,
+          "group_bootstrap_95_percent": [
+            1.0231281042098999,
+            1.9935117155313489
+          ]
+        },
+        "opposite_minus_same": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 13.590653419494629,
+          "factor_group_mean": 13.641801834106445,
+          "group_bootstrap_95_percent": [
+            12.22599129676819,
+            15.112793397903442
+          ]
+        }
+      },
+      "top_384": {
+        "opposite": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 16.142518997192383,
+          "factor_group_mean": 16.36040496826172,
+          "group_bootstrap_95_percent": [
+            14.992663550376893,
+            17.79952621459961
+          ]
+        },
+        "same": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 1.374159336090088,
+          "factor_group_mean": 1.612200140953064,
+          "group_bootstrap_95_percent": [
+            1.1155144631862641,
+            2.235713475942611
+          ]
+        },
+        "opposite_minus_same": {
+          "inputs": 1240,
+          "groups": 202,
+          "input_mean": 14.768356323242188,
+          "factor_group_mean": 14.748202323913574,
+          "group_bootstrap_95_percent": [
+            13.282007455825806,
+            16.12066626548767
+          ]
+        }
+      },
+      "top_16_specificity_minus_random": {
+        "inputs": 1240,
+        "groups": 202,
+        "input_mean": 5.505770206451416,
+        "factor_group_mean": 5.383525371551514,
+        "group_bootstrap_95_percent": [
+          4.4385223388671875,
+          6.348061180114745
+        ]
+      }
+    }
+  },
+  "artifact_sha256": "451e23f35778e2a3f26a91bd2c43ceab5ebd158343375b9dcdc73565ef7aecd5",
+  "limitation": "Targets and donor distances are matched on development data. Other statistics can differ; these tests do not identify a unique mathematical algorithm."
+}

@@ -1,0 +1,10 @@
+{"inputs": 64, "total": 498, "checks": {"native": 0.0, "identity": 0.0, "head_replay": 0.0, "last_state_candidate_replay": 0.0}}
+{"inputs": 128, "total": 498, "checks": {"native": 0.0, "identity": 0.0, "head_replay": 0.0, "last_state_candidate_replay": 0.0}}
+{"inputs": 192, "total": 498, "checks": {"native": 0.0, "identity": 0.0, "head_replay": 0.0, "last_state_candidate_replay": 0.0}}
+{"inputs": 256, "total": 498, "checks": {"native": 0.0, "identity": 0.0, "head_replay": 0.0, "last_state_candidate_replay": 0.0}}
+{"inputs": 320, "total": 498, "checks": {"native": 0.0, "identity": 0.0, "head_replay": 0.0, "last_state_candidate_replay": 0.0}}
+{"inputs": 384, "total": 498, "checks": {"native": 0.0, "identity": 0.0, "head_replay": 0.0, "last_state_candidate_replay": 0.0}}
+{"inputs": 448, "total": 498, "checks": {"native": 0.0, "identity": 0.0, "head_replay": 0.0, "last_state_candidate_replay": 0.0}}
+{"inputs": 498, "total": 498, "checks": {"native": 0.0, "identity": 0.0, "head_replay": 0.0, "last_state_candidate_replay": 0.0}}
+{"status": "completed", "inputs": 498, "pairs": 249, "checks": {"native": 0.0, "identity": 0.0, "head_replay": 0.0, "last_state_candidate_replay": 0.0}}
+{"name": "multistage_path_trace_all_heads", "status": "completed", "wall_seconds": 6.745304281124845, "gpu_seconds_charged": 6.745304281124845, "gpu_charge_scope": "Entire timed process", "exact_queries": 0}

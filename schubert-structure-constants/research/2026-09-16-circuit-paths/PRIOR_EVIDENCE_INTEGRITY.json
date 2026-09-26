@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "source_sha256": "e622ac8eedfcde9dd0f440202b46ff28f70b67cf18ff2c3515a32646bace75c3",
+  "prior_manifests": {
+    "2026-09-13-autoresearch-circuits": {
+      "files": 54,
+      "manifest_sha256": "d6c4a3e5aaeec04da2ec409765da5024d2023504032353e7ea55da94f5892423"
+    },
+    "2026-09-13-witness-accuracy": {
+      "files": 63,
+      "manifest_sha256": "90aa03822db256cadf3805cab51309c83e368c10f2dbe4290cc83a2d89bd7b73"
+    },
+    "2026-09-13-circuit-readiness": {
+      "files": 156,
+      "manifest_sha256": "8a3a11a7e12e0ebed718645f6e10c7385a7a66c0cbb92d1a0de2cd963e3a8c90"
+    },
+    "2026-09-14-reliable-circuits": {
+      "files": 705,
+      "manifest_sha256": "cd14653c2f33dee8fcae4bbdeb9fa4046ca2c7f5c7d0700379b6a1a0b43d9729"
+    },
+    "2026-09-14-richardson-circuits": {
+      "files": 474,
+      "manifest_sha256": "f7da84cbfc0817045e1ba2e588da170d13fd625fc886ee3428af7f7f6d3b67c7"
+    },
+    "2026-09-14-full-circuits": {
+      "files": 661,
+      "manifest_sha256": "bce22b13cf19707e4f094046232a5fbb64a86f38b1b42f61fb69d2651306f4b5"
+    }
+  },
+  "manuscript_pdf_sha256": "1bb1c40c018df10338145103be651ef63e0929d6ec505e86a90cdfe882272347"
+}

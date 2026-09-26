@@ -1,0 +1,755 @@
+{
+  "role": "All eight retained matched development pairs; no case omission",
+  "source_sha256": "5d5a9c20cc8a9c8ac9d7722bc275078c9d3420fa50333bc4269596eddc5c3624",
+  "cases": [
+    {
+      "n": 10,
+      "u": [
+        1,
+        5,
+        7,
+        2,
+        6,
+        3,
+        4,
+        8,
+        9,
+        10
+      ],
+      "v": [
+        1,
+        8,
+        2,
+        3,
+        6,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "candidate_indices": [
+        5,
+        7
+      ],
+      "retained_source_rows": [
+        686,
+        687
+      ],
+      "members": [
+        {
+          "w": [
+            1,
+            10,
+            6,
+            3,
+            7,
+            2,
+            4,
+            5,
+            8,
+            9
+          ],
+          "supplied_index": 4,
+          "positive_A_indices": [
+            4
+          ],
+          "positive_B_indices": [
+            7
+          ],
+          "native_choice": 7,
+          "path_top32_choice": 7,
+          "path_all_units_choice": 5,
+          "top32_path_later_attention_blocked_choice": 7,
+          "top32_path_later_mlps_blocked_choice": 7
+        },
+        {
+          "w": [
+            2,
+            10,
+            6,
+            1,
+            7,
+            3,
+            4,
+            5,
+            8,
+            9
+          ],
+          "supplied_index": 4,
+          "positive_A_indices": [
+            4
+          ],
+          "positive_B_indices": [
+            5
+          ],
+          "native_choice": 5,
+          "path_top32_choice": 7,
+          "path_all_units_choice": 7,
+          "top32_path_later_attention_blocked_choice": 5,
+          "top32_path_later_mlps_blocked_choice": 5
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "u": [
+        1,
+        5,
+        7,
+        2,
+        6,
+        3,
+        4,
+        8,
+        9,
+        10
+      ],
+      "v": [
+        1,
+        8,
+        2,
+        3,
+        6,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "candidate_indices": [
+        5,
+        7
+      ],
+      "retained_source_rows": [
+        688,
+        689
+      ],
+      "members": [
+        {
+          "w": [
+            2,
+            10,
+            7,
+            1,
+            5,
+            3,
+            4,
+            6,
+            8,
+            9
+          ],
+          "supplied_index": 4,
+          "positive_A_indices": [
+            4
+          ],
+          "positive_B_indices": [
+            5
+          ],
+          "native_choice": 5,
+          "path_top32_choice": 7,
+          "path_all_units_choice": 7,
+          "top32_path_later_attention_blocked_choice": 5,
+          "top32_path_later_mlps_blocked_choice": 5
+        },
+        {
+          "w": [
+            1,
+            10,
+            7,
+            3,
+            5,
+            2,
+            4,
+            6,
+            8,
+            9
+          ],
+          "supplied_index": 4,
+          "positive_A_indices": [
+            4
+          ],
+          "positive_B_indices": [
+            7
+          ],
+          "native_choice": 7,
+          "path_top32_choice": 7,
+          "path_all_units_choice": 5,
+          "top32_path_later_attention_blocked_choice": 7,
+          "top32_path_later_mlps_blocked_choice": 7
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "u": [
+        1,
+        5,
+        7,
+        2,
+        6,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11
+      ],
+      "v": [
+        1,
+        8,
+        2,
+        3,
+        6,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11
+      ],
+      "candidate_indices": [
+        5,
+        7
+      ],
+      "retained_source_rows": [
+        1130,
+        1131
+      ],
+      "members": [
+        {
+          "w": [
+            2,
+            11,
+            5,
+            1,
+            7,
+            3,
+            4,
+            6,
+            8,
+            9,
+            10
+          ],
+          "supplied_index": 4,
+          "positive_A_indices": [
+            4
+          ],
+          "positive_B_indices": [
+            5
+          ],
+          "native_choice": 5,
+          "path_top32_choice": 5,
+          "path_all_units_choice": 5,
+          "top32_path_later_attention_blocked_choice": 5,
+          "top32_path_later_mlps_blocked_choice": 5
+        },
+        {
+          "w": [
+            1,
+            11,
+            5,
+            3,
+            7,
+            2,
+            4,
+            6,
+            8,
+            9,
+            10
+          ],
+          "supplied_index": 4,
+          "positive_A_indices": [
+            4,
+            6
+          ],
+          "positive_B_indices": [
+            7
+          ],
+          "native_choice": 7,
+          "path_top32_choice": 7,
+          "path_all_units_choice": 5,
+          "top32_path_later_attention_blocked_choice": 7,
+          "top32_path_later_mlps_blocked_choice": 7
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "u": [
+        3,
+        6,
+        4,
+        1,
+        7,
+        5,
+        8,
+        2,
+        10,
+        9,
+        11
+      ],
+      "v": [
+        1,
+        7,
+        2,
+        3,
+        10,
+        4,
+        8,
+        5,
+        9,
+        6,
+        11
+      ],
+      "candidate_indices": [
+        6,
+        9
+      ],
+      "retained_source_rows": [
+        2630,
+        2631
+      ],
+      "members": [
+        {
+          "w": [
+            3,
+            10,
+            4,
+            2,
+            11,
+            5,
+            8,
+            1,
+            9,
+            6,
+            7
+          ],
+          "supplied_index": 5,
+          "positive_A_indices": [
+            2,
+            5
+          ],
+          "positive_B_indices": [
+            6
+          ],
+          "native_choice": 6,
+          "path_top32_choice": 9,
+          "path_all_units_choice": 9,
+          "top32_path_later_attention_blocked_choice": 6,
+          "top32_path_later_mlps_blocked_choice": 6
+        },
+        {
+          "w": [
+            4,
+            10,
+            3,
+            1,
+            11,
+            5,
+            8,
+            2,
+            9,
+            6,
+            7
+          ],
+          "supplied_index": 5,
+          "positive_A_indices": [
+            2,
+            5
+          ],
+          "positive_B_indices": [
+            9
+          ],
+          "native_choice": 9,
+          "path_top32_choice": 6,
+          "path_all_units_choice": 9,
+          "top32_path_later_attention_blocked_choice": 9,
+          "top32_path_later_mlps_blocked_choice": 9
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "u": [
+        3,
+        6,
+        4,
+        1,
+        7,
+        5,
+        8,
+        2,
+        10,
+        9,
+        11
+      ],
+      "v": [
+        1,
+        7,
+        2,
+        3,
+        10,
+        4,
+        8,
+        5,
+        9,
+        6,
+        11
+      ],
+      "candidate_indices": [
+        6,
+        9
+      ],
+      "retained_source_rows": [
+        2634,
+        2635
+      ],
+      "members": [
+        {
+          "w": [
+            3,
+            10,
+            4,
+            2,
+            11,
+            5,
+            9,
+            1,
+            7,
+            6,
+            8
+          ],
+          "supplied_index": 5,
+          "positive_A_indices": [
+            2,
+            5
+          ],
+          "positive_B_indices": [
+            6
+          ],
+          "native_choice": 6,
+          "path_top32_choice": 6,
+          "path_all_units_choice": 9,
+          "top32_path_later_attention_blocked_choice": 6,
+          "top32_path_later_mlps_blocked_choice": 6
+        },
+        {
+          "w": [
+            4,
+            10,
+            3,
+            1,
+            11,
+            5,
+            9,
+            2,
+            7,
+            6,
+            8
+          ],
+          "supplied_index": 5,
+          "positive_A_indices": [
+            2,
+            5
+          ],
+          "positive_B_indices": [
+            9
+          ],
+          "native_choice": 9,
+          "path_top32_choice": 6,
+          "path_all_units_choice": 6,
+          "top32_path_later_attention_blocked_choice": 9,
+          "top32_path_later_mlps_blocked_choice": 9
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "u": [
+        3,
+        6,
+        4,
+        1,
+        7,
+        5,
+        8,
+        2,
+        10,
+        9,
+        11
+      ],
+      "v": [
+        1,
+        7,
+        2,
+        3,
+        10,
+        4,
+        8,
+        5,
+        9,
+        6,
+        11
+      ],
+      "candidate_indices": [
+        6,
+        9
+      ],
+      "retained_source_rows": [
+        2636,
+        2637
+      ],
+      "members": [
+        {
+          "w": [
+            3,
+            10,
+            4,
+            2,
+            11,
+            6,
+            8,
+            1,
+            7,
+            5,
+            9
+          ],
+          "supplied_index": 5,
+          "positive_A_indices": [
+            2,
+            5
+          ],
+          "positive_B_indices": [
+            6
+          ],
+          "native_choice": 6,
+          "path_top32_choice": 9,
+          "path_all_units_choice": 9,
+          "top32_path_later_attention_blocked_choice": 6,
+          "top32_path_later_mlps_blocked_choice": 6
+        },
+        {
+          "w": [
+            4,
+            10,
+            3,
+            1,
+            11,
+            6,
+            8,
+            2,
+            7,
+            5,
+            9
+          ],
+          "supplied_index": 5,
+          "positive_A_indices": [
+            2,
+            5
+          ],
+          "positive_B_indices": [
+            9
+          ],
+          "native_choice": 9,
+          "path_top32_choice": 6,
+          "path_all_units_choice": 9,
+          "top32_path_later_attention_blocked_choice": 9,
+          "top32_path_later_mlps_blocked_choice": 9
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "u": [
+        1,
+        3,
+        8,
+        2,
+        6,
+        4,
+        7,
+        5,
+        9,
+        10
+      ],
+      "v": [
+        1,
+        6,
+        2,
+        3,
+        7,
+        5,
+        8,
+        4,
+        9,
+        10
+      ],
+      "candidate_indices": [
+        4,
+        5
+      ],
+      "retained_source_rows": [
+        3526,
+        3527
+      ],
+      "members": [
+        {
+          "w": [
+            1,
+            10,
+            5,
+            2,
+            6,
+            4,
+            8,
+            3,
+            7,
+            9
+          ],
+          "supplied_index": 5,
+          "positive_A_indices": [
+            2,
+            5,
+            7
+          ],
+          "positive_B_indices": [
+            5
+          ],
+          "native_choice": 5,
+          "path_top32_choice": 5,
+          "path_all_units_choice": 5,
+          "top32_path_later_attention_blocked_choice": 5,
+          "top32_path_later_mlps_blocked_choice": 5
+        },
+        {
+          "w": [
+            2,
+            10,
+            5,
+            1,
+            6,
+            4,
+            7,
+            3,
+            8,
+            9
+          ],
+          "supplied_index": 5,
+          "positive_A_indices": [
+            5
+          ],
+          "positive_B_indices": [
+            4
+          ],
+          "native_choice": 4,
+          "path_top32_choice": 4,
+          "path_all_units_choice": 5,
+          "top32_path_later_attention_blocked_choice": 4,
+          "top32_path_later_mlps_blocked_choice": 4
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "u": [
+        1,
+        4,
+        3,
+        8,
+        2,
+        10,
+        6,
+        5,
+        9,
+        7,
+        11,
+        12
+      ],
+      "v": [
+        7,
+        1,
+        2,
+        6,
+        3,
+        9,
+        4,
+        8,
+        5,
+        10,
+        11,
+        12
+      ],
+      "candidate_indices": [
+        5,
+        6,
+        8
+      ],
+      "retained_source_rows": [
+        4754,
+        4755
+      ],
+      "members": [
+        {
+          "w": [
+            10,
+            1,
+            4,
+            9,
+            3,
+            12,
+            2,
+            6,
+            5,
+            7,
+            8,
+            11
+          ],
+          "supplied_index": 7,
+          "positive_A_indices": [
+            3,
+            5,
+            7
+          ],
+          "positive_B_indices": [
+            6
+          ],
+          "native_choice": 6,
+          "path_top32_choice": 6,
+          "path_all_units_choice": 5,
+          "top32_path_later_attention_blocked_choice": 6,
+          "top32_path_later_mlps_blocked_choice": 6
+        },
+        {
+          "w": [
+            10,
+            3,
+            1,
+            9,
+            4,
+            12,
+            2,
+            6,
+            5,
+            7,
+            8,
+            11
+          ],
+          "supplied_index": 7,
+          "positive_A_indices": [
+            2,
+            7
+          ],
+          "positive_B_indices": [
+            5
+          ],
+          "native_choice": 5,
+          "path_top32_choice": 5,
+          "path_all_units_choice": 6,
+          "top32_path_later_attention_blocked_choice": 5,
+          "top32_path_later_mlps_blocked_choice": 5
+        }
+      ]
+    }
+  ]
+}

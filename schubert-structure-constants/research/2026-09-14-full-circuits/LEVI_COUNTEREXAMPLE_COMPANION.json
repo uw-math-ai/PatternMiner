@@ -1,0 +1,130 @@
+{
+  "status": "completed",
+  "rows": [
+    120,
+    121
+  ],
+  "u": [
+    1,
+    7,
+    4,
+    2,
+    5,
+    3,
+    9,
+    8,
+    6,
+    10
+  ],
+  "v": [
+    6,
+    1,
+    7,
+    5,
+    2,
+    3,
+    8,
+    4,
+    9,
+    10
+  ],
+  "w": [
+    6,
+    8,
+    10,
+    2,
+    3,
+    4,
+    7,
+    1,
+    5,
+    9
+  ],
+  "common_positive_supplied_indices": [
+    6
+  ],
+  "original_candidate_features_equal": true,
+  "candidate_indices": [
+    4,
+    5
+  ],
+  "source_valid_indices": [
+    5
+  ],
+  "companion_valid_indices": [
+    4
+  ],
+  "source_maximum_violations": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "companion_maximum_violations": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "retained_coefficients": [
+    [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "exact_product_queries": 0
+}

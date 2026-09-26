@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-25",
+  "scope": "Selected publication bundle; checksums are integrity checks, not mathematical proof.",
+  "exclusions": [
+    "MANIFEST.json",
+    "__pycache__/",
+    "*.pyc",
+    "replay-output/",
+    ".DS_Store"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 63,
+      "sha256": "e5986e142a4add36ba1144ca12f4ece23fea6403eacd254275b30fb2de3ff558"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2974,
+      "sha256": "44d907cd2c448c68f34f78efd9fa309e58388b197fb65db890856680b9da708f"
+    },
+    {
+      "path": "graphs/README.md",
+      "bytes": 5273,
+      "sha256": "ec8af50f11d2131921d28dbdb5b35ca67ba45e5d08664fcc6ccfb77e0accab77"
+    },
+    {
+      "path": "graphs/fig1_accuracy_vs_baseline.pdf",
+      "bytes": 20019,
+      "sha256": "c5cac79ae51ef25f364d012314c355dd1059f97340636280559ebb448dc96684"
+    },
+    {
+      "path": "graphs/fig1_accuracy_vs_baseline.png",
+      "bytes": 105743,
+      "sha256": "1df3e2709e9bebf9a1c5dbc5368bc5ea07f2c63845247bef96439b2997fcade7"
+    },
+    {
+      "path": "graphs/fig2_withheld_pair.pdf",
+      "bytes": 23752,
+      "sha256": "b598d1df6d4acd5a71c00ffb9fb69403437f2cc366ee83109a40317242a67d90"
+    },
+    {
+      "path": "graphs/fig2_withheld_pair.png",
+      "bytes": 102879,
+      "sha256": "06c8b07a264f890ccc629a02b0f579cd457237dba3f91780b777bebcc73ff06b"
+    },
+    {
+      "path": "graphs/fig3_feature_comparison.pdf",
+      "bytes": 19863,
+      "sha256": "e8e046a89b5a97a3499f5b982b64378ae27618d337a3da6a9b90e671602a8f68"
+    },
+    {
+      "path": "graphs/fig3_feature_comparison.png",
+      "bytes": 150495,
+      "sha256": "0a6b2806969b21f372410692b5975858827dccf1d158e1bc224122a1b005929a"
+    },
+    {
+      "path": "graphs/fig4_source_sensitivity.pdf",
+      "bytes": 20147,
+      "sha256": "9d02d8c707c6051efa97d069912fc9ab9ac1ad906552a3e51649a05d3cff0bf4"
+    },
+    {
+      "path": "graphs/fig4_source_sensitivity.png",
+      "bytes": 120388,
+      "sha256": "06d5251559ad613884036beefbe10efd0e54a824a9441c53e5b832639778149d"
+    },
+    {
+      "path": "graphs/generate.py",
+      "bytes": 12179,
+      "sha256": "88c7d1abf1b9c2f26f870dadcbfe5b5d7a61884a26a124ac58e64816b102fc87"
+    },
+    {
+      "path": "graphs/plot_data.json",
+      "bytes": 9427,
+      "sha256": "00a23631948d166d30556b37572ad2ecdbf9a6b1b2c540f108ea5f1ab848c4fa"
+    },
+    {
+      "path": "paper/proofs.md",
+      "bytes": 36086,
+      "sha256": "457a604aa0d180719b5199e530256d98a48b83e8f9191ce70dedd5b8914860d5"
+    },
+    {
+      "path": "paper/results.md",
+      "bytes": 9847,
+      "sha256": "183ffb884df6cfe54170cdd31111474a0ae9fb4b42d1f3835da437ababed06c2"
+    },
+    {
+      "path": "research/SOURCE_MAP.json",
+      "bytes": 29123,
+      "sha256": "c9343275228422841b37bbb7164d1aca3654239c53aaaf2a45859df27fb31afb"
+    },
+    {
+      "path": "research/artifacts/historical/descent.json",
+      "bytes": 693,
+      "sha256": "dc1ec0d6ba239a2f7cd31ec85b8129d00d75b2169bba49c69b758a926657f8a3"
+    },
+    {
+      "path": "research/artifacts/historical/heredity.json",
+      "bytes": 752,
+      "sha256": "798e7dbf2936749bab32aed48b1f4e9cb93fc29a24fa4563a4f2ff41ee93aca5"
+    },
+    {
+      "path": "research/artifacts/publication_replay.json",
+      "bytes": 22625,
+      "sha256": "4d8632ff500b4a30984882788d059b084ac8b5c477caa5e209128ba659b7dd88"
+    },
+    {
+      "path": "research/e046_config.json",
+      "bytes": 1473,
+      "sha256": "7593a9d52101e90c75615259027afb169e5ef9ad070f65a6dd0d8fb16bc68669"
+    },
+    {
+      "path": "research/src/coefficient_eight.py",
+      "bytes": 951,
+      "sha256": "9e052e151ec87f2a8e7f89b66ca37325160f5f6d192f6742b7c087153026bbc4"
+    },
+    {
+      "path": "research/src/cover_features.py",
+      "bytes": 509,
+      "sha256": "1f8a7b2f345ee13629a47ee917e2212aec8a8cb02821ba125c2778076bb184b9"
+    },
+    {
+      "path": "research/src/descent_controls.py",
+      "bytes": 6045,
+      "sha256": "7deb7d433d3f9eec0e76d15b2ac63e764db548c649129758e9cb2160195ed129"
+    },
+    {
+      "path": "research/src/e046_replay.py",
+      "bytes": 1242,
+      "sha256": "f5ef16ef29c31195ded1ecea9ae47385b4ee21cac1b7145da8ea9973b8b8e236"
+    },
+    {
+      "path": "research/src/exact_kl.py",
+      "bytes": 1711,
+      "sha256": "dffe9ba258431f5e2fd1269b14577a5bd5c404adca0201c74829e48af17cf5ed"
+    },
+    {
+      "path": "research/src/heredity_controls.py",
+      "bytes": 5378,
+      "sha256": "61914af03d5188f4e02dad9754734edb20941cd6f3840993d0a0a72c16a81076"
+    },
+    {
+      "path": "research/src/independent_kl.py",
+      "bytes": 1682,
+      "sha256": "b34ca86198e52581802dbce3261d84c1cdd4641dde0f4ba308a04a861b17a26d"
+    },
+    {
+      "path": "research/src/kl_type_a.py",
+      "bytes": 902,
+      "sha256": "aaa1a37b78cd9552b9c7e15329b5c81f5277557d05f364ecfbd35b9df2043382"
+    },
+    {
+      "path": "research/src/placement_dataset.py",
+      "bytes": 4628,
+      "sha256": "e06a41a8a7f490d4e747f096e8bd868bb8a28e2156d17218f17b51994056c280"
+    },
+    {
+      "path": "research/src/rank_defect.py",
+      "bytes": 146,
+      "sha256": "2caa58954e735fbbbbd306702938a917b46d729cdd0b5ff68548f5f35e5fac0a"
+    },
+    {
+      "path": "research/src/support_controls.py",
+      "bytes": 3172,
+      "sha256": "eec3dfb5386d14408feb9c1be4dfb2bdf0548820a920cc1f9a589ded0ab6a171"
+    },
+    {
+      "path": "tools/replay.py",
+      "bytes": 2616,
+      "sha256": "b94902810997cd092c162148bce65f6e9293b79a4a7399c45918bb0d6416263b"
+    },
+    {
+      "path": "tools/verify_bundle.py",
+      "bytes": 6792,
+      "sha256": "666e81aa9e3ed2db218f10dba680f329eae9ce12a477901b8c2f27be7aedb226"
+    }
+  ]
+}

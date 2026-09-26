@@ -1,0 +1,2 @@
+{"status": "completed", "independently_qualified": false, "formal_status": "not_started", "development_pairs": 5445, "fixed_32_to_full_mean_effect_ratio": 0.6735466177339288}
+{"name": "summarize_final_results", "status": "completed", "wall_seconds": 1.9053406319580972, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

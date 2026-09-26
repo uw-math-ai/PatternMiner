@@ -1,0 +1,512 @@
+{
+  "source_checkpoint": "[withheld for anonymous review]",
+  "source_path_convention": "Paths relative to the original problem research-notes directory; no private checkout is required.",
+  "files": [
+    {
+      "destination": "research/src/width_two_controls.py",
+      "source": "audits/A-T053-20260922-independent.py",
+      "source_sha256": "15bbc5d6a6587db3d1cba0dc12f0e97c479dfee2071e69ff7db3beb06a130bbe",
+      "published_sha256": "544a29b0adad016ca84fea2b19959cd6cd1ddbb622cf03fc93d087fda97a4847",
+      "mode": "scoped-adaptation",
+      "details": {
+        "replacements": [
+          [
+            "    path=Path(__file__).with_name('A-T053-20260922-independent.json');path.write_text(json.dumps(output,indent=2)+'\\n')\n",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "destination": "research/artifacts/historical/width_two.json",
+      "source": "audits/A-T053-20260922-independent.json",
+      "source_sha256": "afcd00bb3d9782b7762ba85f94b8b79d89e691bc4fc18c42e9c0352fc8754a8e",
+      "published_sha256": "afcd00bb3d9782b7762ba85f94b8b79d89e691bc4fc18c42e9c0352fc8754a8e",
+      "mode": "verbatim",
+      "details": null
+    },
+    {
+      "destination": "research/artifacts/historical/rectangles.json",
+      "source": "experiments/T053-rectangle-witnesses.json",
+      "source_sha256": "0ed6ab115c699ed799a9e6d11099fafc51a499615ba4e97977a2b1ec0cf12473",
+      "published_sha256": "0ed6ab115c699ed799a9e6d11099fafc51a499615ba4e97977a2b1ec0cf12473",
+      "mode": "verbatim",
+      "details": null
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/T002-prefix-fiber-constancy.md",
+      "source_sha256": "9dcaf664d64959a5abcd3b3a7b9519bb770e1ec9cb3c1c697c1786e94e46be1c",
+      "published_sha256": "b1c761290be34e02904c9fadf41d0751461cb96ec0849790351fbd72b1330f3f",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": "## Consequences and boundary checks",
+        "replacements": [],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#prefix-fibers",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/T003-local-mobius-formula.md",
+      "source_sha256": "ce02c1d003103347cb4075efe177a5b437fe0baf85f3ae762924aedabe403596",
+      "published_sha256": "b1c761290be34e02904c9fadf41d0751461cb96ec0849790351fbd72b1330f3f",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": "## Significance",
+        "replacements": [],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#corner-inversion",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/width-two-content-series-lemma.md",
+      "source_sha256": "f9669ee99e4ce57520f7f504933dc9e8926a461d30dbe215e06f905883ee7cb9",
+      "published_sha256": "b1c761290be34e02904c9fadf41d0751461cb96ec0849790351fbd72b1330f3f",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": "## Exact controls and remaining task",
+        "replacements": [],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#content-series",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/width-two-path-factorization-lemma.md",
+      "source_sha256": "8da63524f0fd548fdd76f85e3066cf4a9448a717595e878a764f83c316cfb17d",
+      "published_sha256": "b1c761290be34e02904c9fadf41d0751461cb96ec0849790351fbd72b1330f3f",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": "The [exact identity checker]",
+        "replacements": [],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#path-factors",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/T051-unrestricted-two-one-tail-positivity.md",
+      "source_sha256": "f21bcc14d150abd0032094cb6c780943c2a03894dcf42212252d3fde46743355",
+      "published_sha256": "b1c761290be34e02904c9fadf41d0751461cb96ec0849790351fbd72b1330f3f",
+      "mode": "proof-section-extraction",
+      "details": {
+        "section": "One-removal sets on a legal corner cube",
+        "publication_section": "#loss-geometry",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "paper/proofs.md",
+      "source": "theorems/T053-unrestricted-width-two-positivity.md",
+      "source_sha256": "fb3a61edd573d9d93078568912335ba2551ca9ced3e5782c292e2e1f5c898477",
+      "published_sha256": "b1c761290be34e02904c9fadf41d0751461cb96ec0849790351fbd72b1330f3f",
+      "mode": "proof-excerpt-and-formatting",
+      "details": {
+        "stop_before": "## Originating exact controls",
+        "replacements": [
+          [
+            "Use the geometry proved in T051 and T052.",
+            "Use the [loss-set geometry](loss_geometry.md) extracted from T051."
+          ],
+          [
+            "By T002,",
+            "By [prefix-fiber constancy](prefix_fibers.md),"
+          ],
+          [
+            "T003 supplies",
+            "[Corner inversion](corner_inversion.md) supplies"
+          ]
+        ],
+        "formatting": "GitHub math fences and protected inline math; publication scope notice",
+        "publication_section": "#integrated-proof",
+        "consolidation": "Combined in one proof document; headings nested and internal links normalized.",
+        "formatting_review": "Blank lines around display-math fences normalized; one final newline; literal less-than signs in TeX replaced with \\lt for GitHub rendering."
+      }
+    },
+    {
+      "destination": "research/src/origin_stump.py",
+      "source": "experiments/rank6_gap_stump_diagnostic.py",
+      "source_sha256": "e535c821822a9e9749de33c312f1ff6fec62b9bc6f884453aa465b8dc91b7290",
+      "published_sha256": "16500b1b7e6e23b87333cb0612ac7ebba074d5fae7f38828469c4ff0004ec135",
+      "mode": "definition-extraction",
+      "details": {
+        "definitions": {
+          "prediction": "0240fe23d647c22cb3f7dd9796c1b4a3f3912215351688fa11bec4d584abd4cd",
+          "metrics": "165322fcb725176618da9da434e871f08844d6cd3bf2fd7d716fdc388668d032"
+        }
+      }
+    },
+    {
+      "destination": "research/src/origin_tree.py",
+      "source": "experiments/rank6_gap_tree_revision.py",
+      "source_sha256": "d063db863e906553250d0f8cba41ea8cb147df520fd9195a90a09a205f216662",
+      "published_sha256": "566ad98a9cc397ae8ffda8ec98c50232dcf0dba3dc32e19588bdcf97176fcfcf",
+      "mode": "definition-extraction",
+      "details": {
+        "definitions": {
+          "fit": "2545518c022c8fe835b9062eec6f3102d52e9ed1e0a9cd94905bdb805c3205ef",
+          "predict": "0f96222588d5d315cf82a54b3dc37f4f62e0e7323fab91e09f99064543a84d0e"
+        }
+      }
+    },
+    {
+      "destination": "research/artifacts/historical/origin_stump.json",
+      "source": "experiments/E031-stump-results.json",
+      "source_sha256": "c138f182ce0923fafcc5f5ecfd5188f68231700e11294a0638d0f2cc750312f4",
+      "published_sha256": "c138f182ce0923fafcc5f5ecfd5188f68231700e11294a0638d0f2cc750312f4",
+      "mode": "verbatim",
+      "details": null
+    },
+    {
+      "destination": "research/artifacts/historical/origin_tree.json",
+      "source": "experiments/E031-tree-revision-results.json",
+      "source_sha256": "21a3a711bc5a77a4d008177c83d2d8a3b1ab82defedce45b6678e71c5d541192",
+      "published_sha256": "21a3a711bc5a77a4d008177c83d2d8a3b1ab82defedce45b6678e71c5d541192",
+      "mode": "verbatim",
+      "details": null
+    },
+    {
+      "destination": "research/artifacts/historical/origin_pilot.json",
+      "source": "experiments/E031-gap-crossing-pilot.json",
+      "source_sha256": "8d29ffda8ac1147c3c81f1bf828e5b440c5508c4b9e9bd4169626fac9f6a3dda",
+      "published_sha256": "8d29ffda8ac1147c3c81f1bf828e5b440c5508c4b9e9bd4169626fac9f6a3dda",
+      "mode": "verbatim",
+      "details": null
+    },
+    {
+      "destination": "research/artifacts/historical/origin_genuine_targets.json",
+      "source": "experiments/E031-genuine-targets.json",
+      "source_sha256": "ca431caff5ba0f94e98575129affd226d3b6a055d1006a87842b96628fd068fe",
+      "published_sha256": "ca431caff5ba0f94e98575129affd226d3b6a055d1006a87842b96628fd068fe",
+      "mode": "verbatim",
+      "details": null
+    }
+  ],
+  "historical_review_sources": [
+    {
+      "source": "audits/A-T053-20260922-review.md",
+      "sha256": "48cacddcdba949d919e845188c510b082785be19fd2a4b3a98debb2003fa15cf",
+      "scope": "Historical internal proof review; not external peer review. Full review retained in the source campaign, not exported."
+    }
+  ],
+  "campaign_index": {
+    "unit": "Distinct E-prefixed IDs with Markdown experiment reports; not sessions, executions, or model fits",
+    "experiment_ids": 32,
+    "report_files": 34,
+    "scope": "Inventory only; unexported reports are not reproduced or certified by this bundle",
+    "experiments": [
+      {
+        "id": "E001",
+        "reports": [
+          {
+            "source": "experiments/E001-small-cone-search.md",
+            "sha256": "15790aee2f60bcde5beb48b26d0b4050ddc451d913ba0ccac8d5a812e489867b"
+          }
+        ]
+      },
+      {
+        "id": "E002",
+        "reports": [
+          {
+            "source": "experiments/E002-prefix-mobius.md",
+            "sha256": "8e56ada69c50ed70d1535f307ecc2ac6968e3c448c52a6891e0b5929351b4d33"
+          }
+        ]
+      },
+      {
+        "id": "E003",
+        "reports": [
+          {
+            "source": "experiments/E003-hook-cancellation.md",
+            "sha256": "8253e9ea1dd441e6997fd61e6b1a3e745a635a219dd19e303c64faff86399f95"
+          }
+        ]
+      },
+      {
+        "id": "E004",
+        "reports": [
+          {
+            "source": "experiments/E004-next-two-row-reconnaissance.md",
+            "sha256": "3be6d1d75f985c2b6e5864a5f06b06ab5891c177464b658f802bc3c45c598f5b"
+          }
+        ]
+      },
+      {
+        "id": "E005",
+        "reports": [
+          {
+            "source": "experiments/E005-tight-drop-state.md",
+            "sha256": "ae382d3f5d1fd109b1e460092b9dd0315e510da0fd9252a0e153ebaa21aaa1d8"
+          }
+        ]
+      },
+      {
+        "id": "E006",
+        "reports": [
+          {
+            "source": "experiments/E006-minimal-conjugacy-repair.md",
+            "sha256": "436a4b5e5582ba9030a4da907a0d4fa47ab9338b957506826889efcd1ab2d425"
+          }
+        ]
+      },
+      {
+        "id": "E007",
+        "reports": [
+          {
+            "source": "experiments/E007-inversion-versus-conjugacy.md",
+            "sha256": "01db3deb62c335b627e0729a9fcaf3728242bb3f0e9a9369e69ba2be59d9ff47"
+          }
+        ]
+      },
+      {
+        "id": "E008",
+        "reports": [
+          {
+            "source": "experiments/E008-rank-three-six-weight-lemma.md",
+            "sha256": "4c8afb07049e8cdda6f67a5537c250396ea5e8e9950e6023535d7c37bc494cbc"
+          }
+        ]
+      },
+      {
+        "id": "E009",
+        "reports": [
+          {
+            "source": "experiments/E009-rank-four-pairing.md",
+            "sha256": "b3daf213e685519e305dd3cb35f3596595db2486050cd31d43ba5b7e27a5c7d5"
+          }
+        ]
+      },
+      {
+        "id": "E010",
+        "reports": [
+          {
+            "source": "experiments/E010-rank-five-feasibility.md",
+            "sha256": "1578aa30994cd044f1c56f1f2aae0f57cb1fa41528f3b09b69b2a8c19277f785"
+          }
+        ]
+      },
+      {
+        "id": "E011",
+        "reports": [
+          {
+            "source": "experiments/E011-rank-five-class-positivity.md",
+            "sha256": "d0d30dad21987ddfbfa601acfcccae1089a885b1a93321fb7d55facb2c202a8b"
+          }
+        ]
+      },
+      {
+        "id": "E012",
+        "reports": [
+          {
+            "source": "experiments/E012-rank-five-move-connectivity.md",
+            "sha256": "762357feff82b8ff26edfc12c62e4299aaac93a7725e0346903c27595d1fa00e"
+          }
+        ]
+      },
+      {
+        "id": "E013",
+        "reports": [
+          {
+            "source": "experiments/E013-rank-five-degree16-five-one.md",
+            "sha256": "01fdf5de3604af6ffabfb23d59b3665434dee33bac0ba70111ab0189603c3d28"
+          }
+        ]
+      },
+      {
+        "id": "E014",
+        "reports": [
+          {
+            "source": "experiments/E014-rank-five-degree17.md",
+            "sha256": "a851bae6d8a8851373242bf2be35d1b873f643543c915d3c9ed15565908523b3"
+          }
+        ]
+      },
+      {
+        "id": "E015",
+        "reports": [
+          {
+            "source": "experiments/E015-rank-five-degree18.md",
+            "sha256": "1aedf59626f9cc9fdb7026ea87f30b8b76816bc062a3df240641fc282d6146cc"
+          }
+        ]
+      },
+      {
+        "id": "E017",
+        "reports": [
+          {
+            "source": "experiments/E017-rank-five-degree20.md",
+            "sha256": "8dbe916469a246f7d84c49886af6ab7dfcf127548e21f7fc2c8ede7c6af352b3"
+          }
+        ]
+      },
+      {
+        "id": "E018",
+        "reports": [
+          {
+            "source": "experiments/E018-rank-six-generator-reconnaissance.md",
+            "sha256": "2bd45d21bd774ba675d8286b54e3f9c299903ebd9bb2280c615a4620fce240b1"
+          }
+        ]
+      },
+      {
+        "id": "E019",
+        "reports": [
+          {
+            "source": "experiments/E019-rank-six-degree22.md",
+            "sha256": "db7f54f844c3484331207c770a496ff85ff47355831fc715727f338aba327150"
+          }
+        ]
+      },
+      {
+        "id": "E020",
+        "reports": [
+          {
+            "source": "experiments/E020-rank-six-degree23-pruning.md",
+            "sha256": "c1686a3c70628c81420acdf680c2873ec0b753d403de5049d4996ecef6751f46"
+          }
+        ]
+      },
+      {
+        "id": "E021",
+        "reports": [
+          {
+            "source": "experiments/E021-rank-six-degree23-feasible-census.md",
+            "sha256": "c370e4c4cff06c03a9a46ca0d53f5fc81047c58f7804b3bce32f8944db530087"
+          }
+        ]
+      },
+      {
+        "id": "E022",
+        "reports": [
+          {
+            "source": "experiments/E022-rank-six-degree23-positivity.md",
+            "sha256": "236563e240a73f7cc3fcb76f42d5f55f124df82d1d1033444cb31b4227b425a6"
+          }
+        ]
+      },
+      {
+        "id": "E023",
+        "reports": [
+          {
+            "source": "experiments/E023-rank-six-degree23-high-cycle-connectivity.md",
+            "sha256": "afed26f9a61774aef037e0703e3a78ec70b76acc9d83ff4786d8b996ed1bfe45"
+          }
+        ]
+      },
+      {
+        "id": "E024",
+        "reports": [
+          {
+            "source": "experiments/E024-rank-six-degree24-pruning.md",
+            "sha256": "e0e64e13c3ae83d2c8c1863298e67722574758dc75730b4ff280710758c55fc0"
+          }
+        ]
+      },
+      {
+        "id": "E025",
+        "reports": [
+          {
+            "source": "experiments/E025-rank-six-degree24-feasible-census.md",
+            "sha256": "b47d22fd1ae506bdab5c3204701c57989721afb1bc5cc4f3cc6d8d72867745c4"
+          }
+        ]
+      },
+      {
+        "id": "E026",
+        "reports": [
+          {
+            "source": "experiments/E026-rank-six-degree24-positivity.md",
+            "sha256": "967b71827f8a2a60d47f90a68a0a497a84813ed0bcc925ea64e84780316ba791"
+          }
+        ]
+      },
+      {
+        "id": "E027",
+        "reports": [
+          {
+            "source": "experiments/E027-rank-six-degree24-connectivity-pilot.md",
+            "sha256": "b72f4ff0442c4a236a106d609c9d9920cca8e252c1536894f0ca0f50a59dde7d"
+          }
+        ]
+      },
+      {
+        "id": "E028",
+        "reports": [
+          {
+            "source": "experiments/E028-rank-six-degree24-low-slice.md",
+            "sha256": "6ce4d71575fae56354c50bd71411368f773fa4e8712d7a52d264e8bf348c6d49"
+          }
+        ]
+      },
+      {
+        "id": "E029",
+        "reports": [
+          {
+            "source": "experiments/E029-rank-six-degree24-shape-separator.md",
+            "sha256": "b7327f78a70d8e233beca4a744e301d682ab7c8932aa5d0a01acbb0bcff91c26"
+          }
+        ]
+      },
+      {
+        "id": "E030",
+        "reports": [
+          {
+            "source": "experiments/E030-low-slice-gap-boundary.md",
+            "sha256": "10488bb8228a9e76b9ded39068beffb152b90d6aa389750494aa00bc626fcfee"
+          }
+        ]
+      },
+      {
+        "id": "E031",
+        "reports": [
+          {
+            "source": "experiments/E031-gap-crossing-plan.md",
+            "sha256": "e97d199229a92e70f2220fa9bc7ba05673334c5809f0503248c68c85a4c23998"
+          },
+          {
+            "source": "experiments/E031-revision-plan.md",
+            "sha256": "c949e7603db42fb8275062badce0fc1998cd1ebc5b4199bd7fa8eb6b1cd62cb9"
+          },
+          {
+            "source": "experiments/E031-targeted-class-gap-falsification.md",
+            "sha256": "ad1caf5ebf41cac61f14432d80ce2484346ae3ccd102c8bc882aedcf46573e51"
+          }
+        ]
+      },
+      {
+        "id": "E033",
+        "reports": [
+          {
+            "source": "experiments/E033-inert-padding-and-feature-collision.md",
+            "sha256": "6a2168299e8046e30d99bc278342cbea198ad51ad61440032a26d6abc2c15bd9"
+          }
+        ]
+      },
+      {
+        "id": "E034",
+        "reports": [
+          {
+            "source": "experiments/E034-spacing-two-prefix-pilot.md",
+            "sha256": "cfe65407725ee68f1babd8cb6ac93a574e2fb7f6bf61ce7625f44667f77300df"
+          }
+        ]
+      }
+    ]
+  },
+  "manuscript_snapshot": {
+    "archive": "patternmining.zip",
+    "sha256": "3ce3a1c757ce45bf263217da1048da200505c83a2e61a01f4e5463197aa1ff74",
+    "coverage": "paper/results.md#manuscript-coverage-and-accounting"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sources": {
+    "legacy_train": {
+      "rows": 390940,
+      "weight": 0.2
+    },
+    "S8_train": {
+      "rows": 46628,
+      "weight": 0.05
+    },
+    "S9_train": {
+      "rows": 1885078,
+      "weight": 0.5
+    },
+    "S10_train": {
+      "rows": 3722697,
+      "weight": 0.25
+    }
+  },
+  "legacy_sources": [
+    "S7_train",
+    "S8_train",
+    "fresh_train"
+  ],
+  "source_sha256": "66495226b8ffaf8dd90a1bba94d0f2b3b937ad0a19785a1a4de12a52b91a3ac5",
+  "dtype": [
+    [
+      "permutations",
+      "|u1",
+      [
+        3,
+        17
+      ]
+    ],
+    [
+      "n",
+      "|u1"
+    ],
+    [
+      "lengths",
+      "|u1",
+      [
+        3
+      ]
+    ],
+    [
+      "coefficients",
+      "<u2",
+      [
+        2,
+        16
+      ]
+    ],
+    [
+      "group",
+      "<u4"
+    ]
+  ]
+}

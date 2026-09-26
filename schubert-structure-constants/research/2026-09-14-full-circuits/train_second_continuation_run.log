@@ -1,0 +1,18 @@
+{"arm": "second_neighbor_refinement", "initial_criterion": [0.9801223241590215, 0.9984725086041815], "elapsed": 94.55287445383146}
+{"arm": "second_neighbor_refinement", "error_refresh": {"sampled_oriented_triples": 350000, "supplied_inputs": 629426, "incorrect_inputs": 704, "distinct_incorrect_inputs": 663, "retained": 663, "seed": 2026100722, "cap": 16384, "error_balance": {"incorrect_inputs": 663, "factor_orbits": 201, "source_groups": [1, 0, 5, 7, 0, 2, 0, 4, 5, 7, 5, 1, 41, 123], "maximum_unbalanced_factor_fraction": 0.02865761689291101, "maximum_balanced_factor_fraction": 0.06728399281514612, "policy": "Preserve the relative source weights among sources containing errors, then sample canonical factor orbits uniformly within each source and incorrect inputs uniformly within each orbit"}, "step": 0, "sha256": "ab33252263ab039771fa42ad2e8170932c703a3a271b5cf3cc11693f8e546e16"}}
+{"name": "second_neighbor_refinement_training", "status": "failed_or_partial", "wall_seconds": 163.40136938192882, "gpu_seconds_charged": 163.40136938192882, "gpu_charge_scope": "Entire timed process", "exact_queries": 0}
+Traceback (most recent call last):
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/train_second_continuation.py", line 265, in <module>
+    try:status=main(args,budget)
+               ^^^^^^^^^^^^^^^^^
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/train_second_continuation.py", line 199, in main
+    optimizer.zero_grad(set_to_none=True);scaler.scale(loss).backward()
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<conda-env>/lib/python3.11/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "<conda-env>/lib/python3.11/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "<conda-env>/lib/python3.11/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`

@@ -1,0 +1,41 @@
+{
+  "sources": {
+    "legacy_train": {
+      "rows": 390940,
+      "weight": 0.16000000000000003
+    },
+    "S8_train": {
+      "rows": 46628,
+      "weight": 0.04000000000000001
+    },
+    "S9_train": {
+      "rows": 1885078,
+      "weight": 0.4
+    },
+    "S10_train": {
+      "rows": 3722697,
+      "weight": 0.2
+    },
+    "neighborhood_train": {
+      "rows": 429068,
+      "weight": 0.2,
+      "data_sha256": "d17c81b87a8bf465e471d4d18cac1bee3277c7dc567cd3c6b9f0e1e69a920765",
+      "root_targets": {
+        "path": "cache/data/neighborhood_Q.npy",
+        "sha256": "da0e4f225dd086d3f7ddce8428e40014f845706579e7cdd670e29f09399a55b3"
+      },
+      "sampling": {
+        "kind": "uniform_parent_then_factor_then_row",
+        "plan": "NEIGHBOR_PLAN.json",
+        "plan_sha256": "766d0ed3d289a16726d357a61ad2fab433db3eefa6724c3147d84a4f249bab71",
+        "data": "NEIGHBOR_DATA.json",
+        "data_sha256": "17a8fa7547d3dc9b9514b47b3ef72d0c4038dcaf637a2be116aa345e3cf76584"
+      }
+    }
+  },
+  "base_specification_sha256": "42491bad1f73a4a365d62260079649da2b14c99b8760d55dceb0f2f25d9dab99",
+  "base_rows": 6045343,
+  "new_rows": 429068,
+  "data_metadata": "NEIGHBOR_DATA.json",
+  "scope": "Original training prefix plus adaptive, orbit-disjoint factor neighborhoods; equal mass per parent family within the adaptive source"
+}

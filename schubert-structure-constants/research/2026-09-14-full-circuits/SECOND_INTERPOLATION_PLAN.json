@@ -1,0 +1,20 @@
+{
+  "registered_at": "2026-09-15T02:59:56.681044+00:00",
+  "status": "registered_before_comparison_and_second_assessment",
+  "early_checkpoint": "artifacts/second_refinement_weight_study.pt",
+  "early_sha256": "e3458f8647f4983c3ea58fc98287a694391c82e857d75f7b0f18e6c9da0568d1",
+  "final_checkpoint": "artifacts/second_neighbor_refinement_compact.pt",
+  "early_weights": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "selection": "Lexicographic minimum, then mean of the same 27 development accuracies. Prefer final endpoint on exact ties. If endpoint tensors are identical, skip redundant evaluations.",
+  "next": "Apply the previously registered 16 B/Q readouts to the chosen single network; natively verify all 27 criteria; only then open the second independent assessment.",
+  "rationale": "At step 3000 one S10 development population improved while the previously exposed S9 pair population regressed. Compare fixed convex combinations with the retained qualifying step-1500 endpoint.",
+  "role": "Development selection only. No assessment predictions have been read.",
+  "controller_interruption": "Stopped only the waiting selection controller to register this amendment; training continued unchanged.",
+  "previous_controller_sha256": "eb42a3ce21db8a59eb033e61ee22c77f103618d0f22c258307b67241559342a3"
+}

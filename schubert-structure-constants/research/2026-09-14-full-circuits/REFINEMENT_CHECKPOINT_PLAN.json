@@ -1,0 +1,7 @@
+{
+  "status": "fixed_before_later_evaluations",
+  "current_best_step": 3000,
+  "policy": "Retain each subsequent distinct best checkpoint from the already scheduled evaluations, including the present one, without additional validation evaluations.",
+  "possible_followup": "If the final selected model fails development qualification, test the three fixed convex combinations with weights .25, .5 and .75 of the final best and immediately preceding distinct retained best. These are development comparisons; assessment remains unopened until qualification.",
+  "source_sha256": "5abe50688d55c42676a0f294e68a332efa1e3cb44239ef5da3d0e39a4cf960c8"
+}

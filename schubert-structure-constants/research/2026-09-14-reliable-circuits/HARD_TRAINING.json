@@ -1,0 +1,21 @@
+{
+  "populations": {
+    "S8_train": {
+      "pairs": 63,
+      "factor_groups": 31
+    },
+    "S9_train": {
+      "pairs": 3426,
+      "factor_groups": 602
+    },
+    "S10_train": {
+      "pairs": 6310,
+      "factor_groups": 516
+    }
+  },
+  "pairs": 9799,
+  "training_rows": 6045343,
+  "source_sha256": "5c7797c78e3873519cc5b7b239afb17c198a848b35b897018625a0bcd1254794",
+  "pair_sha256": "1e73b44aa7ab10d2c7275f06c0b556dd69cc806a4973e5ca44a83897de11b60f",
+  "scope": "Only new training factor groups; no validation, assessment, or circuit groups"
+}

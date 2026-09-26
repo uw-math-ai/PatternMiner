@@ -1,0 +1,16 @@
+{
+  "1": {
+    "max_error": 0.0,
+    "head_width": 24,
+    "parameters": 161665
+  },
+  "2": {
+    "max_error": 5.0067901611328125e-06,
+    "head_width": 24,
+    "parameters": 618241
+  },
+  "mined_records": {
+    "raw": 4096,
+    "distinct_fixed_witness_inputs": 3622
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "status": "verified",
+  "source_sha256": "073ffc9b62b4967338381e1cb1779527b1b12a81ccdd129accee51f1bda40c2c",
+  "first_counterexample_sha256": "83359be17da17624d9c5a95ec9aa436965afec7587c8ed95154acc446d63b47d",
+  "companion_sha256": "d9e9e747d2114d85202c64a529d39d083077d9dcb0cc82a3f679d39c1d3286b9",
+  "lengths": {
+    "u": 11,
+    "v": 13,
+    "w": 23
+  },
+  "supplied_index": 6,
+  "candidate_indices": [
+    4,
+    5
+  ],
+  "coefficient_vectors": [
+    [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "second_root_coefficients": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0
+  ],
+  "second_cover_coefficients": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "root_derivation": "Unique nonnegative solution of the first-order Cauchy identity, the boundary identity, the left-ascent support condition, and the shared-cover coefficient D_2(z)=D_9(w)=1.",
+  "support_levi": {
+    "value_interval": [
+      3,
+      8
+    ],
+    "projected_u": [
+      1,
+      5,
+      2,
+      3,
+      6,
+      4
+    ],
+    "projected_v": [
+      4,
+      3,
+      1,
+      2,
+      5,
+      6
+    ],
+    "degree_at_x": 1
+  },
+  "stability_checks": [
+    {
+      "n": 10,
+      "candidate_maxima_first": [
+        0,
+        0
+      ],
+      "candidate_maxima_second": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": 11,
+      "candidate_maxima_first": [
+        0,
+        0
+      ],
+      "candidate_maxima_second": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": 12,
+      "candidate_maxima_first": [
+        0,
+        0
+      ],
+      "candidate_maxima_second": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": 13,
+      "candidate_maxima_first": [
+        0,
+        0
+      ],
+      "candidate_maxima_second": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": 14,
+      "candidate_maxima_first": [
+        0,
+        0
+      ],
+      "candidate_maxima_second": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": 15,
+      "candidate_maxima_first": [
+        0,
+        0
+      ],
+      "candidate_maxima_second": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": 16,
+      "candidate_maxima_first": [
+        0,
+        0
+      ],
+      "candidate_maxima_second": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": 17,
+      "candidate_maxima_first": [
+        0,
+        0
+      ],
+      "candidate_maxima_second": [
+        0,
+        0
+      ]
+    }
+  ],
+  "exact_product_queries": 0,
+  "limitation": "The second root polynomial is deduced from retained exact coefficients and the recorded Cauchy identity, rather than a new product query. Stability beyond the displayed finite checks follows from the stable Schubert conventions and fixed-point extensions of the projections."
+}

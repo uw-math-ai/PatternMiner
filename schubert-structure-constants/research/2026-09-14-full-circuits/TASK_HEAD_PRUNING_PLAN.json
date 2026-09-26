@@ -1,0 +1,11 @@
+{
+  "registered_at": "2026-09-15T03:54:03.225767+00:00",
+  "checkpoint": "artifacts/SECOND_REFINEMENT_READOUTS.pt",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "scope": "All 5445 development pairs; remove pairs h,h+8, keeping all MLPs, embeddings and residual paths.",
+  "order": "Same one-pass order as the completed strict-fidelity experiment: increasing mean absolute summed marginal activation-replacement effects.",
+  "acceptance": "At most five additional incorrect pairs relative to native 5436/5445, and at least .99 pair accuracy in every development pair population. Prediction identity is measured but is not a selection criterion.",
+  "replay": "Freeze mask before loading the same 1978 exposed assessment pairs. Report correctness and prediction agreement without revising the mask.",
+  "role": "Separate exploratory task-preserving simplification after the strict choice-fidelity pass accepted no deletions. It does not satisfy the prior fidelity criterion or establish independent qualification.",
+  "resource_limit_gpu_seconds": 600
+}

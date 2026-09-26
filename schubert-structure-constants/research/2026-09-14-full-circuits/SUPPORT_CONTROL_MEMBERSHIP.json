@@ -1,0 +1,30 @@
+{
+  "status": "fixed_before_predictions_and_interventions",
+  "inputs": 1247,
+  "factor_orbits": 202,
+  "bank_inputs": 7606,
+  "populations": [
+    "hard_validation",
+    "historical_pairs",
+    "S9_exposed_pairs",
+    "S10_exposed_pairs",
+    "fresh_S9_validation_pairs",
+    "fresh_S10_validation_pairs",
+    "exposed_fresh_S8_pairs",
+    "exposed_fresh_S9_pairs",
+    "exposed_fresh_S10_pairs",
+    "new_S9_validation_pairs",
+    "new_S10_validation_pairs"
+  ],
+  "source_sha256": "4fef317bc9ef2dfcdcafe8b3e4cdf78b4bb789519e31822915bce4e2dc04511e",
+  "artifact_sha256": "b1a32b60d2a23c93469d0c6d5c28c784a2a21607409bbe1d48bb5e53e2d78482",
+  "matching": "Same ordered factors, n, candidate mask, and exact destination target support; supplied index positive in donor; distinct output permutation. L1 inverse-permutation distance to the destination within 25% of that of the opposite-support paired output. Closest distance, then bank order.",
+  "sampling": "First eight eligible recorded inputs per canonical factor orbit, in frozen bank order; no correctness filter.",
+  "columns": [
+    "destination_bank_row",
+    "same_support_donor_bank_row",
+    "opposite_distance",
+    "same_support_distance"
+  ],
+  "limitation": "Distance matching does not equate all other mathematical information. These are development controls, not formal confirmation."
+}

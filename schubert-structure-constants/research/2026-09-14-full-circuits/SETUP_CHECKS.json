@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "budget_module": "schubert-structure-constants/research/2026-09-14-full-circuits/full_resources.py",
+  "frozen_helper_directory": "schubert-structure-constants/research/2026-09-14-richardson-circuits",
+  "output_directory": "schubert-structure-constants/research/2026-09-14-full-circuits",
+  "training_source_sha256": "e15d5b00cc747b9bf259e0727d62d0d021f02bf510c9cf572541828674d86853",
+  "supersedes": "SETUP_CHECKS_FIRST.json"
+}

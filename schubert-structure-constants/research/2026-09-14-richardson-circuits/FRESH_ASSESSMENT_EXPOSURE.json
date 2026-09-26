@@ -1,0 +1,5 @@
+{
+  "role_after_failure": "development",
+  "assessment_sha256": "3471d33841be1f5792bd541cd9408f7acf78eeab10d37229ceb5e66cc3080ed4",
+  "reason": "First independent assessment failed; any subsequent adaptation must not reuse these populations as independent evidence"
+}

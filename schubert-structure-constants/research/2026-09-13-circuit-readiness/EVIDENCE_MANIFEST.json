@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-13",
+  "base_commit": "[withheld for anonymous review]",
+  "selected_checkpoint_sha256": "11de25b7ed3603ededdd9b605864210eb8b76e5a03abcbfb4eab1065a96e3272",
+  "behavior_ready": false,
+  "files": {
+    "FINAL_ASSESSMENT.json": {
+      "bytes": 2841,
+      "sha256": "b929b00d43c154eb2eba7c1e16e6a3c45c8387e1c97a4348b6498accac049e44"
+    },
+    "FRESH_DATA.json": {
+      "bytes": 7561,
+      "sha256": "951305253ac84094fcd12dbae5388089a3004139328a0fe31889e93a66e1df3f"
+    },
+    "FRESH_PAIRS.json": {
+      "bytes": 96137,
+      "sha256": "2a2b1849211bd3b6692bac4aad37aa609e6b47c6825889ec2b7cb28717b34f24"
+    },
+    "IMPLEMENTATION_CHECKS.json": {
+      "bytes": 273,
+      "sha256": "7fb7e6547d572860ebdaf4d6b37635d2e4f3884e794cc6186354259bd3a21c04"
+    },
+    "RESOURCE_USE.json": {
+      "bytes": 12814,
+      "sha256": "37c452127492b3e685bff5c968af4d7801b9627046e8a54771e6d11796ef026a"
+    },
+    "artifacts/deeper_attention.pt": {
+      "bytes": 4868152,
+      "sha256": "11de25b7ed3603ededdd9b605864210eb8b76e5a03abcbfb4eab1065a96e3272"
+    },
+    "artifacts/fresh_S10_train.jsonl.gz": {
+      "bytes": 789444,
+      "sha256": "403292d62952091d48de191a41e82ba95cd876e554d9ca8a3355997e537217ba"
+    },
+    "artifacts/fresh_S9_train.jsonl.gz": {
+      "bytes": 560631,
+      "sha256": "33e82781d19cc55c760589ebd6b1c8d3cfe990e612a663a65ea56dbb94580de3"
+    },
+    "artifacts/training_pairs.npz": {
+      "bytes": 4568,
+      "sha256": "ee7505c418f5bd041088b0441f133be62ee51809cd5eb19606f141eddc8586c8"
+    },
+    "broad_small_ASSESSMENT.json": {
+      "bytes": 9687,
+      "sha256": "24107777b0d18c8f2eaffc14e7976a855b42bbbc0117fb41814c44ece70cac4a"
+    },
+    "broad_wide_ASSESSMENT.json": {
+      "bytes": 9687,
+      "sha256": "4d7eb19d2e37b8f714b362ae9867fa46bb164e19851f40be25051f9cda2c8c53"
+    },
+    "budget.py": {
+      "bytes": 2621,
+      "sha256": "8ea5760bf466d08d3e1bc62da60cebb6e05a52305bf158dbcbac675cacdeed8c"
+    },
+    "campaign.py": {
+      "bytes": 19731,
+      "sha256": "47dbdae274fd284dabbdf2c034d41b07dd0e0d94606cd680cb5b0f3dfd9a052b"
+    },
+    "circuits.py": {
+      "bytes": 8231,
+      "sha256": "e04272931abf981300fd0fcfbc0df90e89a1574a571a0db09d4db771005eeb05"
+    },
+    "deeper_attention_ASSESSMENT.json": {
+      "bytes": 9681,
+      "sha256": "6242b9ba1d4eb2a9b438eb01172eaac800677ded3d6d8226b98fb401da761b7a"
+    },
+    "deeper_attention_CIRCUIT_CHECKS.json": {
+      "bytes": 5724,
+      "sha256": "3316d8ef0835f30005494abcc1f7d05af0e1bdb0f8098a8bd87b5adc39a13192"
+    },
+    "hard_quarter_ASSESSMENT.json": {
+      "bytes": 8329,
+      "sha256": "d5f4f027116ca9688bba9709d758e589bb479a16b34149b28da4e1dcbf14f523"
+    },
+    "order_attention.py": {
+      "bytes": 2842,
+      "sha256": "46ad17d4e6d0a11fce8bd07b39571410e664026312e0160b31f7ae078747bda6"
+    },
+    "order_bias_ASSESSMENT.json": {
+      "bytes": 9679,
+      "sha256": "c7a0958279ed19c5a652519b2e69f9ef87fa244266baa540f0c1e9a71c330d3b"
+    },
+    "resource_agreement.json": {
+      "bytes": 913,
+      "sha256": "7856eed14ba44fecf0361713bb5a2ad9ef10a9a975c277ae32a87552b48b24d3"
+    },
+    "symmetry.py": {
+      "bytes": 2072,
+      "sha256": "d61caaa4a8b134ba87a730fcd0c39f6436eb6ecfe1f991886cc2b9f51f382ec8"
+    },
+    "uniform_no_dropout_ASSESSMENT.json": {
+      "bytes": 8339,
+      "sha256": "7e641e97eb4825ca86122c88b618dd6e080ac01252b5d063ba47ef2b5a73d05c"
+    }
+  },
+  "scope": "Retained experiment files except this manifest. Ignored caches are reconstructible; their hashes are in DATA/FRESH_DATA records. Workflow files are versioned by the encompassing Git commit."
+}

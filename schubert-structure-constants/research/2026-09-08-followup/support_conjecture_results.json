@@ -1,0 +1,163 @@
+{
+  "reference": "https://arxiv.org/abs/2608.17378v1",
+  "conjecture": "B",
+  "date": "2026-09-08",
+  "limitations": "Finite S_n output restriction; existing conjecture, not a new conjecture or proof.",
+  "results": [
+    {
+      "n": 3,
+      "unordered_pairs": 21,
+      "exhaustive_pairs": true,
+      "outputs_per_pair": 6,
+      "outside_three_proved_cases": 1,
+      "candidate_memberships": 26,
+      "equivariant_nonzero": 26,
+      "degree_tight_cross_checks": 20,
+      "counterexamples": [],
+      "example_outside_known": {
+        "u": [
+          3,
+          2,
+          1
+        ],
+        "v": [
+          3,
+          2,
+          1
+        ],
+        "candidate": [
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "coefficient_values": [
+          2
+        ]
+      },
+      "seconds": 0.0011992454528808594
+    },
+    {
+      "n": 4,
+      "unordered_pairs": 300,
+      "exhaustive_pairs": true,
+      "outputs_per_pair": 24,
+      "outside_three_proved_cases": 79,
+      "candidate_memberships": 579,
+      "equivariant_nonzero": 579,
+      "degree_tight_cross_checks": 581,
+      "counterexamples": [],
+      "example_outside_known": {
+        "u": [
+          2,
+          1,
+          4,
+          3
+        ],
+        "v": [
+          2,
+          1,
+          4,
+          3
+        ],
+        "candidate": [
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ]
+        ],
+        "coefficient_values": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1
+        ]
+      },
+      "seconds": 0.05997610092163086
+    },
+    {
+      "n": 5,
+      "unordered_pairs": 600,
+      "exhaustive_pairs": false,
+      "outputs_per_pair": 120,
+      "outside_three_proved_cases": 355,
+      "candidate_memberships": 2255,
+      "equivariant_nonzero": 2255,
+      "degree_tight_cross_checks": 3034,
+      "counterexamples": [],
+      "example_outside_known": {
+        "u": [
+          2,
+          4,
+          5,
+          1,
+          3
+        ],
+        "v": [
+          5,
+          2,
+          3,
+          4,
+          1
+        ],
+        "candidate": [
+          [
+            5,
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            5,
+            3,
+            4,
+            2,
+            1
+          ]
+        ],
+        "coefficient_values": [
+          24,
+          48
+        ]
+      },
+      "seconds": 0.758303165435791
+    }
+  ],
+  "source_sha256": "a2663a7db6f0e8a4e12b573756d211131852a2f614b00f820356855a20c0e87c"
+}

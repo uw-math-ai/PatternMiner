@@ -1,0 +1,14 @@
+{
+  "status": "fixed_before_interventions",
+  "checkpoint_sha256": "63d89e2ccf6c10aaa8dc3d53c18f2e3607b19fb063c1768de92bb6ed418f0edb",
+  "source_sha256": "d15aeea6cbb731967dfb4bef6a13b92f80387df0c7841ff50d1def1bedf384a6",
+  "parent_analysis_sha256": "584ba9f6b900e442564b02fe8eb5ec6131663cb5a81d643f7c0b6dbad73028cd",
+  "inputs": 7606,
+  "hypothesis": "The effective coefficients often favor one inverse position over their difference. Test retaining the larger endpoint coefficient in each fixed neuron, and separate transmission through second-block keys and values.",
+  "formulas": {
+    "midpoint": "(w^{-1}(j)+w^{-1}(j+1))/(2n)",
+    "gap": "(w^{-1}(j+1)-w^{-1}(j))/n",
+    "descent": "1[w^{-1}(j)>w^{-1}(j+1)]"
+  },
+  "role": "Adaptive follow-up on the same development populations; not independent confirmation"
+}

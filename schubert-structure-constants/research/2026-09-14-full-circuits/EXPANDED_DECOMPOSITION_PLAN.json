@@ -1,0 +1,25 @@
+{
+  "status": "fixed_before_interventions",
+  "checkpoint_sha256": "63d89e2ccf6c10aaa8dc3d53c18f2e3607b19fb063c1768de92bb6ed418f0edb",
+  "source_sha256": "e3e8d6d03825aa53d3249ea3cb5d8a04f0c441d636e016f45279c3f84266985c",
+  "inputs": 7606,
+  "pairs": 3803,
+  "factor_orbits": 357,
+  "populations": [
+    "hard_validation",
+    "historical_pairs",
+    "S9_exposed_pairs",
+    "S10_exposed_pairs",
+    "fresh_S9_validation_pairs",
+    "fresh_S10_validation_pairs",
+    "exposed_fresh_S8_pairs",
+    "exposed_fresh_S9_pairs",
+    "exposed_fresh_S10_pairs",
+    "new_S9_validation_pairs",
+    "new_S10_validation_pairs"
+  ],
+  "selection": "Every recorded difficult pair in the declared development populations; no correctness filter. Results are separated by correctness and prior use in neuron analysis.",
+  "units": "The earlier fixed ranking, with duplicated pairs at offsets k and k+384; no reselection",
+  "random_controls": "All twenty fixed earlier magnitude-matched 16-pair subsets; no rematching",
+  "role": "Expanded development analysis; no formal discovery or confirmation population is opened"
+}

@@ -1,0 +1,10 @@
+name: matched_pack_patching
+patch_sites:
+- hook_readout
+- slots.hook_slot_values
+- cross_blocks.0.hook_resid_post
+- cross_blocks.1.hook_resid_post
+- cross_blocks.1.cross_attn.hook_attn_out
+metric: pos_logit_delta
+use_matched_packs: true
+reverse_patch: true

@@ -1,0 +1,61 @@
+{
+  "checkpoint": "artifacts/qualified_development.pt",
+  "checkpoint_sha256": "d8fe4af053402869987e601752ff7c9f3dce2434bb171102228c60e2615fe3bd",
+  "source_sha256": "4a0f05375a9ac696708c5227cf50672c2cd54407871bdba3f11deb77e89a5f9d",
+  "populations": {
+    "S7_assessment": {
+      "triples": 744,
+      "oriented_triples": 1488,
+      "supplied_inputs": 2207,
+      "supplied_errors": 0,
+      "supplied_accuracy": 1.0,
+      "all_supplied_correct_accuracy": 1.0,
+      "factor_group_mean": 1.0,
+      "difficult_pairs": 4,
+      "difficult_pairs_correct": 4,
+      "difficult_pair_all_supplied_accuracy": 1.0,
+      "passes": true
+    },
+    "S8_assessment": {
+      "triples": 4574,
+      "oriented_triples": 9148,
+      "supplied_inputs": 15863,
+      "supplied_errors": 5,
+      "supplied_accuracy": 0.9996848011095001,
+      "all_supplied_correct_accuracy": 0.9995627459554001,
+      "factor_group_mean": 0.9997139896699195,
+      "difficult_pairs": 2,
+      "difficult_pairs_correct": 2,
+      "difficult_pair_all_supplied_accuracy": 1.0,
+      "passes": true
+    },
+    "S9_assessment": {
+      "triples": 51783,
+      "oriented_triples": 103566,
+      "supplied_inputs": 186533,
+      "supplied_errors": 678,
+      "supplied_accuracy": 0.9963652544053867,
+      "all_supplied_correct_accuracy": 0.9949693914991407,
+      "factor_group_mean": 0.9976466629675411,
+      "difficult_pairs": 207,
+      "difficult_pairs_correct": 198,
+      "difficult_pair_all_supplied_accuracy": 0.9565217391304348,
+      "passes": false
+    },
+    "S10_assessment": {
+      "triples": 134089,
+      "oriented_triples": 268178,
+      "supplied_inputs": 550529,
+      "supplied_errors": 3649,
+      "supplied_accuracy": 0.9933718296402188,
+      "all_supplied_correct_accuracy": 0.9905771539798194,
+      "factor_group_mean": 0.9936553284630744,
+      "difficult_pairs": 270,
+      "difficult_pairs_correct": 249,
+      "difficult_pair_all_supplied_accuracy": 0.9222222222222223,
+      "passes": false
+    }
+  },
+  "requirement": 0.99,
+  "passes": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "fixed_before_interventions",
+  "checkpoint_sha256": "63d89e2ccf6c10aaa8dc3d53c18f2e3607b19fb063c1768de92bb6ed418f0edb",
+  "source_sha256": "3ca08052a9665eced605b6fc0adb25c515ca64427c04dc0ec07fa90f171bb59b",
+  "inputs": 7606,
+  "heads": [
+    0,
+    8
+  ],
+  "layer": "Second attention layer",
+  "queries": "Candidate simple roots, namely left descents of v",
+  "rules": {
+    "first_endpoint": "Simple roots incident to w(v^{-1}(j))",
+    "second_endpoint": "Simple roots incident to w(v^{-1}(j+1))",
+    "both_endpoints": "Simple roots with nonzero Cartan pairing against (w v^{-1})(alpha_j)",
+    "root_support": "Simple roots with nonzero coefficient in (w v^{-1})(alpha_j)"
+  },
+  "intervention": "Replace both head patterns together at candidate queries, using either the uniform distribution on the prescribed set or the native pattern conditioned on that set.",
+  "control": "Eight independent uniform random subsets with the same cardinality as the second-endpoint set, sampled before each intervention from a fixed generator.",
+  "role": "Adaptive development test motivated by endpoint reception and the earlier unsuccessful single-key rule; no formal confirmation population opened"
+}

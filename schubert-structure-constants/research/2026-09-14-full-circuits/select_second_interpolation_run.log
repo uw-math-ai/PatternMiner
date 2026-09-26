@@ -1,0 +1,6 @@
+{"early_weight": 0, "criterion": [0.9930313588850174, 0.9990085509773095]}
+{"early_weight": 0.25, "criterion": [0.9930313588850174, 0.9990114701745995]}
+{"early_weight": 0.5, "criterion": [0.9912891986062717, 0.9988536323010279]}
+{"early_weight": 0.75, "criterion": [0.9912891986062717, 0.9989503067218464]}
+{"early_weight": 1, "criterion": [0.9912891986062717, 0.9988704553262809]}
+{"name": "second_parameter_interpolation", "status": "completed", "wall_seconds": 357.3290752400644, "gpu_seconds_charged": 357.3290752400644, "gpu_charge_scope": "Entire timed process", "exact_queries": 0}

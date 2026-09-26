@@ -1,0 +1,7 @@
+{"population": "second_S9_assessment", "groups": 50, "rows": 28173, "queries": 658, "elapsed": 7.439813340082765}
+{"population": "second_S9_assessment", "groups": 100, "rows": 45590, "queries": 939, "elapsed": 10.757642837008461}
+{"population": "second_S10_assessment", "groups": 50, "rows": 96863, "queries": 1325, "elapsed": 64.8187358758878}
+{"population": "second_S10_assessment", "groups": 100, "rows": 179190, "queries": 1672, "elapsed": 92.64443362993188}
+{"population": "second_S10_assessment", "groups": 150, "rows": 262593, "queries": 2024, "elapsed": 118.89926626090892}
+{"population": "second_S10_assessment", "groups": 200, "rows": 346404, "queries": 2384, "elapsed": 148.0154274450615}
+{"name": "second_exact_populations", "status": "completed", "wall_seconds": 183.1299739109818, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 2641}

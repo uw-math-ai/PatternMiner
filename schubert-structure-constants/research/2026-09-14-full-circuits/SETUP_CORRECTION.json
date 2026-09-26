@@ -1,0 +1,15 @@
+{
+  "status": "corrected_before_training",
+  "problem": "The frozen predecessor had already imported a module named budget. A same-named continuation module did not replace that cached import.",
+  "effect": "Setup charged 0.10174039006233215 seconds to the predecessor ledger; training then failed before its budget constructor or numerical work ran.",
+  "correction": "Use the unique module full_resources. Preserve the misrouted ledger and first setup report, transfer the sole appended charge to this continuation, and restore the predecessor ledger byte-for-byte from HEAD.",
+  "restored_ledger_sha256": "94ec7fecec8307a265094abab32ff59eb760c1223e463defebddd83045554328",
+  "transferred_record": {
+    "name": "continuation_setup_checks",
+    "status": "completed",
+    "wall_seconds": 0.10174039006233215,
+    "gpu_seconds_charged": 0.10174039006233215,
+    "gpu_charge_scope": "entire process wall time",
+    "exact_queries": 0
+  }
+}

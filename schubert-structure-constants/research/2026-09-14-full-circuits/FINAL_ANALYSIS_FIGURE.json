@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "caption": "Training, independent accuracy, and final-model development interventions. Panel C uses factor orbits excluded from the earlier neuron ranking; bars show exploratory 95% percentile bootstrap intervals. The ratio of path effects is not a fraction of an algorithm recovered. Panel D retains all MLPs and residual paths; random controls match layer counts and widening pairs, and points show all twenty control sets. Head selection and testing use development data.",
+  "source_sha256": "95aa91f9a157eb3623802b58698158c9e56ebe66815538017ecb62069471a4b9",
+  "input_sha256": {
+    "SECOND_MODEL_SELECTION": "33e5ef7af79369cffc778d18b155c3d39e3f21263ff44e02edf97c734089b9fe",
+    "SECOND_ASSESSMENT": "2d3f35e8f84b75d3cca560e17dcb8458f30a3dd1bc4c1b056f0b07f113f6d38a",
+    "SECOND_FORMAL_STUDY_STATUS": "0f1dc3f256f457045a753f3d6178776cf51def8280961930245d87f8f4aa9ce4",
+    "FINAL_DEVELOPMENT_DECOMPOSITION": "2abc0ee8e53efa92d47cc9c586c275ae633158dcf5732549505f7fb8f2763bef",
+    "FINAL_SUPPORT_CONTROLS": "778a756688bb2fa9b7b70f5a6a34eeaa71fd768e592e338d59251bae261f1a9e",
+    "FINAL_COMPONENT_SCAN": "b61539f95570b7cff711c0660511b215e41eb95d347e159595846101e362d1f5",
+    "DEVELOPMENT_HEAD_CONTROLS": "c2952c00053662022ffb2b733c72896f517915f3f26836c69b8f985c4c00e974",
+    "second_neighbor_refinement_compact": "86eeaf482f42603e1eb70a1ae72be64436e7e3772eb8d8aa4671a57caa1be6b1"
+  },
+  "artifacts": {
+    "png": "3cbf756bcdd8388cc52223c9494632cbad18ecb2bc42b4a10d18effe5f3dd271",
+    "pdf": "9e62ae1c539b4aa7b3650ed461760d388098a2445c1a237858a06e1d26d1cbda",
+    "svg": "ac64ca69c5c448b264365dcd1aba080e12ecc261e4db20dc9c5c42d8165640bc"
+  }
+}

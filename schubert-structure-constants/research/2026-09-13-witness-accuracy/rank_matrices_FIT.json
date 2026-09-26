@@ -1,0 +1,98 @@
+{
+  "S7_train_first": {
+    "n": 115422,
+    "top1": 0.9824730120774202,
+    "mean_oracle_calls": 1.0182980714248584,
+    "random_expected_calls": 1.5970345052647386,
+    "correct": 113399,
+    "errors": 2023,
+    "product_groups": 2114,
+    "mean_product_group_top1": 0.9867274283117559,
+    "multiple_candidates": {
+      "n": 111604,
+      "correct": 109581,
+      "top1": 0.9818734095552131
+    },
+    "contains_invalid_candidate": {
+      "n": 92655,
+      "correct": 90632,
+      "top1": 0.9781663159030813
+    },
+    "product_cluster_bootstrap_95_percent": [
+      0.9810020631332905,
+      0.98399155383071
+    ]
+  },
+  "S7_train_last": {
+    "n": 115422,
+    "top1": 0.9827675833030098,
+    "mean_oracle_calls": 1.0178822061652024,
+    "random_expected_calls": 1.5970345052647386,
+    "correct": 113433,
+    "errors": 1989,
+    "product_groups": 2114,
+    "mean_product_group_top1": 0.9877015428899365,
+    "multiple_candidates": {
+      "n": 111604,
+      "correct": 109615,
+      "top1": 0.9821780581341171
+    },
+    "contains_invalid_candidate": {
+      "n": 92655,
+      "correct": 90666,
+      "top1": 0.9785332685769791
+    },
+    "product_cluster_bootstrap_95_percent": [
+      0.981132983854153,
+      0.9843597026068037
+    ]
+  },
+  "S8_train_first": {
+    "n": 313542,
+    "top1": 0.9730817561921529,
+    "mean_oracle_calls": 1.0290933909970594,
+    "random_expected_calls": 1.7041689258004775,
+    "correct": 305102,
+    "errors": 8440,
+    "product_groups": 1433,
+    "mean_product_group_top1": 0.9752677900661545,
+    "multiple_candidates": {
+      "n": 311574,
+      "correct": 303134,
+      "top1": 0.972911732044394
+    },
+    "contains_invalid_candidate": {
+      "n": 261419,
+      "correct": 252979,
+      "top1": 0.9677146649631435
+    },
+    "product_cluster_bootstrap_95_percent": [
+      0.97147639516576,
+      0.9745125090600641
+    ]
+  },
+  "S8_train_last": {
+    "n": 313542,
+    "top1": 0.9744404258440655,
+    "mean_oracle_calls": 1.0277347213451467,
+    "random_expected_calls": 1.7041689258004775,
+    "correct": 305528,
+    "errors": 8014,
+    "product_groups": 1433,
+    "mean_product_group_top1": 0.9774682429575422,
+    "multiple_candidates": {
+      "n": 311574,
+      "correct": 303560,
+      "top1": 0.9742789834838593
+    },
+    "contains_invalid_candidate": {
+      "n": 261419,
+      "correct": 253405,
+      "top1": 0.9693442328216388
+    },
+    "product_cluster_bootstrap_95_percent": [
+      0.9727411992375625,
+      0.9761144550319695
+    ]
+  }
+}

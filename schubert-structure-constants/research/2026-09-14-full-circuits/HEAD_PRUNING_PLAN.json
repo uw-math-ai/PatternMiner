@@ -1,0 +1,11 @@
+{
+  "registered_at": "2026-09-15T03:51:02.693505+00:00",
+  "checkpoint": "artifacts/SECOND_REFINEMENT_READOUTS.pt",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "scope": "All 5445 development pairs; whole pairs of heads h,h+8 are pruned. Keep every MLP, embedding and residual path.",
+  "order": "Single greedy pass over 48 widening pairs, increasing mean absolute summed paired activation-replacement contrast from the completed component scan; tie by layer/head.",
+  "acceptance": "Both-member prediction agreement >= .995 overall and >= .99 in every development pair population; pair accuracy >= .99 overall. Reference is the unmodified frozen model.",
+  "replay": "Freeze mask before loading all 1978 difficult pairs from the already exposed replacement assessment. Verify native accuracy against retained assessment counts. Measure fidelity and accuracy once; do not revise the mask.",
+  "role": "Exploratory circuit simplification. The replay was not used for pruning but its original model accuracy is already exposed; it is not formal confirmation.",
+  "resource_limit_gpu_seconds": 600
+}

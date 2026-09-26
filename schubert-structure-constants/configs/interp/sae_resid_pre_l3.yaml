@@ -1,0 +1,7 @@
+name: sae_resid_pre_l3
+site: encoder.blocks.3.hook_resid_pre
+d_hidden_mult: 8
+l1: 0.004
+lr: 0.001
+steps: 20000
+batch_size: 4096

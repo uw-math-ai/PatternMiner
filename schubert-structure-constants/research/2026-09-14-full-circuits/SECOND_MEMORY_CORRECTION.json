@@ -1,0 +1,10 @@
+{
+  "status": "fixed_before_retry",
+  "failure": "CUDA CUBLAS handle allocation failed on the first backward pass, before optimizer updates.",
+  "original_report_sha256": "0cac1054c619d882ca049f401e22b6196f102aec91360d036e005d1463563bf8",
+  "failed_gpu_seconds": 163.40136938192882,
+  "fix": "Range-check all ordinary and root labels, then retain identical signed 16-bit integers on the GPU. Loss construction already converts them to floating point. Batch size, sample distribution and training schedule are unchanged.",
+  "retry_arm": "second_neighbor_refinement_compact",
+  "training_plan": "SECOND_CONTINUATION_PLAN.json",
+  "source_sha256": "3208fad5f45b7d21ea7e5b3af8951f1d9c2294cbbb7e4b4bb1d1ab02832561e8"
+}

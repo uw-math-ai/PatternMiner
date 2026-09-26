@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "populations": {
+    "first_exposed_S7": {
+      "inputs": 5082,
+      "factor_groups": 99,
+      "artifact_sha256": "ae58eaea6c436108e6aeaf3c1082225c340f234075c23fa0b9744c06b87bfcdf"
+    },
+    "first_exposed_S7_pairs": {
+      "inputs": 10,
+      "factor_groups": 3,
+      "artifact_sha256": "f6df4ff954b914e087e9b688722af7d382b38d7ab6968a2c789b64e9ec1eb0f7"
+    },
+    "first_exposed_S8": {
+      "inputs": 16680,
+      "factor_groups": 100,
+      "artifact_sha256": "439276d555f35d927a640accfddfd1e8df448affdf6fd22ee88c9cc8408ca8c6"
+    },
+    "first_exposed_S8_pairs": {
+      "inputs": 12,
+      "factor_groups": 4,
+      "artifact_sha256": "b6a18228e4fa48e7f5f3ee7945a326d1ef2bc7f7cfa7fa220c7f889e7c9b92d3"
+    },
+    "first_exposed_S9": {
+      "inputs": 94596,
+      "factor_groups": 320,
+      "artifact_sha256": "e427f2c261888bbe45331bda0357b66fd2a2ed46a5b4208ecdd91dc11dde6314"
+    },
+    "first_exposed_S9_pairs": {
+      "inputs": 646,
+      "factor_groups": 57,
+      "artifact_sha256": "9bd5419cd2bb48fe28fff3376187ac6810a9226a6e341051ca5b9ae149678515"
+    },
+    "first_exposed_S10": {
+      "inputs": 85074,
+      "factor_groups": 240,
+      "artifact_sha256": "4d9b7021559fe62f06afde34f8a58704d4f774c3ecc5563fcfeaa91f541f16d0"
+    },
+    "first_exposed_S10_pairs": {
+      "inputs": 2616,
+      "factor_groups": 79,
+      "artifact_sha256": "bb0bc51dadcbd6feca8f42deddf1333820843521881b75aa44ca0a4e58b35730"
+    }
+  },
+  "source_sha256": "011a489ab7abc1321e97d8af3ced476c513e2715313821ee348e5c7a70032d48",
+  "exposure_sha256": "5bd63615139da0ae15a5a6511053e92a7a3c5cb7ea1f1e0d26e04e304d9a851f",
+  "role": "Development only after the recorded independent failure. No rows are added to training. Every first-assessment factor orbit is excluded from new training and replacement assessment."
+}

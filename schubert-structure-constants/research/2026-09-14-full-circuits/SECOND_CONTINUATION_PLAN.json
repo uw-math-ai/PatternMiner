@@ -1,0 +1,60 @@
+{
+  "status": "fixed_before_continuation",
+  "first_assessment_role": "Failed and now explicitly exposed development. The original formal discovery and confirmation data remain protected.",
+  "replacement_assessment_plan_sha256": "837504b4518c11d0b5f6f356b174903c90ecd984e559d0dae51b6497bb9287bc",
+  "training_data_policy": "Every development and both assessment factor populations are excluded from training, including symmetry orbits. No failed assessment row is used as a training example.",
+  "phases": [
+    {
+      "name": "teacher_stability",
+      "steps": 6000,
+      "evaluate_every": 2000,
+      "error_refresh_every": 3000,
+      "mining_samples": 250000,
+      "wall_limit": 2400,
+      "training_corpus": "Existing 16738276 rows",
+      "initial": "FINAL_REFINEMENT_READOUTS.pt"
+    },
+    {
+      "name": "second_neighbor_refinement",
+      "steps": 9000,
+      "evaluate_every": 1500,
+      "error_refresh_every": 3000,
+      "mining_samples": 350000,
+      "wall_limit": 3300,
+      "training_corpus": "Existing corpus plus disjoint neighbors of eleven newly exposed failure factor orbits",
+      "initial": "Development-selected teacher_stability checkpoint"
+    }
+  ],
+  "teacher": {
+    "checkpoint": "pinned_error_control_common5000.pt",
+    "weight": 0.2,
+    "temperature": 2,
+    "condition": "Use the teacher distribution only when its predicted candidate is exactly valid on that training example."
+  },
+  "learning_rates": {
+    "base": 5e-06,
+    "extra": 1.5e-05,
+    "root_action": 0.0001
+  },
+  "selection": "Minimum of twenty-seven development accuracies, then their mean, over initial/raw/EMA checkpoints at scheduled evaluations.",
+  "readout_comparison": {
+    "sources": [
+      "Final training-selected checkpoint"
+    ],
+    "B_weights": [
+      0,
+      2,
+      4,
+      8
+    ],
+    "Q_weights": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "rule": "Merge selected linear combination into the ordinary head and evaluate natively."
+  },
+  "formal_study": "Only after replacement independent assessment passes every stated accuracy criterion, run the previously registered study with its fixed hypotheses and controls.",
+  "causal_scope": "This is an adaptive training continuation, not a matched estimate of the separate effects of teacher regularization and new training data."
+}

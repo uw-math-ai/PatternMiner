@@ -1,0 +1,19 @@
+{
+  "status": "selected",
+  "checkpoint": "artifacts/SECOND_REFINEMENT_READOUTS.pt",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "criterion": [
+    0.9930313588850174,
+    0.9990141824570498
+  ],
+  "native_validation_sha256": "521bcb4bba8ed1a4036e58b38540b3c4b60f2bdd486d1b6dcfd04f663fb25ccf",
+  "readout": [
+    8.0,
+    0.0
+  ],
+  "plan_sha256": "86fdd24761594c0d37b0af46f92f25eafdc6e534f6d14bc9e35b0a676e5b2efe",
+  "storage_correction_sha256": "42c1170a90954357e6f3b39d5ac91d103cea9e0877167cd351390afe7625522a",
+  "interpolation_sha256": "62405dec32f7f68c5db32087937c0d048271bbf5e4b3006684f110230af3b058",
+  "interpolation_plan_sha256": "22fe1ffa8bc5a42b6fb296f4011a4c1236bf5f5cf8bb3076aa04877c025ca68b",
+  "policy": "Final training, registered parameter interpolation and readout selection on twenty-seven development criteria, before opening the replacement assessment."
+}

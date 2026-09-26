@@ -1,0 +1,2 @@
+{"anchors": 16, "incorrect_supplied_inputs": 51, "groups": 1140, "exact_queries": 9000}
+{"name": "plan_current_failure_neighborhoods", "status": "completed", "wall_seconds": 1.5792565969750285, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

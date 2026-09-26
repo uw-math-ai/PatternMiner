@@ -1,0 +1,23 @@
+{
+  "status": "fixed_before_comparison",
+  "reason": "After 6000 updates, one development population remains below .99 while the remaining populations pass. Test the already learned auxiliary coefficient directions before independent assessment.",
+  "sources": [
+    "The retained step-3000 checkpoint",
+    "The final training-selected checkpoint, only if its weights differ"
+  ],
+  "B_weights": [
+    0,
+    2,
+    4,
+    8
+  ],
+  "Q_weights": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "rule": "Selector score + B_weight * predicted log(1+B_j) + Q_weight * predicted log(1+Q_j). Merge the selected linear combination into the ordinary output head.",
+  "selection": "Maximum minimum development accuracy across nineteen populations, then mean; preserve the unmodified model at zero weights. Natively verify the selected merged head before assessment.",
+  "assessment": "Deferred until the registered model and readout comparisons finish. No assessment prediction has been read."
+}

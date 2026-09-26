@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "training": {},
+  "development": {
+    "S9_validation": {
+      "rows": 46600,
+      "pairs": 177,
+      "pair_groups": 19,
+      "pair_sha256": "9e0f3af897cae3f22eddfedb1dd1e1529306a125c7314cc3f52bbac5d5c46d1d",
+      "oriented_examples": 31940,
+      "groups": 100
+    },
+    "S10_validation": {
+      "rows": 220819,
+      "pairs": 574,
+      "pair_groups": 29,
+      "pair_sha256": "27e8222f59f90280de3365032b9b7646d8929d2b0542aa348564b10486cae425",
+      "oriented_examples": 29400,
+      "groups": 80
+    }
+  },
+  "development_pair_policy": "Distinct ordered row pairs and orientation; every supplied index is evaluated, so repeated certificate indices are removed.",
+  "source_sha256": "2bce8f525f00936bacbe8f807c93aec77394e984f020d81df575cff10f03e648",
+  "data_sha256": "4dbd86e841182406bc37ea3c537df508687b388dbd4671bdfbc0257f65d6f4cf"
+}

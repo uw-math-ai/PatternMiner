@@ -1,0 +1,6 @@
+{"directory": "2026-09-13-autoresearch-circuits", "files": 54, "status": "passed"}
+{"directory": "2026-09-13-witness-accuracy", "files": 63, "status": "passed"}
+{"directory": "2026-09-13-circuit-readiness", "files": 156, "status": "passed"}
+{"directory": "2026-09-14-reliable-circuits", "files": 705, "status": "passed"}
+{"directory": "2026-09-14-richardson-circuits", "files": 474, "status": "passed"}
+{"name": "prior_evidence_integrity", "status": "completed", "wall_seconds": 7.583690187893808, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

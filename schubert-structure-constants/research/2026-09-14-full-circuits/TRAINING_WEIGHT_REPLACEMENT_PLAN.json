@@ -1,0 +1,147 @@
+{
+  "status": "fixed_before_parameter_interventions",
+  "initial_sha256": "901614a733f8f4a7246a3d12c8cdd881a137d7c9e9ec6899582226934e1f28df",
+  "updated_sha256": "e3458f8647f4983c3ea58fc98287a694391c82e857d75f7b0f18e6c9da0568d1",
+  "updated_step": 1500,
+  "source_sha256": "f47a37197c2efd1b6b9ec5c3018fa57893afc40dcc860952a8b8404f01e32f4c",
+  "parameter_groups": {
+    "base_order_bias": [
+      "base_order_bias"
+    ],
+    "root_action_order_bias": [
+      "root_action_order_bias"
+    ],
+    "input.base": [
+      "input.base.weight",
+      "input.base.bias"
+    ],
+    "input.extra": [
+      "input.extra.weight"
+    ],
+    "L0_attention": [
+      "encoder.layers.0.self_attn.in_proj_weight",
+      "encoder.layers.0.self_attn.in_proj_bias",
+      "encoder.layers.0.self_attn.out_proj.weight",
+      "encoder.layers.0.self_attn.out_proj.bias"
+    ],
+    "L0_mlp": [
+      "encoder.layers.0.linear1.weight",
+      "encoder.layers.0.linear1.bias",
+      "encoder.layers.0.linear2.weight",
+      "encoder.layers.0.linear2.bias"
+    ],
+    "L0_normalization": [
+      "encoder.layers.0.norm1.weight",
+      "encoder.layers.0.norm1.bias",
+      "encoder.layers.0.norm2.weight",
+      "encoder.layers.0.norm2.bias"
+    ],
+    "L1_attention": [
+      "encoder.layers.1.self_attn.in_proj_weight",
+      "encoder.layers.1.self_attn.in_proj_bias",
+      "encoder.layers.1.self_attn.out_proj.weight",
+      "encoder.layers.1.self_attn.out_proj.bias"
+    ],
+    "L1_mlp": [
+      "encoder.layers.1.linear1.weight",
+      "encoder.layers.1.linear1.bias",
+      "encoder.layers.1.linear2.weight",
+      "encoder.layers.1.linear2.bias"
+    ],
+    "L1_normalization": [
+      "encoder.layers.1.norm1.weight",
+      "encoder.layers.1.norm1.bias",
+      "encoder.layers.1.norm2.weight",
+      "encoder.layers.1.norm2.bias"
+    ],
+    "L2_attention": [
+      "encoder.layers.2.self_attn.in_proj_weight",
+      "encoder.layers.2.self_attn.in_proj_bias",
+      "encoder.layers.2.self_attn.out_proj.weight",
+      "encoder.layers.2.self_attn.out_proj.bias"
+    ],
+    "L2_mlp": [
+      "encoder.layers.2.linear1.weight",
+      "encoder.layers.2.linear1.bias",
+      "encoder.layers.2.linear2.weight",
+      "encoder.layers.2.linear2.bias"
+    ],
+    "L2_normalization": [
+      "encoder.layers.2.norm1.weight",
+      "encoder.layers.2.norm1.bias",
+      "encoder.layers.2.norm2.weight",
+      "encoder.layers.2.norm2.bias"
+    ],
+    "L3_attention": [
+      "encoder.layers.3.self_attn.in_proj_weight",
+      "encoder.layers.3.self_attn.in_proj_bias",
+      "encoder.layers.3.self_attn.out_proj.weight",
+      "encoder.layers.3.self_attn.out_proj.bias"
+    ],
+    "L3_mlp": [
+      "encoder.layers.3.linear1.weight",
+      "encoder.layers.3.linear1.bias",
+      "encoder.layers.3.linear2.weight",
+      "encoder.layers.3.linear2.bias"
+    ],
+    "L3_normalization": [
+      "encoder.layers.3.norm1.weight",
+      "encoder.layers.3.norm1.bias",
+      "encoder.layers.3.norm2.weight",
+      "encoder.layers.3.norm2.bias"
+    ],
+    "L4_attention": [
+      "encoder.layers.4.self_attn.in_proj_weight",
+      "encoder.layers.4.self_attn.in_proj_bias",
+      "encoder.layers.4.self_attn.out_proj.weight",
+      "encoder.layers.4.self_attn.out_proj.bias"
+    ],
+    "L4_mlp": [
+      "encoder.layers.4.linear1.weight",
+      "encoder.layers.4.linear1.bias",
+      "encoder.layers.4.linear2.weight",
+      "encoder.layers.4.linear2.bias"
+    ],
+    "L4_normalization": [
+      "encoder.layers.4.norm1.weight",
+      "encoder.layers.4.norm1.bias",
+      "encoder.layers.4.norm2.weight",
+      "encoder.layers.4.norm2.bias"
+    ],
+    "L5_attention": [
+      "encoder.layers.5.self_attn.in_proj_weight",
+      "encoder.layers.5.self_attn.in_proj_bias",
+      "encoder.layers.5.self_attn.out_proj.weight",
+      "encoder.layers.5.self_attn.out_proj.bias"
+    ],
+    "L5_mlp": [
+      "encoder.layers.5.linear1.weight",
+      "encoder.layers.5.linear1.bias",
+      "encoder.layers.5.linear2.weight",
+      "encoder.layers.5.linear2.bias"
+    ],
+    "L5_normalization": [
+      "encoder.layers.5.norm1.weight",
+      "encoder.layers.5.norm1.bias",
+      "encoder.layers.5.norm2.weight",
+      "encoder.layers.5.norm2.bias"
+    ],
+    "selector_readout": [
+      "head.weight",
+      "head.bias"
+    ],
+    "unused_auxiliary_readout": [
+      "auxiliary_head.weight",
+      "auxiliary_head.bias"
+    ]
+  },
+  "populations": {
+    "first_exposed_S10_pairs": "bb0bc51dadcbd6feca8f42deddf1333820843521881b75aa44ca0a4e58b35730",
+    "new_S10_validation_pairs": "903e51271f229055afa3948c8151ca4c293544ab8f62b444a163515ea5fbd5e1"
+  },
+  "directions": [
+    "Insert the updated parameter group into the earlier model",
+    "Restore the earlier parameter group in the updated model"
+  ],
+  "role": "Development analysis of an adaptive training change. It does not isolate the effects of individual training ingredients, and no protected predictions are read."
+}

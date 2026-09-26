@@ -1,0 +1,10 @@
+{"cohort": "confirmation", "inputs": 64, "total": 498}
+{"cohort": "confirmation", "inputs": 128, "total": 498}
+{"cohort": "confirmation", "inputs": 192, "total": 498}
+{"cohort": "confirmation", "inputs": 256, "total": 498}
+{"cohort": "confirmation", "inputs": 320, "total": 498}
+{"cohort": "confirmation", "inputs": 384, "total": 498}
+{"cohort": "confirmation", "inputs": 448, "total": 498}
+{"cohort": "confirmation", "inputs": 498, "total": 498}
+{"cohort": "matched_development", "inputs": 16, "total": 16}
+{"name": "second_attention_hop", "status": "completed", "wall_seconds": 5.709740228950977, "gpu_seconds_charged": 5.709740228950977, "gpu_charge_scope": "Entire timed process", "exact_queries": 0}

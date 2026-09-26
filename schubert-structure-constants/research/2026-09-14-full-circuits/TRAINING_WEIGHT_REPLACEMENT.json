@@ -1,0 +1,1159 @@
+{
+  "initial_sha256": "901614a733f8f4a7246a3d12c8cdd881a137d7c9e9ec6899582226934e1f28df",
+  "updated_sha256": "e3458f8647f4983c3ea58fc98287a694391c82e857d75f7b0f18e6c9da0568d1",
+  "updated_step": 1500,
+  "source_sha256": "f47a37197c2efd1b6b9ec5c3018fa57893afc40dcc860952a8b8404f01e32f4c",
+  "parameter_groups": {
+    "base_order_bias": [
+      "base_order_bias"
+    ],
+    "root_action_order_bias": [
+      "root_action_order_bias"
+    ],
+    "input.base": [
+      "input.base.weight",
+      "input.base.bias"
+    ],
+    "input.extra": [
+      "input.extra.weight"
+    ],
+    "L0_attention": [
+      "encoder.layers.0.self_attn.in_proj_weight",
+      "encoder.layers.0.self_attn.in_proj_bias",
+      "encoder.layers.0.self_attn.out_proj.weight",
+      "encoder.layers.0.self_attn.out_proj.bias"
+    ],
+    "L0_mlp": [
+      "encoder.layers.0.linear1.weight",
+      "encoder.layers.0.linear1.bias",
+      "encoder.layers.0.linear2.weight",
+      "encoder.layers.0.linear2.bias"
+    ],
+    "L0_normalization": [
+      "encoder.layers.0.norm1.weight",
+      "encoder.layers.0.norm1.bias",
+      "encoder.layers.0.norm2.weight",
+      "encoder.layers.0.norm2.bias"
+    ],
+    "L1_attention": [
+      "encoder.layers.1.self_attn.in_proj_weight",
+      "encoder.layers.1.self_attn.in_proj_bias",
+      "encoder.layers.1.self_attn.out_proj.weight",
+      "encoder.layers.1.self_attn.out_proj.bias"
+    ],
+    "L1_mlp": [
+      "encoder.layers.1.linear1.weight",
+      "encoder.layers.1.linear1.bias",
+      "encoder.layers.1.linear2.weight",
+      "encoder.layers.1.linear2.bias"
+    ],
+    "L1_normalization": [
+      "encoder.layers.1.norm1.weight",
+      "encoder.layers.1.norm1.bias",
+      "encoder.layers.1.norm2.weight",
+      "encoder.layers.1.norm2.bias"
+    ],
+    "L2_attention": [
+      "encoder.layers.2.self_attn.in_proj_weight",
+      "encoder.layers.2.self_attn.in_proj_bias",
+      "encoder.layers.2.self_attn.out_proj.weight",
+      "encoder.layers.2.self_attn.out_proj.bias"
+    ],
+    "L2_mlp": [
+      "encoder.layers.2.linear1.weight",
+      "encoder.layers.2.linear1.bias",
+      "encoder.layers.2.linear2.weight",
+      "encoder.layers.2.linear2.bias"
+    ],
+    "L2_normalization": [
+      "encoder.layers.2.norm1.weight",
+      "encoder.layers.2.norm1.bias",
+      "encoder.layers.2.norm2.weight",
+      "encoder.layers.2.norm2.bias"
+    ],
+    "L3_attention": [
+      "encoder.layers.3.self_attn.in_proj_weight",
+      "encoder.layers.3.self_attn.in_proj_bias",
+      "encoder.layers.3.self_attn.out_proj.weight",
+      "encoder.layers.3.self_attn.out_proj.bias"
+    ],
+    "L3_mlp": [
+      "encoder.layers.3.linear1.weight",
+      "encoder.layers.3.linear1.bias",
+      "encoder.layers.3.linear2.weight",
+      "encoder.layers.3.linear2.bias"
+    ],
+    "L3_normalization": [
+      "encoder.layers.3.norm1.weight",
+      "encoder.layers.3.norm1.bias",
+      "encoder.layers.3.norm2.weight",
+      "encoder.layers.3.norm2.bias"
+    ],
+    "L4_attention": [
+      "encoder.layers.4.self_attn.in_proj_weight",
+      "encoder.layers.4.self_attn.in_proj_bias",
+      "encoder.layers.4.self_attn.out_proj.weight",
+      "encoder.layers.4.self_attn.out_proj.bias"
+    ],
+    "L4_mlp": [
+      "encoder.layers.4.linear1.weight",
+      "encoder.layers.4.linear1.bias",
+      "encoder.layers.4.linear2.weight",
+      "encoder.layers.4.linear2.bias"
+    ],
+    "L4_normalization": [
+      "encoder.layers.4.norm1.weight",
+      "encoder.layers.4.norm1.bias",
+      "encoder.layers.4.norm2.weight",
+      "encoder.layers.4.norm2.bias"
+    ],
+    "L5_attention": [
+      "encoder.layers.5.self_attn.in_proj_weight",
+      "encoder.layers.5.self_attn.in_proj_bias",
+      "encoder.layers.5.self_attn.out_proj.weight",
+      "encoder.layers.5.self_attn.out_proj.bias"
+    ],
+    "L5_mlp": [
+      "encoder.layers.5.linear1.weight",
+      "encoder.layers.5.linear1.bias",
+      "encoder.layers.5.linear2.weight",
+      "encoder.layers.5.linear2.bias"
+    ],
+    "L5_normalization": [
+      "encoder.layers.5.norm1.weight",
+      "encoder.layers.5.norm1.bias",
+      "encoder.layers.5.norm2.weight",
+      "encoder.layers.5.norm2.bias"
+    ],
+    "selector_readout": [
+      "head.weight",
+      "head.bias"
+    ],
+    "unused_auxiliary_readout": [
+      "auxiliary_head.weight",
+      "auxiliary_head.bias"
+    ]
+  },
+  "populations": {
+    "first_exposed_S10_pairs": "bb0bc51dadcbd6feca8f42deddf1333820843521881b75aa44ca0a4e58b35730",
+    "new_S10_validation_pairs": "903e51271f229055afa3948c8151ca4c293544ab8f62b444a163515ea5fbd5e1"
+  },
+  "directions": [
+    "Insert the updated parameter group into the earlier model",
+    "Restore the earlier parameter group in the updated model"
+  ],
+  "role": "Development analysis of an adaptive training change. It does not isolate the effects of individual training ingredients, and no protected predictions are read.",
+  "status": "completed",
+  "metrics": {
+    "first_exposed_S10_pairs": {
+      "initial": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "updated": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "base_order_bias_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "base_order_bias_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "root_action_order_bias_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1281,
+        "pair_accuracy": 0.9793577981651376,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 21
+      },
+      "root_action_order_bias_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1300,
+        "pair_accuracy": 0.9938837920489296,
+        "fixed_vs_initial": 19,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 1
+      },
+      "input.base_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1281,
+        "pair_accuracy": 0.9793577981651376,
+        "fixed_vs_initial": 1,
+        "lost_vs_initial": 2,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 20
+      },
+      "input.base_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "input.extra_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1280,
+        "pair_accuracy": 0.9785932721712538,
+        "fixed_vs_initial": 2,
+        "lost_vs_initial": 4,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 21
+      },
+      "input.extra_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1300,
+        "pair_accuracy": 0.9938837920489296,
+        "fixed_vs_initial": 19,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 1
+      },
+      "L0_attention_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1283,
+        "pair_accuracy": 0.9808868501529052,
+        "fixed_vs_initial": 1,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 19
+      },
+      "L0_attention_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1300,
+        "pair_accuracy": 0.9938837920489296,
+        "fixed_vs_initial": 19,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 1
+      },
+      "L0_mlp_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1286,
+        "pair_accuracy": 0.9831804281345565,
+        "fixed_vs_initial": 5,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 16
+      },
+      "L0_mlp_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1297,
+        "pair_accuracy": 0.9915902140672783,
+        "fixed_vs_initial": 16,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 4
+      },
+      "L0_normalization_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "L0_normalization_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L1_attention_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1284,
+        "pair_accuracy": 0.981651376146789,
+        "fixed_vs_initial": 3,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 17
+      },
+      "L1_attention_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1299,
+        "pair_accuracy": 0.9931192660550459,
+        "fixed_vs_initial": 17,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 3
+      },
+      "L1_mlp_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1285,
+        "pair_accuracy": 0.9824159021406728,
+        "fixed_vs_initial": 3,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 17
+      },
+      "L1_mlp_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1297,
+        "pair_accuracy": 0.9915902140672783,
+        "fixed_vs_initial": 16,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 4
+      },
+      "L1_normalization_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "L1_normalization_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L2_attention_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1286,
+        "pair_accuracy": 0.9831804281345565,
+        "fixed_vs_initial": 4,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 16
+      },
+      "L2_attention_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1299,
+        "pair_accuracy": 0.9931192660550459,
+        "fixed_vs_initial": 18,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 2
+      },
+      "L2_mlp_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1286,
+        "pair_accuracy": 0.9831804281345565,
+        "fixed_vs_initial": 4,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 16
+      },
+      "L2_mlp_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1298,
+        "pair_accuracy": 0.9923547400611621,
+        "fixed_vs_initial": 17,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 4
+      },
+      "L2_normalization_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "L2_normalization_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L3_attention_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1286,
+        "pair_accuracy": 0.9831804281345565,
+        "fixed_vs_initial": 5,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 15
+      },
+      "L3_attention_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1298,
+        "pair_accuracy": 0.9923547400611621,
+        "fixed_vs_initial": 17,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 3
+      },
+      "L3_mlp_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 1,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 19
+      },
+      "L3_mlp_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 1
+      },
+      "L3_normalization_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "L3_normalization_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L4_attention_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1283,
+        "pair_accuracy": 0.9808868501529052,
+        "fixed_vs_initial": 1,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 19
+      },
+      "L4_attention_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1300,
+        "pair_accuracy": 0.9938837920489296,
+        "fixed_vs_initial": 19,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 1
+      },
+      "L4_mlp_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "L4_mlp_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L4_normalization_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "L4_normalization_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L5_attention_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1281,
+        "pair_accuracy": 0.9793577981651376,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 21
+      },
+      "L5_attention_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L5_mlp_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1280,
+        "pair_accuracy": 0.9785932721712538,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 2,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 21
+      },
+      "L5_mlp_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L5_normalization_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "L5_normalization_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "selector_readout_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "selector_readout_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "unused_auxiliary_readout_insert": {
+        "pairs": 1308,
+        "correct_pairs": 1282,
+        "pair_accuracy": 0.9801223241590215,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 20
+      },
+      "unused_auxiliary_readout_restore": {
+        "pairs": 1308,
+        "correct_pairs": 1301,
+        "pair_accuracy": 0.9946483180428135,
+        "fixed_vs_initial": 20,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      }
+    },
+    "new_S10_validation_pairs": {
+      "initial": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "updated": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "base_order_bias_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "base_order_bias_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "root_action_order_bias_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "root_action_order_bias_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "input.base_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "input.base_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "input.extra_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "input.extra_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L0_attention_insert": {
+        "pairs": 574,
+        "correct_pairs": 571,
+        "pair_accuracy": 0.9947735191637631,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 2,
+        "lost_vs_updated": 0
+      },
+      "L0_attention_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L0_mlp_insert": {
+        "pairs": 574,
+        "correct_pairs": 570,
+        "pair_accuracy": 0.9930313588850174,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 2,
+        "fixed_vs_updated": 1,
+        "lost_vs_updated": 0
+      },
+      "L0_mlp_restore": {
+        "pairs": 574,
+        "correct_pairs": 568,
+        "pair_accuracy": 0.9895470383275261,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 4,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 1
+      },
+      "L0_normalization_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L0_normalization_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L1_attention_insert": {
+        "pairs": 574,
+        "correct_pairs": 571,
+        "pair_accuracy": 0.9947735191637631,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 2,
+        "lost_vs_updated": 0
+      },
+      "L1_attention_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L1_mlp_insert": {
+        "pairs": 574,
+        "correct_pairs": 571,
+        "pair_accuracy": 0.9947735191637631,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 2,
+        "lost_vs_updated": 0
+      },
+      "L1_mlp_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L1_normalization_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L1_normalization_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L2_attention_insert": {
+        "pairs": 574,
+        "correct_pairs": 571,
+        "pair_accuracy": 0.9947735191637631,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 1,
+        "fixed_vs_updated": 2,
+        "lost_vs_updated": 0
+      },
+      "L2_attention_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L2_mlp_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L2_mlp_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L2_normalization_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L2_normalization_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L3_attention_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L3_attention_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L3_mlp_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L3_mlp_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L3_normalization_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L3_normalization_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L4_attention_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L4_attention_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L4_mlp_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L4_mlp_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L4_normalization_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L4_normalization_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L5_attention_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L5_attention_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L5_mlp_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L5_mlp_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "L5_normalization_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "L5_normalization_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "selector_readout_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "selector_readout_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      },
+      "unused_auxiliary_readout_insert": {
+        "pairs": 574,
+        "correct_pairs": 572,
+        "pair_accuracy": 0.9965156794425087,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 0,
+        "fixed_vs_updated": 3,
+        "lost_vs_updated": 0
+      },
+      "unused_auxiliary_readout_restore": {
+        "pairs": 574,
+        "correct_pairs": 569,
+        "pair_accuracy": 0.9912891986062717,
+        "fixed_vs_initial": 0,
+        "lost_vs_initial": 3,
+        "fixed_vs_updated": 0,
+        "lost_vs_updated": 0
+      }
+    }
+  },
+  "parameter_changes": {
+    "base_order_bias": {
+      "parameters": 6912,
+      "maximum_change": 0.0011501796543598175
+    },
+    "root_action_order_bias": {
+      "parameters": 576,
+      "maximum_change": 0.018649397417902946
+    },
+    "input.base": {
+      "parameters": 48000,
+      "maximum_change": 0.000545114278793335
+    },
+    "input.extra": {
+      "parameters": 9216,
+      "maximum_change": 0.0021354793570935726
+    },
+    "L0_attention": {
+      "parameters": 591360,
+      "maximum_change": 0.0009859994752332568
+    },
+    "L0_mlp": {
+      "parameters": 590976,
+      "maximum_change": 0.0012058280408382416
+    },
+    "L0_normalization": {
+      "parameters": 1536,
+      "maximum_change": 0.0007717609405517578
+    },
+    "L1_attention": {
+      "parameters": 591360,
+      "maximum_change": 0.0011849794536828995
+    },
+    "L1_mlp": {
+      "parameters": 590976,
+      "maximum_change": 0.0013290964998304844
+    },
+    "L1_normalization": {
+      "parameters": 1536,
+      "maximum_change": 0.0009503960609436035
+    },
+    "L2_attention": {
+      "parameters": 591360,
+      "maximum_change": 0.0013638630043715239
+    },
+    "L2_mlp": {
+      "parameters": 590976,
+      "maximum_change": 0.001483454369008541
+    },
+    "L2_normalization": {
+      "parameters": 1536,
+      "maximum_change": 0.0009416937828063965
+    },
+    "L3_attention": {
+      "parameters": 591360,
+      "maximum_change": 0.0015822146087884903
+    },
+    "L3_mlp": {
+      "parameters": 590976,
+      "maximum_change": 0.0015125265344977379
+    },
+    "L3_normalization": {
+      "parameters": 1536,
+      "maximum_change": 0.0009170770645141602
+    },
+    "L4_attention": {
+      "parameters": 591360,
+      "maximum_change": 0.0021146871149539948
+    },
+    "L4_mlp": {
+      "parameters": 590976,
+      "maximum_change": 0.0016785692423582077
+    },
+    "L4_normalization": {
+      "parameters": 1536,
+      "maximum_change": 0.0011854171752929688
+    },
+    "L5_attention": {
+      "parameters": 591360,
+      "maximum_change": 0.0017266124486923218
+    },
+    "L5_mlp": {
+      "parameters": 590976,
+      "maximum_change": 0.0036702174693346024
+    },
+    "L5_normalization": {
+      "parameters": 1536,
+      "maximum_change": 0.0010787248611450195
+    },
+    "selector_readout": {
+      "parameters": 385,
+      "maximum_change": 0.0005390401929616928
+    },
+    "unused_auxiliary_readout": {
+      "parameters": 1155,
+      "maximum_change": 0.0015725367702543736
+    }
+  },
+  "artifacts": {
+    "first_exposed_S10_pairs": "3310b15d7d8faca7f07b74b3c7b5b2e2703d6287e4e4a9caa2c20bcbf964e507",
+    "new_S10_validation_pairs": "39290b571e8b56d7906cf43c72de5d0c7c7e6ee9b8864af1ef95fe2b61cb2b7e"
+  },
+  "checks": {
+    "unused_auxiliary_head_has_exactly_zero_effect": true
+  },
+  "limitation": "Parameter hybrids are artificial models. Individual group effects need not add, and these development measurements do not constitute formal circuit confirmation."
+}

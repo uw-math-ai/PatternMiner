@@ -1,0 +1,12 @@
+{
+  "status": "corrected_and_repeated",
+  "first_attempt": "analyze_error_root_support.log",
+  "first_source": "artifacts/error_root_support_first_source.py",
+  "problem": "Neighborhood plans sort the two factors, whereas the retained prediction errors preserve their original orientation. The first diagnostic compared a target support against the wrong factor orientation.",
+  "detection": "An exact target-support assertion failed before a completed result was written. No diagnostic labels were used for training.",
+  "correction": "Recover the orientation from each frozen encoded input, verify the sorted factor pair, and compare the appropriate A or B coefficient vector.",
+  "first_attempt_exact_queries": 15,
+  "completed_retry_exact_queries": 124,
+  "completed_report": "ERROR_ROOT_SUPPORT.json",
+  "accounting": "Both attempts remain charged in the cumulative resource ledger. The neighboring training data generation was unaffected."
+}

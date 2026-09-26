@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/train_selector.py", line 244, in <module>
+    budget=Budget(args.arm+'_training',args.wall_limit,gpu=True);status='failed_or_partial'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Budget.__init__() got multiple values for argument 'gpu'

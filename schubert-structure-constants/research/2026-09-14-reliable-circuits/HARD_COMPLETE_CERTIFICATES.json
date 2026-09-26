@@ -1,0 +1,30 @@
+{
+  "legacy_rows": 390940,
+  "legacy_pairs": 1008,
+  "legacy_factor_groups": 274,
+  "legacy_pairs_by_ambient": {
+    "7": 9,
+    "8": 125,
+    "9": 244,
+    "10": 335,
+    "11": 242,
+    "12": 51,
+    "13": 2
+  },
+  "legacy_pairs_reflection_eligible": 1008,
+  "pairs": 19245,
+  "training_rows": 6045343,
+  "pair_sha256": "4a2ac55089e9cfa0bffceb1bd2e5b1bbd9d59dc22d5ce61daa5da7f94c870292",
+  "legacy_pair_sha256": "b3f3c3a6d02ad50f865d1ab55d246d3d5d8ee8359ff20a5755f845739a0bacac",
+  "source_sha256": "5daed2cae0d095e4b30af8a11f5b885615b26c36a39f198520e7814a3b5498fb",
+  "worker_sha256": "4dfb8f231e0825c2675b7a1780903c3cdaaf7b77979daddc113bc8c7e2cfe6b2",
+  "source_data_sha256": "2dca0d3e5cc7adb8d26945b763d30ff6a2fec13a031398fae139a35272fe3690",
+  "columns": [
+    "left_global_row",
+    "right_global_row",
+    "reverse",
+    "supplied_index_zero_based"
+  ],
+  "checks": "Equal factors and ambient size; positive supplied coefficients; disjoint nonempty target sets",
+  "scope": "Legacy training split only; previous new-training pairs appended unchanged; no new labels or model scores"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "rows": 1256309,
+  "pairs": 9981,
+  "factor_groups": 216,
+  "pair_sha256": "fdb8c89c367b7c9100036b3cc95e09f4b34a63ada780a15da8fad523683d4e55",
+  "data_metadata_sha256": "d2ff83ad11f40ff1d30a9f705ce80ae9552107a4d003f33abf8689a7a7c96221",
+  "source_sha256": "0708e4633dbb3f16593c8924f39092d9b011a872f165838c92e03255337a94dc"
+}

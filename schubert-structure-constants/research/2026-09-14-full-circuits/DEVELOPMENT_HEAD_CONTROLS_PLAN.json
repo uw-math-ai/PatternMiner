@@ -1,0 +1,11 @@
+{
+  "registered_at": "2026-09-15T03:44:49.048243+00:00",
+  "status": "registered_after_development_nomination_before_interventions",
+  "checkpoint": "artifacts/SECOND_REFINEMENT_READOUTS.pt",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_scan_sha256": "b61539f95570b7cff711c0660511b215e41eb95d347e159595846101e362d1f5",
+  "scope": "All 5445 development pairs; no correctness filter for nomination",
+  "selection": "Two widening pairs h,h+8 with largest summed all-input factor-orbit mean direct replacement effect; freeze before interventions",
+  "controls": "Twenty random sets matched by layer and number of widening pairs; Q/K/V, attention pattern, bias, Q/K/bias together, zero, retain, and shuffled compatible sources",
+  "role": "Exploratory development analysis after independent qualification failure. No formal populations will be opened. No model adaptation from these results."
+}

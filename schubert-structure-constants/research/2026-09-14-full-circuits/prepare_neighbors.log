@@ -1,0 +1,2 @@
+{"rows": 4683591, "pairs": 27352, "groups": 952}
+{"name": "prepare_current_failure_neighbors", "status": "completed", "wall_seconds": 55.75846699695103, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

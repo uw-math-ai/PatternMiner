@@ -1,0 +1,1096 @@
+{
+  "tree": {
+    "feature": 0,
+    "threshold": 60.5,
+    "left": {
+      "feature": 1,
+      "threshold": 2.5,
+      "left": {
+        "label": 1,
+        "counts": [
+          0,
+          9
+        ]
+      },
+      "right": {
+        "label": 0,
+        "counts": [
+          32,
+          0
+        ]
+      }
+    },
+    "right": {
+      "label": 1,
+      "counts": [
+        0,
+        521
+      ]
+    }
+  },
+  "added_training_rows": 12,
+  "added_parent_groups": [
+    4,
+    7,
+    10,
+    13,
+    16,
+    19,
+    22,
+    25,
+    28
+  ],
+  "train": {
+    "n": 562,
+    "confusion": [
+      [
+        32,
+        0
+      ],
+      [
+        0,
+        530
+      ]
+    ],
+    "correct": 562,
+    "accuracy": 1.0
+  },
+  "test": {
+    "n": 279,
+    "confusion": [
+      [
+        10,
+        1
+      ],
+      [
+        0,
+        268
+      ]
+    ],
+    "correct": 278,
+    "accuracy": 0.996415770609319
+  },
+  "hard": {
+    "n": 15,
+    "confusion": [
+      [
+        14,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "correct": 14,
+    "accuracy": 0.9333333333333333
+  },
+  "external_envelope_test": {
+    "n": 279,
+    "confusion": [
+      [
+        7,
+        4
+      ],
+      [
+        0,
+        268
+      ]
+    ],
+    "correct": 275,
+    "accuracy": 0.985663082437276
+  },
+  "external_envelope_hard": {
+    "n": 15,
+    "confusion": [
+      [
+        15,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "correct": 15,
+    "accuracy": 1.0
+  },
+  "interventions": [
+    {
+      "target": [
+        24,
+        54,
+        96,
+        69,
+        134,
+        86,
+        102,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        56,
+        101,
+        71,
+        140,
+        89,
+        106,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        57,
+        102,
+        74,
+        142,
+        92,
+        108,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        54,
+        87,
+        70,
+        112,
+        87,
+        84,
+        1,
+        4,
+        6,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        58,
+        99,
+        82,
+        136,
+        107,
+        108,
+        1,
+        4,
+        6,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        58,
+        105,
+        75,
+        146,
+        93,
+        110,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        55,
+        87,
+        74,
+        110,
+        91,
+        80,
+        4,
+        10,
+        6,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        59,
+        99,
+        86,
+        134,
+        111,
+        104,
+        4,
+        10,
+        6,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        55,
+        92,
+        69,
+        120,
+        82,
+        86,
+        3,
+        8,
+        2,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        59,
+        104,
+        81,
+        144,
+        102,
+        110,
+        3,
+        8,
+        2,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        56,
+        90,
+        77,
+        116,
+        98,
+        88,
+        4,
+        12,
+        8,
+        8
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        60,
+        102,
+        89,
+        140,
+        118,
+        112,
+        4,
+        12,
+        8,
+        8
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        56,
+        94,
+        73,
+        124,
+        90,
+        92,
+        4,
+        12,
+        4,
+        8
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        60,
+        106,
+        85,
+        148,
+        110,
+        116,
+        4,
+        12,
+        4,
+        8
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 0,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        61,
+        114,
+        82,
+        162,
+        104,
+        124,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before": 1,
+      "identity_patch": 1,
+      "source_root_patch": 0,
+      "inactive_root_input_prediction": 1,
+      "source": [
+        24,
+        12,
+        11,
+        8,
+        9,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "child_interventions": [
+    {
+      "target": [
+        24,
+        54,
+        96,
+        69,
+        134,
+        86,
+        102,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        56,
+        101,
+        71,
+        140,
+        89,
+        106,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        57,
+        102,
+        74,
+        142,
+        92,
+        108,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        54,
+        87,
+        70,
+        112,
+        87,
+        84,
+        1,
+        4,
+        6,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        58,
+        99,
+        82,
+        136,
+        107,
+        108,
+        1,
+        4,
+        6,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        58,
+        105,
+        75,
+        146,
+        93,
+        110,
+        0,
+        0,
+        0,
+        0
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        55,
+        87,
+        74,
+        110,
+        91,
+        80,
+        4,
+        10,
+        6,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        59,
+        99,
+        86,
+        134,
+        111,
+        104,
+        4,
+        10,
+        6,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        55,
+        92,
+        69,
+        120,
+        82,
+        86,
+        3,
+        8,
+        2,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        59,
+        104,
+        81,
+        144,
+        102,
+        110,
+        3,
+        8,
+        2,
+        4
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        56,
+        90,
+        77,
+        116,
+        98,
+        88,
+        4,
+        12,
+        8,
+        8
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        60,
+        102,
+        89,
+        140,
+        118,
+        112,
+        4,
+        12,
+        8,
+        8
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        56,
+        94,
+        73,
+        124,
+        90,
+        92,
+        4,
+        12,
+        4,
+        8
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "target": [
+        24,
+        60,
+        106,
+        85,
+        148,
+        110,
+        116,
+        4,
+        12,
+        4,
+        8
+      ],
+      "before": 0,
+      "identity_patch": 0,
+      "genuine_child_branch_patch": 1,
+      "unused_child_input_control": 0,
+      "source": [
+        24,
+        54,
+        17,
+        24,
+        4,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "remaining_test_errors": [
+    {
+      "x": [
+        12,
+        2
+      ],
+      "label": 0,
+      "split": "test",
+      "group": 0,
+      "target": [
+        24,
+        12,
+        10,
+        7,
+        6,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "x": [
+        61,
+        124
+      ],
+      "label": 0,
+      "group": 30,
+      "target": [
+        24,
+        61,
+        114,
+        82,
+        162,
+        104,
+        124,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "reliability_gate_passed": false
+}

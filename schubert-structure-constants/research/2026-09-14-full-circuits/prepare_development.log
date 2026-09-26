@@ -1,0 +1,3 @@
+{"population": "S9_validation", "rows": 46600, "pairs": 177, "pair_groups": 19, "pair_sha256": "9e0f3af897cae3f22eddfedb1dd1e1529306a125c7314cc3f52bbac5d5c46d1d", "oriented_examples": 31940, "groups": 100}
+{"population": "S10_validation", "rows": 220819, "pairs": 574, "pair_groups": 29, "pair_sha256": "27e8222f59f90280de3365032b9b7646d8929d2b0542aa348564b10486cae425", "oriented_examples": 29400, "groups": 80}
+{"name": "prepare_fresh_development", "status": "completed", "wall_seconds": 6.480128403985873, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

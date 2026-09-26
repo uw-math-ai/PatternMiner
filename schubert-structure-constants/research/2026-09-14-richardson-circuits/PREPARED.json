@@ -1,0 +1,44 @@
+{
+  "status": "completed",
+  "training": {
+    "S8_train": {
+      "rows": 8396,
+      "pairs": 2,
+      "pair_groups": 2,
+      "pair_sha256": "10ea89044d6bb8090b161c69c0f9a790cbcc2d12ea48229eb6676d1069c644a2"
+    },
+    "S9_train": {
+      "rows": 585293,
+      "pairs": 1608,
+      "pair_groups": 249,
+      "pair_sha256": "9696e2b5713cc9dba1444a0695234025f6cabec91f71c736bb6b4a40406db391"
+    },
+    "S10_train": {
+      "rows": 1600622,
+      "pairs": 5697,
+      "pair_groups": 283,
+      "pair_sha256": "61e2de0f1f2a41ef298544e25d777a9d289e4b7d21cf600c2ab38b9dd6014b0a"
+    }
+  },
+  "development": {
+    "S9_validation": {
+      "rows": 34660,
+      "pairs": 86,
+      "pair_groups": 13,
+      "pair_sha256": "87e2a769aa32fdf00dc43427870b103c74fa58670bf6c42366372b4926b9c49c",
+      "oriented_examples": 28196,
+      "groups": 100
+    },
+    "S10_validation": {
+      "rows": 127901,
+      "pairs": 518,
+      "pair_groups": 27,
+      "pair_sha256": "ad7f478e9bf1e201bc35f460d370e1de6a51e774eb7bd97a3ddf91608dd6fc46",
+      "oriented_examples": 22730,
+      "groups": 60
+    }
+  },
+  "development_pair_policy": "Distinct ordered row pairs and orientation; every supplied index is evaluated, so repeated certificate indices are removed.",
+  "source_sha256": "823b9159f74d3b18f5ac8cf12a25e0b638839bf0c53e62c3f32b135bdea9a9b4",
+  "data_sha256": "a77b8d09fb29f336e201e87392af522e6e863a64425baf56bfd4b498aae47217"
+}

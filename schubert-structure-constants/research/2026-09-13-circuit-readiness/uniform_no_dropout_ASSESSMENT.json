@@ -1,0 +1,303 @@
+{
+  "arm": "uniform_no_dropout",
+  "metrics": {
+    "S7_assessment_first": {
+      "n": 30262,
+      "top1": 0.9866499239970921,
+      "mean_oracle_calls": 1.0139118366267927,
+      "random_expected_calls": 1.5766197431322009,
+      "correct": 29858,
+      "errors": 404,
+      "product_groups": 579,
+      "mean_product_group_top1": 0.9898237344060145,
+      "multiple_candidates": {
+        "n": 29287,
+        "correct": 28883,
+        "top1": 0.9862054836616929
+      },
+      "contains_invalid_candidate": {
+        "n": 23918,
+        "correct": 23514,
+        "top1": 0.9831089555982941
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.9846163267654892,
+        0.9887432390510309
+      ]
+    },
+    "S7_assessment_last": {
+      "n": 30262,
+      "top1": 0.9875421320467913,
+      "mean_oracle_calls": 1.013283986517745,
+      "random_expected_calls": 1.5766197431322009,
+      "correct": 29885,
+      "errors": 377,
+      "product_groups": 579,
+      "mean_product_group_top1": 0.990949229297967,
+      "multiple_candidates": {
+        "n": 29287,
+        "correct": 28910,
+        "top1": 0.9871273944070749
+      },
+      "contains_invalid_candidate": {
+        "n": 23918,
+        "correct": 23541,
+        "top1": 0.984237812526131
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.9851473467389814,
+        0.9897606755084547
+      ]
+    },
+    "S8_assessment_first": {
+      "n": 20000,
+      "top1": 0.9686,
+      "mean_oracle_calls": 1.03565,
+      "random_expected_calls": 1.6833566666666666,
+      "correct": 19372,
+      "errors": 628,
+      "product_groups": 370,
+      "mean_product_group_top1": 0.974262017738152,
+      "multiple_candidates": {
+        "n": 19757,
+        "correct": 19129,
+        "top1": 0.9682137976413423
+      },
+      "contains_invalid_candidate": {
+        "n": 16504,
+        "correct": 15876,
+        "top1": 0.9619486185167232
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.9634809697791651,
+        0.9732795853187434
+      ]
+    },
+    "S8_assessment_last": {
+      "n": 20000,
+      "top1": 0.96955,
+      "mean_oracle_calls": 1.0346,
+      "random_expected_calls": 1.6833566666666666,
+      "correct": 19391,
+      "errors": 609,
+      "product_groups": 370,
+      "mean_product_group_top1": 0.975281802500482,
+      "multiple_candidates": {
+        "n": 19757,
+        "correct": 19148,
+        "top1": 0.9691754821076074
+      },
+      "contains_invalid_candidate": {
+        "n": 16504,
+        "correct": 15895,
+        "top1": 0.9630998545807077
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.964391541914188,
+        0.9747207244181917
+      ]
+    },
+    "S9_assessment_first": {
+      "n": 20000,
+      "top1": 0.95275,
+      "mean_oracle_calls": 1.0552,
+      "random_expected_calls": 1.8107074999999997,
+      "correct": 19055,
+      "errors": 945,
+      "product_groups": 470,
+      "mean_product_group_top1": 0.9554259659119382,
+      "multiple_candidates": {
+        "n": 19941,
+        "correct": 18996,
+        "top1": 0.9526102000902663
+      },
+      "contains_invalid_candidate": {
+        "n": 16924,
+        "correct": 15979,
+        "top1": 0.9441621366107303
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.9469612083677091,
+        0.9578748985041686
+      ]
+    },
+    "S9_assessment_last": {
+      "n": 20000,
+      "top1": 0.95555,
+      "mean_oracle_calls": 1.05125,
+      "random_expected_calls": 1.8107074999999997,
+      "correct": 19111,
+      "errors": 889,
+      "product_groups": 470,
+      "mean_product_group_top1": 0.9547646467540483,
+      "multiple_candidates": {
+        "n": 19941,
+        "correct": 19052,
+        "top1": 0.9554184845293616
+      },
+      "contains_invalid_candidate": {
+        "n": 16924,
+        "correct": 16035,
+        "top1": 0.9474710470337981
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.9510116484910339,
+        0.9598106486566023
+      ]
+    },
+    "matched_pairs_first": {
+      "n": 916,
+      "top1": 0.7292576419213974,
+      "mean_oracle_calls": 1.3024017467248907,
+      "random_expected_calls": 1.88264192139738,
+      "correct": 668,
+      "errors": 248,
+      "product_groups": 71,
+      "mean_product_group_top1": 0.7006712966220008,
+      "multiple_candidates": {
+        "n": 916,
+        "correct": 668,
+        "top1": 0.7292576419213974
+      },
+      "contains_invalid_candidate": {
+        "n": 916,
+        "correct": 668,
+        "top1": 0.7292576419213974
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.6472982343060276,
+        0.8132439831609725
+      ],
+      "pairs": 458,
+      "both_correct": 221,
+      "both_correct_rate": 0.48253275109170307
+    },
+    "matched_pairs_last": {
+      "n": 916,
+      "top1": 0.8264192139737991,
+      "mean_oracle_calls": 1.2074235807860263,
+      "random_expected_calls": 1.88264192139738,
+      "correct": 757,
+      "errors": 159,
+      "product_groups": 71,
+      "mean_product_group_top1": 0.7920219256486862,
+      "multiple_candidates": {
+        "n": 916,
+        "correct": 757,
+        "top1": 0.8264192139737991
+      },
+      "contains_invalid_candidate": {
+        "n": 916,
+        "correct": 757,
+        "top1": 0.8264192139737991
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.7603562185332713,
+        0.8786457470426456
+      ],
+      "pairs": 458,
+      "both_correct": 302,
+      "both_correct_rate": 0.6593886462882096
+    }
+  },
+  "gate_met": false,
+  "exposure": "Historical product groups excluded from training and validation; adaptive research assessment",
+  "training_fit": {
+    "S7_train_first": {
+      "n": 115422,
+      "top1": 0.9911108800748557,
+      "mean_oracle_calls": 1.0092096827294623,
+      "random_expected_calls": 1.5970345052647386,
+      "correct": 114396,
+      "errors": 1026,
+      "product_groups": 2114,
+      "mean_product_group_top1": 0.99321671812278,
+      "multiple_candidates": {
+        "n": 111604,
+        "correct": 110578,
+        "top1": 0.9908067811189563
+      },
+      "contains_invalid_candidate": {
+        "n": 92655,
+        "correct": 91629,
+        "top1": 0.9889266634288489
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.9902326019159992,
+        0.9920284506545626
+      ]
+    },
+    "S7_train_last": {
+      "n": 115422,
+      "top1": 0.9919426105941674,
+      "mean_oracle_calls": 1.0084212715080314,
+      "random_expected_calls": 1.5970345052647386,
+      "correct": 114492,
+      "errors": 930,
+      "product_groups": 2114,
+      "mean_product_group_top1": 0.9943244375028654,
+      "multiple_candidates": {
+        "n": 111604,
+        "correct": 110674,
+        "top1": 0.991666965341744
+      },
+      "contains_invalid_candidate": {
+        "n": 92655,
+        "correct": 91725,
+        "top1": 0.9899627650963251
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.991081057622135,
+        0.9926890518851513
+      ]
+    },
+    "S8_train_first": {
+      "n": 313542,
+      "top1": 0.9871149638644903,
+      "mean_oracle_calls": 1.0137876265380714,
+      "random_expected_calls": 1.7041689258004775,
+      "correct": 309502,
+      "errors": 4040,
+      "product_groups": 1433,
+      "mean_product_group_top1": 0.9875802666966238,
+      "multiple_candidates": {
+        "n": 311574,
+        "correct": 307534,
+        "top1": 0.9870335778980275
+      },
+      "contains_invalid_candidate": {
+        "n": 261419,
+        "correct": 257379,
+        "top1": 0.984545882280936
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.986254874296187,
+        0.9879722739025821
+      ]
+    },
+    "S8_train_last": {
+      "n": 313542,
+      "top1": 0.988020743632432,
+      "mean_oracle_calls": 1.012770218981827,
+      "random_expected_calls": 1.7041689258004775,
+      "correct": 309786,
+      "errors": 3756,
+      "product_groups": 1433,
+      "mean_product_group_top1": 0.9886960717423776,
+      "multiple_candidates": {
+        "n": 311574,
+        "correct": 307818,
+        "top1": 0.987945078857671
+      },
+      "contains_invalid_candidate": {
+        "n": 261419,
+        "correct": 257663,
+        "top1": 0.9856322608532662
+      },
+      "product_cluster_bootstrap_95_percent": [
+        0.9871264826251537,
+        0.9888366574571535
+      ]
+    }
+  }
+}

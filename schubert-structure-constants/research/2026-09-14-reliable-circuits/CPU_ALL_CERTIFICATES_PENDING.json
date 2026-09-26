@@ -1,0 +1,9 @@
+{
+  "name": "mine_all_supplied_training_pairs",
+  "status": "completed",
+  "wall_seconds": 39.590801215032116,
+  "gpu_seconds_charged": 0,
+  "gpu_charge_scope": "CPU only, three workers",
+  "exact_queries": 0,
+  "accounting": "Deferred append until the concurrent training ledger is closed"
+}

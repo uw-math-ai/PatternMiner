@@ -1,0 +1,334 @@
+{
+  "status": "passed",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "34c935a831d37317fccf886b25efe38f89526db75776f3b8828604fef365c961",
+  "inputs": 32,
+  "checks": {
+    "native": 0.0,
+    "identity": 0.0,
+    "restoration": 0.0,
+    "query_key_bias_pattern": 0.0
+  },
+  "parameter_gradient_errors": {
+    "base_order_bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "root_action_order_bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "input.base.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "input.base.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "input.extra.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.self_attn.in_proj_weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.self_attn.in_proj_bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.self_attn.out_proj.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.self_attn.out_proj.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.linear1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.linear1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.linear2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.linear2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.norm1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.norm1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.norm2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.0.norm2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.self_attn.in_proj_weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.self_attn.in_proj_bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.self_attn.out_proj.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.self_attn.out_proj.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.linear1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.linear1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.linear2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.linear2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.norm1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.norm1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.norm2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.1.norm2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.self_attn.in_proj_weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.self_attn.in_proj_bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.self_attn.out_proj.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.self_attn.out_proj.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.linear1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.linear1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.linear2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.linear2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.norm1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.norm1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.norm2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.2.norm2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.self_attn.in_proj_weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.self_attn.in_proj_bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.self_attn.out_proj.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.self_attn.out_proj.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.linear1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.linear1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.linear2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.linear2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.norm1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.norm1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.norm2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.3.norm2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.self_attn.in_proj_weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.self_attn.in_proj_bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.self_attn.out_proj.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.self_attn.out_proj.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.linear1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.linear1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.linear2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.linear2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.norm1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.norm1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.norm2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.4.norm2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.self_attn.in_proj_weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.self_attn.in_proj_bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.self_attn.out_proj.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.self_attn.out_proj.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.linear1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.linear1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.linear2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.linear2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.norm1.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.norm1.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.norm2.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "encoder.layers.5.norm2.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "head.weight": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    },
+    "head.bias": {
+      "maximum_absolute_error": 0.0,
+      "relative_l2_error": 0.0
+    }
+  },
+  "nomination_components": 102,
+  "maximum_gradient_absolute_error": 0.0,
+  "maximum_gradient_relative_l2_error": 0.0,
+  "role": "Implementation verification on development inputs. No discovery or confirmation data are read."
+}

@@ -1,0 +1,108 @@
+{
+  "experiment": "Independent finite controls for T053 plus explicit rectangle decompositions",
+  "arithmetic": "Python integers; no floating-point coefficient calculation",
+  "content_domain": {
+    "total_size": [
+      2,
+      12
+    ],
+    "positive_entries_at_most": 7,
+    "theta_first_part_at_least": 2,
+    "theta_second_part_at_most": 2
+  },
+  "path_domain": {
+    "size": [
+      1,
+      7
+    ],
+    "endpoint_flags": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "shape_domain": {
+    "rows": [
+      1,
+      5
+    ],
+    "outer_parts": [
+      1,
+      4
+    ],
+    "all_rows_nonempty": true,
+    "total_size": [
+      2,
+      11
+    ],
+    "enumeration": "Every weakly decreasing outer and inner partition pair in these bounds"
+  },
+  "rectangle": {
+    "outer": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "inner": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "coefficient_shapes": [
+      [
+        8,
+        2,
+        2
+      ],
+      [
+        7,
+        2,
+        2,
+        1
+      ],
+      [
+        6,
+        2,
+        2,
+        2
+      ],
+      [
+        5,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  "model": null,
+  "training": null,
+  "random_seed": null,
+  "scope": "Bounded checks support implementations and conventions; the proof document supplies all-parameter reasoning"
+}

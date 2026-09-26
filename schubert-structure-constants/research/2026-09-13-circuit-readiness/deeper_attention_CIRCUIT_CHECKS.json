@@ -1,0 +1,371 @@
+{
+  "checkpoint": "artifacts/deeper_attention.pt",
+  "checkpoint_sha256": "11de25b7ed3603ededdd9b605864210eb8b76e5a03abcbfb4eab1065a96e3272",
+  "source_sha256": "e04272931abf981300fd0fcfbc0df90e89a1574a571a0db09d4db771005eeb05",
+  "examples": 916,
+  "native_max_error": 0.0,
+  "decision_agreement": 1.0,
+  "identity_max_error": 0.0,
+  "embedding_restoration_max_error": 0.0,
+  "identity_by_site": {
+    "features": 0.0,
+    "order_comparisons": 0.0,
+    "embedding": 0.0,
+    "L0.resid_pre": 0.0,
+    "L0.attention_input": 0.0,
+    "L0.q": 0.0,
+    "L0.k": 0.0,
+    "L0.v": 0.0,
+    "L0.order_bias": 0.0,
+    "L0.attention_logits": 0.0,
+    "L0.pattern": 0.0,
+    "L0.head_outputs": 0.0,
+    "L0.attention_output": 0.0,
+    "L0.resid_after_attention": 0.0,
+    "L0.mlp_input": 0.0,
+    "L0.mlp_hidden": 0.0,
+    "L0.mlp_output": 0.0,
+    "L0.resid_post": 0.0,
+    "L1.resid_pre": 0.0,
+    "L1.attention_input": 0.0,
+    "L1.q": 0.0,
+    "L1.k": 0.0,
+    "L1.v": 0.0,
+    "L1.order_bias": 0.0,
+    "L1.attention_logits": 0.0,
+    "L1.pattern": 0.0,
+    "L1.head_outputs": 0.0,
+    "L1.attention_output": 0.0,
+    "L1.resid_after_attention": 0.0,
+    "L1.mlp_input": 0.0,
+    "L1.mlp_hidden": 0.0,
+    "L1.mlp_output": 0.0,
+    "L1.resid_post": 0.0,
+    "L2.resid_pre": 0.0,
+    "L2.attention_input": 0.0,
+    "L2.q": 0.0,
+    "L2.k": 0.0,
+    "L2.v": 0.0,
+    "L2.order_bias": 0.0,
+    "L2.attention_logits": 0.0,
+    "L2.pattern": 0.0,
+    "L2.head_outputs": 0.0,
+    "L2.attention_output": 0.0,
+    "L2.resid_after_attention": 0.0,
+    "L2.mlp_input": 0.0,
+    "L2.mlp_hidden": 0.0,
+    "L2.mlp_output": 0.0,
+    "L2.resid_post": 0.0,
+    "L3.resid_pre": 0.0,
+    "L3.attention_input": 0.0,
+    "L3.q": 0.0,
+    "L3.k": 0.0,
+    "L3.v": 0.0,
+    "L3.order_bias": 0.0,
+    "L3.attention_logits": 0.0,
+    "L3.pattern": 0.0,
+    "L3.head_outputs": 0.0,
+    "L3.attention_output": 0.0,
+    "L3.resid_after_attention": 0.0,
+    "L3.mlp_input": 0.0,
+    "L3.mlp_hidden": 0.0,
+    "L3.mlp_output": 0.0,
+    "L3.resid_post": 0.0,
+    "scores": 0.0
+  },
+  "query_key_pattern_equivalence": {
+    "L0": 0.0,
+    "L1": 0.0,
+    "L2": 0.0,
+    "L3": 0.0
+  },
+  "order_bias_included_in_restoration": true,
+  "invalid_pattern_rejected": true,
+  "sites": {
+    "features": [
+      16,
+      124
+    ],
+    "order_comparisons": [
+      16,
+      16,
+      12
+    ],
+    "embedding": [
+      16,
+      192
+    ],
+    "L0.resid_pre": [
+      16,
+      192
+    ],
+    "L0.attention_input": [
+      16,
+      192
+    ],
+    "L0.q": [
+      8,
+      16,
+      24
+    ],
+    "L0.k": [
+      8,
+      16,
+      24
+    ],
+    "L0.v": [
+      8,
+      16,
+      24
+    ],
+    "L0.order_bias": [
+      8,
+      16,
+      16
+    ],
+    "L0.attention_logits": [
+      8,
+      16,
+      16
+    ],
+    "L0.pattern": [
+      8,
+      16,
+      16
+    ],
+    "L0.head_outputs": [
+      8,
+      16,
+      24
+    ],
+    "L0.attention_output": [
+      16,
+      192
+    ],
+    "L0.resid_after_attention": [
+      16,
+      192
+    ],
+    "L0.mlp_input": [
+      16,
+      192
+    ],
+    "L0.mlp_hidden": [
+      16,
+      384
+    ],
+    "L0.mlp_output": [
+      16,
+      192
+    ],
+    "L0.resid_post": [
+      16,
+      192
+    ],
+    "L1.resid_pre": [
+      16,
+      192
+    ],
+    "L1.attention_input": [
+      16,
+      192
+    ],
+    "L1.q": [
+      8,
+      16,
+      24
+    ],
+    "L1.k": [
+      8,
+      16,
+      24
+    ],
+    "L1.v": [
+      8,
+      16,
+      24
+    ],
+    "L1.order_bias": [
+      8,
+      16,
+      16
+    ],
+    "L1.attention_logits": [
+      8,
+      16,
+      16
+    ],
+    "L1.pattern": [
+      8,
+      16,
+      16
+    ],
+    "L1.head_outputs": [
+      8,
+      16,
+      24
+    ],
+    "L1.attention_output": [
+      16,
+      192
+    ],
+    "L1.resid_after_attention": [
+      16,
+      192
+    ],
+    "L1.mlp_input": [
+      16,
+      192
+    ],
+    "L1.mlp_hidden": [
+      16,
+      384
+    ],
+    "L1.mlp_output": [
+      16,
+      192
+    ],
+    "L1.resid_post": [
+      16,
+      192
+    ],
+    "L2.resid_pre": [
+      16,
+      192
+    ],
+    "L2.attention_input": [
+      16,
+      192
+    ],
+    "L2.q": [
+      8,
+      16,
+      24
+    ],
+    "L2.k": [
+      8,
+      16,
+      24
+    ],
+    "L2.v": [
+      8,
+      16,
+      24
+    ],
+    "L2.order_bias": [
+      8,
+      16,
+      16
+    ],
+    "L2.attention_logits": [
+      8,
+      16,
+      16
+    ],
+    "L2.pattern": [
+      8,
+      16,
+      16
+    ],
+    "L2.head_outputs": [
+      8,
+      16,
+      24
+    ],
+    "L2.attention_output": [
+      16,
+      192
+    ],
+    "L2.resid_after_attention": [
+      16,
+      192
+    ],
+    "L2.mlp_input": [
+      16,
+      192
+    ],
+    "L2.mlp_hidden": [
+      16,
+      384
+    ],
+    "L2.mlp_output": [
+      16,
+      192
+    ],
+    "L2.resid_post": [
+      16,
+      192
+    ],
+    "L3.resid_pre": [
+      16,
+      192
+    ],
+    "L3.attention_input": [
+      16,
+      192
+    ],
+    "L3.q": [
+      8,
+      16,
+      24
+    ],
+    "L3.k": [
+      8,
+      16,
+      24
+    ],
+    "L3.v": [
+      8,
+      16,
+      24
+    ],
+    "L3.order_bias": [
+      8,
+      16,
+      16
+    ],
+    "L3.attention_logits": [
+      8,
+      16,
+      16
+    ],
+    "L3.pattern": [
+      8,
+      16,
+      16
+    ],
+    "L3.head_outputs": [
+      8,
+      16,
+      24
+    ],
+    "L3.attention_output": [
+      16,
+      192
+    ],
+    "L3.resid_after_attention": [
+      16,
+      192
+    ],
+    "L3.mlp_input": [
+      16,
+      192
+    ],
+    "L3.mlp_hidden": [
+      16,
+      384
+    ],
+    "L3.mlp_output": [
+      16,
+      192
+    ],
+    "L3.resid_post": [
+      16,
+      192
+    ],
+    "scores": [
+      16
+    ]
+  },
+  "scope": "Implementation controls only; no causal explanation claimed"
+}

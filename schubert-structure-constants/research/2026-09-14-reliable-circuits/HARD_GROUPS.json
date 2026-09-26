@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "legacy_train": {
+      "pairs": 1008,
+      "groups": 204
+    },
+    "S8_train": {
+      "pairs": 83,
+      "groups": 40
+    },
+    "S9_train": {
+      "pairs": 5750,
+      "groups": 837
+    },
+    "S10_train": {
+      "pairs": 12404,
+      "groups": 688
+    }
+  },
+  "pair_sha256": "4a2ac55089e9cfa0bffceb1bd2e5b1bbd9d59dc22d5ce61daa5da7f94c870292",
+  "layout_sha256": "22387b1542694ffcc22eb844fe10730643a9b0034b74f717916a71dcb46cc118",
+  "source_sha256": "15546ac698348d504614923b16966de032947c06ed5689dc2f9b43eab3c28c3e",
+  "grouping": "Unordered factors after removing trailing fixed points; no output or supplied coefficient in the group key",
+  "sampling": "Preserve source probabilities within the legacy/new pools; sample a factor group uniformly within each source, then a pair uniformly within that group"
+}

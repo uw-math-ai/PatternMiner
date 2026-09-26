@@ -1,0 +1,939 @@
+{
+  "status": "completed",
+  "scope": "Training rows only; factor metadata used to exclude all historical and current-plan orbits",
+  "forbidden": {
+    "historical_orbits": 5777,
+    "total_orbits": 12597,
+    "sources": [
+      {
+        "path": "schubert-structure-constants/research/2026-09-13-witness-accuracy/artifacts/stable_degree_one_S7_3000_length7.jsonl.gz",
+        "sha256": "852c4fad03b9bbadc03172d25a5e3b1c823f2faca8ee80fb7b9e3c1e65641a80"
+      },
+      {
+        "path": "schubert-structure-constants/research/2026-09-13-witness-accuracy/artifacts/stable_degree_one_S8_2000_length9.jsonl.gz",
+        "sha256": "dc723f87265b1e1109f1071dff941914fd44cf785805ee51f09b10e5f199de81"
+      },
+      {
+        "path": "schubert-structure-constants/research/2026-09-13-witness-accuracy/artifacts/stable_degree_one_S9_500_length11.jsonl.gz",
+        "sha256": "6d17629066ed4fab1c6c83ae36a658290784440fa5a4583f01295accfe787f8f"
+      },
+      {
+        "path": "schubert-structure-constants/research/2026-09-13-circuit-readiness/FRESH_PAIRS.json",
+        "sha256": "2a2b1849211bd3b6692bac4aad37aa609e6b47c6825889ec2b7cb28717b34f24"
+      },
+      {
+        "path": "schubert-structure-constants/research/2026-09-14-reliable-circuits/DATA_PLAN.json",
+        "sha256": "00cbfff11244614d3920c2074f8aab3f324326d6ca0381f53894702432ea12a0"
+      }
+    ]
+  },
+  "forbidden_archive_sha256": "f5c9170ec3a4064a9ad24ffe9e6e0a58d56f61983a3e84bff71ef3839f95dd6f",
+  "source_sha256": "e9ced186c5d83eb4de6c12eda6aad5d2a48121c684a523a624ba9c468a0ecc7a",
+  "symmetry_source_sha256": "d61caaa4a8b134ba87a730fcd0c39f6436eb6ecfe1f991886cc2b9f51f382ec8",
+  "root_metadata_sha256": "57e1c7fa9b58a514c611cf726c5b136351c94ba2ac287e65d2b3abe420640f8a",
+  "populations": {
+    "S8_train": {
+      "known_rows": 46628,
+      "batches": [
+        {
+          "rows": 46628,
+          "finite_D_nonempty": 46176,
+          "eligible": [
+            46176,
+            46176
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 36
+        }
+      ],
+      "eligible": [
+        46176,
+        46176
+      ],
+      "sha256": "0d8a5b6335a8e4602666dc11385826a5005aac4901bd7338f2d3aa1b4ded5deb",
+      "archive_sha256": "2908c889f0477475121d8be5ffda736c396958c9948c80ef7bb553d4daabb5c8"
+    },
+    "S9_train": {
+      "known_rows": 577884,
+      "batches": [
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49831,
+          "eligible": [
+            49831,
+            49831
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 49
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49382,
+          "eligible": [
+            49382,
+            49382
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 51
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49817,
+          "eligible": [
+            49817,
+            49817
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 90
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49548,
+          "eligible": [
+            49548,
+            49548
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 52
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49941,
+          "eligible": [
+            49941,
+            49941
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 66
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49521,
+          "eligible": [
+            49521,
+            49521
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 65
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49737,
+          "eligible": [
+            49737,
+            49737
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 83
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49712,
+          "eligible": [
+            49712,
+            49712
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 81
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49858,
+          "eligible": [
+            49858,
+            49858
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 51
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49824,
+          "eligible": [
+            49824,
+            49824
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 63
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49631,
+          "eligible": [
+            49631,
+            49631
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 65
+        },
+        {
+          "rows": 27884,
+          "finite_D_nonempty": 27697,
+          "eligible": [
+            27697,
+            27697
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 63
+        }
+      ],
+      "eligible": [
+        574499,
+        574499
+      ],
+      "sha256": "3239ca87abe239e8c1cfa27cc0b08eb4fc72b8f05d725d78e042736ab165b529",
+      "archive_sha256": "7a4c7689b9f73bc50ed6c5b8eedcd6a67ee61e00eef9f162c8f2728374084ab7"
+    },
+    "S10_train": {
+      "known_rows": 2412400,
+      "batches": [
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49784,
+          "eligible": [
+            49784,
+            49784
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 82
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49540,
+          "eligible": [
+            49540,
+            49540
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 191
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49963,
+          "eligible": [
+            49963,
+            49963
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 132
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49952,
+          "eligible": [
+            49952,
+            49952
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 88
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49634,
+          "eligible": [
+            49634,
+            49634
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 96
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49609,
+          "eligible": [
+            49609,
+            49609
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 91
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49902,
+          "eligible": [
+            49902,
+            49902
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 75
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49945,
+          "eligible": [
+            49945,
+            49945
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 117
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49863,
+          "eligible": [
+            49863,
+            49863
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 73
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49991,
+          "eligible": [
+            49991,
+            49991
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 83
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49990,
+          "eligible": [
+            49990,
+            49990
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 68
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49928,
+          "eligible": [
+            49928,
+            49928
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 109
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 50000,
+          "eligible": [
+            50000,
+            50000
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 96
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49543,
+          "eligible": [
+            49543,
+            49543
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 151
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 50000,
+          "eligible": [
+            50000,
+            50000
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 140
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 50000,
+          "eligible": [
+            50000,
+            50000
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 107
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49425,
+          "eligible": [
+            49425,
+            49425
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 81
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49897,
+          "eligible": [
+            49897,
+            49897
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 118
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 50000,
+          "eligible": [
+            50000,
+            50000
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 107
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 50000,
+          "eligible": [
+            50000,
+            50000
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 141
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49990,
+          "eligible": [
+            49990,
+            49990
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 108
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49683,
+          "eligible": [
+            49683,
+            49683
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 94
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49899,
+          "eligible": [
+            49899,
+            49899
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 165
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49919,
+          "eligible": [
+            49919,
+            49919
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 70
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49992,
+          "eligible": [
+            49992,
+            49992
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 95
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49960,
+          "eligible": [
+            49960,
+            49960
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 93
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49989,
+          "eligible": [
+            49989,
+            49989
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 120
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49747,
+          "eligible": [
+            49747,
+            49747
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 74
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49907,
+          "eligible": [
+            49907,
+            49907
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 116
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49895,
+          "eligible": [
+            49895,
+            49895
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 141
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49940,
+          "eligible": [
+            49940,
+            49940
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 131
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49972,
+          "eligible": [
+            49972,
+            49972
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 92
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 50000,
+          "eligible": [
+            50000,
+            50000
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 94
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49907,
+          "eligible": [
+            49907,
+            49907
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 141
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49990,
+          "eligible": [
+            49990,
+            49990
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 77
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 50000,
+          "eligible": [
+            50000,
+            50000
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 111
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49964,
+          "eligible": [
+            49964,
+            49964
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 163
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49659,
+          "eligible": [
+            49659,
+            49659
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 199
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49931,
+          "eligible": [
+            49931,
+            49931
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 80
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49775,
+          "eligible": [
+            49775,
+            49775
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 82
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 50000,
+          "eligible": [
+            50000,
+            50000
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 121
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49687,
+          "eligible": [
+            49687,
+            49687
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 117
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 50000,
+          "eligible": [
+            50000,
+            50000
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 115
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49886,
+          "eligible": [
+            49886,
+            49886
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 72
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49841,
+          "eligible": [
+            49841,
+            49841
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 100
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49981,
+          "eligible": [
+            49981,
+            49981
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 84
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49961,
+          "eligible": [
+            49961,
+            49961
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 135
+        },
+        {
+          "rows": 50000,
+          "finite_D_nonempty": 49871,
+          "eligible": [
+            49871,
+            49871
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 109
+        },
+        {
+          "rows": 12400,
+          "finite_D_nonempty": 12165,
+          "eligible": [
+            12165,
+            12165
+          ],
+          "excluded_factor_collisions": [
+            0,
+            0
+          ],
+          "excluded_examples": [],
+          "maximum_transformed_Q": 51
+        }
+      ],
+      "eligible": [
+        2406477,
+        2406477
+      ],
+      "sha256": "450d3cabe45dd73a5dda1994520c089b4ec036529ac1cd13316032d9d4062d3d",
+      "archive_sha256": "df66cf7a3f319b94697620b4f24e1bf1cc5bf4219e63f8ea190ef04ff2b5c41b"
+    }
+  },
+  "checks": "Nonnegative transformed Q on every row with finite D nonempty; exact factor-orbit exclusion for both anchors",
+  "row_storage": "Eligibility flags only; no transformed permutation data copied"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "fixed_before_interventions",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "053fd88d6619cf3e3d76c8543b5c9bd438a2e869af2176aceee6b8ed39352cb5",
+  "parent_analysis_sha256": "45081ffd933dae219a09752038a5f0c06be5c3f19088eaf7e1be81c009a27ee8",
+  "inputs": 498,
+  "hypothesis": "The effective coefficients often favor one inverse position over their difference. Test retaining the larger endpoint coefficient in each fixed neuron, and separate transmission through second-block keys and values.",
+  "formulas": {
+    "midpoint": "(w^{-1}(j)+w^{-1}(j+1))/(2n)",
+    "gap": "(w^{-1}(j+1)-w^{-1}(j))/n",
+    "descent": "1[w^{-1}(j)>w^{-1}(j+1)]"
+  },
+  "role": "Previously developed endpoint hypothesis, evaluated with the fixed neuron ranking on the preassigned confirmation pairs"
+}

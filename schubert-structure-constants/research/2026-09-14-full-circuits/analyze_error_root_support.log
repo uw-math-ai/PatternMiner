@@ -1,0 +1,9 @@
+{"name": "exact_error_root_support", "status": "failed_or_partial", "wall_seconds": 23.9120193249546, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 15}
+Traceback (most recent call last):
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/analyze_error_root_support.py", line 56, in <module>
+    try:main(budget,plan);status='completed'
+        ^^^^^^^^^^^^^^^^^
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/analyze_error_root_support.py", line 34, in main
+    assert np.flatnonzero(row['coefficients'][1]).tolist()==error['valid_indices']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

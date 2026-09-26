@@ -1,0 +1,1609 @@
+{
+  "configuration": {
+    "checkpoint": "schubert-structure-constants/research/2026-09-14-full-circuits/artifacts/SECOND_REFINEMENT_READOUTS.pt",
+    "assessment": "schubert-structure-constants/research/2026-09-14-full-circuits/SECOND_ASSESSMENT.json",
+    "discovery": "schubert-structure-constants/research/2026-09-16-circuit-paths/DISCOVERY_SCAN.json",
+    "name": "HEAD_CONFIRMATION",
+    "heads": 4,
+    "pairs": 512
+  },
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "checks": {
+    "native_max_error": 0.0,
+    "identity_max_error": 0.0,
+    "restoration_max_error": 0.0,
+    "query_key_pattern_max_error": 0.0
+  },
+  "source_sha256": "2fb7afdeaac1af6a320e23bb11a9d48d497ecf71492593308eb66d7091e22d15",
+  "forward_sha256": "62ea2cc2bf016e1954abf7ddbddf9ad9617bb2b479de3dcca44a740c84758d8e",
+  "selection": {
+    "discovery": "schubert-structure-constants/research/2026-09-16-circuit-paths/DISCOVERY_SCAN.json",
+    "discovery_sha256": "ee0e6c8a2306fa5c099edc5d1a43068336c6989b665485e93bb42e40a092b575",
+    "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+    "selected": [
+      "L1H0",
+      "L1H8",
+      "L3H3",
+      "L3H11"
+    ],
+    "random_controls": [
+      [
+        "L1H7",
+        "L1H15",
+        "L3H2",
+        "L3H10"
+      ],
+      [
+        "L1H0",
+        "L1H8",
+        "L3H0",
+        "L3H8"
+      ],
+      [
+        "L1H0",
+        "L1H8",
+        "L3H3",
+        "L3H11"
+      ],
+      [
+        "L1H4",
+        "L1H12",
+        "L3H7",
+        "L3H15"
+      ],
+      [
+        "L1H7",
+        "L1H15",
+        "L3H7",
+        "L3H15"
+      ],
+      [
+        "L1H1",
+        "L1H9",
+        "L3H5",
+        "L3H13"
+      ],
+      [
+        "L1H5",
+        "L1H13",
+        "L3H2",
+        "L3H10"
+      ],
+      [
+        "L1H4",
+        "L1H12",
+        "L3H3",
+        "L3H11"
+      ],
+      [
+        "L1H1",
+        "L1H9",
+        "L3H7",
+        "L3H15"
+      ],
+      [
+        "L1H6",
+        "L1H14",
+        "L3H2",
+        "L3H10"
+      ],
+      [
+        "L1H1",
+        "L1H9",
+        "L3H4",
+        "L3H12"
+      ],
+      [
+        "L1H2",
+        "L1H10",
+        "L3H7",
+        "L3H15"
+      ],
+      [
+        "L1H0",
+        "L1H8",
+        "L3H2",
+        "L3H10"
+      ],
+      [
+        "L1H3",
+        "L1H11",
+        "L3H4",
+        "L3H12"
+      ],
+      [
+        "L1H4",
+        "L1H12",
+        "L3H2",
+        "L3H10"
+      ],
+      [
+        "L1H4",
+        "L1H12",
+        "L3H0",
+        "L3H8"
+      ],
+      [
+        "L1H5",
+        "L1H13",
+        "L3H0",
+        "L3H8"
+      ],
+      [
+        "L1H7",
+        "L1H15",
+        "L3H7",
+        "L3H15"
+      ],
+      [
+        "L1H6",
+        "L1H14",
+        "L3H4",
+        "L3H12"
+      ],
+      [
+        "L1H7",
+        "L1H15",
+        "L3H4",
+        "L3H12"
+      ]
+    ],
+    "criterion": "Two widening pairs with largest sum of individual factor-group mean contrast effects among originally correct pairs",
+    "control_design": "20 random sets matching the layer counts and widening-pair topology"
+  },
+  "conditions": {
+    "selected_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 15.453715324401855,
+        "aggregate_restoration_fraction": 0.301094114780426,
+        "source_choice_fraction": 0.1686746987951807,
+        "dest_choice_fraction": 0.8253012048192772,
+        "factor_groups": 22,
+        "factor_group_mean_change": 15.738067626953125
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 15.489936828613281,
+        "aggregate_restoration_fraction": 0.3009871542453766,
+        "source_choice_fraction": 0.16733870967741934,
+        "dest_choice_fraction": 0.8266129032258065,
+        "factor_groups": 21,
+        "factor_group_mean_change": 16.17936134338379
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "selected_pattern": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 8.210463523864746,
+        "aggregate_restoration_fraction": 0.15996944904327393,
+        "source_choice_fraction": 0.0642570281124498,
+        "dest_choice_fraction": 0.927710843373494,
+        "factor_groups": 22,
+        "factor_group_mean_change": 8.615253448486328
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 8.213982582092285,
+        "aggregate_restoration_fraction": 0.15960706770420074,
+        "source_choice_fraction": 0.0625,
+        "dest_choice_fraction": 0.9294354838709677,
+        "factor_groups": 21,
+        "factor_group_mean_change": 8.676090240478516
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "selected_values": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 6.2012834548950195,
+        "aggregate_restoration_fraction": 0.12082336843013763,
+        "source_choice_fraction": 0.02610441767068273,
+        "dest_choice_fraction": 0.9698795180722891,
+        "factor_groups": 22,
+        "factor_group_mean_change": 6.853367805480957
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 6.226558685302734,
+        "aggregate_restoration_fraction": 0.12098914384841919,
+        "source_choice_fraction": 0.02620967741935484,
+        "dest_choice_fraction": 0.969758064516129,
+        "factor_groups": 21,
+        "factor_group_mean_change": 7.182911396026611
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "selected_query": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 4.407375335693359,
+        "aggregate_restoration_fraction": 0.08587156981229782,
+        "source_choice_fraction": 0.004016064257028112,
+        "dest_choice_fraction": 0.9939759036144579,
+        "factor_groups": 22,
+        "factor_group_mean_change": 3.1424331665039062
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 4.434764385223389,
+        "aggregate_restoration_fraction": 0.08617253601551056,
+        "source_choice_fraction": 0.004032258064516129,
+        "dest_choice_fraction": 0.9939516129032258,
+        "factor_groups": 21,
+        "factor_group_mean_change": 3.405644416809082
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "selected_key": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 5.737554550170898,
+        "aggregate_restoration_fraction": 0.11178825795650482,
+        "source_choice_fraction": 0.040160642570281124,
+        "dest_choice_fraction": 0.9558232931726908,
+        "factor_groups": 22,
+        "factor_group_mean_change": 7.11883544921875
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 5.720250129699707,
+        "aggregate_restoration_fraction": 0.11115099489688873,
+        "source_choice_fraction": 0.038306451612903226,
+        "dest_choice_fraction": 0.9576612903225806,
+        "factor_groups": 21,
+        "factor_group_mean_change": 6.980260848999023
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "selected_bias": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 0.12140043079853058,
+        "aggregate_restoration_fraction": 0.0023653183598071337,
+        "source_choice_fraction": 0.002008032128514056,
+        "dest_choice_fraction": 0.9959839357429718,
+        "factor_groups": 22,
+        "factor_group_mean_change": 0.07187021523714066
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 0.119931660592556,
+        "aggregate_restoration_fraction": 0.0023304091300815344,
+        "source_choice_fraction": 0.0,
+        "dest_choice_fraction": 0.9979838709677419,
+        "factor_groups": 21,
+        "factor_group_mean_change": 0.05216614529490471
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "selected_query_key_bias": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 8.210463523864746,
+        "aggregate_restoration_fraction": 0.15996944904327393,
+        "source_choice_fraction": 0.0642570281124498,
+        "dest_choice_fraction": 0.927710843373494,
+        "factor_groups": 22,
+        "factor_group_mean_change": 8.615253448486328
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 8.213982582092285,
+        "aggregate_restoration_fraction": 0.15960706770420074,
+        "source_choice_fraction": 0.0625,
+        "dest_choice_fraction": 0.9294354838709677,
+        "factor_groups": 21,
+        "factor_group_mean_change": 8.676090240478516
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "selected_zero": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 7.610403537750244,
+        "aggregate_restoration_fraction": 0.1482781171798706,
+        "source_choice_fraction": 0.06827309236947791,
+        "dest_choice_fraction": 0.9317269076305221,
+        "factor_groups": 22,
+        "factor_group_mean_change": 8.910861015319824
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 7.621397018432617,
+        "aggregate_restoration_fraction": 0.14809244871139526,
+        "source_choice_fraction": 0.06653225806451613,
+        "dest_choice_fraction": 0.9334677419354839,
+        "factor_groups": 21,
+        "factor_group_mean_change": 9.102612495422363
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "retain_selected": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.278289794921875,
+        "aggregate_restoration_fraction": 0.414577841758728,
+        "source_choice_fraction": 0.28313253012048195,
+        "dest_choice_fraction": 0.6244979919678715,
+        "factor_groups": 22,
+        "factor_group_mean_change": 18.859331130981445
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.32785415649414,
+        "aggregate_restoration_fraction": 0.4144245684146881,
+        "source_choice_fraction": 0.28225806451612906,
+        "dest_choice_fraction": 0.625,
+        "factor_groups": 21,
+        "factor_group_mean_change": 19.32948875427246
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_00_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 2.2667465209960938,
+        "aggregate_restoration_fraction": 0.044164396822452545,
+        "source_choice_fraction": 0.002008032128514056,
+        "dest_choice_fraction": 0.9959839357429718,
+        "factor_groups": 22,
+        "factor_group_mean_change": 1.839993953704834
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 2.2679390907287598,
+        "aggregate_restoration_fraction": 0.04406864568591118,
+        "source_choice_fraction": 0.0020161290322580645,
+        "dest_choice_fraction": 0.9959677419354839,
+        "factor_groups": 21,
+        "factor_group_mean_change": 1.833759069442749
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_00_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 22.36045265197754,
+        "aggregate_restoration_fraction": 0.43566226959228516,
+        "source_choice_fraction": 0.37349397590361444,
+        "dest_choice_fraction": 0.5843373493975904,
+        "factor_groups": 22,
+        "factor_group_mean_change": 21.15947151184082
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 22.404020309448242,
+        "aggregate_restoration_fraction": 0.4353356957435608,
+        "source_choice_fraction": 0.3709677419354839,
+        "dest_choice_fraction": 0.5866935483870968,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.616788864135742
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_01_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 9.54695987701416,
+        "aggregate_restoration_fraction": 0.1860092133283615,
+        "source_choice_fraction": 0.10240963855421686,
+        "dest_choice_fraction": 0.8835341365461847,
+        "factor_groups": 22,
+        "factor_group_mean_change": 10.222773551940918
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 9.564111709594727,
+        "aggregate_restoration_fraction": 0.1858416050672531,
+        "source_choice_fraction": 0.10080645161290322,
+        "dest_choice_fraction": 0.8850806451612904,
+        "factor_groups": 21,
+        "factor_group_mean_change": 10.457499504089355
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_01_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.44917869567871,
+        "aggregate_restoration_fraction": 0.41790735721588135,
+        "source_choice_fraction": 0.29518072289156627,
+        "dest_choice_fraction": 0.6345381526104418,
+        "factor_groups": 22,
+        "factor_group_mean_change": 19.63991928100586
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.504940032958984,
+        "aggregate_restoration_fraction": 0.4178655445575714,
+        "source_choice_fraction": 0.29435483870967744,
+        "dest_choice_fraction": 0.6350806451612904,
+        "factor_groups": 21,
+        "factor_group_mean_change": 20.212276458740234
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_02_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 15.453715324401855,
+        "aggregate_restoration_fraction": 0.301094114780426,
+        "source_choice_fraction": 0.1686746987951807,
+        "dest_choice_fraction": 0.8253012048192772,
+        "factor_groups": 22,
+        "factor_group_mean_change": 15.738067626953125
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 15.489936828613281,
+        "aggregate_restoration_fraction": 0.3009871542453766,
+        "source_choice_fraction": 0.16733870967741934,
+        "dest_choice_fraction": 0.8266129032258065,
+        "factor_groups": 21,
+        "factor_group_mean_change": 16.17936134338379
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_02_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.278289794921875,
+        "aggregate_restoration_fraction": 0.414577841758728,
+        "source_choice_fraction": 0.28313253012048195,
+        "dest_choice_fraction": 0.6244979919678715,
+        "factor_groups": 22,
+        "factor_group_mean_change": 18.859331130981445
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.32785415649414,
+        "aggregate_restoration_fraction": 0.4144245684146881,
+        "source_choice_fraction": 0.28225806451612906,
+        "dest_choice_fraction": 0.625,
+        "factor_groups": 21,
+        "factor_group_mean_change": 19.32948875427246
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_03_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 3.0080325603485107,
+        "aggregate_restoration_fraction": 0.058607324957847595,
+        "source_choice_fraction": 0.008032128514056224,
+        "dest_choice_fraction": 0.9919678714859438,
+        "factor_groups": 22,
+        "factor_group_mean_change": 2.873777151107788
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 3.0153725147247314,
+        "aggregate_restoration_fraction": 0.05859212949872017,
+        "source_choice_fraction": 0.006048387096774193,
+        "dest_choice_fraction": 0.9939516129032258,
+        "factor_groups": 21,
+        "factor_group_mean_change": 2.9540648460388184
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_03_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.699953079223633,
+        "aggregate_restoration_fraction": 0.42279335856437683,
+        "source_choice_fraction": 0.27309236947791166,
+        "dest_choice_fraction": 0.6526104417670683,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.534582138061523
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.742834091186523,
+        "aggregate_restoration_fraction": 0.42248809337615967,
+        "source_choice_fraction": 0.2701612903225806,
+        "dest_choice_fraction": 0.655241935483871,
+        "factor_groups": 21,
+        "factor_group_mean_change": 20.985530853271484
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_04_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 2.433135509490967,
+        "aggregate_restoration_fraction": 0.04740625619888306,
+        "source_choice_fraction": 0.004016064257028112,
+        "dest_choice_fraction": 0.9939759036144579,
+        "factor_groups": 22,
+        "factor_group_mean_change": 2.2846641540527344
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 2.4406352043151855,
+        "aggregate_restoration_fraction": 0.047424327582120895,
+        "source_choice_fraction": 0.004032258064516129,
+        "dest_choice_fraction": 0.9939516129032258,
+        "factor_groups": 21,
+        "factor_group_mean_change": 2.3661601543426514
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_04_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 22.30605125427246,
+        "aggregate_restoration_fraction": 0.4346023201942444,
+        "source_choice_fraction": 0.321285140562249,
+        "dest_choice_fraction": 0.6164658634538153,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.908037185668945
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 22.353660583496094,
+        "aggregate_restoration_fraction": 0.4343571364879608,
+        "source_choice_fraction": 0.32056451612903225,
+        "dest_choice_fraction": 0.6169354838709677,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.40372085571289
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_05_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 1.5013351440429688,
+        "aggregate_restoration_fraction": 0.029251422733068466,
+        "source_choice_fraction": 0.004016064257028112,
+        "dest_choice_fraction": 0.9959839357429718,
+        "factor_groups": 22,
+        "factor_group_mean_change": 1.565001368522644
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 1.4808423519134521,
+        "aggregate_restoration_fraction": 0.028774457052350044,
+        "source_choice_fraction": 0.0020161290322580645,
+        "dest_choice_fraction": 0.9979838709677419,
+        "factor_groups": 21,
+        "factor_group_mean_change": 1.3260217905044556
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_05_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 22.23998260498047,
+        "aggregate_restoration_fraction": 0.43331506848335266,
+        "source_choice_fraction": 0.38353413654618473,
+        "dest_choice_fraction": 0.5662650602409639,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.746135711669922
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 22.291227340698242,
+        "aggregate_restoration_fraction": 0.4331440031528473,
+        "source_choice_fraction": 0.3810483870967742,
+        "dest_choice_fraction": 0.5685483870967742,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.280179977416992
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_06_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 1.9394956827163696,
+        "aggregate_restoration_fraction": 0.03778837248682976,
+        "source_choice_fraction": 0.010040160642570281,
+        "dest_choice_fraction": 0.9879518072289156,
+        "factor_groups": 22,
+        "factor_group_mean_change": 2.346325159072876
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 1.9428588151931763,
+        "aggregate_restoration_fraction": 0.03775196522474289,
+        "source_choice_fraction": 0.008064516129032258,
+        "dest_choice_fraction": 0.9899193548387096,
+        "factor_groups": 21,
+        "factor_group_mean_change": 2.4054148197174072
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_06_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 22.00384521484375,
+        "aggregate_restoration_fraction": 0.4287142753601074,
+        "source_choice_fraction": 0.3453815261044177,
+        "dest_choice_fraction": 0.6004016064257028,
+        "factor_groups": 22,
+        "factor_group_mean_change": 21.238981246948242
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 22.043437957763672,
+        "aggregate_restoration_fraction": 0.4283291697502136,
+        "source_choice_fraction": 0.34274193548387094,
+        "dest_choice_fraction": 0.6028225806451613,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.67011260986328
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_07_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 10.6443510055542,
+        "aggregate_restoration_fraction": 0.20739035308361053,
+        "source_choice_fraction": 0.05622489959839357,
+        "dest_choice_fraction": 0.9437751004016064,
+        "factor_groups": 22,
+        "factor_group_mean_change": 9.949759483337402
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 10.67136287689209,
+        "aggregate_restoration_fraction": 0.2073567658662796,
+        "source_choice_fraction": 0.05443548387096774,
+        "dest_choice_fraction": 0.9455645161290323,
+        "factor_groups": 21,
+        "factor_group_mean_change": 10.235679626464844
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_07_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.62790298461914,
+        "aggregate_restoration_fraction": 0.42138954997062683,
+        "source_choice_fraction": 0.2710843373493976,
+        "dest_choice_fraction": 0.6526104417670683,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.19630241394043
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.671483993530273,
+        "aggregate_restoration_fraction": 0.4211016893386841,
+        "source_choice_fraction": 0.2701612903225806,
+        "dest_choice_fraction": 0.6532258064516129,
+        "factor_groups": 21,
+        "factor_group_mean_change": 20.642789840698242
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_08_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 1.6051645278930664,
+        "aggregate_restoration_fraction": 0.03127439320087433,
+        "source_choice_fraction": 0.004016064257028112,
+        "dest_choice_fraction": 0.9959839357429718,
+        "factor_groups": 22,
+        "factor_group_mean_change": 1.662726879119873
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 1.6117844581604004,
+        "aggregate_restoration_fraction": 0.03131881356239319,
+        "source_choice_fraction": 0.0020161290322580645,
+        "dest_choice_fraction": 0.9979838709677419,
+        "factor_groups": 21,
+        "factor_group_mean_change": 1.7436439990997314
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_08_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 22.04823112487793,
+        "aggregate_restoration_fraction": 0.42957907915115356,
+        "source_choice_fraction": 0.2971887550200803,
+        "dest_choice_fraction": 0.6445783132530121,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.639875411987305
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 22.09845542907715,
+        "aggregate_restoration_fraction": 0.42939820885658264,
+        "source_choice_fraction": 0.2963709677419355,
+        "dest_choice_fraction": 0.6451612903225806,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.165929794311523
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_09_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 2.310703754425049,
+        "aggregate_restoration_fraction": 0.04502084478735924,
+        "source_choice_fraction": 0.004016064257028112,
+        "dest_choice_fraction": 0.9959839357429718,
+        "factor_groups": 22,
+        "factor_group_mean_change": 2.0758581161499023
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 2.312436580657959,
+        "aggregate_restoration_fraction": 0.04493328183889389,
+        "source_choice_fraction": 0.0020161290322580645,
+        "dest_choice_fraction": 0.9979838709677419,
+        "factor_groups": 21,
+        "factor_group_mean_change": 2.0851378440856934
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_09_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.94921875,
+        "aggregate_restoration_fraction": 0.42764994502067566,
+        "source_choice_fraction": 0.3273092369477912,
+        "dest_choice_fraction": 0.6244979919678715,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.54637908935547
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.990671157836914,
+        "aggregate_restoration_fraction": 0.42730385065078735,
+        "source_choice_fraction": 0.32661290322580644,
+        "dest_choice_fraction": 0.625,
+        "factor_groups": 21,
+        "factor_group_mean_change": 20.969097137451172
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_10_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 1.5406320095062256,
+        "aggregate_restoration_fraction": 0.0300170686095953,
+        "source_choice_fraction": 0.006024096385542169,
+        "dest_choice_fraction": 0.9939759036144579,
+        "factor_groups": 22,
+        "factor_group_mean_change": 1.355094313621521
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 1.5300357341766357,
+        "aggregate_restoration_fraction": 0.02973034232854843,
+        "source_choice_fraction": 0.004032258064516129,
+        "dest_choice_fraction": 0.9959677419354839,
+        "factor_groups": 21,
+        "factor_group_mean_change": 1.221120834350586
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_10_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 22.043193817138672,
+        "aggregate_restoration_fraction": 0.4294809103012085,
+        "source_choice_fraction": 0.30522088353413657,
+        "dest_choice_fraction": 0.6285140562248996,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.786300659179688
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 22.096010208129883,
+        "aggregate_restoration_fraction": 0.42935070395469666,
+        "source_choice_fraction": 0.30443548387096775,
+        "dest_choice_fraction": 0.6290322580645161,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.350177764892578
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_11_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 3.246100664138794,
+        "aggregate_restoration_fraction": 0.0632457509636879,
+        "source_choice_fraction": 0.010040160642570281,
+        "dest_choice_fraction": 0.9859437751004017,
+        "factor_groups": 22,
+        "factor_group_mean_change": 2.4674324989318848
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 3.2649693489074707,
+        "aggregate_restoration_fraction": 0.06344208121299744,
+        "source_choice_fraction": 0.010080645161290322,
+        "dest_choice_fraction": 0.9858870967741935,
+        "factor_groups": 21,
+        "factor_group_mean_change": 2.653184175491333
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_11_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.15624237060547,
+        "aggregate_restoration_fraction": 0.4121999144554138,
+        "source_choice_fraction": 0.29518072289156627,
+        "dest_choice_fraction": 0.6606425702811245,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.49406623840332
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.19643211364746,
+        "aggregate_restoration_fraction": 0.4118708670139313,
+        "source_choice_fraction": 0.2923387096774194,
+        "dest_choice_fraction": 0.6633064516129032,
+        "factor_groups": 21,
+        "factor_group_mean_change": 20.93716049194336
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_12_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 8.31804370880127,
+        "aggregate_restoration_fraction": 0.16206549108028412,
+        "source_choice_fraction": 0.08835341365461848,
+        "dest_choice_fraction": 0.8995983935742972,
+        "factor_groups": 22,
+        "factor_group_mean_change": 8.42030143737793
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 8.330954551696777,
+        "aggregate_restoration_fraction": 0.16187995672225952,
+        "source_choice_fraction": 0.08669354838709678,
+        "dest_choice_fraction": 0.9012096774193549,
+        "factor_groups": 21,
+        "factor_group_mean_change": 8.577632904052734
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_12_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.4195499420166,
+        "aggregate_restoration_fraction": 0.4173300862312317,
+        "source_choice_fraction": 0.3353413654618474,
+        "dest_choice_fraction": 0.6224899598393574,
+        "factor_groups": 22,
+        "factor_group_mean_change": 19.888750076293945
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.46516990661621,
+        "aggregate_restoration_fraction": 0.41709277033805847,
+        "source_choice_fraction": 0.3346774193548387,
+        "dest_choice_fraction": 0.6229838709677419,
+        "factor_groups": 21,
+        "factor_group_mean_change": 20.354616165161133
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_13_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 2.0012848377227783,
+        "aggregate_restoration_fraction": 0.038992248475551605,
+        "source_choice_fraction": 0.004016064257028112,
+        "dest_choice_fraction": 0.9959839357429718,
+        "factor_groups": 22,
+        "factor_group_mean_change": 1.9911731481552124
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 2.0039961338043213,
+        "aggregate_restoration_fraction": 0.038939934223890305,
+        "source_choice_fraction": 0.0020161290322580645,
+        "dest_choice_fraction": 0.9979838709677419,
+        "factor_groups": 21,
+        "factor_group_mean_change": 2.0227086544036865
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_13_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 22.057769775390625,
+        "aggregate_restoration_fraction": 0.42976492643356323,
+        "source_choice_fraction": 0.3032128514056225,
+        "dest_choice_fraction": 0.6305220883534136,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.773611068725586
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 22.105186462402344,
+        "aggregate_restoration_fraction": 0.42952901124954224,
+        "source_choice_fraction": 0.3024193548387097,
+        "dest_choice_fraction": 0.6310483870967742,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.2724552154541
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_14_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 2.818636178970337,
+        "aggregate_restoration_fraction": 0.05491719767451286,
+        "source_choice_fraction": 0.008032128514056224,
+        "dest_choice_fraction": 0.9899598393574297,
+        "factor_groups": 22,
+        "factor_group_mean_change": 2.3519251346588135
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 2.821355104446411,
+        "aggregate_restoration_fraction": 0.054822150617837906,
+        "source_choice_fraction": 0.006048387096774193,
+        "dest_choice_fraction": 0.9919354838709677,
+        "factor_groups": 21,
+        "factor_group_mean_change": 2.3618106842041016
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_14_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.807479858398438,
+        "aggregate_restoration_fraction": 0.42488837242126465,
+        "source_choice_fraction": 0.3373493975903614,
+        "dest_choice_fraction": 0.5963855421686747,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.910066604614258
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.844778060913086,
+        "aggregate_restoration_fraction": 0.424468994140625,
+        "source_choice_fraction": 0.33669354838709675,
+        "dest_choice_fraction": 0.5967741935483871,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.307802200317383
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_15_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 4.238676071166992,
+        "aggregate_restoration_fraction": 0.08258470147848129,
+        "source_choice_fraction": 0.008032128514056224,
+        "dest_choice_fraction": 0.9919678714859438,
+        "factor_groups": 22,
+        "factor_group_mean_change": 4.336231708526611
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 4.236911296844482,
+        "aggregate_restoration_fraction": 0.08232802152633667,
+        "source_choice_fraction": 0.006048387096774193,
+        "dest_choice_fraction": 0.9939516129032258,
+        "factor_groups": 21,
+        "factor_group_mean_change": 4.320041656494141
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_15_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.736661911010742,
+        "aggregate_restoration_fraction": 0.42350858449935913,
+        "source_choice_fraction": 0.26907630522088355,
+        "dest_choice_fraction": 0.642570281124498,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.516342163085938
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.780742645263672,
+        "aggregate_restoration_fraction": 0.42322468757629395,
+        "source_choice_fraction": 0.26814516129032256,
+        "dest_choice_fraction": 0.6431451612903226,
+        "factor_groups": 21,
+        "factor_group_mean_change": 20.97878074645996
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_16_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 3.365985870361328,
+        "aggregate_restoration_fraction": 0.0655815452337265,
+        "source_choice_fraction": 0.008032128514056224,
+        "dest_choice_fraction": 0.9919678714859438,
+        "factor_groups": 22,
+        "factor_group_mean_change": 4.484837055206299
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 3.3660452365875244,
+        "aggregate_restoration_fraction": 0.06540609896183014,
+        "source_choice_fraction": 0.006048387096774193,
+        "dest_choice_fraction": 0.9939516129032258,
+        "factor_groups": 21,
+        "factor_group_mean_change": 4.538816928863525
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_16_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.820598602294922,
+        "aggregate_restoration_fraction": 0.4251439571380615,
+        "source_choice_fraction": 0.3092369477911647,
+        "dest_choice_fraction": 0.6365461847389559,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.867149353027344
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.87142562866211,
+        "aggregate_restoration_fraction": 0.4249867796897888,
+        "source_choice_fraction": 0.3084677419354839,
+        "dest_choice_fraction": 0.6370967741935484,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.422012329101562
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_17_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 2.433135509490967,
+        "aggregate_restoration_fraction": 0.04740625619888306,
+        "source_choice_fraction": 0.004016064257028112,
+        "dest_choice_fraction": 0.9939759036144579,
+        "factor_groups": 22,
+        "factor_group_mean_change": 2.2846641540527344
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 2.4406352043151855,
+        "aggregate_restoration_fraction": 0.047424327582120895,
+        "source_choice_fraction": 0.004032258064516129,
+        "dest_choice_fraction": 0.9939516129032258,
+        "factor_groups": 21,
+        "factor_group_mean_change": 2.3661601543426514
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_17_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 22.30605125427246,
+        "aggregate_restoration_fraction": 0.4346023201942444,
+        "source_choice_fraction": 0.321285140562249,
+        "dest_choice_fraction": 0.6164658634538153,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.908037185668945
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 22.353660583496094,
+        "aggregate_restoration_fraction": 0.4343571364879608,
+        "source_choice_fraction": 0.32056451612903225,
+        "dest_choice_fraction": 0.6169354838709677,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.40372085571289
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_18_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 2.3833415508270264,
+        "aggregate_restoration_fraction": 0.046436090022325516,
+        "source_choice_fraction": 0.004016064257028112,
+        "dest_choice_fraction": 0.9959839357429718,
+        "factor_groups": 22,
+        "factor_group_mean_change": 2.159886360168457
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 2.381167411804199,
+        "aggregate_restoration_fraction": 0.046268802136182785,
+        "source_choice_fraction": 0.0020161290322580645,
+        "dest_choice_fraction": 0.9979838709677419,
+        "factor_groups": 21,
+        "factor_group_mean_change": 2.123568296432495
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_18_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 21.666000366210938,
+        "aggregate_restoration_fraction": 0.42213183641433716,
+        "source_choice_fraction": 0.27710843373493976,
+        "dest_choice_fraction": 0.6626506024096386,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.357194900512695
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 21.718965530395508,
+        "aggregate_restoration_fraction": 0.42202430963516235,
+        "source_choice_fraction": 0.2762096774193548,
+        "dest_choice_fraction": 0.6633064516129032,
+        "factor_groups": 21,
+        "factor_group_mean_change": 20.920366287231445
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_19_output": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 2.3151583671569824,
+        "aggregate_restoration_fraction": 0.0451076366007328,
+        "source_choice_fraction": 0.006024096385542169,
+        "dest_choice_fraction": 0.9919678714859438,
+        "factor_groups": 22,
+        "factor_group_mean_change": 1.8946360349655151
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 2.310340642929077,
+        "aggregate_restoration_fraction": 0.044892556965351105,
+        "source_choice_fraction": 0.004032258064516129,
+        "dest_choice_fraction": 0.9939516129032258,
+        "factor_groups": 21,
+        "factor_group_mean_change": 1.8177177906036377
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "random_19_retain": {
+      "all": {
+        "inputs": 498,
+        "raw_mean_change": 22.138099670410156,
+        "aggregate_restoration_fraction": 0.43133002519607544,
+        "source_choice_fraction": 0.3092369477911647,
+        "dest_choice_fraction": 0.6244979919678715,
+        "factor_groups": 22,
+        "factor_group_mean_change": 20.92230987548828
+      },
+      "both_correct": {
+        "inputs": 496,
+        "raw_mean_change": 22.19146156311035,
+        "aggregate_restoration_fraction": 0.4312054514884949,
+        "source_choice_fraction": 0.3084677419354839,
+        "dest_choice_fraction": 0.625,
+        "factor_groups": 21,
+        "factor_group_mean_change": 21.49462127685547
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    },
+    "shuffled_selected_output": {
+      "all": {
+        "inputs": 132,
+        "raw_mean_change": 10.551405906677246,
+        "aggregate_restoration_fraction": 0.2083425223827362,
+        "source_choice_fraction": 0.09848484848484848,
+        "dest_choice_fraction": 0.8560606060606061,
+        "factor_groups": 4,
+        "factor_group_mean_change": 11.397233963012695
+      },
+      "both_correct": {
+        "inputs": 132,
+        "raw_mean_change": 10.551405906677246,
+        "aggregate_restoration_fraction": 0.2083425223827362,
+        "source_choice_fraction": 0.09848484848484848,
+        "dest_choice_fraction": 0.8560606060606061,
+        "factor_groups": 4,
+        "factor_group_mean_change": 11.397233963012695
+      },
+      "both_correct_same_candidate_features": {
+        "inputs": 0,
+        "raw_mean_change": null,
+        "aggregate_restoration_fraction": null,
+        "source_choice_fraction": null,
+        "dest_choice_fraction": null,
+        "factor_groups": 0,
+        "factor_group_mean_change": null
+      }
+    }
+  },
+  "unmodified_both_pair_accuracy": 0.9959839357429718,
+  "ablation_scope": "Head outputs are set to zero. Unselected components are recomputed; embeddings, residual paths, and all MLPs remain active.",
+  "shuffled_source_scope": "Uniform draws with replacement from the same ambient size and candidate mask, excluding the destination factor group."
+}

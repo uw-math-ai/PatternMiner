@@ -1,0 +1,7 @@
+/cache
+__pycache__/
+RESOURCE_LOCK
+!artifacts/*.pt
+!artifacts/*.npz
+!artifacts/*.gz
+!*.log

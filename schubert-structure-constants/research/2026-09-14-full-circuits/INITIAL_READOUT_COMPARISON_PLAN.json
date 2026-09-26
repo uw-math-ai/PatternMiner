@@ -1,0 +1,18 @@
+{
+  "status": "fixed_before_predictions",
+  "checkpoint_sha256": "63d89e2ccf6c10aaa8dc3d53c18f2e3607b19fb063c1768de92bb6ed418f0edb",
+  "source_sha256": "700297c627df972a0b92a7932460ddc713c57462eb04626fa7a72151b935190d",
+  "grid": [
+    0.0,
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0,
+    32.0
+  ],
+  "readout": "Main selector score plus lambda times the auxiliary prediction of log(1+B_j)",
+  "selection": "Minimum of nineteen development accuracies, then their mean; initialization is included at lambda=0",
+  "role": "Development readout comparison; no exact labels are inputs and no assessment is opened",
+  "all_supplied": "The model structurally discards the supplied index; each oriented triple has the same prediction for every positive supplied coefficient."
+}

@@ -1,0 +1,28 @@
+{
+  "pairs": 18237,
+  "populations": {
+    "S8_train": {
+      "pairs": 83,
+      "factor_groups": 40
+    },
+    "S9_train": {
+      "pairs": 5750,
+      "factor_groups": 837
+    },
+    "S10_train": {
+      "pairs": 12404,
+      "factor_groups": 688
+    }
+  },
+  "training_rows": 6045343,
+  "columns": [
+    "left_global_row",
+    "right_global_row",
+    "reverse",
+    "supplied_index_zero_based"
+  ],
+  "source_sha256": "4dfb8f231e0825c2675b7a1780903c3cdaaf7b77979daddc113bc8c7e2cfe6b2",
+  "pair_sha256": "fdb27eba8adc345530371be67eeb6f8a4976445f59c858e5bd1e23fa70dfc814",
+  "source_plan_sha256": "00cbfff11244614d3920c2074f8aab3f324326d6ca0381f53894702432ea12a0",
+  "scope": "Every positive supplied coefficient, only new training groups; no model scores or exact queries"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "fixed_before_interventions",
+  "checkpoint_sha256": "63d89e2ccf6c10aaa8dc3d53c18f2e3607b19fb063c1768de92bb6ed418f0edb",
+  "source_sha256": "8cb4068edec29d3554dded5d3dcb1c4c46447a288f95ab6ff90b448d7d493c21",
+  "membership_sha256": "a38f63e75286b70276e5a579235a8222f66460ccb2d9652b5b721369ff8a188d",
+  "inputs": 1247,
+  "path": "First-block MLP hidden units at non-candidate tokens, through second-block keys and values only",
+  "subsets": "Earlier fixed neuron ranking and twenty fixed magnitude-matched random 16-pair subsets",
+  "endpoint": "Change in log-sum-exp contrast of opposite paired target support against destination target support",
+  "role": "Exploratory development comparison; no formal confirmation population opened"
+}

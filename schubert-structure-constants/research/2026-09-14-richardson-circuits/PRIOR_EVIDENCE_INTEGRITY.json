@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "prior_manifests": {
+    "2026-09-13-autoresearch-circuits": {
+      "files": 54,
+      "manifest_sha256": "d6c4a3e5aaeec04da2ec409765da5024d2023504032353e7ea55da94f5892423",
+      "mismatches": []
+    },
+    "2026-09-13-witness-accuracy": {
+      "files": 63,
+      "manifest_sha256": "90aa03822db256cadf3805cab51309c83e368c10f2dbe4290cc83a2d89bd7b73",
+      "mismatches": []
+    },
+    "2026-09-13-circuit-readiness": {
+      "files": 156,
+      "manifest_sha256": "8a3a11a7e12e0ebed718645f6e10c7385a7a66c0cbb92d1a0de2cd963e3a8c90",
+      "mismatches": []
+    },
+    "2026-09-14-reliable-circuits": {
+      "files": 705,
+      "manifest_sha256": "cd14653c2f33dee8fcae4bbdeb9fa4046ca2c7f5c7d0700379b6a1a0b43d9729",
+      "mismatches": []
+    }
+  },
+  "paper_sha256": "1bb1c40c018df10338145103be651ef63e0929d6ec505e86a90cdfe882272347",
+  "paper_path": "schubert-structure-constants/paper/build/main.pdf"
+}

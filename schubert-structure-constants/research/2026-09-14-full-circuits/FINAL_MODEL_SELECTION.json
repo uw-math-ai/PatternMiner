@@ -1,0 +1,19 @@
+{
+  "status": "selected",
+  "checkpoint": "artifacts/FINAL_REFINEMENT_READOUTS.pt",
+  "checkpoint_sha256": "a9da8cad2d6732c7f5a484839112797486905a05547c372490a12a28d709cee3",
+  "native_validation_sha256": "d3160e0c21078888582d8e2ee40e96cf8eeda6e202fda8c76f6c9c2f55a14461",
+  "criterion": [
+    0.9930795847750865,
+    0.998532852448672
+  ],
+  "training_best_step": 10500,
+  "readout": [
+    2,
+    0
+  ],
+  "readout_comparison_sha256": "eb7624639b821f577e3a7a8f2942474c9c314df6a2ff806a890baecf151dca22",
+  "selection_rule": "Minimum of nineteen development accuracies, then mean, over the registered model and readout comparisons.",
+  "unused_followups": "Checkpoint averaging and teacher continuation were not run because the registered training and readout selection qualified.",
+  "assessment": "Open once after this selection; freeze weights and readout throughout assessment and any formal circuit study."
+}

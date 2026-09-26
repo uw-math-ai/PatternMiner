@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "schubml"
+version = "0.1.0"
+description = "Interpretable transformers for Schubert structure constants and combinatorial-formula discovery"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Schubert Transformer Project" }]
+dependencies = [
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "pyyaml",
+    "tqdm",
+    "einops",
+    "scikit-learn",
+    "scipy",
+    "networkx",
+]
+
+[project.optional-dependencies]
+train = ["torch", "lightning", "tensorboard", "matplotlib"]
+baselines = ["xgboost"]
+dev = ["pytest", "pytest-cov"]
+
+[tool.setuptools.packages.find]
+include = ["schubml*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]

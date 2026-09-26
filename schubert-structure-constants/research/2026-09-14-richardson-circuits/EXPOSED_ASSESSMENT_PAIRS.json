@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "assessment_sha256": "3471d33841be1f5792bd541cd9408f7acf78eeab10d37229ceb5e66cc3080ed4",
+  "source_sha256": "714eba64c21942d6cbbe4a57eadcd13dbcafcf04f5c82f45a7dac88361d59d10",
+  "role": "Development after failed assessment; excluded from training",
+  "populations": {
+    "exposed_fresh_S8_pairs": {
+      "pairs": 14,
+      "factor_groups": 5,
+      "artifact_sha256": "009a150b7a1a1dfabb771d9d1ea51b85a286592b0a5ec18da2e50095f87b6470"
+    },
+    "exposed_fresh_S9_pairs": {
+      "pairs": 289,
+      "factor_groups": 57,
+      "artifact_sha256": "52832efd80dcc86066278859f7cf0f288b182ecb86720b63463847295bf88d90"
+    },
+    "exposed_fresh_S10_pairs": {
+      "pairs": 998,
+      "factor_groups": 63,
+      "artifact_sha256": "ecdb616f22ee121ba2361d850a7d0530602e8002ff61ed98248ac709401a10aa"
+    }
+  }
+}

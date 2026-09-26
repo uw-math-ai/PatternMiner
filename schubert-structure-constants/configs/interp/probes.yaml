@@ -1,0 +1,22 @@
+name: layerwise_probes
+sites:
+- hook_factor
+- hook_query
+- encoder.blocks.0.hook_resid_post
+- encoder.blocks.3.hook_resid_post
+- hook_readout
+- cross_blocks.1.hook_resid_post
+- slots.hook_slot_values
+targets:
+- length_u
+- length_v
+- length_w
+- length_defect
+- n_right_descents
+- n_left_descents
+- family_tags
+- positivity
+- coeff_bin
+probe_types:
+- ridge
+- logistic

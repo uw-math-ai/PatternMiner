@@ -1,0 +1,22 @@
+{
+  "status": "fixed_before_training",
+  "arm": "neighbor_refinement",
+  "initial_checkpoint_sha256": "63d89e2ccf6c10aaa8dc3d53c18f2e3607b19fb063c1768de92bb6ed418f0edb",
+  "sampler_choice": "pinned_error_control",
+  "sampler_comparison_sha256": "4d6c8f02a6759cc2e8f9ba8aa5614c261fd2f8ef013ce7f7c38a32bfd211fd29",
+  "steps": 12000,
+  "evaluate_every": 1500,
+  "error_refresh_every": 3000,
+  "mining_samples": 350000,
+  "wall_reservation": 3600,
+  "learning_rates": {
+    "base": 1e-05,
+    "relative_root_input": 3e-05,
+    "root_action_attention": 0.0002
+  },
+  "ordinary_neighbors_share": 0.2,
+  "fresh_hard_pool_neighbors_share": 0.5,
+  "development": "Nineteen criteria, with every positive supplied index; difficult pairs require both members correct",
+  "selection": "Minimum development accuracy, then mean; raw and fixed exponential moving average at scheduled evaluations",
+  "assessment": "Open once only if every development criterion is at least .99"
+}

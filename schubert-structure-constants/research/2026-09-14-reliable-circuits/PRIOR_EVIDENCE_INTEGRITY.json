@@ -1,0 +1,18 @@
+{
+  "prior_manifests": {
+    "2026-09-13-autoresearch-circuits": {
+      "files": 54,
+      "mismatches": []
+    },
+    "2026-09-13-witness-accuracy": {
+      "files": 63,
+      "mismatches": []
+    },
+    "2026-09-13-circuit-readiness": {
+      "files": 156,
+      "mismatches": []
+    }
+  },
+  "paper_sha256": "1bb1c40c018df10338145103be651ef63e0929d6ec505e86a90cdfe882272347",
+  "status": "passed"
+}

@@ -1,0 +1,7 @@
+{
+  "pair_sha256": "cc4763b6a7a54cf9eccd87ad01dae60b5f509bb4b6420e23212458ee4e946565",
+  "layout_sha256": "d5163c78a7e1dc7a62a0f03539290a3cb1821851fec6b7f200bcf1ebe70871a5",
+  "new_pool_weights": "Half original factor groups, half neighboring factor groups; uniform groups within the neighboring half",
+  "original_layout_sha256": "22387b1542694ffcc22eb844fe10730643a9b0034b74f717916a71dcb46cc118",
+  "neighbor_groups": 168
+}

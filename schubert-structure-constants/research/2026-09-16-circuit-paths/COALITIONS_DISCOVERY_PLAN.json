@@ -1,0 +1,19 @@
+{
+  "role": "Exploratory exhaustive head-coalition analysis after the first confirmation study",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "308a67e2a34609a253e66a3828f8dedd46a0f44778b50350a2043d47103420c0",
+  "part": "discovery",
+  "source_data_sha256": "9b0922fd4399fa45d5ec78bb9bb096588e97f5f477aac5d7c58bc62bf6e4726a",
+  "inputs": 640,
+  "factor_orbits": 29,
+  "intervention": "The fixed top 32 first-MLP unit pairs are replaced at noncandidate positions. Replay changed L1 keys and/or values for a coalition of widening head pairs (h,h+8), leaving all other incoming activations native.",
+  "coalitions": 256,
+  "modes": [
+    "keys",
+    "values",
+    "keys_and_values"
+  ],
+  "selection": "Using discovery only, select the fewest head pairs with <=10% group-balanced mean absolute contrast-effect discrepancy and >=99% exact agreement with choices under the full key/value intervention. Break ties by discrepancy, then integer mask.",
+  "inference": "The confirmation cohort was already examined when this experiment was designed. The fixed discovery-selected subset receives a separate-cohort replay, not a new blind confirmation claim.",
+  "uncertainty": "Group-bootstrap intervals are descriptive and uncorrected for multiplicity."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "fixed_before_interventions",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "b5ed0664628ebdf3905bbe19e06a5170b152bc974af16e755418d8842792fe88",
+  "cohort_sha256": "05379ff87cedad3317f165ac07ea6d83fe1e4c5bf3514b887ee3634c9fb96085",
+  "inputs": 498,
+  "pairs": 249,
+  "factor_orbits": 22,
+  "role": "Exploratory continuation: transmit the fixed first-MLP signal through all 16 L1 heads. The selected receiver set in this file is all heads; no model or neuron reselection",
+  "early_heads": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "late_heads": [
+    3,
+    11
+  ],
+  "layers": "Zero-based",
+  "source": "The other member of an exact pair with the same candidates and disjoint positive coefficient supports",
+  "intervention": "Change first-MLP hidden units at noncandidate positions, recompute second-layer keys and values, then replay only those keys and values on the unchanged destination. Successive isolated replays transmit only the named receiver activation; the baseline residual and other incoming activations are restored at each replay.",
+  "blocking": "In the early-head replay, restore a downstream component to its native destination activation. This blocks its response to the intervention while retaining other paths. It differs from setting the component to zero.",
+  "effects": "Change in logsumexp scores on donor-positive indices minus logsumexp scores on destination-positive indices. Effects of isolated paths and blocking are not assumed additive.",
+  "comparisons": [
+    "early full versus early selected heads",
+    "selected heads at candidate versus other query positions",
+    "selected early attention versus transmission through the next MLP only",
+    "later MLP response blocked separately and jointly",
+    "serial path through L1 MLP, L3 selected heads and L3 MLP"
+  ],
+  "uncertainty": "Descriptive 95% percentile bootstrap over factor orbits; exploratory comparisons are not adjusted for multiplicity."
+}

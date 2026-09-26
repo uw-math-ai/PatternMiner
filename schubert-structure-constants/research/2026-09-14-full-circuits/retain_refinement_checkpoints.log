@@ -1,0 +1,3 @@
+{"name": "retain_refinement_003000", "status": "completed", "wall_seconds": 0.3791446350514889, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}
+{"name": "retain_refinement_007500", "status": "completed", "wall_seconds": 0.3648572890087962, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}
+{"name": "retain_refinement_010500", "status": "completed", "wall_seconds": 0.3570686860475689, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

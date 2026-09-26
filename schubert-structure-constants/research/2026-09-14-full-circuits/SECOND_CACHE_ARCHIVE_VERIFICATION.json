@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "verification_only": true,
+  "files": {
+    "second_S7_assessment.bin": {
+      "bytes": 84624,
+      "sha256": "a745c53df303bdcf9b4331c78e0f4701b05cc2ed91ce29d586ef1a7c6ac9796d",
+      "cache_present": true
+    },
+    "second_S8_assessment.bin": {
+      "bytes": 597903,
+      "sha256": "52a1f5900e374ddea26496d582ab395c8c095232eb71d318b17355937db3d709",
+      "cache_present": true
+    },
+    "second_S9_assessment.bin": {
+      "bytes": 5607570,
+      "sha256": "bdc04a0a8d318daffcea1d3f213e2af406faf8754e5c6ee0f4dcde5095059ce3",
+      "cache_present": true
+    },
+    "second_S10_assessment.bin": {
+      "bytes": 51205269,
+      "sha256": "94572adf57ee488f01d9f402d465551c35c9fa3ae34dae04100ca53063e52b3e",
+      "cache_present": true
+    },
+    "second_neighbors_train.bin": {
+      "bytes": 154526007,
+      "sha256": "373bb132c7c5d00da485fc7e58cc541f8f79290a76b77eb7ff0e5d1396596de1",
+      "cache_present": true
+    },
+    "second_neighbors_Q.npy": {
+      "bytes": 40202016,
+      "sha256": "469834d6da472e2fb368fb3ea00d3ab4dc359f1299b7f3740721b18376c4cab5",
+      "cache_present": true
+    }
+  },
+  "source_sha256": "4ab497c6d0a21ea8b0cfe9fa9fdf1d8b78c6c9705758e29e16828118378613a3"
+}

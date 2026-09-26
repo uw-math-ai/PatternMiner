@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "source_sha256": "844febcd84d76e5ca7f93d60f3d67ef40823f905aaba989ce787b21f2fb5d125",
+  "frozen_helper_directory": "schubert-structure-constants/research/2026-09-14-richardson-circuits",
+  "output_directory": "schubert-structure-constants/research/2026-09-14-full-circuits",
+  "isolated_budget_module": "budget"
+}

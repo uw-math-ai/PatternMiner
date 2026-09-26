@@ -1,0 +1,3246 @@
+{
+  "status": "completed",
+  "source_sha256": "e15206feff089ae6ef1e8347f93353a0c2ce6396fbb6c77a234916198b8d915f",
+  "plan_sha256": "e9dec3caaedc203951658b6135c7478c8b2b68707682ea3221bea1b4665ec18a",
+  "exact_queries": 124,
+  "groups": [
+    {
+      "group": 0,
+      "pair": {
+        "u": [
+          1,
+          4,
+          3,
+          8,
+          2,
+          10,
+          6,
+          5,
+          9,
+          7
+        ],
+        "v": [
+          7,
+          1,
+          2,
+          6,
+          3,
+          9,
+          4,
+          8,
+          5,
+          10
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 497,
+          "supplied_index": 2,
+          "predicted_index": 4,
+          "w": [
+            8,
+            2,
+            7,
+            10,
+            3,
+            9,
+            1,
+            5,
+            4,
+            6
+          ],
+          "valid_indices": [
+            5,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            2,
+            3,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 497,
+          "supplied_index": 4,
+          "predicted_index": 4,
+          "w": [
+            8,
+            2,
+            7,
+            10,
+            3,
+            9,
+            1,
+            5,
+            4,
+            6
+          ],
+          "valid_indices": [
+            5,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            2,
+            3,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 497,
+          "supplied_index": 6,
+          "predicted_index": 4,
+          "w": [
+            8,
+            2,
+            7,
+            10,
+            3,
+            9,
+            1,
+            5,
+            4,
+            6
+          ],
+          "valid_indices": [
+            5,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            2,
+            3,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 507,
+          "supplied_index": 6,
+          "predicted_index": 7,
+          "w": [
+            8,
+            3,
+            5,
+            10,
+            2,
+            7,
+            4,
+            6,
+            9,
+            1
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 6,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 507,
+          "supplied_index": 8,
+          "predicted_index": 7,
+          "w": [
+            8,
+            3,
+            5,
+            10,
+            2,
+            7,
+            4,
+            6,
+            9,
+            1
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 6,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 531,
+          "supplied_index": 6,
+          "predicted_index": 5,
+          "w": [
+            8,
+            5,
+            2,
+            10,
+            3,
+            7,
+            4,
+            6,
+            9,
+            1
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 6,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 531,
+          "supplied_index": 8,
+          "predicted_index": 5,
+          "w": [
+            8,
+            5,
+            2,
+            10,
+            3,
+            7,
+            4,
+            6,
+            9,
+            1
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 6,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 571,
+          "supplied_index": 1,
+          "predicted_index": 4,
+          "w": [
+            8,
+            7,
+            1,
+            10,
+            3,
+            9,
+            2,
+            5,
+            4,
+            6
+          ],
+          "valid_indices": [
+            5,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 571,
+          "supplied_index": 4,
+          "predicted_index": 4,
+          "w": [
+            8,
+            7,
+            1,
+            10,
+            3,
+            9,
+            2,
+            5,
+            4,
+            6
+          ],
+          "valid_indices": [
+            5,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 571,
+          "supplied_index": 6,
+          "predicted_index": 4,
+          "w": [
+            8,
+            7,
+            1,
+            10,
+            3,
+            9,
+            2,
+            5,
+            4,
+            6
+          ],
+          "valid_indices": [
+            5,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 628,
+          "supplied_index": 2,
+          "predicted_index": 4,
+          "w": [
+            9,
+            1,
+            6,
+            8,
+            4,
+            11,
+            3,
+            2,
+            5,
+            7,
+            10
+          ],
+          "valid_indices": [
+            5
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 628,
+          "supplied_index": 6,
+          "predicted_index": 4,
+          "w": [
+            9,
+            1,
+            6,
+            8,
+            4,
+            11,
+            3,
+            2,
+            5,
+            7,
+            10
+          ],
+          "valid_indices": [
+            5
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 637,
+          "supplied_index": 6,
+          "predicted_index": 7,
+          "w": [
+            10,
+            2,
+            5,
+            8,
+            3,
+            7,
+            4,
+            6,
+            9,
+            1
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 6,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 637,
+          "supplied_index": 8,
+          "predicted_index": 7,
+          "w": [
+            10,
+            2,
+            5,
+            8,
+            3,
+            7,
+            4,
+            6,
+            9,
+            1
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 6,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 639,
+          "supplied_index": 6,
+          "predicted_index": 7,
+          "w": [
+            10,
+            2,
+            5,
+            8,
+            3,
+            7,
+            4,
+            9,
+            1,
+            6
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 6,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 639,
+          "supplied_index": 8,
+          "predicted_index": 7,
+          "w": [
+            10,
+            2,
+            5,
+            8,
+            3,
+            7,
+            4,
+            9,
+            1,
+            6
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 6,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 0,
+        "begin": 0,
+        "end": 7,
+        "product_terms": 12283,
+        "product_sha256": "4542b057bb6de6a147cc4df57a7471686f85b7540332dacf49fa38539c005fcd"
+      }
+    },
+    {
+      "group": 1,
+      "pair": {
+        "u": [
+          3,
+          1,
+          2,
+          8,
+          7,
+          4,
+          9,
+          5,
+          6
+        ],
+        "v": [
+          3,
+          6,
+          1,
+          7,
+          4,
+          5,
+          2,
+          8,
+          9
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S9_pairs",
+          "row": 363,
+          "supplied_index": 1,
+          "predicted_index": 6,
+          "w": [
+            9,
+            3,
+            4,
+            10,
+            1,
+            5,
+            7,
+            2,
+            6,
+            8
+          ],
+          "valid_indices": [
+            1,
+            5
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            3,
+            2,
+            2,
+            3,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S9_pairs",
+          "row": 363,
+          "supplied_index": 4,
+          "predicted_index": 6,
+          "w": [
+            9,
+            3,
+            4,
+            10,
+            1,
+            5,
+            7,
+            2,
+            6,
+            8
+          ],
+          "valid_indices": [
+            1,
+            5
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            3,
+            2,
+            2,
+            3,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S9_pairs",
+          "row": 368,
+          "supplied_index": 1,
+          "predicted_index": 6,
+          "w": [
+            9,
+            3,
+            4,
+            10,
+            1,
+            5,
+            7,
+            2,
+            6,
+            8
+          ],
+          "valid_indices": [
+            1,
+            5
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            3,
+            2,
+            2,
+            3,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S9_pairs",
+          "row": 368,
+          "supplied_index": 4,
+          "predicted_index": 6,
+          "w": [
+            9,
+            3,
+            4,
+            10,
+            1,
+            5,
+            7,
+            2,
+            6,
+            8
+          ],
+          "valid_indices": [
+            1,
+            5
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            3,
+            2,
+            2,
+            3,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S9_pairs",
+          "row": 379,
+          "supplied_index": 5,
+          "predicted_index": 1,
+          "w": [
+            7,
+            3,
+            6,
+            8,
+            9,
+            2,
+            1,
+            4,
+            5
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 4,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 1,
+        "begin": 0,
+        "end": 2,
+        "product_terms": 608,
+        "product_sha256": "8435d267d79adaebf50509bf32b3d4678835f3bf9c7ef38cf7a45425ae275800"
+      }
+    },
+    {
+      "group": 2,
+      "pair": {
+        "u": [
+          1,
+          4,
+          3,
+          2,
+          9,
+          8,
+          7,
+          6,
+          5,
+          10
+        ],
+        "v": [
+          5,
+          3,
+          1,
+          6,
+          7,
+          4,
+          2,
+          10,
+          8,
+          9
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 668,
+          "supplied_index": 1,
+          "predicted_index": 6,
+          "w": [
+            7,
+            3,
+            2,
+            9,
+            10,
+            5,
+            11,
+            1,
+            4,
+            6,
+            8
+          ],
+          "valid_indices": [
+            1,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 9,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 668,
+          "supplied_index": 3,
+          "predicted_index": 6,
+          "w": [
+            7,
+            3,
+            2,
+            9,
+            10,
+            5,
+            11,
+            1,
+            4,
+            6,
+            8
+          ],
+          "valid_indices": [
+            1,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 9,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 695,
+          "supplied_index": 1,
+          "predicted_index": 6,
+          "w": [
+            8,
+            7,
+            2,
+            3,
+            11,
+            4,
+            1,
+            10,
+            5,
+            6,
+            9
+          ],
+          "valid_indices": [
+            2,
+            5
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 695,
+          "supplied_index": 3,
+          "predicted_index": 6,
+          "w": [
+            8,
+            7,
+            2,
+            3,
+            11,
+            4,
+            1,
+            10,
+            5,
+            6,
+            9
+          ],
+          "valid_indices": [
+            2,
+            5
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 2,
+        "begin": 0,
+        "end": 2,
+        "product_terms": 20176,
+        "product_sha256": "7f0d29871ee114b9018d0fc21b3827e0596e391d5ba1e3176c69048c5ce6dcaa"
+      }
+    },
+    {
+      "group": 3,
+      "pair": {
+        "u": [
+          3,
+          4,
+          2,
+          1,
+          9,
+          7,
+          8,
+          5,
+          6,
+          10
+        ],
+        "v": [
+          4,
+          5,
+          1,
+          2,
+          8,
+          6,
+          3,
+          10,
+          9,
+          7
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1343,
+          "supplied_index": 2,
+          "predicted_index": 1,
+          "w": [
+            6,
+            11,
+            2,
+            1,
+            8,
+            5,
+            10,
+            3,
+            4,
+            7,
+            9
+          ],
+          "valid_indices": [
+            5
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 5,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1343,
+          "supplied_index": 6,
+          "predicted_index": 1,
+          "w": [
+            6,
+            11,
+            2,
+            1,
+            8,
+            5,
+            10,
+            3,
+            4,
+            7,
+            9
+          ],
+          "valid_indices": [
+            5
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 5,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1359,
+          "supplied_index": 5,
+          "predicted_index": 2,
+          "w": [
+            7,
+            9,
+            3,
+            4,
+            6,
+            2,
+            8,
+            10,
+            1,
+            5
+          ],
+          "valid_indices": [
+            6
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 4,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1371,
+          "supplied_index": 5,
+          "predicted_index": 2,
+          "w": [
+            7,
+            9,
+            4,
+            2,
+            6,
+            3,
+            8,
+            10,
+            1,
+            5
+          ],
+          "valid_indices": [
+            6
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 4,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 3,
+        "begin": 0,
+        "end": 3,
+        "product_terms": 8038,
+        "product_sha256": "20628c9ecfffa4693e3429039313515d4608813b6fa6f55de52d82afe5a9798d"
+      }
+    },
+    {
+      "group": 4,
+      "pair": {
+        "u": [
+          1,
+          2,
+          3,
+          7,
+          10,
+          6,
+          5,
+          4,
+          8,
+          9
+        ],
+        "v": [
+          3,
+          1,
+          6,
+          10,
+          4,
+          2,
+          5,
+          7,
+          9,
+          8
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1382,
+          "supplied_index": 1,
+          "predicted_index": 5,
+          "w": [
+            4,
+            5,
+            6,
+            10,
+            11,
+            1,
+            3,
+            2,
+            8,
+            7,
+            9
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1382,
+          "supplied_index": 4,
+          "predicted_index": 5,
+          "w": [
+            4,
+            5,
+            6,
+            10,
+            11,
+            1,
+            3,
+            2,
+            8,
+            7,
+            9
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1382,
+          "supplied_index": 8,
+          "predicted_index": 5,
+          "w": [
+            4,
+            5,
+            6,
+            10,
+            11,
+            1,
+            3,
+            2,
+            8,
+            7,
+            9
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 4,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 1506,
+        "product_sha256": "c2634c479c0ba2f3404083d40f88dfcfa59d144c8c652b3cfcdab37b8b9995a3"
+      }
+    },
+    {
+      "group": 5,
+      "pair": {
+        "u": [
+          1,
+          2,
+          3,
+          9,
+          6,
+          4,
+          10,
+          8,
+          7,
+          5
+        ],
+        "v": [
+          2,
+          6,
+          1,
+          3,
+          5,
+          8,
+          9,
+          10,
+          4,
+          7
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1184,
+          "supplied_index": 4,
+          "predicted_index": 3,
+          "w": [
+            4,
+            9,
+            1,
+            5,
+            6,
+            8,
+            11,
+            10,
+            2,
+            3,
+            7
+          ],
+          "valid_indices": [
+            4,
+            6
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "smallest_containing_interval_rank": 9,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1184,
+          "supplied_index": 6,
+          "predicted_index": 3,
+          "w": [
+            4,
+            9,
+            1,
+            5,
+            6,
+            8,
+            11,
+            10,
+            2,
+            3,
+            7
+          ],
+          "valid_indices": [
+            4,
+            6
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "smallest_containing_interval_rank": 9,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1184,
+          "supplied_index": 7,
+          "predicted_index": 3,
+          "w": [
+            4,
+            9,
+            1,
+            5,
+            6,
+            8,
+            11,
+            10,
+            2,
+            3,
+            7
+          ],
+          "valid_indices": [
+            4,
+            6
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "smallest_containing_interval_rank": 9,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 5,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 1677,
+        "product_sha256": "ba149fb9291048c710ee377e34a1898977dafa4bd44927b4a4035921c3e06d6b"
+      }
+    },
+    {
+      "group": 6,
+      "pair": {
+        "u": [
+          1,
+          2,
+          4,
+          5,
+          9,
+          3,
+          10,
+          6,
+          8,
+          7
+        ],
+        "v": [
+          2,
+          1,
+          9,
+          3,
+          4,
+          8,
+          5,
+          7,
+          6,
+          10
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1632,
+          "supplied_index": 2,
+          "predicted_index": 6,
+          "w": [
+            2,
+            1,
+            10,
+            4,
+            11,
+            5,
+            8,
+            3,
+            7,
+            6,
+            9
+          ],
+          "valid_indices": [
+            5,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1632,
+          "supplied_index": 7,
+          "predicted_index": 6,
+          "w": [
+            2,
+            1,
+            10,
+            4,
+            11,
+            5,
+            8,
+            3,
+            7,
+            6,
+            9
+          ],
+          "valid_indices": [
+            5,
+            7
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 6,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 761,
+        "product_sha256": "6650f62d24c346ac739b7126cc265276ee5fa05b694b7a8f372f0a16509f2ef1"
+      }
+    },
+    {
+      "group": 7,
+      "pair": {
+        "u": [
+          1,
+          4,
+          5,
+          2,
+          6,
+          9,
+          8,
+          7,
+          3
+        ],
+        "v": [
+          4,
+          6,
+          1,
+          2,
+          7,
+          5,
+          3,
+          9,
+          8
+        ]
+      },
+      "errors": [
+        {
+          "population": "S9_exposed_pairs",
+          "row": 245,
+          "supplied_index": 2,
+          "predicted_index": 2,
+          "w": [
+            5,
+            8,
+            2,
+            1,
+            7,
+            11,
+            4,
+            6,
+            3,
+            9,
+            10
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 5,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "S9_exposed_pairs",
+          "row": 245,
+          "supplied_index": 6,
+          "predicted_index": 2,
+          "w": [
+            5,
+            8,
+            2,
+            1,
+            7,
+            11,
+            4,
+            6,
+            3,
+            9,
+            10
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 5,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 7,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 839,
+        "product_sha256": "4abae8892486118319727986acf8199a2b581bee536e412a8fc74c6a928968d7"
+      }
+    },
+    {
+      "group": 8,
+      "pair": {
+        "u": [
+          1,
+          5,
+          7,
+          3,
+          2,
+          9,
+          4,
+          8,
+          10,
+          6
+        ],
+        "v": [
+          7,
+          3,
+          5,
+          1,
+          4,
+          2,
+          8,
+          6,
+          9,
+          10
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1123,
+          "supplied_index": 3,
+          "predicted_index": 1,
+          "w": [
+            9,
+            5,
+            8,
+            10,
+            1,
+            2,
+            3,
+            4,
+            7,
+            6
+          ],
+          "valid_indices": [
+            3
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            1,
+            2,
+            3,
+            4,
+            3,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 1123,
+          "supplied_index": 5,
+          "predicted_index": 1,
+          "w": [
+            9,
+            5,
+            8,
+            10,
+            1,
+            2,
+            3,
+            4,
+            7,
+            6
+          ],
+          "valid_indices": [
+            3
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            1,
+            2,
+            3,
+            4,
+            3,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 8,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 8,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 1359,
+        "product_sha256": "3abdbeaf40484eb88f97af08347c870f871b5ba3f38973592fc7c910daa49681"
+      }
+    },
+    {
+      "group": 9,
+      "pair": {
+        "u": [
+          1,
+          6,
+          4,
+          3,
+          2,
+          8,
+          7,
+          5
+        ],
+        "v": [
+          2,
+          1,
+          6,
+          3,
+          7,
+          5,
+          4,
+          8
+        ]
+      },
+      "errors": [
+        {
+          "population": "S9_exposed_pairs",
+          "row": 285,
+          "supplied_index": 4,
+          "predicted_index": 4,
+          "w": [
+            6,
+            5,
+            8,
+            1,
+            2,
+            7,
+            3,
+            4,
+            9
+          ],
+          "valid_indices": [
+            3
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 5,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "S9_exposed_pairs",
+          "row": 285,
+          "supplied_index": 6,
+          "predicted_index": 4,
+          "w": [
+            6,
+            5,
+            8,
+            1,
+            2,
+            7,
+            3,
+            4,
+            9
+          ],
+          "valid_indices": [
+            3
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 5,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 9,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 1776,
+        "product_sha256": "4b23573ffa462f7bdf006019cf667d7612cde599e37b2b9ec0356e8631d7bc4d"
+      }
+    },
+    {
+      "group": 10,
+      "pair": {
+        "u": [
+          1,
+          7,
+          5,
+          2,
+          3,
+          8,
+          6,
+          4,
+          9
+        ],
+        "v": [
+          4,
+          2,
+          3,
+          1,
+          7,
+          9,
+          5,
+          6,
+          8
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S9_pairs",
+          "row": 403,
+          "supplied_index": 0,
+          "predicted_index": 5,
+          "w": [
+            7,
+            8,
+            3,
+            1,
+            2,
+            11,
+            5,
+            4,
+            6,
+            9,
+            10
+          ],
+          "valid_indices": [
+            3
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "exposed_fresh_S9_pairs",
+          "row": 403,
+          "supplied_index": 5,
+          "predicted_index": 5,
+          "w": [
+            7,
+            8,
+            3,
+            1,
+            2,
+            11,
+            5,
+            4,
+            6,
+            9,
+            10
+          ],
+          "valid_indices": [
+            3
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 10,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 757,
+        "product_sha256": "bd6a9604060d066b877a46ed8a6ffbe187ab6228c80053a76a6727cfaece3011"
+      }
+    },
+    {
+      "group": 11,
+      "pair": {
+        "u": [
+          2,
+          1,
+          4,
+          9,
+          7,
+          5,
+          3,
+          6,
+          10,
+          8
+        ],
+        "v": [
+          4,
+          7,
+          2,
+          5,
+          1,
+          3,
+          6,
+          10,
+          8,
+          9
+        ]
+      },
+      "errors": [
+        {
+          "population": "hard_validation",
+          "row": 348,
+          "supplied_index": 0,
+          "predicted_index": 2,
+          "w": [
+            8,
+            4,
+            2,
+            10,
+            11,
+            3,
+            1,
+            5,
+            6,
+            7,
+            9
+          ],
+          "valid_indices": [
+            7
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 9,
+          "no_rank_at_most_three_block_contains_support": true
+        },
+        {
+          "population": "hard_validation",
+          "row": 348,
+          "supplied_index": 2,
+          "predicted_index": 2,
+          "w": [
+            8,
+            4,
+            2,
+            10,
+            11,
+            3,
+            1,
+            5,
+            6,
+            7,
+            9
+          ],
+          "valid_indices": [
+            7
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 9,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 11,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 3838,
+        "product_sha256": "9aebfd646021f159392d95ff73c5984e52297b010d43f2c0a15955c95a0231fa"
+      }
+    },
+    {
+      "group": 12,
+      "pair": {
+        "u": [
+          1,
+          2,
+          7,
+          8,
+          3,
+          6,
+          4,
+          9,
+          5
+        ],
+        "v": [
+          1,
+          3,
+          4,
+          2,
+          9,
+          8,
+          6,
+          7,
+          5
+        ]
+      },
+      "errors": [
+        {
+          "population": "S9_exposed_pairs",
+          "row": 371,
+          "supplied_index": 6,
+          "predicted_index": 5,
+          "w": [
+            1,
+            8,
+            9,
+            10,
+            2,
+            4,
+            3,
+            7,
+            5,
+            6
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            3,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 12,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 1925,
+        "product_sha256": "bd8c4ff8dee8c9aeb6796de36091914f4fae8ee1af76beee92ebcf5f82fd126c"
+      }
+    },
+    {
+      "group": 13,
+      "pair": {
+        "u": [
+          1,
+          3,
+          8,
+          4,
+          5,
+          7,
+          2,
+          9,
+          6
+        ],
+        "v": [
+          2,
+          7,
+          1,
+          3,
+          4,
+          8,
+          9,
+          6,
+          5
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S9_pairs",
+          "row": 327,
+          "supplied_index": 5,
+          "predicted_index": 1,
+          "w": [
+            2,
+            8,
+            7,
+            3,
+            4,
+            10,
+            5,
+            9,
+            1,
+            6
+          ],
+          "valid_indices": [
+            6
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 2,
+          "no_rank_at_most_three_block_contains_support": false
+        }
+      ],
+      "root_product": {
+        "group": 13,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 834,
+        "product_sha256": "b40438f08f5febe1a4405a562d1b037b2f5e38accf61a1c55ceb760171acab7e"
+      }
+    },
+    {
+      "group": 14,
+      "pair": {
+        "u": [
+          1,
+          4,
+          2,
+          7,
+          3,
+          8,
+          9,
+          10,
+          6,
+          5
+        ],
+        "v": [
+          6,
+          1,
+          8,
+          2,
+          3,
+          7,
+          4,
+          5,
+          9,
+          10
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 88,
+          "supplied_index": 4,
+          "predicted_index": 5,
+          "w": [
+            8,
+            1,
+            10,
+            5,
+            2,
+            6,
+            7,
+            9,
+            3,
+            4
+          ],
+          "valid_indices": [
+            2,
+            4
+          ],
+          "reversed_relative_to_sorted_factors": true,
+          "Q": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "smallest_containing_interval_rank": 6,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 14,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 633,
+        "product_sha256": "36a630b28db1f7174f23e7a18f5e1a46087cec002a66df15dd606a30e8f61024"
+      }
+    },
+    {
+      "group": 15,
+      "pair": {
+        "u": [
+          2,
+          6,
+          7,
+          3,
+          1,
+          4,
+          8,
+          9,
+          10,
+          5
+        ],
+        "v": [
+          2,
+          7,
+          1,
+          6,
+          8,
+          3,
+          5,
+          4,
+          9,
+          10
+        ]
+      },
+      "errors": [
+        {
+          "population": "exposed_fresh_S10_pairs",
+          "row": 739,
+          "supplied_index": 4,
+          "predicted_index": 0,
+          "w": [
+            5,
+            9,
+            8,
+            6,
+            1,
+            3,
+            4,
+            7,
+            10,
+            2
+          ],
+          "valid_indices": [
+            4
+          ],
+          "reversed_relative_to_sorted_factors": false,
+          "Q": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "smallest_containing_interval_rank": 7,
+          "no_rank_at_most_three_block_contains_support": true
+        }
+      ],
+      "root_product": {
+        "group": 15,
+        "begin": 0,
+        "end": 1,
+        "product_terms": 703,
+        "product_sha256": "c936822b70c715d58574480955abeadc2817e92371ba5fd6531cf39b2cbccd45"
+      }
+    }
+  ],
+  "incorrect_supplied_inputs": 51,
+  "errors_invisible_to_all_rank_at_most_three_length_tests": 50,
+  "support_interval_ranks": {
+    "2": 1,
+    "4": 3,
+    "5": 6,
+    "6": 9,
+    "7": 13,
+    "8": 12,
+    "9": 7
+  },
+  "artifact_sha256": "f0ed9a3fbef6b2adb3553c746ab23bb2b4c1562d27aa291959c066741b14af93",
+  "role": "Exact diagnostic on already exposed error factors; these rows do not enter training"
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/run_second_continuation.py", line 49, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/run_second_continuation.py", line 28, in main
+    run('train_second_continuation',arguments)
+  File "schubert-structure-constants/research/2026-09-14-full-circuits/run_second_continuation.py", line 9, in run
+    assert result.returncode==0,name
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: train_second_continuation

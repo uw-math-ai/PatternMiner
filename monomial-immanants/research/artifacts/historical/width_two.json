@@ -1,0 +1,18 @@
+{
+  "verdict": "PASS",
+  "counts": {
+    "content_series_checks": 6005,
+    "all_ones_contents": 34,
+    "multiple_tail_twos_contents": 2263,
+    "exact_path_polynomial_identities": 28,
+    "skew_shapes": 1587,
+    "permutation_fiber_checks": 17767,
+    "exact_loss_set_cube_vertices": 66345,
+    "spare_big_entry_checks": 14424,
+    "legal_cubes": 16017,
+    "full_poset_coefficients": 776891,
+    "zero_based_descent_checks": 526,
+    "multiple_tail_twos_coefficients": 224196
+  },
+  "scope": "Symbolic audit is separately recorded in review; finite controls are not proof."
+}

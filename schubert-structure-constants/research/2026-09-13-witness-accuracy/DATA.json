@@ -1,0 +1,128 @@
+{
+  "seed": 20260913,
+  "encoder_checks": [
+    {
+      "encoder": "first",
+      "examples": 48,
+      "bitwise_equal": true
+    },
+    {
+      "encoder": "last",
+      "examples": 48,
+      "bitwise_equal": true
+    },
+    {
+      "augmentation_max_error": 5.960464477539063e-08,
+      "examples": 48
+    }
+  ],
+  "train_validation_overlap": 0,
+  "assessment_train_or_validation_overlap": 0,
+  "S9_excluded_rows": 0,
+  "matched_pairs": 458,
+  "sources": {
+    "stable_degree_one_S7_3000_length7.jsonl.gz": "852c4fad03b9bbadc03172d25a5e3b1c823f2faca8ee80fb7b9e3c1e65641a80",
+    "stable_degree_one_S8_2000_length9.jsonl.gz": "dc723f87265b1e1109f1071dff941914fd44cf785805ee51f09b10e5f199de81",
+    "stable_degree_one_S9_500_length11.jsonl.gz": "6d17629066ed4fab1c6c83ae36a658290784440fa5a4583f01295accfe787f8f"
+  },
+  "split_rule": "historical witness-v1 bucket; complete unordered stable factor pairs",
+  "exposure": "Historical datasets and challenges, not an untouched test",
+  "splits": {
+    "S7_train": {
+      "rows": 57711,
+      "examples": 115422,
+      "product_groups": 2114,
+      "array_sha256": {
+        "x": "e044cf21ad3f9bf7c333d11b5f7ddc5c95333001947c7bb4b939589b54dfde09",
+        "mask": "5620547a4b1735277393872682a9a8726a1a302e8699893befca665673a2ecf9",
+        "y": "59b14f0ab6bfbce1296c7e5fc69cd0786bd34fc793db762ff1b704bcd4e05e64",
+        "a": "83eb562307ffc44d93133af328c7e1cddc94bf49b78e5e8ee7884ebaaf29c825",
+        "group": "9180ea82d325a64ac9e9935a738c5b8d4fbf5370a3229aa87eeeb8262bf767cb"
+      }
+    },
+    "S7_validation": {
+      "rows": 8158,
+      "examples": 16316,
+      "product_groups": 294,
+      "array_sha256": {
+        "x": "e7eccc8a104da01658c503bbf2a25f797dc5acf09e08dabb352f8fb6119e1efb",
+        "mask": "411947de4c63cc3804ae4972a382d2cef53c45904e678089bf16a8eb5f59b9ce",
+        "y": "dc0d94201e7d7cb04af923faeb06678744d46718902111fbb1443ef3ab09d4f8",
+        "a": "96c4ec1bea0e6bbecf601435931eb0eb1776f83ddb0ee6432f0e5f58d6a40264",
+        "group": "3630f955f24580878f3f6aca36bcdb3b703f52ec9d82bb07b30af86ed571db1c"
+      }
+    },
+    "S7_assessment": {
+      "rows": 15131,
+      "examples": 30262,
+      "product_groups": 579,
+      "array_sha256": {
+        "x": "d6be59627e2a93829e3cd35e1ca06f4fe4701ef693ef23e25f93efcf1180787d",
+        "mask": "41bfe4175f6a67435935373dbd81023337c0411df6a2ed60b6d184f9d6ddc566",
+        "y": "c6f44d4d30acdf69dde96e9c1b6018e6c199c1f5bf5f3028dcbd7ab6d7747dce",
+        "a": "7a19e87467119a20b1caf36a0d991c4c1c3964f6ff45d34348533db9e4c055bc",
+        "group": "44f770bb78b73cdf8793cbb0f067e91cfd5f6b6ad5a020ba8000404f90ba8b3b"
+      }
+    },
+    "S8_train": {
+      "rows": 156771,
+      "examples": 313542,
+      "product_groups": 1433,
+      "array_sha256": {
+        "x": "8cb1e7be8a6621b7eb98123d03d4feb1ef6a637e7da4f27cc6d0c191dcd7222e",
+        "mask": "b3c078a5cef1b6e4021daeb85ac2396eab054596056a08c80838cf984cff7a71",
+        "y": "aa8125cc97ceeb3b1e829f26db30d42ea5f0f08ddb4b8b68d147ff9a5453b9ac",
+        "a": "4592c0e12009b8a59a9a0b001d4f7d103185fa6f56c4c3294f4735346d78f288",
+        "group": "59320748b201274b48508e2013ea7f9ef6f4a3cbcbe9cd0a74b00b476bca537e"
+      }
+    },
+    "S8_validation": {
+      "rows": 5000,
+      "examples": 10000,
+      "product_groups": 186,
+      "array_sha256": {
+        "x": "953f127a2439f8ff803427a9d7b30f2d2a2d381d031c59d2794577b083030937",
+        "mask": "05715ff3bc38315db2d9aee0303320325a4c1016164ffd7807a178b80c390a13",
+        "y": "55cb2c3b2e1520a29bcc828ab3961be9c865f29cc100f2a75f280224f87c3e40",
+        "a": "308bf8dc661044a60557445378672f880944fc9750a416764575c174f6f80c4d",
+        "group": "c6a88f4e31df58930df76a4c815a43d3faf2ae9d91e852e118c2626d5c583059"
+      }
+    },
+    "S8_assessment": {
+      "rows": 10000,
+      "examples": 20000,
+      "product_groups": 370,
+      "array_sha256": {
+        "x": "264e94361f726bf2ce2700cb4e9efc9f6df7a92381229733a02207ab2a6d74d0",
+        "mask": "73354ab67aba8247d1e52314766b86fec7f347c1e444a237575b5ee7259b8263",
+        "y": "41ac2b415f9d66086983e1127025b721e22ea8dd72969c0c8a29d2cda5e8cf2b",
+        "a": "142a81f07ba9c7f5b3267ddebaa64242f5b8f763af00f9db1a20b5e94c9f6003",
+        "group": "908ed7bb82198ea495ef9cacb1ccb2330fa8a7e94f28151232ed15b730afd8e3"
+      }
+    },
+    "S9_assessment": {
+      "rows": 10000,
+      "examples": 20000,
+      "product_groups": 470,
+      "array_sha256": {
+        "x": "d2c2bb15f7dab04413a03ee79ad38da95a84768c603b21285835a9bd05c5ec1e",
+        "mask": "229e80c5917a64d3cbcebc208da16e1cfb21bb942e8ccf658c6038b692317e07",
+        "y": "460c3cd8bd43b98183828f1f2451057cf3332ac6369676ea56199cb6b42b926a",
+        "a": "534a7020d036f89af0273f17892d21cbcfd8a12d7226ebddd726d3247c98a6b6",
+        "group": "bb4c5bd7c401cd531eb4237da47a89f33a3ff3c48d9b6e01e065897db3defbe7"
+      }
+    },
+    "matched_pairs": {
+      "rows": 916,
+      "examples": 916,
+      "product_groups": 71,
+      "array_sha256": {
+        "x": "8bb05c013a233037824e8257315b1617fffd3039960ee9aaf5c2e058288fabf3",
+        "mask": "90ce2f947f21ed5140537b282108bc15a6e489293b554e28df9cf49931d68f9f",
+        "y": "9b35344223034ab087ff01e8fdc26f7018845d069ad98b2e8e55750673076a52",
+        "a": "29c4571dab9ef3db094df2aa74a5c8311ebd8d7cee04db990684971caf7699fb",
+        "group": "a843454a6f2d3920ebf91db587bbcafeab0af2248b5dff23af79f3c955d5d9b4"
+      }
+    }
+  }
+}

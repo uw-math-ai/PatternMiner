@@ -1,0 +1,13 @@
+{
+  "role": "Exploratory second-hop study motivated by completed path experiments",
+  "checkpoint_sha256": "19d12b2bcdb0ad6ccf4f40dd3e2ed89662beab425449daf7808af05785500894",
+  "source_sha256": "df69a5baf759a5bf5ca46c6925add5dd7038219a2d4410d070d023160192df07",
+  "cohorts": [
+    "confirmation",
+    "matched_development"
+  ],
+  "path": "L0 noncandidate hidden units -> L1 keys/values -> L1 attention outputs at noncandidate positions -> positionwise residual/MLP transformations -> Lk keys/values -> Lk attention outputs at candidate positions -> downstream decision, for k=2,3,4,5.",
+  "isolation": "Restore intervening attention outputs to native destination values. Candidate residual states must remain exactly unchanged before the receiving attention layer. Replay only the receiving keys/values, then only its candidate attention outputs. All other incoming states are restored at each replay.",
+  "meaning": "These are controlled path effects, not additive components of a mathematical algorithm.",
+  "uncertainty": "Descriptive group-bootstrap intervals; only four orbits in the matched development cohort."
+}

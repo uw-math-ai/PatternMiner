@@ -1,0 +1,2 @@
+{"queries": 6075, "forbidden_orbits": 47171, "populations": {"S7_assessment": 100, "S8_assessment": 100, "S9_assessment": 320, "S10_assessment": 240, "S9_validation": 100, "S10_validation": 80}}
+{"name": "freeze_fresh_factor_populations", "status": "completed", "wall_seconds": 3.9918474820442498, "gpu_seconds_charged": 0, "gpu_charge_scope": "CPU only", "exact_queries": 0}

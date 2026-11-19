@@ -1,0 +1,799 @@
+{
+  "p16": {
+    "experiment": "E046",
+    "source": "research/artifacts/publication_replay.json",
+    "source_sha256": "4d8632ff500b4a30984882788d059b084ac8b5c477caa5e209128ba659b7dd88",
+    "matplotlib_version": "3.11.2",
+    "majority_training_label": 0,
+    "accuracy_series": [
+      {
+        "name": "Training-majority baseline (zero)",
+        "counts": [
+          [
+            17,
+            33
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "color": "#b0b0b0"
+      },
+      {
+        "name": "Rank-one stump",
+        "counts": [
+          [
+            30,
+            33
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "color": "#2E86AB"
+      },
+      {
+        "name": "Simple-sided stump",
+        "counts": [
+          [
+            30,
+            33
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "color": "#D18B24"
+      }
+    ],
+    "withheld_labels_and_predictions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "withheld_rows": [
+      {
+        "source": "C016",
+        "descent": 2,
+        "label": 0,
+        "r1": 15,
+        "r2": 75,
+        "r3": 192,
+        "r4": 295,
+        "size": 1124,
+        "defect_volume": 85,
+        "defect_zeros": 29,
+        "local_volume": 3,
+        "local_zeros": 6,
+        "position_span": 9,
+        "value_span": 1,
+        "simple_sided": 1,
+        "facet_descents": 3,
+        "bottom_descents": 8
+      },
+      {
+        "source": "C016",
+        "descent": 7,
+        "label": 1,
+        "r1": 15,
+        "r2": 75,
+        "r3": 192,
+        "r4": 294,
+        "size": 1120,
+        "defect_volume": 84,
+        "defect_zeros": 28,
+        "local_volume": 7,
+        "local_zeros": 4,
+        "position_span": 9,
+        "value_span": 1,
+        "simple_sided": 1,
+        "facet_descents": 3,
+        "bottom_descents": 8
+      }
+    ],
+    "posthoc_diagnostics": {
+      "date": "2026-09-25",
+      "feature_comparison": [
+        {
+          "feature": "r1",
+          "correct": 30,
+          "total": 33,
+          "training_errors": 3,
+          "minimizers": [
+            [
+              3,
+              "r1",
+              12.5,
+              1
+            ]
+          ]
+        },
+        {
+          "feature": "simple_sided",
+          "correct": 30,
+          "total": 33,
+          "training_errors": 3,
+          "minimizers": [
+            [
+              3,
+              "simple_sided",
+              0.5,
+              1
+            ]
+          ]
+        },
+        {
+          "feature": "defect_volume",
+          "correct": 27,
+          "total": 33,
+          "training_errors": 6,
+          "minimizers": [
+            [
+              6,
+              "defect_volume",
+              68.0,
+              1
+            ]
+          ]
+        },
+        {
+          "feature": "r2",
+          "correct": 27,
+          "total": 33,
+          "training_errors": 6,
+          "minimizers": [
+            [
+              6,
+              "r2",
+              56.5,
+              1
+            ],
+            [
+              6,
+              "r2",
+              57.5,
+              1
+            ]
+          ]
+        },
+        {
+          "feature": "defect_zeros",
+          "correct": 24,
+          "total": 33,
+          "training_errors": 9,
+          "minimizers": [
+            [
+              9,
+              "defect_zeros",
+              26.5,
+              -1
+            ],
+            [
+              9,
+              "defect_zeros",
+              28.5,
+              -1
+            ]
+          ]
+        },
+        {
+          "feature": "position_span",
+          "correct": 24,
+          "total": 33,
+          "training_errors": 9,
+          "minimizers": [
+            [
+              9,
+              "position_span",
+              3.5,
+              -1
+            ]
+          ]
+        },
+        {
+          "feature": "r3",
+          "correct": 24,
+          "total": 33,
+          "training_errors": 9,
+          "minimizers": [
+            [
+              9,
+              "r3",
+              135.5,
+              1
+            ]
+          ]
+        },
+        {
+          "feature": "value_span",
+          "correct": 24,
+          "total": 33,
+          "training_errors": 9,
+          "minimizers": [
+            [
+              9,
+              "value_span",
+              1.5,
+              -1
+            ]
+          ]
+        },
+        {
+          "feature": "local_volume",
+          "correct": 22,
+          "total": 33,
+          "training_errors": 11,
+          "minimizers": [
+            [
+              11,
+              "local_volume",
+              4.5,
+              1
+            ]
+          ]
+        },
+        {
+          "feature": "local_zeros",
+          "correct": 22,
+          "total": 33,
+          "training_errors": 11,
+          "minimizers": [
+            [
+              11,
+              "local_zeros",
+              4.5,
+              -1
+            ]
+          ]
+        },
+        {
+          "feature": "r4",
+          "correct": 22,
+          "total": 33,
+          "training_errors": 11,
+          "minimizers": [
+            [
+              11,
+              "r4",
+              191.0,
+              1
+            ]
+          ]
+        },
+        {
+          "feature": "size",
+          "correct": 22,
+          "total": 33,
+          "training_errors": 11,
+          "minimizers": [
+            [
+              11,
+              "size",
+              768.0,
+              1
+            ]
+          ]
+        },
+        {
+          "feature": "bottom_descents",
+          "correct": 20,
+          "total": 33,
+          "training_errors": 13,
+          "minimizers": [
+            [
+              13,
+              "bottom_descents",
+              5.5,
+              1
+            ],
+            [
+              13,
+              "bottom_descents",
+              6.5,
+              1
+            ]
+          ]
+        },
+        {
+          "feature": "facet_descents",
+          "correct": 17,
+          "total": 33,
+          "training_errors": 16,
+          "minimizers": [
+            [
+              16,
+              "facet_descents",
+              1,
+              -1
+            ],
+            [
+              16,
+              "facet_descents",
+              2.5,
+              -1
+            ],
+            [
+              16,
+              "facet_descents",
+              3.5,
+              1
+            ]
+          ]
+        }
+      ],
+      "source_omission_refits": [
+        {
+          "omitted_source": "C012",
+          "fit_rows": 28,
+          "assessment_rows": 5,
+          "training_minimizers": [
+            [
+              2,
+              "r1",
+              12.5,
+              1
+            ],
+            [
+              2,
+              "simple_sided",
+              0.5,
+              1
+            ]
+          ],
+          "correct_per_minimizer": [
+            4,
+            4
+          ],
+          "assessment_labels": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "training_majority_label": 0,
+          "baseline_correct": 3
+        },
+        {
+          "omitted_source": "C014-terminal",
+          "fit_rows": 20,
+          "assessment_rows": 13,
+          "training_minimizers": [
+            [
+              1,
+              "r1",
+              12.5,
+              1
+            ],
+            [
+              1,
+              "simple_sided",
+              0.5,
+              1
+            ]
+          ],
+          "correct_per_minimizer": [
+            11,
+            11
+          ],
+          "assessment_labels": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "training_majority_label": 1,
+          "baseline_correct": 5
+        },
+        {
+          "omitted_source": "E041-a",
+          "fit_rows": 26,
+          "assessment_rows": 7,
+          "training_minimizers": [
+            [
+              3,
+              "r1",
+              12.5,
+              1
+            ],
+            [
+              3,
+              "simple_sided",
+              0.5,
+              1
+            ]
+          ],
+          "correct_per_minimizer": [
+            7,
+            7
+          ],
+          "assessment_labels": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "training_majority_label": 0,
+          "baseline_correct": 3
+        },
+        {
+          "omitted_source": "E041-b",
+          "fit_rows": 26,
+          "assessment_rows": 7,
+          "training_minimizers": [
+            [
+              3,
+              "r1",
+              12.5,
+              1
+            ],
+            [
+              3,
+              "simple_sided",
+              0.5,
+              1
+            ]
+          ],
+          "correct_per_minimizer": [
+            7,
+            7
+          ],
+          "assessment_labels": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "training_majority_label": 0,
+          "baseline_correct": 3
+        },
+        {
+          "omitted_source": "sparse",
+          "fit_rows": 32,
+          "assessment_rows": 1,
+          "training_minimizers": [
+            [
+              3,
+              "r1",
+              12.5,
+              1
+            ],
+            [
+              3,
+              "simple_sided",
+              0.5,
+              1
+            ]
+          ],
+          "correct_per_minimizer": [
+            1,
+            1
+          ],
+          "assessment_labels": [
+            1
+          ],
+          "training_majority_label": 0,
+          "baseline_correct": 0
+        }
+      ],
+      "fit_source": "research/src/placement_dataset.py:best_stumps",
+      "fit_source_sha256": "e06a41a8a7f490d4e747f096e8bd868bb8a28e2156d17218f17b51994056c280",
+      "scope": "New descriptive analysis and deterministic refits on existing E046 rows; not historical extra runs or independent confirmation."
+    },
+    "scope": "Historical visualizations plus separately labeled post hoc diagnostics; no new mathematical examples."
+  },
+  "p16_plot_data_sha256": "00a23631948d166d30556b37572ad2ecdbf9a6b1b2c540f108ea5f1ab848c4fa",
+  "p18": {
+    "experiments": [
+      "E031",
+      "T053 rectangle witnesses"
+    ],
+    "sources": [
+      {
+        "path": "research/artifacts/historical/origin_stump.json",
+        "sha256": "c138f182ce0923fafcc5f5ecfd5188f68231700e11294a0638d0f2cc750312f4"
+      },
+      {
+        "path": "research/artifacts/historical/origin_tree.json",
+        "sha256": "21a3a711bc5a77a4d008177c83d2d8a3b1ab82defedce45b6678e71c5d541192"
+      },
+      {
+        "path": "research/artifacts/historical/rectangles.json",
+        "sha256": "0ed6ab115c699ed799a9e6d11099fafc51a499615ba4e97977a2b1ec0cf12473"
+      },
+      {
+        "path": "research/artifacts/publication_replay.json",
+        "sha256": "b57ada438f68ed00e370881b7e979bd9547fcb6cf7dffab033176e1c2279babb"
+      }
+    ],
+    "matplotlib_version": "3.11.2",
+    "majority_training_label": 1,
+    "accuracy_series": [
+      {
+        "name": "Training-majority baseline (genuine)",
+        "counts": [
+          [
+            268,
+            279
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        "color": "#b0b0b0"
+      },
+      {
+        "name": "Initial stump",
+        "counts": [
+          [
+            279,
+            279
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        "color": "#2E86AB"
+      },
+      {
+        "name": "Revised depth-two tree",
+        "counts": [
+          [
+            278,
+            279
+          ],
+          [
+            14,
+            15
+          ]
+        ],
+        "color": "#D18B24"
+      }
+    ],
+    "stump": {
+      "feature": 0,
+      "threshold": 37.0,
+      "left_label": 0
+    },
+    "tree": {
+      "feature": 0,
+      "threshold": 60.5,
+      "left": {
+        "feature": 1,
+        "threshold": 2.5,
+        "left": {
+          "label": 1,
+          "counts": [
+            0,
+            9
+          ]
+        },
+        "right": {
+          "label": 0,
+          "counts": [
+            32,
+            0
+          ]
+        }
+      },
+      "right": {
+        "label": 1,
+        "counts": [
+          0,
+          521
+        ]
+      }
+    },
+    "intervention_series": [
+      {
+        "cohort": "Stump: 15 mined targets",
+        "keys": [
+          "before",
+          "identity_patch",
+          "unused_coordinate_control",
+          "branch_patch"
+        ],
+        "correct_counts": [
+          [
+            0,
+            15
+          ],
+          [
+            0,
+            15
+          ],
+          [
+            0,
+            15
+          ],
+          [
+            15,
+            15
+          ]
+        ]
+      },
+      {
+        "cohort": "Revised tree child: 14 routed targets",
+        "keys": [
+          "before",
+          "identity_patch",
+          "unused_child_input_control",
+          "genuine_child_branch_patch"
+        ],
+        "correct_counts": [
+          [
+            14,
+            14
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            0,
+            14
+          ]
+        ]
+      }
+    ],
+    "class_performance": [
+      {
+        "name": "Majority baseline",
+        "recall_counts": [
+          [
+            0,
+            11
+          ],
+          [
+            268,
+            268
+          ]
+        ],
+        "balanced_accuracy": 0.5
+      },
+      {
+        "name": "Initial stump",
+        "recall_counts": [
+          [
+            11,
+            11
+          ],
+          [
+            268,
+            268
+          ]
+        ],
+        "balanced_accuracy": 1.0
+      },
+      {
+        "name": "Revised tree",
+        "recall_counts": [
+          [
+            10,
+            11
+          ],
+          [
+            268,
+            268
+          ]
+        ],
+        "balanced_accuracy": 0.9545454545454546
+      }
+    ],
+    "exact_decompositions": [
+      {
+        "shape": [
+          8,
+          2,
+          2
+        ],
+        "coefficient_histogram": {
+          "0": 94,
+          "1": 27,
+          "2": 10,
+          "3": 1
+        },
+        "positive_terms": 38,
+        "total_multiplicity": 50
+      },
+      {
+        "shape": [
+          7,
+          2,
+          2,
+          1
+        ],
+        "coefficient_histogram": {
+          "0": 81,
+          "1": 32,
+          "2": 14,
+          "3": 5
+        },
+        "positive_terms": 51,
+        "total_multiplicity": 75
+      },
+      {
+        "shape": [
+          6,
+          2,
+          2,
+          2
+        ],
+        "coefficient_histogram": {
+          "0": 90,
+          "1": 35,
+          "2": 6,
+          "3": 1
+        },
+        "positive_terms": 42,
+        "total_multiplicity": 50
+      },
+      {
+        "shape": [
+          5,
+          2,
+          2,
+          2,
+          1
+        ],
+        "coefficient_histogram": {
+          "0": 99,
+          "1": 26,
+          "2": 7
+        },
+        "positive_terms": 33,
+        "total_multiplicity": 40
+      },
+      {
+        "shape": [
+          4,
+          2,
+          2,
+          2,
+          2
+        ],
+        "coefficient_histogram": {
+          "0": 117,
+          "1": 15
+        },
+        "positive_terms": 15,
+        "total_multiplicity": 15
+      }
+    ],
+    "scope": "Fixed model assessments and exact rectangle witnesses; post hoc summaries, no fresh generalization claim."
+  },
+  "p18_plot_data_sha256": "a756833f741bee474fb5771c6b578853acd101da3c15e58b30e072397db475c3"
+}

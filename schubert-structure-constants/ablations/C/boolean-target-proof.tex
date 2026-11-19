@@ -1,0 +1,149 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs,hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{example}[theorem]{Example}
+\newcommand{\Fl}{\operatorname{Fl}}
+\newcommand{\Inv}{\operatorname{Inv}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\Ad}{\operatorname{Ad}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\Mat}{\operatorname{Mat}}
+\newcommand{\wt}{\operatorname{wt}}
+\begin{document}
+\begin{center}\Large A flow formula for Boolean targets\end{center}
+\section{The problem and the main formula}
+
+Let $\Fl_n$ be the variety of complete flags in $\mathbb C^n$. We grade $H^*(\Fl_n,\mathbb Z)$ by complex codimension and write $\sigma_w$ for the Schubert class of codimension $\ell(w)$. Thus,
+\[
+ \sigma_u\sigma_v=\sum_{w\in S_n}c_{u,v}^{w}\sigma_w,
+ \qquad c_{u,v}^{w}\in\mathbb Z_{\geq0}.
+\]
+Only triples satisfying $\ell(u)+\ell(v)=\ell(w)$ can contribute. Put $N=\binom n2$ and $w_0=(n,n-1,\ldots,1)$. For $p\in S_n$, write $\bar p=w_0p$, with multiplication interpreted as composition of functions. In one-line notation, $\bar p(i)=n+1-p(i)$. Poincar\'e duality gives
+\begin{equation}\label{eq:triple}
+ c_{u,v}^{w}=C(u,v,\bar w),
+ \qquad C(a,b,c)=\int_{\Fl_n}\sigma_a\sigma_b\sigma_c.
+\end{equation}
+The triple intersection number is symmetric in $a,b,c$.
+
+For $p\in S_n$, let $\supp(p)$ be the set of simple indices occurring in a reduced word for $p$. This set is independent of the reduced word. A permutation $w$ is Boolean if it has a reduced word
+\[
+ w=s_{i_1}s_{i_2}\cdots s_{i_m}
+\]
+in which the indices $i_1,\ldots,i_m$ are distinct. We multiply on the right from left to right. Thus, $s_1s_2\cdots s_{n-1}=(2,3,\ldots,n,1)$.
+
+For a Boolean $w$, form a graph with vertex set $\supp(w)$ and an edge between $r$ and $r+1$ whenever both occur. Orient each edge from the generator occurring later in the reduced word to the generator occurring earlier. The orientation is independent of the chosen reduced word, since two reduced words for a Boolean permutation differ by commuting nonadjacent generators.
+
+\begin{theorem}[Boolean target flow formula]\label{thm:boolean}
+Let $w$ be Boolean and assume $\ell(u)+\ell(v)=\ell(w)$. If $u\not\leq w$ or $v\not\leq w$ in Bruhat order, then $c_{u,v}^{w}=0$. Otherwise, put
+\[
+ e_r=\mathbf 1_{r\in\supp(u)}+\mathbf 1_{r\in\supp(v)},
+ \qquad d_r=e_r-1
+ \quad (r\in\supp(w)).
+\]
+Then $c_{u,v}^{w}=1$ if there is a nonnegative integral flow on the oriented graph satisfying
+\begin{equation}\label{eq:flow}
+ \sum_{r\to s}f_{r\to s}-\sum_{t\to r}f_{t\to r}=d_r
+ \quad\text{at every vertex }r.
+\end{equation}
+In all other cases, $c_{u,v}^{w}=0$.
+
+The flow, when it exists, is unique. It exists if and only if every connected component $A$ satisfies $\sum_{r\in A}d_r=0$ and, for every directed edge $r\to s$, the component $A_r$ on the $r$ side after deleting that edge satisfies
+\begin{equation}\label{eq:cut}
+ \sum_{q\in A_r}d_q\geq0.
+\end{equation}
+In that case, $f_{r\to s}=\sum_{q\in A_r}d_q$.
+\end{theorem}
+
+The cut inequalities give a prefix criterion when the simple reflections occur in increasing order.
+
+\begin{corollary}[A prefix criterion]\label{cor:prefix}
+Let $w=s_1\cdots s_m\in S_{m+1}$. For subsets $J,K\subseteq\{1,\ldots,m\}$, let $u_J$ and $u_K$ be the subwords of $s_1\cdots s_m$ on those subsets. Then
+\begin{equation}\label{eq:prefix}
+ c_{u_J,u_K}^{w}=
+ \begin{cases}
+ 1,& |J|+|K|=m\text{ and }|J\cap[1,r]|+|K\cap[1,r]|\leq r
+       \text{ for all }1\leq r\leq m,\\
+ 0,&\text{otherwise}.
+ \end{cases}
+\end{equation}
+Every pair with $c_{u,v}^{w}\ne0$ has this form.
+\end{corollary}
+
+\begin{corollary}[Catalan enumeration]\label{cor:catalan}
+For $w=(2,3,\ldots,n,1)$, the number of ordered pairs $(u,v)$ satisfying $c_{u,v}^{w}\ne0$ is
+\[
+ C_n=\frac{1}{n+1}\binom{2n}{n}.
+\]
+Among the $\binom{2n-2}{n-1}$ ordered pairs below $w$ with $\ell(u)+\ell(v)=n-1$, exactly $\binom{2n-2}{n-1}-C_n$ have zero coefficient.
+\end{corollary}
+
+\begin{example}[A nonzero flow and a deficient prefix]
+For $w=23451=s_1s_2s_3s_4$, choose $J=\{2,4\}$ and $K=\{3,4\}$. Then $u_J=13254$ and $u_K=12453$. Their supply vector is $(-1,0,0,1)$, and the oriented path has flow one along each edge,
+\[
+ 4\xrightarrow{\,1\,}3\xrightarrow{\,1\,}2\xrightarrow{\,1\,}1.
+\]
+Thus, $c_{13254,12453}^{23451}=1$. In contrast, $J=K=\{1,2\}$ violates the prefix inequality at $r=1$, so $c_{23145,23145}^{23451}=0$.
+\end{example}
+
+\section{Proof of the flow formula}
+
+We use two standard Bott--Samelson identities, including their conventions. Let $Z\to X_w$ be the Bott--Samelson resolution associated to a reduced word $w=s_{i_1}\cdots s_{i_m}$. Here, $X_w$ is the Schubert variety of dimension $m$, so that integration over $X_w$ extracts the coefficient of $\sigma_w$ from a homogeneous class of codimension $m$. There are classes $x_1,\ldots,x_m$ of codimension one with
+\begin{equation}\label{eq:bs}
+ H^*(Z,\mathbb Z)=
+ \mathbb Z[x_1,\ldots,x_m]\Big/
+ \left(x_j^2+\sum_{k<j}\langle\alpha_{i_j},\alpha_{i_k}^{\vee}\rangle x_kx_j
+          \ \middle|\ 1\leq j\leq m\right),
+ \qquad \int_Zx_1\cdots x_m=1.
+\end{equation}
+The pullback of a Schubert class is
+\begin{equation}\label{eq:subword}
+ \sigma_p\big|_Z=
+ \sum_{\substack{A\subseteq\{1,\ldots,m\}\\
+           (i_j)_{j\in A}\text{ is a reduced word for }p}}
+       \prod_{j\in A}x_j.
+\end{equation}
+The projective bundle formula for each successive $\mathbb P^1$ bundle gives \eqref{eq:bs}. The two summands in its cellular decomposition give \eqref{eq:subword} by induction on the word, according to whether the last reflection occurs in the subword. These identities use the ordinary integral cohomology ring, with no equivariant parameters.
+
+For a Boolean word, the Cartan integer between distinct simple roots in type A is $-1$ for neighboring indices and zero otherwise. Consequently, \eqref{eq:bs} becomes
+\begin{equation}\label{eq:pathring}
+ x_j^2=x_j\sum_{\substack{k<j\\ |i_k-i_j|=1}}x_k.
+\end{equation}
+Each $p\leq w$ has a unique reduced subword in the Boolean word. Indeed, its positions are determined by $\supp(p)$, and the subword property of Bruhat order gives existence. Thus, \eqref{eq:subword} is a single squarefree monomial.
+
+\begin{proof}[Proof of Theorem~\ref{thm:boolean}]
+The Bruhat vanishing assertion is the usual Schubert support condition. Assume $u,v\leq w$. By \eqref{eq:subword}, the product of their pullbacks is $\prod_jx_j^{e_{i_j}}$. Since $Z\to X_w$ is birational,
+\[
+ c_{u,v}^{w}=\int_Z\prod_{j=1}^m x_j^{e_{i_j}}.
+\]
+Reduce this monomial by \eqref{eq:pathring}, starting at $j=m$ and proceeding down to $j=1$. At vertex $i_j$, let $a$ be its exponent after contributions from the already processed vertices have arrived. If $a=0$, no later reduction can supply $x_j$, and that term contributes zero. For $a\geq1$, use
+\[
+ x_j^a=x_j\left(\sum_{\substack{k<j\\|i_k-i_j|=1}}x_k\right)^{a-1}.
+\]
+The $a-1$ excess factors are distributed along the outgoing edges from $i_j$. If $f$ factors use one such edge, assign that edge flow $f$. Retaining one factor at every vertex is equivalent to \eqref{eq:flow}. The coefficient of a distribution is its multinomial coefficient.
+
+On each path component, the vertex divergences determine every edge flow. Summing \eqref{eq:flow} over a component gives the balance condition. Summing over the source side of a deleted edge gives the formula in \eqref{eq:cut}. These conditions are also sufficient, since their edge values satisfy the vertex equations.
+
+It remains to determine the multinomial coefficients. A vertex with zero or one outgoing edge contributes one. A vertex with two outgoing edges has no incoming edges, since the underlying graph is a path. Hence, $a=e_{i_j}\leq2$ at that vertex. It distributes at most one excess factor, and again contributes one. Therefore, a feasible flow contributes one, and there is at most one such flow. If no flow exists, no term reaches $x_1\cdots x_m$. This proves the formula.
+\end{proof}
+
+\begin{proof}[Proof of Corollaries~\ref{cor:prefix} and \ref{cor:catalan}]
+For $w=s_1\cdots s_m$, every edge is oriented from $r+1$ to $r$. The cut inequalities are precisely the prefix inequalities in \eqref{eq:prefix}.
+
+To count the nonzero ordered pairs, put $h_r=r-|J\cap[1,r]|-|K\cap[1,r]|$. The conditions say that $h_0=h_m=0$ and $h_r\geq0$. At position $r$, membership in neither subset gives an up step, membership in both gives a down step, and membership in exactly one gives a horizontal step with two possible colors. Thus, the pairs are in bijection with Motzkin paths of length $m$ whose horizontal steps have two colors.
+
+Let $M(z)$ be their generating function. Decomposition at the first step and the first return gives
+\[
+ M(z)=1+2zM(z)+z^2M(z)^2.
+\]
+The solution with constant term one is $M(z)=\sum_{m\geq0}C_{m+1}z^m$. Finally, all ordered subset pairs of total size $m$ are counted by the coefficient of $z^m$ in $(1+z)^{2m}$, which is $\binom{2m}{m}$.
+\end{proof}
+
+The proof gives a construction of all nonzero pairs for this target. Choose a two-colored Motzkin path of length $n-1$. At an up step, omit the corresponding generator from both factors. At a down step, include it in both factors. At a horizontal step, include it only in the factor specified by its color. Read both subwords in increasing order of their indices. Their coefficient at $(2,3,\ldots,n,1)$ is one.
+
+\end{document}

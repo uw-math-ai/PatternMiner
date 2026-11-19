@@ -1,0 +1,1 @@
+Seek structural criteria, formulas, and constructions for Schubert structure constants, particularly their vanishing. Propose and prove conjectures about this problem.

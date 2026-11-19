@@ -1,0 +1,35 @@
+{
+  "model": "gpt-6.1-sol",
+  "wall_seconds": 3600,
+  "generated_bytes": 1073741824,
+  "shared_runtime_instruction": "This is a one-shot mathematical study. Use the current workspace, your mathematical knowledge and installed scientific software. Read DATA.txt for definitions and common software. Do not access prior runs, other directories for project material, the web, other models or other people's files. No delegation. Use only oracle.coefficient, oracle.empty or oracle.depth for new exact coefficient or projection questions, including during search. Do not bypass the charged API by private helpers, direct lrcalc, an alternative generic Schubert multiplication/intersection implementation or a modified ledger. You may freely use proved special cases, necessary inequalities, symbolic reasoning and unlabeled calculations. Maximum 50,000 additional distinct exact questions in ranks at most nine, 60 wall minutes, 1 GiB generated and one numerical thread. All methods for research including numerical Python are available to you. Save answers early. In submission.json provide {\"examples\":{\"7\":[{\"u\":[...],\"v\":[...],\"w\":[...]}],\"8\":[...],\"9\":[...]}}. At most five triples per rank. Scores use the best independently checked minimum number of retained dimensions at each rank. In REPORT.md state constructions, proof status and the role of the evidence. If you have an explicit family, put standalone example(n) in family.py returning (u,v,w) as integer lists or tuples or None if inapplicable. Use a uniform formula or recurrence, independent of the oracle, ranked lists of examples, fitted parameters, or search at evaluation time. A fixed base for a recurrence is permitted. Extra ranks ten and eleven are outside your oracle budget and will be independently evaluated. Do not guess a proof. Record whether you fitted any model and where its output informed the mathematics. Finish your one turn with your best supported submission.",
+  "arms": {
+    "raw": {
+      "input_sha256": {
+        "ordinary.csv": "2397a20214525f1e42ccc106a9e9f4e192d0a29f62abb84ad182965321c2e86d",
+        "development.csv": "5151601e434c5e92e2fc4e6b43946a2ac1284f1ad003d55de24b749f3bbca3e0",
+        "oracle.py": "007911e92c547f5a93642f938f65a81ae2505c7abca0cf526b7f206b0a385eae",
+        "DATA.txt": "91fe120a9596de05b8dca4381126889ebd61eb3e113aacdfc9e7fd8ae6242a9a"
+      },
+      "prompt_sha256": "122dc713373c0d7ffd665922f04c2fcdde00e7eb3ddede95ab702d4b065de21b"
+    },
+    "optional": {
+      "input_sha256": {
+        "ordinary.csv": "2397a20214525f1e42ccc106a9e9f4e192d0a29f62abb84ad182965321c2e86d",
+        "development.csv": "5151601e434c5e92e2fc4e6b43946a2ac1284f1ad003d55de24b749f3bbca3e0",
+        "oracle.py": "007911e92c547f5a93642f938f65a81ae2505c7abca0cf526b7f206b0a385eae",
+        "DATA.txt": "91fe120a9596de05b8dca4381126889ebd61eb3e113aacdfc9e7fd8ae6242a9a"
+      },
+      "prompt_sha256": "4f66afa91414b499326b0fc0ac89a16ca6c7cb4a41ec18120d3c5b1f477a21bb"
+    },
+    "full": {
+      "input_sha256": {
+        "ordinary.csv": "2397a20214525f1e42ccc106a9e9f4e192d0a29f62abb84ad182965321c2e86d",
+        "development.csv": "5151601e434c5e92e2fc4e6b43946a2ac1284f1ad003d55de24b749f3bbca3e0",
+        "oracle.py": "007911e92c547f5a93642f938f65a81ae2505c7abca0cf526b7f206b0a385eae",
+        "DATA.txt": "91fe120a9596de05b8dca4381126889ebd61eb3e113aacdfc9e7fd8ae6242a9a"
+      },
+      "prompt_sha256": "0877ae5c8c2e67f249bff6089cb4f4472d839665994e99b04f36bb86daee1941"
+    }
+  }
+}

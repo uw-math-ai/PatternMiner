@@ -1,0 +1,173 @@
+{
+  "set01": {
+    "heads": [
+      "L1H0",
+      "L1H8",
+      "L3H0",
+      "L3H8"
+    ],
+    "archive_key": "random_01"
+  },
+  "set02": {
+    "heads": [
+      "L1H0",
+      "L1H8",
+      "L3H10",
+      "L3H2"
+    ],
+    "archive_key": "random_12"
+  },
+  "set03": {
+    "heads": [
+      "L1H0",
+      "L1H8",
+      "L3H11",
+      "L3H3"
+    ],
+    "archive_key": "selected"
+  },
+  "set04": {
+    "heads": [
+      "L1H1",
+      "L1H9",
+      "L3H12",
+      "L3H4"
+    ],
+    "archive_key": "random_10"
+  },
+  "set05": {
+    "heads": [
+      "L1H1",
+      "L1H9",
+      "L3H13",
+      "L3H5"
+    ],
+    "archive_key": "random_05"
+  },
+  "set06": {
+    "heads": [
+      "L1H1",
+      "L1H9",
+      "L3H15",
+      "L3H7"
+    ],
+    "archive_key": "random_08"
+  },
+  "set07": {
+    "heads": [
+      "L1H10",
+      "L1H2",
+      "L3H15",
+      "L3H7"
+    ],
+    "archive_key": "random_11"
+  },
+  "set08": {
+    "heads": [
+      "L1H11",
+      "L1H3",
+      "L3H12",
+      "L3H4"
+    ],
+    "archive_key": "random_13"
+  },
+  "set09": {
+    "heads": [
+      "L1H12",
+      "L1H4",
+      "L3H0",
+      "L3H8"
+    ],
+    "archive_key": "random_15"
+  },
+  "set10": {
+    "heads": [
+      "L1H12",
+      "L1H4",
+      "L3H10",
+      "L3H2"
+    ],
+    "archive_key": "random_14"
+  },
+  "set11": {
+    "heads": [
+      "L1H12",
+      "L1H4",
+      "L3H11",
+      "L3H3"
+    ],
+    "archive_key": "random_07"
+  },
+  "set12": {
+    "heads": [
+      "L1H12",
+      "L1H4",
+      "L3H15",
+      "L3H7"
+    ],
+    "archive_key": "random_03"
+  },
+  "set13": {
+    "heads": [
+      "L1H13",
+      "L1H5",
+      "L3H0",
+      "L3H8"
+    ],
+    "archive_key": "random_16"
+  },
+  "set14": {
+    "heads": [
+      "L1H13",
+      "L1H5",
+      "L3H10",
+      "L3H2"
+    ],
+    "archive_key": "random_06"
+  },
+  "set15": {
+    "heads": [
+      "L1H14",
+      "L1H6",
+      "L3H10",
+      "L3H2"
+    ],
+    "archive_key": "random_09"
+  },
+  "set16": {
+    "heads": [
+      "L1H14",
+      "L1H6",
+      "L3H12",
+      "L3H4"
+    ],
+    "archive_key": "random_18"
+  },
+  "set17": {
+    "heads": [
+      "L1H15",
+      "L1H7",
+      "L3H10",
+      "L3H2"
+    ],
+    "archive_key": "random_00"
+  },
+  "set18": {
+    "heads": [
+      "L1H15",
+      "L1H7",
+      "L3H12",
+      "L3H4"
+    ],
+    "archive_key": "random_19"
+  },
+  "set19": {
+    "heads": [
+      "L1H15",
+      "L1H7",
+      "L3H15",
+      "L3H7"
+    ],
+    "archive_key": "random_04"
+  }
+}

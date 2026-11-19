@@ -1,0 +1,77 @@
+{
+  "blocks": [
+    {
+      "seed": 71016100,
+      "proposed": 63731,
+      "eligible": 1024
+    },
+    {
+      "seed": 71016101,
+      "proposed": 62232,
+      "eligible": 1024
+    },
+    {
+      "seed": 71016102,
+      "proposed": 56475,
+      "eligible": 1024
+    },
+    {
+      "seed": 71016103,
+      "proposed": 60870,
+      "eligible": 1024
+    },
+    {
+      "seed": 71016104,
+      "proposed": 60538,
+      "eligible": 1024
+    },
+    {
+      "seed": 71016105,
+      "proposed": 59992,
+      "eligible": 1024
+    },
+    {
+      "seed": 71016106,
+      "proposed": 59263,
+      "eligible": 1024
+    },
+    {
+      "seed": 71016107,
+      "proposed": 60653,
+      "eligible": 1024
+    }
+  ],
+  "hard_counts": {
+    "ordinary": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "screen": [
+      54,
+      50,
+      51,
+      62,
+      65,
+      55,
+      49,
+      46
+    ],
+    "ranked": [
+      13,
+      19,
+      16,
+      18,
+      15,
+      13,
+      14,
+      14
+    ]
+  },
+  "seconds": 11.398711875081062
+}

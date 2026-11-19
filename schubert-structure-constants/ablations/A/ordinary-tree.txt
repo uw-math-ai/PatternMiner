@@ -1,0 +1,15 @@
+n=6144 positive=300 balanced_p=0.5000 split interval_min <= -0.5
+  L n=5712 positive=0 balanced_p=0.0000
+  R n=432 positive=300 balanced_p=0.9779 split bruhat_min <= -0.5
+  R   L n=111 positive=0 balanced_p=0.0000
+  R   R n=321 positive=300 balanced_p=0.9964 split interval_5_min <= 0.5
+  R   R   L n=291 positive=280 balanced_p=0.9980 split length_sorted_0 <= 0.21904761904761905
+  R   R   L   L n=252 positive=247 balanced_p=0.9990 split interval_5_max <= 0.5
+  R   R   L   L   L n=203 positive=201 balanced_p=0.9995 split interval_zero_count <= 5.5
+  R   R   L   L   L   L n=49 positive=47 balanced_p=0.9978
+  R   R   L   L   L   R n=154 positive=154 balanced_p=1.0000
+  R   R   L   L   R n=49 positive=46 balanced_p=0.9967 split length_sorted_2 <= 0.5285714285714286
+  R   R   L   L   R   L n=25 positive=24 balanced_p=0.9979
+  R   R   L   L   R   R n=24 positive=22 balanced_p=0.9954
+  R   R   L   R n=39 positive=33 balanced_p=0.9908
+  R   R   R n=30 positive=20 balanced_p=0.9750

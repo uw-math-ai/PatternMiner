@@ -1,0 +1,39 @@
+{
+  "u": [
+    1,
+    6,
+    3,
+    5,
+    2,
+    7,
+    4
+  ],
+  "v": [
+    3,
+    2,
+    5,
+    1,
+    7,
+    4,
+    6
+  ],
+  "w": [
+    5,
+    6,
+    7,
+    2,
+    3,
+    4,
+    1
+  ],
+  "coefficient": 0,
+  "independent_divided_difference": 0,
+  "passes_original_screen": true,
+  "prefix_ranks": [
+    1,
+    0,
+    0
+  ],
+  "A_ordinary": false,
+  "A_screen": true
+}

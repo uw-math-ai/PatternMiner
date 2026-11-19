@@ -1,0 +1,6 @@
+problem,astra_seconds,astra_finished,sol_seconds,sol_finished,selected_outcomes
+Kronecker (10),900,false,890,true,Global matching rule for coefficients with a two-row index. Testing membership can require constructing large lists.
+Schubert (11),876,true,880,true,Positive rules for restricted output permutations or separated input supports. The two agents treated different families.
+Row sums (12),860,true,859,true,Unsigned matching count for all shapes and direct rules for hooks and two-row shapes. The all-shape construction uses an algebraic argument and has no established efficient membership test.
+Kazhdan–Lusztig (16),891,true,875,true,"Coefficient formulas for restricted interval families, including Boolean-middle intervals with specified endpoints. Classical formulas cover some of the cases."
+Immanants (18),900,false,898,true,Both agents gave formulas for matrices of lower bandwidth at most one. Positivity on this family also follows from prior work.

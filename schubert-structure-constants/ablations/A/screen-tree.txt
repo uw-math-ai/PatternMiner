@@ -1,0 +1,33 @@
+n=6144 positive=1892 balanced_p=0.5000 split interval_negative_count <= 0.5
+  L n=2427 positive=1892 balanced_p=0.8882 split bruhat_min <= -0.5
+  L   L n=88 positive=0 balanced_p=0.0000
+  L   R n=2339 positive=1892 balanced_p=0.9049 split length_sorted_2 <= 0.4476190476190476
+  L   R   L n=983 positive=699 balanced_p=0.8469 split interval_6_min <= 1.5
+  L   R   L   L n=867 positive=638 balanced_p=0.8623 split interval_zero_count <= 10.5
+  L   R   L   L   L n=740 positive=523 balanced_p=0.8442 split interval_6_max <= 0.5
+  L   R   L   L   L   L n=80 positive=72 balanced_p=0.9529
+  L   R   L   L   L   R n=660 positive=451 balanced_p=0.8290
+  L   R   L   L   R n=127 positive=115 balanced_p=0.9556 split bruhat_zero_count <= 18.5
+  L   R   L   L   R   L n=40 positive=40 balanced_p=1.0000
+  L   R   L   L   R   R n=87 positive=75 balanced_p=0.9335
+  L   R   L   R n=116 positive=61 balanced_p=0.7137 split bruhat_zero_count <= 14.5
+  L   R   L   R   L n=47 positive=38 balanced_p=0.9047
+  L   R   L   R   R n=69 positive=23 balanced_p=0.5291 split interval_4_min <= 0.5
+  L   R   L   R   R   L n=43 positive=20 balanced_p=0.6615
+  L   R   L   R   R   R n=26 positive=3 balanced_p=0.2267
+  L   R   R n=1356 positive=1193 balanced_p=0.9427 split interval_5_max <= 1.5
+  L   R   R   L n=603 positive=576 balanced_p=0.9796 split length_sorted_2 <= 0.4880952380952381
+  L   R   R   L   L n=111 positive=96 balanced_p=0.9350 split bruhat_zero_count <= 23.5
+  L   R   R   L   L   L n=59 positive=47 balanced_p=0.8980
+  L   R   R   L   L   R n=52 positive=49 balanced_p=0.9735
+  L   R   R   L   R n=492 positive=480 balanced_p=0.9890 split interval_4_zero <= 1.5
+  L   R   R   L   R   L n=199 positive=187 balanced_p=0.9722
+  L   R   R   L   R   R n=293 positive=293 balanced_p=1.0000
+  L   R   R   R n=753 positive=617 balanced_p=0.9107 split length_sorted_0 <= 0.1380952380952381
+  L   R   R   R   L n=150 positive=140 balanced_p=0.9692 split interval_2_zero <= 4.5
+  L   R   R   R   L   L n=99 positive=97 balanced_p=0.9909
+  L   R   R   R   L   R n=51 positive=43 balanced_p=0.9235
+  L   R   R   R   R n=603 positive=477 balanced_p=0.8948 split interval_zero_count <= 9.5
+  L   R   R   R   R   L n=402 positive=301 balanced_p=0.8701
+  L   R   R   R   R   R n=201 positive=176 balanced_p=0.9406
+  R n=3717 positive=0 balanced_p=0.0000
